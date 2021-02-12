@@ -29801,2986 +29801,998 @@ mulscc %i7, %i6, %i5
 
 
 
-wr %g0, 0xC4, %asr1
-wr %g1, 0xC3, %asr1
-wr %g2, 0x25, %asr1
-wr %g3, 0xEC, %asr1
-wr %g4, 0x6A, %asr1
-wr %g5, 0x26, %asr1
-wr %g6, 0x58, %asr1
-wr %g7, 0x2A, %asr1
-wr %o0, 0xCD, %asr1
-wr %o1, 0x4C, %asr1
-wr %o2, 0x68, %asr1
-wr %o3, 0x05, %asr1
-wr %o4, 0x82, %asr1
-wr %o5, 0xA4, %asr1
-wr %o6, 0xE9, %asr1
-wr %o7, 0x2A, %asr1
-wr %l0, 0xB9, %asr1
-wr %l1, 0xDB, %asr1
-wr %l2, 0x10, %asr1
-wr %l3, 0x05, %asr1
-wr %l4, 0x3C, %asr1
-wr %l5, 0xAE, %asr1
-wr %l6, 0xFB, %asr1
-wr %l7, 0x43, %asr1
-wr %i0, 0xAE, %asr1
-wr %i1, 0x9B, %asr1
-wr %i2, 0x27, %asr1
-wr %i3, 0xE9, %asr1
-wr %i4, 0x1B, %asr1
-wr %i5, 0x4B, %asr1
-wr %i6, 0xD1, %asr1
-wr %i7, 0xE8, %asr1
-wr %g0, 0xF3, %asr2
-wr %g1, 0xB5, %asr2
-wr %g2, 0x7B, %asr2
-wr %g3, 0xE6, %asr2
-wr %g4, 0xD9, %asr2
-wr %g5, 0x5B, %asr2
-wr %g6, 0x33, %asr2
-wr %g7, 0xEC, %asr2
-wr %o0, 0xBD, %asr2
-wr %o1, 0x63, %asr2
-wr %o2, 0x5A, %asr2
-wr %o3, 0x8C, %asr2
-wr %o4, 0x4C, %asr2
-wr %o5, 0x15, %asr2
-wr %o6, 0x0A, %asr2
-wr %o7, 0xAE, %asr2
-wr %l0, 0x07, %asr2
-wr %l1, 0x91, %asr2
-wr %l2, 0x2E, %asr2
-wr %l3, 0xEE, %asr2
-wr %l4, 0x9A, %asr2
-wr %l5, 0x46, %asr2
-wr %l6, 0xE9, %asr2
-wr %l7, 0x54, %asr2
-wr %i0, 0xBB, %asr2
-wr %i1, 0x43, %asr2
-wr %i2, 0xA5, %asr2
-wr %i3, 0xFF, %asr2
-wr %i4, 0x24, %asr2
-wr %i5, 0x81, %asr2
-wr %i6, 0xD2, %asr2
-wr %i7, 0xFB, %asr2
-wr %g0, 0x5C, %asr3
-wr %g1, 0x09, %asr3
-wr %g2, 0xDB, %asr3
-wr %g3, 0x45, %asr3
-wr %g4, 0xE3, %asr3
-wr %g5, 0x91, %asr3
-wr %g6, 0xB3, %asr3
-wr %g7, 0xD8, %asr3
-wr %o0, 0x8B, %asr3
-wr %o1, 0xFC, %asr3
-wr %o2, 0x77, %asr3
-wr %o3, 0xBC, %asr3
-wr %o4, 0x7A, %asr3
-wr %o5, 0x46, %asr3
-wr %o6, 0x21, %asr3
-wr %o7, 0x97, %asr3
-wr %l0, 0xD9, %asr3
-wr %l1, 0xEE, %asr3
-wr %l2, 0xB4, %asr3
-wr %l3, 0x82, %asr3
-wr %l4, 0xE4, %asr3
-wr %l5, 0x16, %asr3
-wr %l6, 0x91, %asr3
-wr %l7, 0xF1, %asr3
-wr %i0, 0x75, %asr3
-wr %i1, 0xAD, %asr3
-wr %i2, 0x27, %asr3
-wr %i3, 0x1B, %asr3
-wr %i4, 0xA8, %asr3
-wr %i5, 0x0E, %asr3
-wr %i6, 0x1D, %asr3
-wr %i7, 0xA2, %asr3
-wr %g0, 0x07, %asr4
-wr %g1, 0x2E, %asr4
-wr %g2, 0x52, %asr4
-wr %g3, 0x33, %asr4
-wr %g4, 0xD5, %asr4
-wr %g5, 0xF5, %asr4
-wr %g6, 0x50, %asr4
-wr %g7, 0x6A, %asr4
-wr %o0, 0x1A, %asr4
-wr %o1, 0x89, %asr4
-wr %o2, 0x23, %asr4
-wr %o3, 0x8A, %asr4
-wr %o4, 0xE8, %asr4
-wr %o5, 0xD2, %asr4
-wr %o6, 0x14, %asr4
-wr %o7, 0xE0, %asr4
-wr %l0, 0xA6, %asr4
-wr %l1, 0x5D, %asr4
-wr %l2, 0x84, %asr4
+wr %g0, 0x8D, %asr1
+wr %g1, 0x25, %asr1
+wr %g2, 0x03, %asr1
+wr %g3, 0x4B, %asr1
+wr %g4, 0xBB, %asr1
+wr %g5, 0x15, %asr1
+wr %g6, 0x8B, %asr1
+wr %g7, 0xE8, %asr1
+wr %o0, 0x73, %asr1
+wr %o1, 0x90, %asr1
+wr %o2, 0xDA, %asr1
+wr %o3, 0x2E, %asr1
+wr %o4, 0x29, %asr1
+wr %o5, 0x04, %asr1
+wr %o6, 0x76, %asr1
+wr %o7, 0x5D, %asr1
+wr %l0, 0x4C, %asr1
+wr %l1, 0xD1, %asr1
+wr %l2, 0xC9, %asr1
+wr %l3, 0xEC, %asr1
+wr %l4, 0xAF, %asr1
+wr %l5, 0x3B, %asr1
+wr %l6, 0x3E, %asr1
+wr %l7, 0x94, %asr1
+wr %i0, 0x2E, %asr1
+wr %i1, 0x44, %asr1
+wr %i2, 0x70, %asr1
+wr %i3, 0x38, %asr1
+wr %i4, 0x58, %asr1
+wr %i5, 0x0A, %asr1
+wr %i6, 0x07, %asr1
+wr %i7, 0x3D, %asr1
+wr %g0, 0x8A, %asr2
+wr %g1, 0xEC, %asr2
+wr %g2, 0xAC, %asr2
+wr %g3, 0xE0, %asr2
+wr %g4, 0x03, %asr2
+wr %g5, 0xA0, %asr2
+wr %g6, 0xE0, %asr2
+wr %g7, 0x2E, %asr2
+wr %o0, 0x1A, %asr2
+wr %o1, 0x8A, %asr2
+wr %o2, 0x0B, %asr2
+wr %o3, 0x51, %asr2
+wr %o4, 0xCD, %asr2
+wr %o5, 0xBF, %asr2
+wr %o6, 0x1E, %asr2
+wr %o7, 0x1D, %asr2
+wr %l0, 0x1C, %asr2
+wr %l1, 0xF3, %asr2
+wr %l2, 0x60, %asr2
+wr %l3, 0x3F, %asr2
+wr %l4, 0x4F, %asr2
+wr %l5, 0x25, %asr2
+wr %l6, 0x65, %asr2
+wr %l7, 0xDF, %asr2
+wr %i0, 0xA9, %asr2
+wr %i1, 0xD4, %asr2
+wr %i2, 0x0E, %asr2
+wr %i3, 0x1A, %asr2
+wr %i4, 0x9E, %asr2
+wr %i5, 0x1F, %asr2
+wr %i6, 0x9B, %asr2
+wr %i7, 0xC3, %asr2
+wr %g0, 0x66, %asr3
+wr %g1, 0x8F, %asr3
+wr %g2, 0x58, %asr3
+wr %g3, 0x91, %asr3
+wr %g4, 0x60, %asr3
+wr %g5, 0xEC, %asr3
+wr %g6, 0x6E, %asr3
+wr %g7, 0x65, %asr3
+wr %o0, 0x51, %asr3
+wr %o1, 0xEE, %asr3
+wr %o2, 0x9A, %asr3
+wr %o3, 0x7A, %asr3
+wr %o4, 0x5B, %asr3
+wr %o5, 0x35, %asr3
+wr %o6, 0x74, %asr3
+wr %o7, 0xB8, %asr3
+wr %l0, 0x46, %asr3
+wr %l1, 0xA7, %asr3
+wr %l2, 0xC8, %asr3
+wr %l3, 0x70, %asr3
+wr %l4, 0x14, %asr3
+wr %l5, 0x8D, %asr3
+wr %l6, 0x61, %asr3
+wr %l7, 0x36, %asr3
+wr %i0, 0x9D, %asr3
+wr %i1, 0xE3, %asr3
+wr %i2, 0xF4, %asr3
+wr %i3, 0x47, %asr3
+wr %i4, 0x01, %asr3
+wr %i5, 0x60, %asr3
+wr %i6, 0xCB, %asr3
+wr %i7, 0x68, %asr3
+wr %g0, 0x76, %asr4
+wr %g1, 0x6F, %asr4
+wr %g2, 0x9C, %asr4
+wr %g3, 0xAE, %asr4
+wr %g4, 0xE1, %asr4
+wr %g5, 0xFD, %asr4
+wr %g6, 0x0C, %asr4
+wr %g7, 0x7F, %asr4
+wr %o0, 0x51, %asr4
+wr %o1, 0xF3, %asr4
+wr %o2, 0xD5, %asr4
+wr %o3, 0x16, %asr4
+wr %o4, 0x0E, %asr4
+wr %o5, 0xFD, %asr4
+wr %o6, 0x6D, %asr4
+wr %o7, 0x79, %asr4
+wr %l0, 0x2E, %asr4
+wr %l1, 0xAD, %asr4
+wr %l2, 0x79, %asr4
 wr %l3, 0xC2, %asr4
-wr %l4, 0x99, %asr4
-wr %l5, 0x73, %asr4
-wr %l6, 0x1B, %asr4
-wr %l7, 0x63, %asr4
-wr %i0, 0xEE, %asr4
-wr %i1, 0x95, %asr4
-wr %i2, 0x98, %asr4
-wr %i3, 0x4E, %asr4
-wr %i4, 0xA7, %asr4
-wr %i5, 0x1C, %asr4
-wr %i6, 0xE7, %asr4
-wr %i7, 0x2A, %asr4
-wr %g0, 0x49, %asr5
-wr %g1, 0x07, %asr5
-wr %g2, 0xDC, %asr5
-wr %g3, 0x4F, %asr5
-wr %g4, 0xE6, %asr5
-wr %g5, 0x39, %asr5
-wr %g6, 0x5A, %asr5
-wr %g7, 0xA9, %asr5
-wr %o0, 0xFA, %asr5
-wr %o1, 0x8A, %asr5
-wr %o2, 0x1D, %asr5
-wr %o3, 0xDC, %asr5
-wr %o4, 0xE3, %asr5
-wr %o5, 0x47, %asr5
-wr %o6, 0x4D, %asr5
-wr %o7, 0x57, %asr5
-wr %l0, 0xA1, %asr5
-wr %l1, 0x5C, %asr5
-wr %l2, 0x15, %asr5
-wr %l3, 0x09, %asr5
-wr %l4, 0x3E, %asr5
-wr %l5, 0xCC, %asr5
-wr %l6, 0xD2, %asr5
-wr %l7, 0x76, %asr5
-wr %i0, 0x3A, %asr5
-wr %i1, 0x61, %asr5
-wr %i2, 0x36, %asr5
-wr %i3, 0xAC, %asr5
-wr %i4, 0x8F, %asr5
-wr %i5, 0x88, %asr5
-wr %i6, 0xC9, %asr5
-wr %i7, 0xA4, %asr5
-wr %g0, 0x72, %asr6
-wr %g1, 0x49, %asr6
-wr %g2, 0x4C, %asr6
-wr %g3, 0x01, %asr6
-wr %g4, 0x8A, %asr6
-wr %g5, 0xD2, %asr6
-wr %g6, 0x62, %asr6
-wr %g7, 0x11, %asr6
-wr %o0, 0x5A, %asr6
-wr %o1, 0xDE, %asr6
-wr %o2, 0x79, %asr6
-wr %o3, 0x1B, %asr6
-wr %o4, 0x5E, %asr6
-wr %o5, 0x73, %asr6
-wr %o6, 0x61, %asr6
-wr %o7, 0xF4, %asr6
-wr %l0, 0x22, %asr6
-wr %l1, 0xA3, %asr6
-wr %l2, 0x45, %asr6
-wr %l3, 0xF9, %asr6
-wr %l4, 0x00, %asr6
-wr %l5, 0x8B, %asr6
-wr %l6, 0xD8, %asr6
-wr %l7, 0x02, %asr6
-wr %i0, 0x47, %asr6
-wr %i1, 0x3F, %asr6
-wr %i2, 0x10, %asr6
-wr %i3, 0x70, %asr6
-wr %i4, 0x09, %asr6
-wr %i5, 0x65, %asr6
-wr %i6, 0x63, %asr6
-wr %i7, 0xCC, %asr6
-wr %g0, 0xE1, %asr7
-wr %g1, 0x1B, %asr7
-wr %g2, 0xE1, %asr7
-wr %g3, 0x0C, %asr7
-wr %g4, 0xE7, %asr7
-wr %g5, 0x7F, %asr7
-wr %g6, 0x35, %asr7
-wr %g7, 0x30, %asr7
-wr %o0, 0x01, %asr7
-wr %o1, 0x39, %asr7
+wr %l4, 0xF0, %asr4
+wr %l5, 0xB7, %asr4
+wr %l6, 0x76, %asr4
+wr %l7, 0xC9, %asr4
+wr %i0, 0x57, %asr4
+wr %i1, 0x03, %asr4
+wr %i2, 0xDA, %asr4
+wr %i3, 0xFF, %asr4
+wr %i4, 0x9A, %asr4
+wr %i5, 0xA6, %asr4
+wr %i6, 0x4B, %asr4
+wr %i7, 0xD5, %asr4
+wr %g0, 0x16, %asr5
+wr %g1, 0x1B, %asr5
+wr %g2, 0x09, %asr5
+wr %g3, 0x0B, %asr5
+wr %g4, 0xD3, %asr5
+wr %g5, 0x42, %asr5
+wr %g6, 0xF1, %asr5
+wr %g7, 0x60, %asr5
+wr %o0, 0xC1, %asr5
+wr %o1, 0x6B, %asr5
+wr %o2, 0x51, %asr5
+wr %o3, 0x31, %asr5
+wr %o4, 0x4C, %asr5
+wr %o5, 0x37, %asr5
+wr %o6, 0x53, %asr5
+wr %o7, 0x81, %asr5
+wr %l0, 0xC8, %asr5
+wr %l1, 0x1B, %asr5
+wr %l2, 0xD8, %asr5
+wr %l3, 0xE4, %asr5
+wr %l4, 0x3C, %asr5
+wr %l5, 0xBE, %asr5
+wr %l6, 0xFF, %asr5
+wr %l7, 0xB3, %asr5
+wr %i0, 0x5D, %asr5
+wr %i1, 0x64, %asr5
+wr %i2, 0xB9, %asr5
+wr %i3, 0x0C, %asr5
+wr %i4, 0xCC, %asr5
+wr %i5, 0xF3, %asr5
+wr %i6, 0x14, %asr5
+wr %i7, 0xBD, %asr5
+wr %g0, 0x8F, %asr6
+wr %g1, 0x37, %asr6
+wr %g2, 0x31, %asr6
+wr %g3, 0xA4, %asr6
+wr %g4, 0x3E, %asr6
+wr %g5, 0x92, %asr6
+wr %g6, 0x40, %asr6
+wr %g7, 0x46, %asr6
+wr %o0, 0xDE, %asr6
+wr %o1, 0x21, %asr6
+wr %o2, 0xC0, %asr6
+wr %o3, 0xFD, %asr6
+wr %o4, 0x98, %asr6
+wr %o5, 0x15, %asr6
+wr %o6, 0x90, %asr6
+wr %o7, 0x0B, %asr6
+wr %l0, 0x40, %asr6
+wr %l1, 0x57, %asr6
+wr %l2, 0xA0, %asr6
+wr %l3, 0xB8, %asr6
+wr %l4, 0x5C, %asr6
+wr %l5, 0xA0, %asr6
+wr %l6, 0x18, %asr6
+wr %l7, 0x55, %asr6
+wr %i0, 0x4F, %asr6
+wr %i1, 0x7F, %asr6
+wr %i2, 0x68, %asr6
+wr %i3, 0xC8, %asr6
+wr %i4, 0x3A, %asr6
+wr %i5, 0x0F, %asr6
+wr %i6, 0xB7, %asr6
+wr %i7, 0xA0, %asr6
+wr %g0, 0xE4, %asr7
+wr %g1, 0x81, %asr7
+wr %g2, 0x1E, %asr7
+wr %g3, 0x55, %asr7
+wr %g4, 0x0A, %asr7
+wr %g5, 0x85, %asr7
+wr %g6, 0x71, %asr7
+wr %g7, 0x29, %asr7
+wr %o0, 0x20, %asr7
+wr %o1, 0xFA, %asr7
 wr %o2, 0xD7, %asr7
-wr %o3, 0x02, %asr7
-wr %o4, 0xD1, %asr7
-wr %o5, 0xBB, %asr7
-wr %o6, 0x2D, %asr7
-wr %o7, 0x23, %asr7
-wr %l0, 0x51, %asr7
-wr %l1, 0x51, %asr7
-wr %l2, 0xB2, %asr7
-wr %l3, 0xD4, %asr7
-wr %l4, 0x71, %asr7
-wr %l5, 0xE5, %asr7
-wr %l6, 0x26, %asr7
-wr %l7, 0x44, %asr7
-wr %i0, 0x8C, %asr7
-wr %i1, 0xC3, %asr7
-wr %i2, 0x4B, %asr7
-wr %i3, 0xA6, %asr7
-wr %i4, 0x85, %asr7
-wr %i5, 0x41, %asr7
-wr %i6, 0xF6, %asr7
-wr %i7, 0x74, %asr7
-wr %g0, 0x11, %asr8
-wr %g1, 0x6C, %asr8
-wr %g2, 0x90, %asr8
-wr %g3, 0xA4, %asr8
-wr %g4, 0x45, %asr8
-wr %g5, 0x7B, %asr8
-wr %g6, 0x25, %asr8
-wr %g7, 0x0D, %asr8
-wr %o0, 0x60, %asr8
-wr %o1, 0x59, %asr8
-wr %o2, 0x96, %asr8
-wr %o3, 0xDA, %asr8
-wr %o4, 0xB4, %asr8
-wr %o5, 0xA5, %asr8
-wr %o6, 0x1D, %asr8
-wr %o7, 0x25, %asr8
-wr %l0, 0x45, %asr8
-wr %l1, 0x54, %asr8
-wr %l2, 0x3A, %asr8
-wr %l3, 0xE6, %asr8
-wr %l4, 0xFB, %asr8
-wr %l5, 0xBF, %asr8
-wr %l6, 0x0F, %asr8
-wr %l7, 0xC9, %asr8
-wr %i0, 0x5D, %asr8
-wr %i1, 0x2C, %asr8
-wr %i2, 0x18, %asr8
-wr %i3, 0x6A, %asr8
-wr %i4, 0xE6, %asr8
-wr %i5, 0x1F, %asr8
-wr %i6, 0x18, %asr8
-wr %i7, 0xF8, %asr8
-wr %g0, 0xDD, %asr9
-wr %g1, 0x4C, %asr9
-wr %g2, 0xC0, %asr9
-wr %g3, 0x08, %asr9
-wr %g4, 0x0F, %asr9
-wr %g5, 0xF6, %asr9
-wr %g6, 0xED, %asr9
-wr %g7, 0x23, %asr9
-wr %o0, 0x44, %asr9
-wr %o1, 0x14, %asr9
-wr %o2, 0xA6, %asr9
-wr %o3, 0xD9, %asr9
-wr %o4, 0x90, %asr9
-wr %o5, 0xBB, %asr9
-wr %o6, 0x95, %asr9
-wr %o7, 0xCC, %asr9
-wr %l0, 0x40, %asr9
-wr %l1, 0xF2, %asr9
-wr %l2, 0x71, %asr9
-wr %l3, 0x56, %asr9
-wr %l4, 0xA7, %asr9
-wr %l5, 0xD5, %asr9
-wr %l6, 0x6E, %asr9
-wr %l7, 0xEC, %asr9
-wr %i0, 0x8C, %asr9
-wr %i1, 0x8D, %asr9
-wr %i2, 0xD6, %asr9
-wr %i3, 0xE4, %asr9
-wr %i4, 0xB6, %asr9
-wr %i5, 0xD9, %asr9
-wr %i6, 0x67, %asr9
-wr %i7, 0xB5, %asr9
-wr %g0, 0x67, %asr10
-wr %g1, 0xE7, %asr10
-wr %g2, 0xE1, %asr10
-wr %g3, 0x08, %asr10
-wr %g4, 0x56, %asr10
-wr %g5, 0xD6, %asr10
-wr %g6, 0x97, %asr10
-wr %g7, 0x66, %asr10
-wr %o0, 0x16, %asr10
-wr %o1, 0xEF, %asr10
-wr %o2, 0xF8, %asr10
-wr %o3, 0xA8, %asr10
-wr %o4, 0xCC, %asr10
-wr %o5, 0xF3, %asr10
-wr %o6, 0xBF, %asr10
-wr %o7, 0x69, %asr10
-wr %l0, 0x13, %asr10
-wr %l1, 0x4D, %asr10
-wr %l2, 0x6A, %asr10
-wr %l3, 0x30, %asr10
-wr %l4, 0x9C, %asr10
-wr %l5, 0xFA, %asr10
-wr %l6, 0x1A, %asr10
-wr %l7, 0x3B, %asr10
-wr %i0, 0x9C, %asr10
-wr %i1, 0x26, %asr10
-wr %i2, 0x2D, %asr10
-wr %i3, 0x3C, %asr10
-wr %i4, 0xA1, %asr10
-wr %i5, 0x2A, %asr10
-wr %i6, 0x3D, %asr10
-wr %i7, 0x0E, %asr10
-wr %g0, 0x6E, %asr11
-wr %g1, 0xA9, %asr11
-wr %g2, 0xC7, %asr11
-wr %g3, 0xE8, %asr11
-wr %g4, 0xC8, %asr11
-wr %g5, 0xD6, %asr11
-wr %g6, 0x7B, %asr11
-wr %g7, 0x97, %asr11
-wr %o0, 0x3A, %asr11
-wr %o1, 0xD3, %asr11
-wr %o2, 0x38, %asr11
-wr %o3, 0x21, %asr11
-wr %o4, 0x42, %asr11
-wr %o5, 0x85, %asr11
-wr %o6, 0x89, %asr11
-wr %o7, 0xE5, %asr11
-wr %l0, 0xC7, %asr11
-wr %l1, 0x40, %asr11
-wr %l2, 0x41, %asr11
-wr %l3, 0x01, %asr11
-wr %l4, 0x75, %asr11
-wr %l5, 0xA6, %asr11
-wr %l6, 0xB6, %asr11
-wr %l7, 0xA2, %asr11
-wr %i0, 0xE4, %asr11
-wr %i1, 0xD1, %asr11
-wr %i2, 0x60, %asr11
-wr %i3, 0x61, %asr11
-wr %i4, 0x7D, %asr11
-wr %i5, 0x6D, %asr11
-wr %i6, 0x6B, %asr11
-wr %i7, 0xB5, %asr11
-wr %g0, 0x83, %asr12
-wr %g1, 0x12, %asr12
-wr %g2, 0xFB, %asr12
-wr %g3, 0x4E, %asr12
-wr %g4, 0x33, %asr12
-wr %g5, 0xBF, %asr12
-wr %g6, 0xD5, %asr12
-wr %g7, 0x16, %asr12
-wr %o0, 0x8A, %asr12
-wr %o1, 0x4E, %asr12
-wr %o2, 0xCA, %asr12
-wr %o3, 0xD2, %asr12
-wr %o4, 0x94, %asr12
-wr %o5, 0x3C, %asr12
-wr %o6, 0xE2, %asr12
-wr %o7, 0xB7, %asr12
-wr %l0, 0x06, %asr12
-wr %l1, 0xE1, %asr12
-wr %l2, 0x06, %asr12
-wr %l3, 0x88, %asr12
-wr %l4, 0x59, %asr12
-wr %l5, 0xE7, %asr12
-wr %l6, 0x46, %asr12
-wr %l7, 0xFA, %asr12
-wr %i0, 0xCA, %asr12
-wr %i1, 0x1D, %asr12
-wr %i2, 0x54, %asr12
-wr %i3, 0x40, %asr12
-wr %i4, 0x53, %asr12
-wr %i5, 0x36, %asr12
-wr %i6, 0xE8, %asr12
-wr %i7, 0x98, %asr12
-wr %g0, 0xD0, %asr13
-wr %g1, 0xCD, %asr13
-wr %g2, 0xD9, %asr13
-wr %g3, 0xD4, %asr13
-wr %g4, 0x66, %asr13
-wr %g5, 0xE2, %asr13
-wr %g6, 0x94, %asr13
-wr %g7, 0x39, %asr13
-wr %o0, 0x19, %asr13
-wr %o1, 0x3A, %asr13
-wr %o2, 0x21, %asr13
-wr %o3, 0xE2, %asr13
-wr %o4, 0x36, %asr13
-wr %o5, 0x9D, %asr13
-wr %o6, 0x5E, %asr13
-wr %o7, 0x90, %asr13
-wr %l0, 0xDF, %asr13
-wr %l1, 0xCA, %asr13
-wr %l2, 0xC4, %asr13
-wr %l3, 0x88, %asr13
-wr %l4, 0x76, %asr13
-wr %l5, 0xC7, %asr13
-wr %l6, 0xBB, %asr13
-wr %l7, 0x4C, %asr13
-wr %i0, 0xF4, %asr13
-wr %i1, 0x2F, %asr13
-wr %i2, 0x08, %asr13
-wr %i3, 0x59, %asr13
-wr %i4, 0x21, %asr13
-wr %i5, 0x2D, %asr13
-wr %i6, 0x39, %asr13
-wr %i7, 0x5C, %asr13
-wr %g0, 0xC0, %asr14
-wr %g1, 0xBD, %asr14
-wr %g2, 0x99, %asr14
-wr %g3, 0x6F, %asr14
-wr %g4, 0x95, %asr14
-wr %g5, 0x5A, %asr14
-wr %g6, 0x09, %asr14
-wr %g7, 0x4E, %asr14
-wr %o0, 0x6B, %asr14
-wr %o1, 0x73, %asr14
-wr %o2, 0x0F, %asr14
-wr %o3, 0x52, %asr14
-wr %o4, 0xA0, %asr14
-wr %o5, 0x80, %asr14
-wr %o6, 0xCF, %asr14
-wr %o7, 0xB7, %asr14
-wr %l0, 0x0B, %asr14
-wr %l1, 0x1B, %asr14
-wr %l2, 0xB7, %asr14
-wr %l3, 0x2C, %asr14
-wr %l4, 0xD3, %asr14
-wr %l5, 0x88, %asr14
-wr %l6, 0xA2, %asr14
-wr %l7, 0x65, %asr14
-wr %i0, 0x67, %asr14
-wr %i1, 0x8E, %asr14
-wr %i2, 0x9B, %asr14
-wr %i3, 0x3A, %asr14
-wr %i4, 0x40, %asr14
-wr %i5, 0x90, %asr14
-wr %i6, 0x74, %asr14
-wr %i7, 0x4F, %asr14
-wr %g0, 0x3E, %asr15
-wr %g1, 0x44, %asr15
-wr %g2, 0x0B, %asr15
-wr %g3, 0xC6, %asr15
-wr %g4, 0x0C, %asr15
-wr %g5, 0xE0, %asr15
-wr %g6, 0x9A, %asr15
-wr %g7, 0xA8, %asr15
-wr %o0, 0x69, %asr15
-wr %o1, 0x8E, %asr15
-wr %o2, 0x7B, %asr15
-wr %o3, 0xE6, %asr15
-wr %o4, 0x17, %asr15
-wr %o5, 0x47, %asr15
-wr %o6, 0x54, %asr15
-wr %o7, 0x32, %asr15
-wr %l0, 0x20, %asr15
-wr %l1, 0xE2, %asr15
-wr %l2, 0x97, %asr15
-wr %l3, 0xA3, %asr15
-wr %l4, 0x13, %asr15
-wr %l5, 0x6C, %asr15
-wr %l6, 0x90, %asr15
-wr %l7, 0x44, %asr15
-wr %i0, 0x20, %asr15
-wr %i1, 0x8E, %asr15
-wr %i2, 0xEE, %asr15
-wr %i3, 0xF1, %asr15
-wr %i4, 0xBB, %asr15
-wr %i5, 0x78, %asr15
-wr %i6, 0xA9, %asr15
-wr %i7, 0xFB, %asr15
-wr %g0, 0xF7, %asr16
-wr %g1, 0x02, %asr16
-wr %g2, 0xCB, %asr16
-wr %g3, 0x08, %asr16
-wr %g4, 0x7A, %asr16
-wr %g5, 0xD1, %asr16
-wr %g6, 0xF7, %asr16
-wr %g7, 0xB0, %asr16
-wr %o0, 0x04, %asr16
-wr %o1, 0xFE, %asr16
-wr %o2, 0x8C, %asr16
-wr %o3, 0x69, %asr16
-wr %o4, 0xA3, %asr16
-wr %o5, 0x43, %asr16
-wr %o6, 0x96, %asr16
-wr %o7, 0xC3, %asr16
-wr %l0, 0x21, %asr16
-wr %l1, 0x52, %asr16
-wr %l2, 0xEB, %asr16
-wr %l3, 0x24, %asr16
-wr %l4, 0x8E, %asr16
-wr %l5, 0x02, %asr16
-wr %l6, 0x91, %asr16
-wr %l7, 0x76, %asr16
-wr %i0, 0xAB, %asr16
-wr %i1, 0xD7, %asr16
-wr %i2, 0x88, %asr16
-wr %i3, 0x00, %asr16
-wr %i4, 0x9C, %asr16
-wr %i5, 0xCD, %asr16
-wr %i6, 0xE0, %asr16
-wr %i7, 0xB4, %asr16
-wr %g0, 0x33, %asr17
-wr %g1, 0x39, %asr17
-wr %g2, 0x0F, %asr17
-wr %g3, 0x67, %asr17
-wr %g4, 0x83, %asr17
-wr %g5, 0x89, %asr17
-wr %g6, 0x03, %asr17
-wr %g7, 0xE0, %asr17
-wr %o0, 0xBA, %asr17
-wr %o1, 0xD8, %asr17
-wr %o2, 0x6B, %asr17
-wr %o3, 0xF1, %asr17
-wr %o4, 0x87, %asr17
-wr %o5, 0x2C, %asr17
-wr %o6, 0x31, %asr17
-wr %o7, 0xC8, %asr17
-wr %l0, 0xF3, %asr17
-wr %l1, 0xB2, %asr17
-wr %l2, 0x7B, %asr17
-wr %l3, 0x30, %asr17
-wr %l4, 0x4C, %asr17
-wr %l5, 0xDD, %asr17
-wr %l6, 0x91, %asr17
-wr %l7, 0xEC, %asr17
-wr %i0, 0xA4, %asr17
-wr %i1, 0xFF, %asr17
-wr %i2, 0x4D, %asr17
-wr %i3, 0x33, %asr17
-wr %i4, 0x5B, %asr17
-wr %i5, 0x3F, %asr17
-wr %i6, 0xAE, %asr17
-wr %i7, 0xEC, %asr17
-wr %g0, 0x38, %asr18
-wr %g1, 0xB3, %asr18
-wr %g2, 0xD4, %asr18
-wr %g3, 0xB3, %asr18
-wr %g4, 0x4F, %asr18
-wr %g5, 0x99, %asr18
-wr %g6, 0x6B, %asr18
-wr %g7, 0xB8, %asr18
-wr %o0, 0xAD, %asr18
-wr %o1, 0xFC, %asr18
-wr %o2, 0xF2, %asr18
-wr %o3, 0x81, %asr18
-wr %o4, 0x5B, %asr18
-wr %o5, 0xDE, %asr18
-wr %o6, 0x06, %asr18
-wr %o7, 0x1D, %asr18
-wr %l0, 0x65, %asr18
-wr %l1, 0x86, %asr18
-wr %l2, 0x87, %asr18
-wr %l3, 0x6B, %asr18
-wr %l4, 0x3F, %asr18
-wr %l5, 0x06, %asr18
-wr %l6, 0x64, %asr18
-wr %l7, 0x1B, %asr18
-wr %i0, 0x3B, %asr18
-wr %i1, 0x59, %asr18
-wr %i2, 0x0D, %asr18
-wr %i3, 0xE5, %asr18
-wr %i4, 0x28, %asr18
-wr %i5, 0xFA, %asr18
-wr %i6, 0x62, %asr18
-wr %i7, 0xC1, %asr18
-wr %g0, 0xEB, %asr19
-wr %g1, 0x3C, %asr19
-wr %g2, 0xA5, %asr19
-wr %g3, 0x11, %asr19
-wr %g4, 0xD7, %asr19
-wr %g5, 0xDE, %asr19
-wr %g6, 0x8A, %asr19
-wr %g7, 0xD8, %asr19
-wr %o0, 0x09, %asr19
-wr %o1, 0x10, %asr19
-wr %o2, 0x0C, %asr19
-wr %o3, 0x88, %asr19
-wr %o4, 0x50, %asr19
-wr %o5, 0x00, %asr19
-wr %o6, 0xD6, %asr19
-wr %o7, 0x0F, %asr19
-wr %l0, 0x5E, %asr19
-wr %l1, 0x2B, %asr19
-wr %l2, 0x1E, %asr19
-wr %l3, 0x7C, %asr19
-wr %l4, 0xA7, %asr19
-wr %l5, 0x89, %asr19
-wr %l6, 0x0E, %asr19
-wr %l7, 0xF6, %asr19
-wr %i0, 0xE2, %asr19
-wr %i1, 0x71, %asr19
-wr %i2, 0x17, %asr19
-wr %i3, 0xBE, %asr19
-wr %i4, 0x03, %asr19
-wr %i5, 0xF5, %asr19
-wr %i6, 0x1A, %asr19
-wr %i7, 0xD1, %asr19
-wr %g0, 0x7B, %asr20
-wr %g1, 0x02, %asr20
-wr %g2, 0x94, %asr20
-wr %g3, 0x2F, %asr20
-wr %g4, 0x75, %asr20
-wr %g5, 0x21, %asr20
-wr %g6, 0x01, %asr20
-wr %g7, 0x62, %asr20
-wr %o0, 0xB2, %asr20
-wr %o1, 0x76, %asr20
-wr %o2, 0x20, %asr20
-wr %o3, 0xC6, %asr20
-wr %o4, 0x48, %asr20
-wr %o5, 0x3B, %asr20
-wr %o6, 0x73, %asr20
-wr %o7, 0x23, %asr20
-wr %l0, 0x16, %asr20
-wr %l1, 0x58, %asr20
-wr %l2, 0x17, %asr20
-wr %l3, 0x9C, %asr20
-wr %l4, 0xFF, %asr20
-wr %l5, 0x36, %asr20
-wr %l6, 0xEC, %asr20
-wr %l7, 0x28, %asr20
-wr %i0, 0x91, %asr20
-wr %i1, 0x4B, %asr20
-wr %i2, 0x8A, %asr20
-wr %i3, 0x43, %asr20
-wr %i4, 0x38, %asr20
-wr %i5, 0x59, %asr20
-wr %i6, 0x52, %asr20
-wr %i7, 0xC6, %asr20
-wr %g0, 0x17, %asr21
-wr %g1, 0x29, %asr21
-wr %g2, 0x30, %asr21
-wr %g3, 0x7E, %asr21
-wr %g4, 0xA5, %asr21
-wr %g5, 0xF0, %asr21
-wr %g6, 0xA6, %asr21
-wr %g7, 0xA7, %asr21
-wr %o0, 0x01, %asr21
-wr %o1, 0xE3, %asr21
-wr %o2, 0xB3, %asr21
-wr %o3, 0xB7, %asr21
-wr %o4, 0x74, %asr21
-wr %o5, 0x8D, %asr21
-wr %o6, 0x39, %asr21
-wr %o7, 0xCC, %asr21
-wr %l0, 0xB3, %asr21
-wr %l1, 0x5C, %asr21
-wr %l2, 0xEC, %asr21
-wr %l3, 0xF8, %asr21
-wr %l4, 0x16, %asr21
-wr %l5, 0xA6, %asr21
-wr %l6, 0x4C, %asr21
-wr %l7, 0x11, %asr21
-wr %i0, 0x85, %asr21
-wr %i1, 0xC8, %asr21
-wr %i2, 0x2C, %asr21
-wr %i3, 0xED, %asr21
-wr %i4, 0xBF, %asr21
-wr %i5, 0xC5, %asr21
-wr %i6, 0x6C, %asr21
-wr %i7, 0xE8, %asr21
-wr %g0, 0x91, %asr22
-wr %g1, 0xE5, %asr22
-wr %g2, 0x19, %asr22
-wr %g3, 0x26, %asr22
-wr %g4, 0x40, %asr22
-wr %g5, 0xD9, %asr22
-wr %g6, 0x4C, %asr22
-wr %g7, 0x13, %asr22
-wr %o0, 0x67, %asr22
-wr %o1, 0xC2, %asr22
-wr %o2, 0x0C, %asr22
-wr %o3, 0xD6, %asr22
-wr %o4, 0x30, %asr22
-wr %o5, 0xC6, %asr22
-wr %o6, 0x9A, %asr22
-wr %o7, 0xE0, %asr22
-wr %l0, 0x5F, %asr22
-wr %l1, 0xBB, %asr22
-wr %l2, 0xDF, %asr22
-wr %l3, 0xC2, %asr22
-wr %l4, 0x38, %asr22
-wr %l5, 0xEE, %asr22
-wr %l6, 0x99, %asr22
-wr %l7, 0xE1, %asr22
-wr %i0, 0xF5, %asr22
-wr %i1, 0x01, %asr22
-wr %i2, 0xBF, %asr22
-wr %i3, 0x3B, %asr22
-wr %i4, 0x04, %asr22
-wr %i5, 0x71, %asr22
-wr %i6, 0x90, %asr22
-wr %i7, 0x54, %asr22
-wr %g0, 0x9A, %asr23
-wr %g1, 0x84, %asr23
-wr %g2, 0x2F, %asr23
-wr %g3, 0xE5, %asr23
-wr %g4, 0x5E, %asr23
-wr %g5, 0xBB, %asr23
-wr %g6, 0x98, %asr23
-wr %g7, 0xAF, %asr23
-wr %o0, 0x19, %asr23
-wr %o1, 0xB0, %asr23
-wr %o2, 0xEE, %asr23
-wr %o3, 0xF1, %asr23
-wr %o4, 0x59, %asr23
-wr %o5, 0x43, %asr23
-wr %o6, 0x73, %asr23
-wr %o7, 0x49, %asr23
-wr %l0, 0xF2, %asr23
-wr %l1, 0xB1, %asr23
-wr %l2, 0x67, %asr23
-wr %l3, 0x44, %asr23
-wr %l4, 0xEA, %asr23
-wr %l5, 0xE4, %asr23
-wr %l6, 0x37, %asr23
-wr %l7, 0x58, %asr23
-wr %i0, 0xD6, %asr23
-wr %i1, 0x24, %asr23
-wr %i2, 0xC7, %asr23
-wr %i3, 0x1E, %asr23
-wr %i4, 0x08, %asr23
-wr %i5, 0xA1, %asr23
-wr %i6, 0xAC, %asr23
-wr %i7, 0xE6, %asr23
-wr %g0, 0x14, %asr24
-wr %g1, 0xD9, %asr24
-wr %g2, 0x3C, %asr24
-wr %g3, 0x93, %asr24
-wr %g4, 0x2C, %asr24
-wr %g5, 0x0C, %asr24
-wr %g6, 0x67, %asr24
-wr %g7, 0x11, %asr24
-wr %o0, 0x2E, %asr24
-wr %o1, 0x8D, %asr24
-wr %o2, 0x3F, %asr24
-wr %o3, 0x0C, %asr24
-wr %o4, 0x30, %asr24
-wr %o5, 0xDA, %asr24
-wr %o6, 0xEE, %asr24
-wr %o7, 0x4B, %asr24
-wr %l0, 0x6C, %asr24
-wr %l1, 0x71, %asr24
-wr %l2, 0xD4, %asr24
-wr %l3, 0x56, %asr24
-wr %l4, 0x42, %asr24
-wr %l5, 0x0B, %asr24
-wr %l6, 0xE4, %asr24
-wr %l7, 0xBE, %asr24
-wr %i0, 0x57, %asr24
-wr %i1, 0xC3, %asr24
-wr %i2, 0x8C, %asr24
-wr %i3, 0x0D, %asr24
-wr %i4, 0xE8, %asr24
-wr %i5, 0x74, %asr24
-wr %i6, 0x08, %asr24
-wr %i7, 0x48, %asr24
-wr %g0, 0xE0, %asr25
-wr %g1, 0xBE, %asr25
-wr %g2, 0x64, %asr25
-wr %g3, 0x77, %asr25
-wr %g4, 0xF0, %asr25
-wr %g5, 0xCC, %asr25
-wr %g6, 0x00, %asr25
-wr %g7, 0x9B, %asr25
-wr %o0, 0xB7, %asr25
-wr %o1, 0x09, %asr25
-wr %o2, 0xD2, %asr25
-wr %o3, 0x4F, %asr25
-wr %o4, 0x5B, %asr25
-wr %o5, 0xE3, %asr25
-wr %o6, 0x90, %asr25
-wr %o7, 0x59, %asr25
-wr %l0, 0x86, %asr25
-wr %l1, 0xE7, %asr25
-wr %l2, 0xD7, %asr25
-wr %l3, 0xE0, %asr25
-wr %l4, 0xD6, %asr25
-wr %l5, 0xB6, %asr25
-wr %l6, 0x25, %asr25
-wr %l7, 0x9F, %asr25
-wr %i0, 0x9D, %asr25
-wr %i1, 0xCC, %asr25
-wr %i2, 0xB8, %asr25
-wr %i3, 0x6D, %asr25
-wr %i4, 0x68, %asr25
-wr %i5, 0x93, %asr25
-wr %i6, 0x3F, %asr25
-wr %i7, 0x22, %asr25
-wr %g0, 0x57, %asr26
-wr %g1, 0xE4, %asr26
-wr %g2, 0x3F, %asr26
-wr %g3, 0xF6, %asr26
-wr %g4, 0xB6, %asr26
-wr %g5, 0x6E, %asr26
-wr %g6, 0xCC, %asr26
-wr %g7, 0x1C, %asr26
-wr %o0, 0xA1, %asr26
-wr %o1, 0xAC, %asr26
-wr %o2, 0x19, %asr26
-wr %o3, 0xD6, %asr26
-wr %o4, 0x1D, %asr26
-wr %o5, 0xE6, %asr26
-wr %o6, 0xB1, %asr26
-wr %o7, 0x13, %asr26
-wr %l0, 0x01, %asr26
-wr %l1, 0x0D, %asr26
-wr %l2, 0x26, %asr26
-wr %l3, 0x14, %asr26
-wr %l4, 0x1C, %asr26
-wr %l5, 0xEE, %asr26
-wr %l6, 0x28, %asr26
-wr %l7, 0xAC, %asr26
-wr %i0, 0xEE, %asr26
-wr %i1, 0x10, %asr26
-wr %i2, 0xC8, %asr26
-wr %i3, 0x40, %asr26
-wr %i4, 0xF2, %asr26
-wr %i5, 0x81, %asr26
-wr %i6, 0x9E, %asr26
-wr %i7, 0x41, %asr26
-wr %g0, 0x33, %asr27
-wr %g1, 0xAC, %asr27
-wr %g2, 0x2A, %asr27
-wr %g3, 0x6E, %asr27
-wr %g4, 0x43, %asr27
-wr %g5, 0xDE, %asr27
-wr %g6, 0xE5, %asr27
-wr %g7, 0x23, %asr27
-wr %o0, 0x63, %asr27
-wr %o1, 0x5B, %asr27
-wr %o2, 0x4D, %asr27
-wr %o3, 0x7C, %asr27
-wr %o4, 0xDC, %asr27
-wr %o5, 0x4A, %asr27
-wr %o6, 0xA5, %asr27
-wr %o7, 0xE9, %asr27
-wr %l0, 0x7F, %asr27
-wr %l1, 0xED, %asr27
-wr %l2, 0xEB, %asr27
-wr %l3, 0x3B, %asr27
-wr %l4, 0xEB, %asr27
-wr %l5, 0x2A, %asr27
-wr %l6, 0x07, %asr27
-wr %l7, 0x2B, %asr27
-wr %i0, 0x38, %asr27
-wr %i1, 0x8A, %asr27
-wr %i2, 0x68, %asr27
-wr %i3, 0x4A, %asr27
-wr %i4, 0x02, %asr27
-wr %i5, 0x44, %asr27
-wr %i6, 0x93, %asr27
-wr %i7, 0x31, %asr27
-wr %g0, 0xFC, %asr28
-wr %g1, 0xF2, %asr28
-wr %g2, 0xEF, %asr28
-wr %g3, 0xB4, %asr28
-wr %g4, 0xE0, %asr28
-wr %g5, 0x50, %asr28
-wr %g6, 0x40, %asr28
-wr %g7, 0xDC, %asr28
-wr %o0, 0xDD, %asr28
-wr %o1, 0xE8, %asr28
-wr %o2, 0x35, %asr28
-wr %o3, 0xCA, %asr28
-wr %o4, 0xE3, %asr28
-wr %o5, 0x4E, %asr28
-wr %o6, 0xB5, %asr28
-wr %o7, 0x6F, %asr28
-wr %l0, 0xD7, %asr28
-wr %l1, 0xF7, %asr28
-wr %l2, 0xAA, %asr28
-wr %l3, 0x1D, %asr28
-wr %l4, 0x2F, %asr28
-wr %l5, 0x04, %asr28
-wr %l6, 0xB5, %asr28
-wr %l7, 0x1E, %asr28
-wr %i0, 0xB1, %asr28
-wr %i1, 0x3F, %asr28
-wr %i2, 0x0D, %asr28
-wr %i3, 0xE5, %asr28
-wr %i4, 0x49, %asr28
-wr %i5, 0x34, %asr28
-wr %i6, 0xFE, %asr28
-wr %i7, 0x59, %asr28
-wr %g0, 0xCB, %asr29
-wr %g1, 0xF2, %asr29
-wr %g2, 0xF3, %asr29
-wr %g3, 0x59, %asr29
-wr %g4, 0x52, %asr29
-wr %g5, 0xD0, %asr29
-wr %g6, 0x7C, %asr29
-wr %g7, 0x3D, %asr29
-wr %o0, 0xF4, %asr29
-wr %o1, 0xE9, %asr29
-wr %o2, 0xBD, %asr29
-wr %o3, 0x33, %asr29
-wr %o4, 0xFC, %asr29
-wr %o5, 0x47, %asr29
-wr %o6, 0x08, %asr29
-wr %o7, 0x8A, %asr29
-wr %l0, 0x2E, %asr29
-wr %l1, 0xCC, %asr29
-wr %l2, 0x37, %asr29
-wr %l3, 0x04, %asr29
-wr %l4, 0x9C, %asr29
-wr %l5, 0xA5, %asr29
-wr %l6, 0xC7, %asr29
-wr %l7, 0x9A, %asr29
-wr %i0, 0xAB, %asr29
-wr %i1, 0xCF, %asr29
-wr %i2, 0xE0, %asr29
-wr %i3, 0xAB, %asr29
-wr %i4, 0x17, %asr29
-wr %i5, 0x04, %asr29
-wr %i6, 0xB1, %asr29
-wr %i7, 0x55, %asr29
-wr %g0, 0x4F, %asr30
-wr %g1, 0xF2, %asr30
-wr %g2, 0x6B, %asr30
-wr %g3, 0x66, %asr30
-wr %g4, 0x15, %asr30
-wr %g5, 0x96, %asr30
-wr %g6, 0xAC, %asr30
-wr %g7, 0xAB, %asr30
-wr %o0, 0x31, %asr30
-wr %o1, 0xEE, %asr30
-wr %o2, 0xAA, %asr30
-wr %o3, 0x08, %asr30
-wr %o4, 0x91, %asr30
-wr %o5, 0xDF, %asr30
-wr %o6, 0xDD, %asr30
-wr %o7, 0x8D, %asr30
-wr %l0, 0x60, %asr30
-wr %l1, 0x35, %asr30
-wr %l2, 0xCB, %asr30
-wr %l3, 0xE5, %asr30
-wr %l4, 0x22, %asr30
-wr %l5, 0x50, %asr30
-wr %l6, 0x1C, %asr30
-wr %l7, 0xDE, %asr30
-wr %i0, 0x47, %asr30
-wr %i1, 0xBD, %asr30
-wr %i2, 0x20, %asr30
-wr %i3, 0x5C, %asr30
-wr %i4, 0xE8, %asr30
-wr %i5, 0xCC, %asr30
-wr %i6, 0xA0, %asr30
-wr %i7, 0xBB, %asr30
-wr %g0, 0x1A, %asr31
-wr %g1, 0x19, %asr31
-wr %g2, 0xA6, %asr31
-wr %g3, 0x66, %asr31
-wr %g4, 0xA1, %asr31
-wr %g5, 0x82, %asr31
-wr %g6, 0x76, %asr31
-wr %g7, 0xA8, %asr31
-wr %o0, 0x98, %asr31
-wr %o1, 0xB2, %asr31
-wr %o2, 0x2B, %asr31
-wr %o3, 0xAB, %asr31
-wr %o4, 0xC1, %asr31
-wr %o5, 0x3C, %asr31
-wr %o6, 0xAE, %asr31
-wr %o7, 0xC0, %asr31
-wr %l0, 0xE0, %asr31
-wr %l1, 0xAA, %asr31
-wr %l2, 0x4D, %asr31
-wr %l3, 0x0D, %asr31
-wr %l4, 0xE9, %asr31
-wr %l5, 0x9E, %asr31
-wr %l6, 0x12, %asr31
-wr %l7, 0xD1, %asr31
-wr %i0, 0x56, %asr31
-wr %i1, 0x13, %asr31
-wr %i2, 0x38, %asr31
-wr %i3, 0x9B, %asr31
-wr %i4, 0x92, %asr31
-wr %i5, 0xAD, %asr31
-wr %i6, 0x7A, %asr31
-wr %i7, 0x10, %asr31
-
-rd %asr1, %g0
-rd %asr1, %g1
-rd %asr1, %g2
-rd %asr1, %g3
-rd %asr1, %g4
-rd %asr1, %g5
-rd %asr1, %g6
-rd %asr1, %g7
-rd %asr1, %o0
-rd %asr1, %o1
-rd %asr1, %o2
-rd %asr1, %o3
-rd %asr1, %o4
-rd %asr1, %o5
-rd %asr1, %o6
-rd %asr1, %o7
-rd %asr1, %l0
-rd %asr1, %l1
-rd %asr1, %l2
-rd %asr1, %l3
-rd %asr1, %l4
-rd %asr1, %l5
-rd %asr1, %l6
-rd %asr1, %l7
-rd %asr1, %i0
-rd %asr1, %i1
-rd %asr1, %i2
-rd %asr1, %i3
-rd %asr1, %i4
-rd %asr1, %i5
-rd %asr1, %i6
-rd %asr1, %i7
-rd %asr2, %g0
-rd %asr2, %g1
-rd %asr2, %g2
-rd %asr2, %g3
-rd %asr2, %g4
-rd %asr2, %g5
-rd %asr2, %g6
-rd %asr2, %g7
-rd %asr2, %o0
-rd %asr2, %o1
-rd %asr2, %o2
-rd %asr2, %o3
-rd %asr2, %o4
-rd %asr2, %o5
-rd %asr2, %o6
-rd %asr2, %o7
-rd %asr2, %l0
-rd %asr2, %l1
-rd %asr2, %l2
-rd %asr2, %l3
-rd %asr2, %l4
-rd %asr2, %l5
-rd %asr2, %l6
-rd %asr2, %l7
-rd %asr2, %i0
-rd %asr2, %i1
-rd %asr2, %i2
-rd %asr2, %i3
-rd %asr2, %i4
-rd %asr2, %i5
-rd %asr2, %i6
-rd %asr2, %i7
-rd %asr3, %g0
-rd %asr3, %g1
-rd %asr3, %g2
-rd %asr3, %g3
-rd %asr3, %g4
-rd %asr3, %g5
-rd %asr3, %g6
-rd %asr3, %g7
-rd %asr3, %o0
-rd %asr3, %o1
-rd %asr3, %o2
-rd %asr3, %o3
-rd %asr3, %o4
-rd %asr3, %o5
-rd %asr3, %o6
-rd %asr3, %o7
-rd %asr3, %l0
-rd %asr3, %l1
-rd %asr3, %l2
-rd %asr3, %l3
-rd %asr3, %l4
-rd %asr3, %l5
-rd %asr3, %l6
-rd %asr3, %l7
-rd %asr3, %i0
-rd %asr3, %i1
-rd %asr3, %i2
-rd %asr3, %i3
-rd %asr3, %i4
-rd %asr3, %i5
-rd %asr3, %i6
-rd %asr3, %i7
-rd %asr4, %g0
-rd %asr4, %g1
-rd %asr4, %g2
-rd %asr4, %g3
-rd %asr4, %g4
-rd %asr4, %g5
-rd %asr4, %g6
-rd %asr4, %g7
-rd %asr4, %o0
-rd %asr4, %o1
-rd %asr4, %o2
-rd %asr4, %o3
-rd %asr4, %o4
-rd %asr4, %o5
-rd %asr4, %o6
-rd %asr4, %o7
-rd %asr4, %l0
-rd %asr4, %l1
-rd %asr4, %l2
-rd %asr4, %l3
-rd %asr4, %l4
-rd %asr4, %l5
-rd %asr4, %l6
-rd %asr4, %l7
-rd %asr4, %i0
-rd %asr4, %i1
-rd %asr4, %i2
-rd %asr4, %i3
-rd %asr4, %i4
-rd %asr4, %i5
-rd %asr4, %i6
-rd %asr4, %i7
-rd %asr5, %g0
-rd %asr5, %g1
-rd %asr5, %g2
-rd %asr5, %g3
-rd %asr5, %g4
-rd %asr5, %g5
-rd %asr5, %g6
-rd %asr5, %g7
-rd %asr5, %o0
-rd %asr5, %o1
-rd %asr5, %o2
-rd %asr5, %o3
-rd %asr5, %o4
-rd %asr5, %o5
-rd %asr5, %o6
-rd %asr5, %o7
-rd %asr5, %l0
-rd %asr5, %l1
-rd %asr5, %l2
-rd %asr5, %l3
-rd %asr5, %l4
-rd %asr5, %l5
-rd %asr5, %l6
-rd %asr5, %l7
-rd %asr5, %i0
-rd %asr5, %i1
-rd %asr5, %i2
-rd %asr5, %i3
-rd %asr5, %i4
-rd %asr5, %i5
-rd %asr5, %i6
-rd %asr5, %i7
-rd %asr6, %g0
-rd %asr6, %g1
-rd %asr6, %g2
-rd %asr6, %g3
-rd %asr6, %g4
-rd %asr6, %g5
-rd %asr6, %g6
-rd %asr6, %g7
-rd %asr6, %o0
-rd %asr6, %o1
-rd %asr6, %o2
-rd %asr6, %o3
-rd %asr6, %o4
-rd %asr6, %o5
-rd %asr6, %o6
-rd %asr6, %o7
-rd %asr6, %l0
-rd %asr6, %l1
-rd %asr6, %l2
-rd %asr6, %l3
-rd %asr6, %l4
-rd %asr6, %l5
-rd %asr6, %l6
-rd %asr6, %l7
-rd %asr6, %i0
-rd %asr6, %i1
-rd %asr6, %i2
-rd %asr6, %i3
-rd %asr6, %i4
-rd %asr6, %i5
-rd %asr6, %i6
-rd %asr6, %i7
-rd %asr7, %g0
-rd %asr7, %g1
-rd %asr7, %g2
-rd %asr7, %g3
-rd %asr7, %g4
-rd %asr7, %g5
-rd %asr7, %g6
-rd %asr7, %g7
-rd %asr7, %o0
-rd %asr7, %o1
-rd %asr7, %o2
-rd %asr7, %o3
-rd %asr7, %o4
-rd %asr7, %o5
-rd %asr7, %o6
-rd %asr7, %o7
-rd %asr7, %l0
-rd %asr7, %l1
-rd %asr7, %l2
-rd %asr7, %l3
-rd %asr7, %l4
-rd %asr7, %l5
-rd %asr7, %l6
-rd %asr7, %l7
-rd %asr7, %i0
-rd %asr7, %i1
-rd %asr7, %i2
-rd %asr7, %i3
-rd %asr7, %i4
-rd %asr7, %i5
-rd %asr7, %i6
-rd %asr7, %i7
-rd %asr8, %g0
-rd %asr8, %g1
-rd %asr8, %g2
-rd %asr8, %g3
-rd %asr8, %g4
-rd %asr8, %g5
-rd %asr8, %g6
-rd %asr8, %g7
-rd %asr8, %o0
-rd %asr8, %o1
-rd %asr8, %o2
-rd %asr8, %o3
-rd %asr8, %o4
-rd %asr8, %o5
-rd %asr8, %o6
-rd %asr8, %o7
-rd %asr8, %l0
-rd %asr8, %l1
-rd %asr8, %l2
-rd %asr8, %l3
-rd %asr8, %l4
-rd %asr8, %l5
-rd %asr8, %l6
-rd %asr8, %l7
-rd %asr8, %i0
-rd %asr8, %i1
-rd %asr8, %i2
-rd %asr8, %i3
-rd %asr8, %i4
-rd %asr8, %i5
-rd %asr8, %i6
-rd %asr8, %i7
-rd %asr9, %g0
-rd %asr9, %g1
-rd %asr9, %g2
-rd %asr9, %g3
-rd %asr9, %g4
-rd %asr9, %g5
-rd %asr9, %g6
-rd %asr9, %g7
-rd %asr9, %o0
-rd %asr9, %o1
-rd %asr9, %o2
-rd %asr9, %o3
-rd %asr9, %o4
-rd %asr9, %o5
-rd %asr9, %o6
-rd %asr9, %o7
-rd %asr9, %l0
-rd %asr9, %l1
-rd %asr9, %l2
-rd %asr9, %l3
-rd %asr9, %l4
-rd %asr9, %l5
-rd %asr9, %l6
-rd %asr9, %l7
-rd %asr9, %i0
-rd %asr9, %i1
-rd %asr9, %i2
-rd %asr9, %i3
-rd %asr9, %i4
-rd %asr9, %i5
-rd %asr9, %i6
-rd %asr9, %i7
-rd %asr10, %g0
-rd %asr10, %g1
-rd %asr10, %g2
-rd %asr10, %g3
-rd %asr10, %g4
-rd %asr10, %g5
-rd %asr10, %g6
-rd %asr10, %g7
-rd %asr10, %o0
-rd %asr10, %o1
-rd %asr10, %o2
-rd %asr10, %o3
-rd %asr10, %o4
-rd %asr10, %o5
-rd %asr10, %o6
-rd %asr10, %o7
-rd %asr10, %l0
-rd %asr10, %l1
-rd %asr10, %l2
-rd %asr10, %l3
-rd %asr10, %l4
-rd %asr10, %l5
-rd %asr10, %l6
-rd %asr10, %l7
-rd %asr10, %i0
-rd %asr10, %i1
-rd %asr10, %i2
-rd %asr10, %i3
-rd %asr10, %i4
-rd %asr10, %i5
-rd %asr10, %i6
-rd %asr10, %i7
-rd %asr11, %g0
-rd %asr11, %g1
-rd %asr11, %g2
-rd %asr11, %g3
-rd %asr11, %g4
-rd %asr11, %g5
-rd %asr11, %g6
-rd %asr11, %g7
-rd %asr11, %o0
-rd %asr11, %o1
-rd %asr11, %o2
-rd %asr11, %o3
-rd %asr11, %o4
-rd %asr11, %o5
-rd %asr11, %o6
-rd %asr11, %o7
-rd %asr11, %l0
-rd %asr11, %l1
-rd %asr11, %l2
-rd %asr11, %l3
-rd %asr11, %l4
-rd %asr11, %l5
-rd %asr11, %l6
-rd %asr11, %l7
-rd %asr11, %i0
-rd %asr11, %i1
-rd %asr11, %i2
-rd %asr11, %i3
-rd %asr11, %i4
-rd %asr11, %i5
-rd %asr11, %i6
-rd %asr11, %i7
-rd %asr12, %g0
-rd %asr12, %g1
-rd %asr12, %g2
-rd %asr12, %g3
-rd %asr12, %g4
-rd %asr12, %g5
-rd %asr12, %g6
-rd %asr12, %g7
-rd %asr12, %o0
-rd %asr12, %o1
-rd %asr12, %o2
-rd %asr12, %o3
-rd %asr12, %o4
-rd %asr12, %o5
-rd %asr12, %o6
-rd %asr12, %o7
-rd %asr12, %l0
-rd %asr12, %l1
-rd %asr12, %l2
-rd %asr12, %l3
-rd %asr12, %l4
-rd %asr12, %l5
-rd %asr12, %l6
-rd %asr12, %l7
-rd %asr12, %i0
-rd %asr12, %i1
-rd %asr12, %i2
-rd %asr12, %i3
-rd %asr12, %i4
-rd %asr12, %i5
-rd %asr12, %i6
-rd %asr12, %i7
-rd %asr13, %g0
-rd %asr13, %g1
-rd %asr13, %g2
-rd %asr13, %g3
-rd %asr13, %g4
-rd %asr13, %g5
-rd %asr13, %g6
-rd %asr13, %g7
-rd %asr13, %o0
-rd %asr13, %o1
-rd %asr13, %o2
-rd %asr13, %o3
-rd %asr13, %o4
-rd %asr13, %o5
-rd %asr13, %o6
-rd %asr13, %o7
-rd %asr13, %l0
-rd %asr13, %l1
-rd %asr13, %l2
-rd %asr13, %l3
-rd %asr13, %l4
-rd %asr13, %l5
-rd %asr13, %l6
-rd %asr13, %l7
-rd %asr13, %i0
-rd %asr13, %i1
-rd %asr13, %i2
-rd %asr13, %i3
-rd %asr13, %i4
-rd %asr13, %i5
-rd %asr13, %i6
-rd %asr13, %i7
-rd %asr14, %g0
-rd %asr14, %g1
-rd %asr14, %g2
-rd %asr14, %g3
-rd %asr14, %g4
-rd %asr14, %g5
-rd %asr14, %g6
-rd %asr14, %g7
-rd %asr14, %o0
-rd %asr14, %o1
-rd %asr14, %o2
-rd %asr14, %o3
-rd %asr14, %o4
-rd %asr14, %o5
-rd %asr14, %o6
-rd %asr14, %o7
-rd %asr14, %l0
-rd %asr14, %l1
-rd %asr14, %l2
-rd %asr14, %l3
-rd %asr14, %l4
-rd %asr14, %l5
-rd %asr14, %l6
-rd %asr14, %l7
-rd %asr14, %i0
-rd %asr14, %i1
-rd %asr14, %i2
-rd %asr14, %i3
-rd %asr14, %i4
-rd %asr14, %i5
-rd %asr14, %i6
-rd %asr14, %i7
-rd %asr15, %g0
-rd %asr15, %g1
-rd %asr15, %g2
-rd %asr15, %g3
-rd %asr15, %g4
-rd %asr15, %g5
-rd %asr15, %g6
-rd %asr15, %g7
-rd %asr15, %o0
-rd %asr15, %o1
-rd %asr15, %o2
-rd %asr15, %o3
-rd %asr15, %o4
-rd %asr15, %o5
-rd %asr15, %o6
-rd %asr15, %o7
-rd %asr15, %l0
-rd %asr15, %l1
-rd %asr15, %l2
-rd %asr15, %l3
-rd %asr15, %l4
-rd %asr15, %l5
-rd %asr15, %l6
-rd %asr15, %l7
-rd %asr15, %i0
-rd %asr15, %i1
-rd %asr15, %i2
-rd %asr15, %i3
-rd %asr15, %i4
-rd %asr15, %i5
-rd %asr15, %i6
-rd %asr15, %i7
-rd %asr16, %g0
-rd %asr16, %g1
-rd %asr16, %g2
-rd %asr16, %g3
-rd %asr16, %g4
-rd %asr16, %g5
-rd %asr16, %g6
-rd %asr16, %g7
-rd %asr16, %o0
-rd %asr16, %o1
-rd %asr16, %o2
-rd %asr16, %o3
-rd %asr16, %o4
-rd %asr16, %o5
-rd %asr16, %o6
-rd %asr16, %o7
-rd %asr16, %l0
-rd %asr16, %l1
-rd %asr16, %l2
-rd %asr16, %l3
-rd %asr16, %l4
-rd %asr16, %l5
-rd %asr16, %l6
-rd %asr16, %l7
-rd %asr16, %i0
-rd %asr16, %i1
-rd %asr16, %i2
-rd %asr16, %i3
-rd %asr16, %i4
-rd %asr16, %i5
-rd %asr16, %i6
-rd %asr16, %i7
-rd %asr17, %g0
-rd %asr17, %g1
-rd %asr17, %g2
-rd %asr17, %g3
-rd %asr17, %g4
-rd %asr17, %g5
-rd %asr17, %g6
-rd %asr17, %g7
-rd %asr17, %o0
-rd %asr17, %o1
-rd %asr17, %o2
-rd %asr17, %o3
-rd %asr17, %o4
-rd %asr17, %o5
-rd %asr17, %o6
-rd %asr17, %o7
-rd %asr17, %l0
-rd %asr17, %l1
-rd %asr17, %l2
-rd %asr17, %l3
-rd %asr17, %l4
-rd %asr17, %l5
-rd %asr17, %l6
-rd %asr17, %l7
-rd %asr17, %i0
-rd %asr17, %i1
-rd %asr17, %i2
-rd %asr17, %i3
-rd %asr17, %i4
-rd %asr17, %i5
-rd %asr17, %i6
-rd %asr17, %i7
-rd %asr18, %g0
-rd %asr18, %g1
-rd %asr18, %g2
-rd %asr18, %g3
-rd %asr18, %g4
-rd %asr18, %g5
-rd %asr18, %g6
-rd %asr18, %g7
-rd %asr18, %o0
-rd %asr18, %o1
-rd %asr18, %o2
-rd %asr18, %o3
-rd %asr18, %o4
-rd %asr18, %o5
-rd %asr18, %o6
-rd %asr18, %o7
-rd %asr18, %l0
-rd %asr18, %l1
-rd %asr18, %l2
-rd %asr18, %l3
-rd %asr18, %l4
-rd %asr18, %l5
-rd %asr18, %l6
-rd %asr18, %l7
-rd %asr18, %i0
-rd %asr18, %i1
-rd %asr18, %i2
-rd %asr18, %i3
-rd %asr18, %i4
-rd %asr18, %i5
-rd %asr18, %i6
-rd %asr18, %i7
-rd %asr19, %g0
-rd %asr19, %g1
-rd %asr19, %g2
-rd %asr19, %g3
-rd %asr19, %g4
-rd %asr19, %g5
-rd %asr19, %g6
-rd %asr19, %g7
-rd %asr19, %o0
-rd %asr19, %o1
-rd %asr19, %o2
-rd %asr19, %o3
-rd %asr19, %o4
-rd %asr19, %o5
-rd %asr19, %o6
-rd %asr19, %o7
-rd %asr19, %l0
-rd %asr19, %l1
-rd %asr19, %l2
-rd %asr19, %l3
-rd %asr19, %l4
-rd %asr19, %l5
-rd %asr19, %l6
-rd %asr19, %l7
-rd %asr19, %i0
-rd %asr19, %i1
-rd %asr19, %i2
-rd %asr19, %i3
-rd %asr19, %i4
-rd %asr19, %i5
-rd %asr19, %i6
-rd %asr19, %i7
-rd %asr20, %g0
-rd %asr20, %g1
-rd %asr20, %g2
-rd %asr20, %g3
-rd %asr20, %g4
-rd %asr20, %g5
-rd %asr20, %g6
-rd %asr20, %g7
-rd %asr20, %o0
-rd %asr20, %o1
-rd %asr20, %o2
-rd %asr20, %o3
-rd %asr20, %o4
-rd %asr20, %o5
-rd %asr20, %o6
-rd %asr20, %o7
-rd %asr20, %l0
-rd %asr20, %l1
-rd %asr20, %l2
-rd %asr20, %l3
-rd %asr20, %l4
-rd %asr20, %l5
-rd %asr20, %l6
-rd %asr20, %l7
-rd %asr20, %i0
-rd %asr20, %i1
-rd %asr20, %i2
-rd %asr20, %i3
-rd %asr20, %i4
-rd %asr20, %i5
-rd %asr20, %i6
-rd %asr20, %i7
-rd %asr21, %g0
-rd %asr21, %g1
-rd %asr21, %g2
-rd %asr21, %g3
-rd %asr21, %g4
-rd %asr21, %g5
-rd %asr21, %g6
-rd %asr21, %g7
-rd %asr21, %o0
-rd %asr21, %o1
-rd %asr21, %o2
-rd %asr21, %o3
-rd %asr21, %o4
-rd %asr21, %o5
-rd %asr21, %o6
-rd %asr21, %o7
-rd %asr21, %l0
-rd %asr21, %l1
-rd %asr21, %l2
-rd %asr21, %l3
-rd %asr21, %l4
-rd %asr21, %l5
-rd %asr21, %l6
-rd %asr21, %l7
-rd %asr21, %i0
-rd %asr21, %i1
-rd %asr21, %i2
-rd %asr21, %i3
-rd %asr21, %i4
-rd %asr21, %i5
-rd %asr21, %i6
-rd %asr21, %i7
-rd %asr22, %g0
-rd %asr22, %g1
-rd %asr22, %g2
-rd %asr22, %g3
-rd %asr22, %g4
-rd %asr22, %g5
-rd %asr22, %g6
-rd %asr22, %g7
-rd %asr22, %o0
-rd %asr22, %o1
-rd %asr22, %o2
-rd %asr22, %o3
-rd %asr22, %o4
-rd %asr22, %o5
-rd %asr22, %o6
-rd %asr22, %o7
-rd %asr22, %l0
-rd %asr22, %l1
-rd %asr22, %l2
-rd %asr22, %l3
-rd %asr22, %l4
-rd %asr22, %l5
-rd %asr22, %l6
-rd %asr22, %l7
-rd %asr22, %i0
-rd %asr22, %i1
-rd %asr22, %i2
-rd %asr22, %i3
-rd %asr22, %i4
-rd %asr22, %i5
-rd %asr22, %i6
-rd %asr22, %i7
-rd %asr23, %g0
-rd %asr23, %g1
-rd %asr23, %g2
-rd %asr23, %g3
-rd %asr23, %g4
-rd %asr23, %g5
-rd %asr23, %g6
-rd %asr23, %g7
-rd %asr23, %o0
-rd %asr23, %o1
-rd %asr23, %o2
-rd %asr23, %o3
-rd %asr23, %o4
-rd %asr23, %o5
-rd %asr23, %o6
-rd %asr23, %o7
-rd %asr23, %l0
-rd %asr23, %l1
-rd %asr23, %l2
-rd %asr23, %l3
-rd %asr23, %l4
-rd %asr23, %l5
-rd %asr23, %l6
-rd %asr23, %l7
-rd %asr23, %i0
-rd %asr23, %i1
-rd %asr23, %i2
-rd %asr23, %i3
-rd %asr23, %i4
-rd %asr23, %i5
-rd %asr23, %i6
-rd %asr23, %i7
-rd %asr24, %g0
-rd %asr24, %g1
-rd %asr24, %g2
-rd %asr24, %g3
-rd %asr24, %g4
-rd %asr24, %g5
-rd %asr24, %g6
-rd %asr24, %g7
-rd %asr24, %o0
-rd %asr24, %o1
-rd %asr24, %o2
-rd %asr24, %o3
-rd %asr24, %o4
-rd %asr24, %o5
-rd %asr24, %o6
-rd %asr24, %o7
-rd %asr24, %l0
-rd %asr24, %l1
-rd %asr24, %l2
-rd %asr24, %l3
-rd %asr24, %l4
-rd %asr24, %l5
-rd %asr24, %l6
-rd %asr24, %l7
-rd %asr24, %i0
-rd %asr24, %i1
-rd %asr24, %i2
-rd %asr24, %i3
-rd %asr24, %i4
-rd %asr24, %i5
-rd %asr24, %i6
-rd %asr24, %i7
-rd %asr25, %g0
-rd %asr25, %g1
-rd %asr25, %g2
-rd %asr25, %g3
-rd %asr25, %g4
-rd %asr25, %g5
-rd %asr25, %g6
-rd %asr25, %g7
-rd %asr25, %o0
-rd %asr25, %o1
-rd %asr25, %o2
-rd %asr25, %o3
-rd %asr25, %o4
-rd %asr25, %o5
-rd %asr25, %o6
-rd %asr25, %o7
-rd %asr25, %l0
-rd %asr25, %l1
-rd %asr25, %l2
-rd %asr25, %l3
-rd %asr25, %l4
-rd %asr25, %l5
-rd %asr25, %l6
-rd %asr25, %l7
-rd %asr25, %i0
-rd %asr25, %i1
-rd %asr25, %i2
-rd %asr25, %i3
-rd %asr25, %i4
-rd %asr25, %i5
-rd %asr25, %i6
-rd %asr25, %i7
-rd %asr26, %g0
-rd %asr26, %g1
-rd %asr26, %g2
-rd %asr26, %g3
-rd %asr26, %g4
-rd %asr26, %g5
-rd %asr26, %g6
-rd %asr26, %g7
-rd %asr26, %o0
-rd %asr26, %o1
-rd %asr26, %o2
-rd %asr26, %o3
-rd %asr26, %o4
-rd %asr26, %o5
-rd %asr26, %o6
-rd %asr26, %o7
-rd %asr26, %l0
-rd %asr26, %l1
-rd %asr26, %l2
-rd %asr26, %l3
-rd %asr26, %l4
-rd %asr26, %l5
-rd %asr26, %l6
-rd %asr26, %l7
-rd %asr26, %i0
-rd %asr26, %i1
-rd %asr26, %i2
-rd %asr26, %i3
-rd %asr26, %i4
-rd %asr26, %i5
-rd %asr26, %i6
-rd %asr26, %i7
-rd %asr27, %g0
-rd %asr27, %g1
-rd %asr27, %g2
-rd %asr27, %g3
-rd %asr27, %g4
-rd %asr27, %g5
-rd %asr27, %g6
-rd %asr27, %g7
-rd %asr27, %o0
-rd %asr27, %o1
-rd %asr27, %o2
-rd %asr27, %o3
-rd %asr27, %o4
-rd %asr27, %o5
-rd %asr27, %o6
-rd %asr27, %o7
-rd %asr27, %l0
-rd %asr27, %l1
-rd %asr27, %l2
-rd %asr27, %l3
-rd %asr27, %l4
-rd %asr27, %l5
-rd %asr27, %l6
-rd %asr27, %l7
-rd %asr27, %i0
-rd %asr27, %i1
-rd %asr27, %i2
-rd %asr27, %i3
-rd %asr27, %i4
-rd %asr27, %i5
-rd %asr27, %i6
-rd %asr27, %i7
-rd %asr28, %g0
-rd %asr28, %g1
-rd %asr28, %g2
-rd %asr28, %g3
-rd %asr28, %g4
-rd %asr28, %g5
-rd %asr28, %g6
-rd %asr28, %g7
-rd %asr28, %o0
-rd %asr28, %o1
-rd %asr28, %o2
-rd %asr28, %o3
-rd %asr28, %o4
-rd %asr28, %o5
-rd %asr28, %o6
-rd %asr28, %o7
-rd %asr28, %l0
-rd %asr28, %l1
-rd %asr28, %l2
-rd %asr28, %l3
-rd %asr28, %l4
-rd %asr28, %l5
-rd %asr28, %l6
-rd %asr28, %l7
-rd %asr28, %i0
-rd %asr28, %i1
-rd %asr28, %i2
-rd %asr28, %i3
-rd %asr28, %i4
-rd %asr28, %i5
-rd %asr28, %i6
-rd %asr28, %i7
-rd %asr29, %g0
-rd %asr29, %g1
-rd %asr29, %g2
-rd %asr29, %g3
-rd %asr29, %g4
-rd %asr29, %g5
-rd %asr29, %g6
-rd %asr29, %g7
-rd %asr29, %o0
-rd %asr29, %o1
-rd %asr29, %o2
-rd %asr29, %o3
-rd %asr29, %o4
-rd %asr29, %o5
-rd %asr29, %o6
-rd %asr29, %o7
-rd %asr29, %l0
-rd %asr29, %l1
-rd %asr29, %l2
-rd %asr29, %l3
-rd %asr29, %l4
-rd %asr29, %l5
-rd %asr29, %l6
-rd %asr29, %l7
-rd %asr29, %i0
-rd %asr29, %i1
-rd %asr29, %i2
-rd %asr29, %i3
-rd %asr29, %i4
-rd %asr29, %i5
-rd %asr29, %i6
-rd %asr29, %i7
-rd %asr30, %g0
-rd %asr30, %g1
-rd %asr30, %g2
-rd %asr30, %g3
-rd %asr30, %g4
-rd %asr30, %g5
-rd %asr30, %g6
-rd %asr30, %g7
-rd %asr30, %o0
-rd %asr30, %o1
-rd %asr30, %o2
-rd %asr30, %o3
-rd %asr30, %o4
-rd %asr30, %o5
-rd %asr30, %o6
-rd %asr30, %o7
-rd %asr30, %l0
-rd %asr30, %l1
-rd %asr30, %l2
-rd %asr30, %l3
-rd %asr30, %l4
-rd %asr30, %l5
-rd %asr30, %l6
-rd %asr30, %l7
-rd %asr30, %i0
-rd %asr30, %i1
-rd %asr30, %i2
-rd %asr30, %i3
-rd %asr30, %i4
-rd %asr30, %i5
-rd %asr30, %i6
-rd %asr30, %i7
-rd %asr31, %g0
-rd %asr31, %g1
-rd %asr31, %g2
-rd %asr31, %g3
-rd %asr31, %g4
-rd %asr31, %g5
-rd %asr31, %g6
-rd %asr31, %g7
-rd %asr31, %o0
-rd %asr31, %o1
-rd %asr31, %o2
-rd %asr31, %o3
-rd %asr31, %o4
-rd %asr31, %o5
-rd %asr31, %o6
-rd %asr31, %o7
-rd %asr31, %l0
-rd %asr31, %l1
-rd %asr31, %l2
-rd %asr31, %l3
-rd %asr31, %l4
-rd %asr31, %l5
-rd %asr31, %l6
-rd %asr31, %l7
-rd %asr31, %i0
-rd %asr31, %i1
-rd %asr31, %i2
-rd %asr31, %i3
-rd %asr31, %i4
-rd %asr31, %i5
-rd %asr31, %i6
-rd %asr31, %i7
-
-
-
-wr %g0, 0x1A, %asr1
-wr %g1, 0xD9, %asr1
-wr %g2, 0x91, %asr1
-wr %g3, 0x8A, %asr1
-wr %g4, 0x4A, %asr1
-wr %g5, 0x5F, %asr1
-wr %g6, 0xA6, %asr1
-wr %g7, 0xE5, %asr1
-wr %o0, 0x61, %asr1
-wr %o1, 0xE1, %asr1
-wr %o2, 0x40, %asr1
-wr %o3, 0x1B, %asr1
-wr %o4, 0x1B, %asr1
-wr %o5, 0xBE, %asr1
-wr %o6, 0x6E, %asr1
-wr %o7, 0x77, %asr1
-wr %l0, 0x3A, %asr1
-wr %l1, 0x65, %asr1
-wr %l2, 0xE8, %asr1
-wr %l3, 0x73, %asr1
-wr %l4, 0xC8, %asr1
-wr %l5, 0x2A, %asr1
-wr %l6, 0x5D, %asr1
-wr %l7, 0xD7, %asr1
-wr %i0, 0x49, %asr1
-wr %i1, 0x41, %asr1
-wr %i2, 0xA2, %asr1
-wr %i3, 0xCD, %asr1
-wr %i4, 0x68, %asr1
-wr %i5, 0x98, %asr1
-wr %i6, 0xF3, %asr1
-wr %i7, 0xBD, %asr1
-wr %g0, 0xED, %asr2
-wr %g1, 0x48, %asr2
-wr %g2, 0x24, %asr2
-wr %g3, 0xDF, %asr2
-wr %g4, 0x31, %asr2
-wr %g5, 0xD5, %asr2
-wr %g6, 0xBB, %asr2
-wr %g7, 0x98, %asr2
-wr %o0, 0xDD, %asr2
-wr %o1, 0x39, %asr2
-wr %o2, 0x8E, %asr2
-wr %o3, 0x64, %asr2
-wr %o4, 0x52, %asr2
-wr %o5, 0xDA, %asr2
-wr %o6, 0xA2, %asr2
-wr %o7, 0x6A, %asr2
-wr %l0, 0xAB, %asr2
-wr %l1, 0x23, %asr2
-wr %l2, 0x1E, %asr2
-wr %l3, 0xD0, %asr2
-wr %l4, 0xD1, %asr2
-wr %l5, 0x57, %asr2
-wr %l6, 0x85, %asr2
-wr %l7, 0x4D, %asr2
-wr %i0, 0x38, %asr2
-wr %i1, 0xAD, %asr2
-wr %i2, 0x18, %asr2
-wr %i3, 0xDA, %asr2
-wr %i4, 0x3D, %asr2
-wr %i5, 0x8C, %asr2
-wr %i6, 0xE4, %asr2
-wr %i7, 0x03, %asr2
-wr %g0, 0x8D, %asr3
-wr %g1, 0xEC, %asr3
-wr %g2, 0x9B, %asr3
-wr %g3, 0x8D, %asr3
-wr %g4, 0x0B, %asr3
-wr %g5, 0xBC, %asr3
-wr %g6, 0xC6, %asr3
-wr %g7, 0xEC, %asr3
-wr %o0, 0x7C, %asr3
-wr %o1, 0xD0, %asr3
-wr %o2, 0x7D, %asr3
-wr %o3, 0x26, %asr3
-wr %o4, 0xD6, %asr3
-wr %o5, 0x76, %asr3
-wr %o6, 0x33, %asr3
-wr %o7, 0x2F, %asr3
-wr %l0, 0xB3, %asr3
-wr %l1, 0x79, %asr3
-wr %l2, 0x63, %asr3
-wr %l3, 0xDD, %asr3
-wr %l4, 0x3D, %asr3
-wr %l5, 0xFE, %asr3
-wr %l6, 0x0D, %asr3
-wr %l7, 0xD1, %asr3
-wr %i0, 0x21, %asr3
-wr %i1, 0x6C, %asr3
-wr %i2, 0x90, %asr3
-wr %i3, 0xC1, %asr3
-wr %i4, 0x12, %asr3
-wr %i5, 0x97, %asr3
-wr %i6, 0xDE, %asr3
-wr %i7, 0xE4, %asr3
-wr %g0, 0x8D, %asr4
-wr %g1, 0xB9, %asr4
-wr %g2, 0x4C, %asr4
-wr %g3, 0x1C, %asr4
-wr %g4, 0x2E, %asr4
-wr %g5, 0xF2, %asr4
-wr %g6, 0xB7, %asr4
-wr %g7, 0x90, %asr4
-wr %o0, 0xFA, %asr4
-wr %o1, 0xE6, %asr4
-wr %o2, 0xBB, %asr4
-wr %o3, 0x70, %asr4
-wr %o4, 0xA9, %asr4
-wr %o5, 0x97, %asr4
-wr %o6, 0x7A, %asr4
-wr %o7, 0xEB, %asr4
-wr %l0, 0xE1, %asr4
-wr %l1, 0x80, %asr4
-wr %l2, 0x2A, %asr4
-wr %l3, 0x95, %asr4
-wr %l4, 0xD6, %asr4
-wr %l5, 0x8A, %asr4
-wr %l6, 0xA2, %asr4
-wr %l7, 0x5D, %asr4
-wr %i0, 0xDC, %asr4
-wr %i1, 0x55, %asr4
-wr %i2, 0x60, %asr4
-wr %i3, 0x5D, %asr4
-wr %i4, 0xE4, %asr4
-wr %i5, 0x74, %asr4
-wr %i6, 0x61, %asr4
-wr %i7, 0x5D, %asr4
-wr %g0, 0xEE, %asr5
-wr %g1, 0xC3, %asr5
-wr %g2, 0x47, %asr5
-wr %g3, 0x38, %asr5
-wr %g4, 0x89, %asr5
-wr %g5, 0xB8, %asr5
-wr %g6, 0x91, %asr5
-wr %g7, 0x17, %asr5
-wr %o0, 0xC3, %asr5
-wr %o1, 0x71, %asr5
-wr %o2, 0xE1, %asr5
-wr %o3, 0xFF, %asr5
-wr %o4, 0x04, %asr5
-wr %o5, 0x41, %asr5
-wr %o6, 0xA1, %asr5
-wr %o7, 0xFA, %asr5
-wr %l0, 0x0F, %asr5
-wr %l1, 0x33, %asr5
-wr %l2, 0xBE, %asr5
-wr %l3, 0x34, %asr5
-wr %l4, 0x4D, %asr5
-wr %l5, 0x91, %asr5
-wr %l6, 0x3D, %asr5
-wr %l7, 0x31, %asr5
-wr %i0, 0x4E, %asr5
-wr %i1, 0x43, %asr5
-wr %i2, 0xF4, %asr5
-wr %i3, 0x46, %asr5
-wr %i4, 0xBF, %asr5
-wr %i5, 0x6A, %asr5
-wr %i6, 0xCC, %asr5
-wr %i7, 0x4B, %asr5
-wr %g0, 0x26, %asr6
-wr %g1, 0x78, %asr6
-wr %g2, 0x4B, %asr6
-wr %g3, 0x62, %asr6
-wr %g4, 0xF8, %asr6
-wr %g5, 0x28, %asr6
-wr %g6, 0x94, %asr6
-wr %g7, 0x23, %asr6
-wr %o0, 0xB7, %asr6
-wr %o1, 0x23, %asr6
-wr %o2, 0xE8, %asr6
-wr %o3, 0x14, %asr6
-wr %o4, 0x73, %asr6
-wr %o5, 0xE9, %asr6
-wr %o6, 0xF9, %asr6
-wr %o7, 0xE8, %asr6
-wr %l0, 0x8E, %asr6
-wr %l1, 0x40, %asr6
-wr %l2, 0xD0, %asr6
-wr %l3, 0x96, %asr6
-wr %l4, 0xF8, %asr6
-wr %l5, 0x6E, %asr6
-wr %l6, 0x2C, %asr6
-wr %l7, 0x33, %asr6
-wr %i0, 0xE8, %asr6
-wr %i1, 0x96, %asr6
-wr %i2, 0xF4, %asr6
-wr %i3, 0x86, %asr6
-wr %i4, 0x07, %asr6
-wr %i5, 0x95, %asr6
-wr %i6, 0x69, %asr6
-wr %i7, 0x1D, %asr6
-wr %g0, 0x50, %asr7
-wr %g1, 0x87, %asr7
-wr %g2, 0x3B, %asr7
-wr %g3, 0x8E, %asr7
-wr %g4, 0x89, %asr7
-wr %g5, 0x10, %asr7
-wr %g6, 0x01, %asr7
-wr %g7, 0xA4, %asr7
-wr %o0, 0xB9, %asr7
-wr %o1, 0x45, %asr7
-wr %o2, 0x44, %asr7
-wr %o3, 0xFC, %asr7
-wr %o4, 0xE5, %asr7
-wr %o5, 0xC9, %asr7
-wr %o6, 0x17, %asr7
-wr %o7, 0xDF, %asr7
-wr %l0, 0x44, %asr7
-wr %l1, 0x54, %asr7
-wr %l2, 0x04, %asr7
-wr %l3, 0x74, %asr7
-wr %l4, 0xBB, %asr7
-wr %l5, 0xE7, %asr7
-wr %l6, 0xDD, %asr7
-wr %l7, 0xFD, %asr7
-wr %i0, 0x3D, %asr7
-wr %i1, 0x3E, %asr7
-wr %i2, 0xA9, %asr7
-wr %i3, 0x03, %asr7
-wr %i4, 0x31, %asr7
-wr %i5, 0x14, %asr7
-wr %i6, 0x8A, %asr7
-wr %i7, 0x89, %asr7
-wr %g0, 0x40, %asr8
-wr %g1, 0x54, %asr8
-wr %g2, 0x60, %asr8
-wr %g3, 0xEB, %asr8
-wr %g4, 0x97, %asr8
-wr %g5, 0x52, %asr8
-wr %g6, 0x50, %asr8
-wr %g7, 0x27, %asr8
-wr %o0, 0xA0, %asr8
-wr %o1, 0x2E, %asr8
-wr %o2, 0x8F, %asr8
-wr %o3, 0x7F, %asr8
-wr %o4, 0x61, %asr8
-wr %o5, 0x7F, %asr8
-wr %o6, 0x16, %asr8
-wr %o7, 0xAD, %asr8
-wr %l0, 0xB7, %asr8
-wr %l1, 0x7F, %asr8
-wr %l2, 0x9D, %asr8
-wr %l3, 0x1F, %asr8
-wr %l4, 0x05, %asr8
-wr %l5, 0x30, %asr8
-wr %l6, 0xFC, %asr8
-wr %l7, 0xDD, %asr8
-wr %i0, 0xC3, %asr8
-wr %i1, 0xDA, %asr8
-wr %i2, 0x61, %asr8
-wr %i3, 0x21, %asr8
-wr %i4, 0x47, %asr8
-wr %i5, 0x81, %asr8
-wr %i6, 0xEA, %asr8
-wr %i7, 0xBA, %asr8
-wr %g0, 0x67, %asr9
-wr %g1, 0xA1, %asr9
-wr %g2, 0x01, %asr9
-wr %g3, 0x85, %asr9
-wr %g4, 0xBF, %asr9
-wr %g5, 0x60, %asr9
-wr %g6, 0x7B, %asr9
-wr %g7, 0x98, %asr9
-wr %o0, 0xA2, %asr9
-wr %o1, 0xDA, %asr9
-wr %o2, 0x45, %asr9
-wr %o3, 0xF5, %asr9
-wr %o4, 0x8F, %asr9
-wr %o5, 0xE5, %asr9
-wr %o6, 0x90, %asr9
-wr %o7, 0xEA, %asr9
-wr %l0, 0x62, %asr9
-wr %l1, 0x50, %asr9
-wr %l2, 0x04, %asr9
-wr %l3, 0x67, %asr9
-wr %l4, 0x4A, %asr9
-wr %l5, 0x02, %asr9
-wr %l6, 0x38, %asr9
-wr %l7, 0x08, %asr9
-wr %i0, 0x5E, %asr9
-wr %i1, 0x47, %asr9
-wr %i2, 0x8A, %asr9
-wr %i3, 0x11, %asr9
-wr %i4, 0xA2, %asr9
-wr %i5, 0xE4, %asr9
-wr %i6, 0xCD, %asr9
-wr %i7, 0xA3, %asr9
-wr %g0, 0x13, %asr10
-wr %g1, 0xBA, %asr10
-wr %g2, 0x85, %asr10
-wr %g3, 0x9B, %asr10
-wr %g4, 0xF3, %asr10
-wr %g5, 0xDA, %asr10
-wr %g6, 0x5F, %asr10
-wr %g7, 0xDA, %asr10
-wr %o0, 0x2D, %asr10
-wr %o1, 0x9D, %asr10
-wr %o2, 0x69, %asr10
-wr %o3, 0x3A, %asr10
-wr %o4, 0x38, %asr10
-wr %o5, 0xC5, %asr10
-wr %o6, 0x8A, %asr10
-wr %o7, 0xF7, %asr10
-wr %l0, 0x49, %asr10
-wr %l1, 0xED, %asr10
-wr %l2, 0x9B, %asr10
-wr %l3, 0xEE, %asr10
-wr %l4, 0x18, %asr10
-wr %l5, 0x5E, %asr10
-wr %l6, 0x0B, %asr10
-wr %l7, 0xA6, %asr10
-wr %i0, 0x6F, %asr10
-wr %i1, 0x1C, %asr10
-wr %i2, 0x9B, %asr10
-wr %i3, 0xCE, %asr10
-wr %i4, 0x22, %asr10
-wr %i5, 0x19, %asr10
-wr %i6, 0x51, %asr10
-wr %i7, 0x71, %asr10
-wr %g0, 0xA8, %asr11
-wr %g1, 0x27, %asr11
-wr %g2, 0x7B, %asr11
-wr %g3, 0xBF, %asr11
-wr %g4, 0xE1, %asr11
-wr %g5, 0x50, %asr11
-wr %g6, 0xE3, %asr11
-wr %g7, 0xF2, %asr11
-wr %o0, 0x89, %asr11
-wr %o1, 0xDC, %asr11
-wr %o2, 0x80, %asr11
-wr %o3, 0xEF, %asr11
-wr %o4, 0x7D, %asr11
-wr %o5, 0x88, %asr11
-wr %o6, 0x04, %asr11
-wr %o7, 0x18, %asr11
-wr %l0, 0xF3, %asr11
-wr %l1, 0x34, %asr11
-wr %l2, 0x61, %asr11
-wr %l3, 0x38, %asr11
-wr %l4, 0xD9, %asr11
-wr %l5, 0xED, %asr11
-wr %l6, 0xE5, %asr11
-wr %l7, 0xD8, %asr11
-wr %i0, 0x70, %asr11
-wr %i1, 0x0B, %asr11
-wr %i2, 0x7D, %asr11
-wr %i3, 0x15, %asr11
-wr %i4, 0xFC, %asr11
-wr %i5, 0xCB, %asr11
-wr %i6, 0x33, %asr11
-wr %i7, 0xFD, %asr11
+wr %o3, 0xB8, %asr7
+wr %o4, 0x9E, %asr7
+wr %o5, 0x5C, %asr7
+wr %o6, 0xB2, %asr7
+wr %o7, 0xBB, %asr7
+wr %l0, 0xAD, %asr7
+wr %l1, 0x2F, %asr7
+wr %l2, 0x71, %asr7
+wr %l3, 0x7D, %asr7
+wr %l4, 0x37, %asr7
+wr %l5, 0x10, %asr7
+wr %l6, 0x3C, %asr7
+wr %l7, 0xC2, %asr7
+wr %i0, 0xA9, %asr7
+wr %i1, 0x02, %asr7
+wr %i2, 0x75, %asr7
+wr %i3, 0x94, %asr7
+wr %i4, 0x17, %asr7
+wr %i5, 0x36, %asr7
+wr %i6, 0xD2, %asr7
+wr %i7, 0xA8, %asr7
+wr %g0, 0x8E, %asr8
+wr %g1, 0xFF, %asr8
+wr %g2, 0xA6, %asr8
+wr %g3, 0x62, %asr8
+wr %g4, 0xC4, %asr8
+wr %g5, 0xAF, %asr8
+wr %g6, 0xB4, %asr8
+wr %g7, 0xEF, %asr8
+wr %o0, 0x4F, %asr8
+wr %o1, 0x9B, %asr8
+wr %o2, 0xCD, %asr8
+wr %o3, 0xE4, %asr8
+wr %o4, 0x17, %asr8
+wr %o5, 0x42, %asr8
+wr %o6, 0xDD, %asr8
+wr %o7, 0xFF, %asr8
+wr %l0, 0x07, %asr8
+wr %l1, 0xB4, %asr8
+wr %l2, 0xEB, %asr8
+wr %l3, 0x48, %asr8
+wr %l4, 0x78, %asr8
+wr %l5, 0xCC, %asr8
+wr %l6, 0x70, %asr8
+wr %l7, 0x48, %asr8
+wr %i0, 0xD4, %asr8
+wr %i1, 0x4C, %asr8
+wr %i2, 0x38, %asr8
+wr %i3, 0x62, %asr8
+wr %i4, 0x00, %asr8
+wr %i5, 0x75, %asr8
+wr %i6, 0x6D, %asr8
+wr %i7, 0xED, %asr8
+wr %g0, 0xC0, %asr9
+wr %g1, 0x08, %asr9
+wr %g2, 0x2C, %asr9
+wr %g3, 0xF9, %asr9
+wr %g4, 0x2A, %asr9
+wr %g5, 0x3C, %asr9
+wr %g6, 0x9D, %asr9
+wr %g7, 0xE0, %asr9
+wr %o0, 0xC5, %asr9
+wr %o1, 0xA4, %asr9
+wr %o2, 0x97, %asr9
+wr %o3, 0x50, %asr9
+wr %o4, 0x4E, %asr9
+wr %o5, 0xA0, %asr9
+wr %o6, 0xE0, %asr9
+wr %o7, 0x33, %asr9
+wr %l0, 0x05, %asr9
+wr %l1, 0x30, %asr9
+wr %l2, 0x74, %asr9
+wr %l3, 0xFB, %asr9
+wr %l4, 0x8A, %asr9
+wr %l5, 0xE6, %asr9
+wr %l6, 0x8C, %asr9
+wr %l7, 0xBC, %asr9
+wr %i0, 0xC3, %asr9
+wr %i1, 0x1C, %asr9
+wr %i2, 0x31, %asr9
+wr %i3, 0xAA, %asr9
+wr %i4, 0x12, %asr9
+wr %i5, 0xE2, %asr9
+wr %i6, 0x8B, %asr9
+wr %i7, 0xC6, %asr9
+wr %g0, 0x37, %asr10
+wr %g1, 0x89, %asr10
+wr %g2, 0xBE, %asr10
+wr %g3, 0xA2, %asr10
+wr %g4, 0xC0, %asr10
+wr %g5, 0xEB, %asr10
+wr %g6, 0xEB, %asr10
+wr %g7, 0x42, %asr10
+wr %o0, 0x7C, %asr10
+wr %o1, 0x8A, %asr10
+wr %o2, 0xA6, %asr10
+wr %o3, 0xC5, %asr10
+wr %o4, 0x2E, %asr10
+wr %o5, 0xFC, %asr10
+wr %o6, 0x40, %asr10
+wr %o7, 0x82, %asr10
+wr %l0, 0x4A, %asr10
+wr %l1, 0x5E, %asr10
+wr %l2, 0xDB, %asr10
+wr %l3, 0xA7, %asr10
+wr %l4, 0xC2, %asr10
+wr %l5, 0x6B, %asr10
+wr %l6, 0xEF, %asr10
+wr %l7, 0x3C, %asr10
+wr %i0, 0xF4, %asr10
+wr %i1, 0x67, %asr10
+wr %i2, 0x6A, %asr10
+wr %i3, 0x82, %asr10
+wr %i4, 0x25, %asr10
+wr %i5, 0x83, %asr10
+wr %i6, 0x47, %asr10
+wr %i7, 0xB8, %asr10
+wr %g0, 0xBB, %asr11
+wr %g1, 0x08, %asr11
+wr %g2, 0x97, %asr11
+wr %g3, 0xCF, %asr11
+wr %g4, 0xD0, %asr11
+wr %g5, 0x31, %asr11
+wr %g6, 0x96, %asr11
+wr %g7, 0xF3, %asr11
+wr %o0, 0x13, %asr11
+wr %o1, 0x51, %asr11
+wr %o2, 0xE0, %asr11
+wr %o3, 0x3C, %asr11
+wr %o4, 0xF8, %asr11
+wr %o5, 0x13, %asr11
+wr %o6, 0xDB, %asr11
+wr %o7, 0x56, %asr11
+wr %l0, 0x5A, %asr11
+wr %l1, 0x13, %asr11
+wr %l2, 0x93, %asr11
+wr %l3, 0x9C, %asr11
+wr %l4, 0xCE, %asr11
+wr %l5, 0x9B, %asr11
+wr %l6, 0x0E, %asr11
+wr %l7, 0xF4, %asr11
+wr %i0, 0x40, %asr11
+wr %i1, 0xCB, %asr11
+wr %i2, 0xA5, %asr11
+wr %i3, 0xCD, %asr11
+wr %i4, 0xA0, %asr11
+wr %i5, 0xE5, %asr11
+wr %i6, 0x99, %asr11
+wr %i7, 0x31, %asr11
 wr %g0, 0x72, %asr12
-wr %g1, 0x5D, %asr12
-wr %g2, 0xB0, %asr12
-wr %g3, 0x0D, %asr12
-wr %g4, 0x6D, %asr12
-wr %g5, 0x31, %asr12
-wr %g6, 0x59, %asr12
-wr %g7, 0xD1, %asr12
-wr %o0, 0x0C, %asr12
-wr %o1, 0xC5, %asr12
-wr %o2, 0x8E, %asr12
-wr %o3, 0x9D, %asr12
-wr %o4, 0xE0, %asr12
-wr %o5, 0x20, %asr12
-wr %o6, 0xA8, %asr12
-wr %o7, 0x9B, %asr12
-wr %l0, 0x30, %asr12
-wr %l1, 0x41, %asr12
-wr %l2, 0xD1, %asr12
-wr %l3, 0xD2, %asr12
-wr %l4, 0x22, %asr12
-wr %l5, 0x8D, %asr12
-wr %l6, 0xDC, %asr12
-wr %l7, 0x29, %asr12
-wr %i0, 0xA2, %asr12
-wr %i1, 0x6C, %asr12
-wr %i2, 0xA5, %asr12
-wr %i3, 0x1A, %asr12
-wr %i4, 0xAA, %asr12
-wr %i5, 0x48, %asr12
-wr %i6, 0x0F, %asr12
-wr %i7, 0x07, %asr12
-wr %g0, 0xFF, %asr13
-wr %g1, 0x1B, %asr13
-wr %g2, 0x86, %asr13
-wr %g3, 0xA4, %asr13
-wr %g4, 0x74, %asr13
-wr %g5, 0x9D, %asr13
-wr %g6, 0x08, %asr13
-wr %g7, 0xE7, %asr13
-wr %o0, 0xF5, %asr13
-wr %o1, 0x08, %asr13
-wr %o2, 0x92, %asr13
-wr %o3, 0xF3, %asr13
-wr %o4, 0x85, %asr13
-wr %o5, 0xAE, %asr13
-wr %o6, 0xF9, %asr13
-wr %o7, 0x86, %asr13
-wr %l0, 0x4A, %asr13
-wr %l1, 0xE5, %asr13
-wr %l2, 0x71, %asr13
-wr %l3, 0x7A, %asr13
-wr %l4, 0x0D, %asr13
-wr %l5, 0xA6, %asr13
-wr %l6, 0x35, %asr13
-wr %l7, 0x18, %asr13
-wr %i0, 0xDD, %asr13
-wr %i1, 0xE2, %asr13
-wr %i2, 0x89, %asr13
-wr %i3, 0xB2, %asr13
-wr %i4, 0x80, %asr13
-wr %i5, 0xD7, %asr13
-wr %i6, 0x41, %asr13
-wr %i7, 0x65, %asr13
-wr %g0, 0x31, %asr14
-wr %g1, 0x0C, %asr14
-wr %g2, 0xA3, %asr14
-wr %g3, 0xD1, %asr14
-wr %g4, 0x20, %asr14
-wr %g5, 0x2E, %asr14
-wr %g6, 0xB7, %asr14
-wr %g7, 0xFA, %asr14
-wr %o0, 0x0E, %asr14
-wr %o1, 0x5A, %asr14
-wr %o2, 0x25, %asr14
-wr %o3, 0x0B, %asr14
-wr %o4, 0xC6, %asr14
-wr %o5, 0x44, %asr14
-wr %o6, 0xF4, %asr14
-wr %o7, 0x0B, %asr14
-wr %l0, 0xD0, %asr14
-wr %l1, 0x4E, %asr14
-wr %l2, 0x84, %asr14
-wr %l3, 0x1A, %asr14
-wr %l4, 0xC0, %asr14
-wr %l5, 0x4C, %asr14
+wr %g1, 0x48, %asr12
+wr %g2, 0x25, %asr12
+wr %g3, 0x17, %asr12
+wr %g4, 0xFD, %asr12
+wr %g5, 0x9B, %asr12
+wr %g6, 0x20, %asr12
+wr %g7, 0x10, %asr12
+wr %o0, 0x76, %asr12
+wr %o1, 0x15, %asr12
+wr %o2, 0xD9, %asr12
+wr %o3, 0xC8, %asr12
+wr %o4, 0x9E, %asr12
+wr %o5, 0xE3, %asr12
+wr %o6, 0xFB, %asr12
+wr %o7, 0x42, %asr12
+wr %l0, 0xD1, %asr12
+wr %l1, 0x14, %asr12
+wr %l2, 0xEA, %asr12
+wr %l3, 0x6A, %asr12
+wr %l4, 0xBC, %asr12
+wr %l5, 0x30, %asr12
+wr %l6, 0x51, %asr12
+wr %l7, 0xA6, %asr12
+wr %i0, 0xD3, %asr12
+wr %i1, 0xCB, %asr12
+wr %i2, 0x44, %asr12
+wr %i3, 0x49, %asr12
+wr %i4, 0x84, %asr12
+wr %i5, 0x7E, %asr12
+wr %i6, 0x47, %asr12
+wr %i7, 0xD5, %asr12
+wr %g0, 0xB5, %asr13
+wr %g1, 0x73, %asr13
+wr %g2, 0x60, %asr13
+wr %g3, 0x2C, %asr13
+wr %g4, 0x16, %asr13
+wr %g5, 0x53, %asr13
+wr %g6, 0x22, %asr13
+wr %g7, 0x0F, %asr13
+wr %o0, 0xB9, %asr13
+wr %o1, 0x5F, %asr13
+wr %o2, 0x07, %asr13
+wr %o3, 0xBB, %asr13
+wr %o4, 0xFB, %asr13
+wr %o5, 0x3D, %asr13
+wr %o6, 0x10, %asr13
+wr %o7, 0x6E, %asr13
+wr %l0, 0x2A, %asr13
+wr %l1, 0x0A, %asr13
+wr %l2, 0xD1, %asr13
+wr %l3, 0x2E, %asr13
+wr %l4, 0x2A, %asr13
+wr %l5, 0xD0, %asr13
+wr %l6, 0x61, %asr13
+wr %l7, 0xFB, %asr13
+wr %i0, 0x7A, %asr13
+wr %i1, 0x00, %asr13
+wr %i2, 0x00, %asr13
+wr %i3, 0x99, %asr13
+wr %i4, 0xB8, %asr13
+wr %i5, 0x47, %asr13
+wr %i6, 0xED, %asr13
+wr %i7, 0x0B, %asr13
+wr %g0, 0x2D, %asr14
+wr %g1, 0xB2, %asr14
+wr %g2, 0x04, %asr14
+wr %g3, 0x86, %asr14
+wr %g4, 0x51, %asr14
+wr %g5, 0x16, %asr14
+wr %g6, 0x90, %asr14
+wr %g7, 0x33, %asr14
+wr %o0, 0xF6, %asr14
+wr %o1, 0x84, %asr14
+wr %o2, 0xAF, %asr14
+wr %o3, 0x14, %asr14
+wr %o4, 0x32, %asr14
+wr %o5, 0xAC, %asr14
+wr %o6, 0x3F, %asr14
+wr %o7, 0x3D, %asr14
+wr %l0, 0x59, %asr14
+wr %l1, 0xD5, %asr14
+wr %l2, 0xB1, %asr14
+wr %l3, 0xD4, %asr14
+wr %l4, 0x39, %asr14
+wr %l5, 0xBC, %asr14
 wr %l6, 0xDB, %asr14
-wr %l7, 0x7F, %asr14
-wr %i0, 0x83, %asr14
-wr %i1, 0xC3, %asr14
-wr %i2, 0x31, %asr14
-wr %i3, 0x02, %asr14
-wr %i4, 0xB3, %asr14
-wr %i5, 0xCF, %asr14
-wr %i6, 0x82, %asr14
-wr %i7, 0xC2, %asr14
-wr %g0, 0x67, %asr15
-wr %g1, 0x56, %asr15
-wr %g2, 0xA6, %asr15
-wr %g3, 0x03, %asr15
-wr %g4, 0xE6, %asr15
-wr %g5, 0x76, %asr15
-wr %g6, 0xBF, %asr15
-wr %g7, 0xD7, %asr15
-wr %o0, 0x83, %asr15
-wr %o1, 0xFA, %asr15
-wr %o2, 0xF6, %asr15
-wr %o3, 0x02, %asr15
-wr %o4, 0x91, %asr15
-wr %o5, 0x4B, %asr15
-wr %o6, 0x3C, %asr15
-wr %o7, 0x14, %asr15
-wr %l0, 0x16, %asr15
-wr %l1, 0xDB, %asr15
-wr %l2, 0xC3, %asr15
-wr %l3, 0xD6, %asr15
-wr %l4, 0x54, %asr15
-wr %l5, 0x0B, %asr15
-wr %l6, 0x27, %asr15
-wr %l7, 0x27, %asr15
-wr %i0, 0x51, %asr15
-wr %i1, 0x76, %asr15
-wr %i2, 0x88, %asr15
-wr %i3, 0x5F, %asr15
-wr %i4, 0x3A, %asr15
-wr %i5, 0xDB, %asr15
-wr %i6, 0x56, %asr15
-wr %i7, 0x14, %asr15
-wr %g0, 0x5C, %asr16
-wr %g1, 0xBF, %asr16
-wr %g2, 0xBC, %asr16
-wr %g3, 0x1A, %asr16
-wr %g4, 0xF8, %asr16
-wr %g5, 0x84, %asr16
-wr %g6, 0x09, %asr16
-wr %g7, 0x33, %asr16
-wr %o0, 0x0B, %asr16
-wr %o1, 0x73, %asr16
-wr %o2, 0xAF, %asr16
-wr %o3, 0xF8, %asr16
-wr %o4, 0xF7, %asr16
-wr %o5, 0x12, %asr16
-wr %o6, 0xE6, %asr16
-wr %o7, 0x6B, %asr16
-wr %l0, 0x41, %asr16
-wr %l1, 0x60, %asr16
-wr %l2, 0xBF, %asr16
-wr %l3, 0xB1, %asr16
-wr %l4, 0xF9, %asr16
-wr %l5, 0x6E, %asr16
-wr %l6, 0x36, %asr16
-wr %l7, 0x55, %asr16
-wr %i0, 0xB5, %asr16
-wr %i1, 0x9F, %asr16
-wr %i2, 0xD3, %asr16
-wr %i3, 0x07, %asr16
-wr %i4, 0xE6, %asr16
-wr %i5, 0x0D, %asr16
-wr %i6, 0xA9, %asr16
-wr %i7, 0x0B, %asr16
-wr %g0, 0x7C, %asr17
-wr %g1, 0xEE, %asr17
-wr %g2, 0xD2, %asr17
-wr %g3, 0xB5, %asr17
-wr %g4, 0xB7, %asr17
-wr %g5, 0xDC, %asr17
-wr %g6, 0xE3, %asr17
-wr %g7, 0x53, %asr17
-wr %o0, 0xA7, %asr17
-wr %o1, 0xFA, %asr17
-wr %o2, 0x13, %asr17
-wr %o3, 0xE0, %asr17
-wr %o4, 0x70, %asr17
-wr %o5, 0x86, %asr17
-wr %o6, 0xB2, %asr17
-wr %o7, 0x44, %asr17
-wr %l0, 0x06, %asr17
-wr %l1, 0xB8, %asr17
-wr %l2, 0x26, %asr17
-wr %l3, 0x84, %asr17
-wr %l4, 0xDE, %asr17
-wr %l5, 0x2E, %asr17
-wr %l6, 0x30, %asr17
-wr %l7, 0x08, %asr17
-wr %i0, 0x6A, %asr17
-wr %i1, 0xFA, %asr17
-wr %i2, 0x0C, %asr17
-wr %i3, 0x8F, %asr17
-wr %i4, 0xA9, %asr17
-wr %i5, 0xC4, %asr17
-wr %i6, 0x74, %asr17
-wr %i7, 0x12, %asr17
-wr %g0, 0xD2, %asr18
-wr %g1, 0xAC, %asr18
-wr %g2, 0xAD, %asr18
-wr %g3, 0x21, %asr18
-wr %g4, 0x15, %asr18
-wr %g5, 0x24, %asr18
-wr %g6, 0x79, %asr18
-wr %g7, 0x7C, %asr18
-wr %o0, 0x3D, %asr18
-wr %o1, 0xDB, %asr18
-wr %o2, 0x17, %asr18
-wr %o3, 0x37, %asr18
-wr %o4, 0x76, %asr18
-wr %o5, 0xE2, %asr18
-wr %o6, 0x1E, %asr18
-wr %o7, 0xE9, %asr18
-wr %l0, 0xE3, %asr18
-wr %l1, 0x09, %asr18
-wr %l2, 0xED, %asr18
-wr %l3, 0x4A, %asr18
-wr %l4, 0x3D, %asr18
-wr %l5, 0x8B, %asr18
-wr %l6, 0xCC, %asr18
-wr %l7, 0x63, %asr18
-wr %i0, 0x27, %asr18
-wr %i1, 0xCC, %asr18
-wr %i2, 0x84, %asr18
-wr %i3, 0x91, %asr18
-wr %i4, 0x73, %asr18
-wr %i5, 0xDF, %asr18
-wr %i6, 0x65, %asr18
-wr %i7, 0xC5, %asr18
-wr %g0, 0xFE, %asr19
-wr %g1, 0x14, %asr19
-wr %g2, 0x34, %asr19
-wr %g3, 0x69, %asr19
-wr %g4, 0x64, %asr19
-wr %g5, 0x84, %asr19
-wr %g6, 0x8C, %asr19
-wr %g7, 0x9C, %asr19
-wr %o0, 0x09, %asr19
-wr %o1, 0xCE, %asr19
-wr %o2, 0x18, %asr19
-wr %o3, 0x4C, %asr19
-wr %o4, 0x25, %asr19
-wr %o5, 0xB1, %asr19
-wr %o6, 0x8F, %asr19
-wr %o7, 0xE8, %asr19
-wr %l0, 0xC3, %asr19
-wr %l1, 0x28, %asr19
-wr %l2, 0xC3, %asr19
-wr %l3, 0xCA, %asr19
-wr %l4, 0xFD, %asr19
-wr %l5, 0x28, %asr19
-wr %l6, 0x6A, %asr19
-wr %l7, 0x5D, %asr19
-wr %i0, 0x44, %asr19
-wr %i1, 0x75, %asr19
-wr %i2, 0xCB, %asr19
-wr %i3, 0xB5, %asr19
-wr %i4, 0x53, %asr19
-wr %i5, 0xEF, %asr19
-wr %i6, 0x58, %asr19
-wr %i7, 0x90, %asr19
-wr %g0, 0xFD, %asr20
-wr %g1, 0x4A, %asr20
-wr %g2, 0x1E, %asr20
-wr %g3, 0x1C, %asr20
-wr %g4, 0x28, %asr20
-wr %g5, 0x83, %asr20
-wr %g6, 0x26, %asr20
-wr %g7, 0x90, %asr20
-wr %o0, 0x25, %asr20
-wr %o1, 0xE9, %asr20
-wr %o2, 0x29, %asr20
-wr %o3, 0xF3, %asr20
-wr %o4, 0x62, %asr20
-wr %o5, 0x31, %asr20
-wr %o6, 0x40, %asr20
-wr %o7, 0x6F, %asr20
-wr %l0, 0x5A, %asr20
-wr %l1, 0x43, %asr20
-wr %l2, 0x95, %asr20
-wr %l3, 0x4B, %asr20
-wr %l4, 0x10, %asr20
-wr %l5, 0x4C, %asr20
-wr %l6, 0x02, %asr20
-wr %l7, 0x08, %asr20
-wr %i0, 0x29, %asr20
-wr %i1, 0xE4, %asr20
-wr %i2, 0x42, %asr20
-wr %i3, 0x75, %asr20
-wr %i4, 0x1B, %asr20
-wr %i5, 0x7B, %asr20
-wr %i6, 0x86, %asr20
-wr %i7, 0x5F, %asr20
-wr %g0, 0xD6, %asr21
-wr %g1, 0xE6, %asr21
-wr %g2, 0xEE, %asr21
-wr %g3, 0xDB, %asr21
-wr %g4, 0x72, %asr21
-wr %g5, 0xF3, %asr21
-wr %g6, 0xFC, %asr21
-wr %g7, 0x75, %asr21
-wr %o0, 0xC2, %asr21
-wr %o1, 0x1B, %asr21
-wr %o2, 0x37, %asr21
-wr %o3, 0x9C, %asr21
-wr %o4, 0x82, %asr21
-wr %o5, 0xEF, %asr21
-wr %o6, 0x85, %asr21
-wr %o7, 0x57, %asr21
-wr %l0, 0x03, %asr21
-wr %l1, 0x0B, %asr21
-wr %l2, 0x27, %asr21
-wr %l3, 0xA6, %asr21
-wr %l4, 0x29, %asr21
-wr %l5, 0xF0, %asr21
-wr %l6, 0xB0, %asr21
-wr %l7, 0x86, %asr21
+wr %l7, 0xC8, %asr14
+wr %i0, 0xFB, %asr14
+wr %i1, 0x8E, %asr14
+wr %i2, 0x52, %asr14
+wr %i3, 0x6E, %asr14
+wr %i4, 0x3E, %asr14
+wr %i5, 0x32, %asr14
+wr %i6, 0xF6, %asr14
+wr %i7, 0x56, %asr14
+wr %g0, 0xC8, %asr15
+wr %g1, 0x36, %asr15
+wr %g2, 0x9A, %asr15
+wr %g3, 0xF3, %asr15
+wr %g4, 0x8D, %asr15
+wr %g5, 0xE8, %asr15
+wr %g6, 0xA9, %asr15
+wr %g7, 0xE8, %asr15
+wr %o0, 0xC0, %asr15
+wr %o1, 0x35, %asr15
+wr %o2, 0x85, %asr15
+wr %o3, 0xA0, %asr15
+wr %o4, 0xFE, %asr15
+wr %o5, 0x72, %asr15
+wr %o6, 0x0B, %asr15
+wr %o7, 0xB4, %asr15
+wr %l0, 0x8F, %asr15
+wr %l1, 0x61, %asr15
+wr %l2, 0x80, %asr15
+wr %l3, 0xE5, %asr15
+wr %l4, 0x7A, %asr15
+wr %l5, 0x52, %asr15
+wr %l6, 0xCA, %asr15
+wr %l7, 0x76, %asr15
+wr %i0, 0x81, %asr15
+wr %i1, 0x78, %asr15
+wr %i2, 0xA4, %asr15
+wr %i3, 0x37, %asr15
+wr %i4, 0x01, %asr15
+wr %i5, 0x48, %asr15
+wr %i6, 0x7D, %asr15
+wr %i7, 0x35, %asr15
+wr %g0, 0x12, %asr16
+wr %g1, 0x3E, %asr16
+wr %g2, 0xF5, %asr16
+wr %g3, 0x18, %asr16
+wr %g4, 0xDF, %asr16
+wr %g5, 0xB4, %asr16
+wr %g6, 0xE7, %asr16
+wr %g7, 0x81, %asr16
+wr %o0, 0xEA, %asr16
+wr %o1, 0xA9, %asr16
+wr %o2, 0x87, %asr16
+wr %o3, 0x17, %asr16
+wr %o4, 0x50, %asr16
+wr %o5, 0xB8, %asr16
+wr %o6, 0x6D, %asr16
+wr %o7, 0xC6, %asr16
+wr %l0, 0xBA, %asr16
+wr %l1, 0x38, %asr16
+wr %l2, 0xF5, %asr16
+wr %l3, 0x6F, %asr16
+wr %l4, 0x6C, %asr16
+wr %l5, 0x48, %asr16
+wr %l6, 0x85, %asr16
+wr %l7, 0x8F, %asr16
+wr %i0, 0x08, %asr16
+wr %i1, 0x5F, %asr16
+wr %i2, 0x0F, %asr16
+wr %i3, 0xFF, %asr16
+wr %i4, 0x52, %asr16
+wr %i5, 0xD8, %asr16
+wr %i6, 0xAC, %asr16
+wr %i7, 0x2B, %asr16
+wr %g0, 0x01, %asr17
+wr %g1, 0x37, %asr17
+wr %g2, 0x13, %asr17
+wr %g3, 0x17, %asr17
+wr %g4, 0x00, %asr17
+wr %g5, 0xED, %asr17
+wr %g6, 0x9D, %asr17
+wr %g7, 0xE7, %asr17
+wr %o0, 0x44, %asr17
+wr %o1, 0x8F, %asr17
+wr %o2, 0xB0, %asr17
+wr %o3, 0xCA, %asr17
+wr %o4, 0x16, %asr17
+wr %o5, 0xEB, %asr17
+wr %o6, 0x66, %asr17
+wr %o7, 0x01, %asr17
+wr %l0, 0x89, %asr17
+wr %l1, 0x24, %asr17
+wr %l2, 0x12, %asr17
+wr %l3, 0xDF, %asr17
+wr %l4, 0x35, %asr17
+wr %l5, 0x3E, %asr17
+wr %l6, 0x44, %asr17
+wr %l7, 0xFA, %asr17
+wr %i0, 0x42, %asr17
+wr %i1, 0x02, %asr17
+wr %i2, 0x7E, %asr17
+wr %i3, 0x46, %asr17
+wr %i4, 0x18, %asr17
+wr %i5, 0xF8, %asr17
+wr %i6, 0xB5, %asr17
+wr %i7, 0x34, %asr17
+wr %g0, 0x48, %asr18
+wr %g1, 0xF7, %asr18
+wr %g2, 0xEE, %asr18
+wr %g3, 0x8F, %asr18
+wr %g4, 0xE2, %asr18
+wr %g5, 0x0E, %asr18
+wr %g6, 0x32, %asr18
+wr %g7, 0x28, %asr18
+wr %o0, 0x90, %asr18
+wr %o1, 0x4A, %asr18
+wr %o2, 0xEC, %asr18
+wr %o3, 0xA0, %asr18
+wr %o4, 0x27, %asr18
+wr %o5, 0x27, %asr18
+wr %o6, 0xF7, %asr18
+wr %o7, 0x2A, %asr18
+wr %l0, 0x8A, %asr18
+wr %l1, 0x3F, %asr18
+wr %l2, 0xB0, %asr18
+wr %l3, 0xE5, %asr18
+wr %l4, 0xC3, %asr18
+wr %l5, 0xB5, %asr18
+wr %l6, 0x40, %asr18
+wr %l7, 0x6F, %asr18
+wr %i0, 0xF9, %asr18
+wr %i1, 0x28, %asr18
+wr %i2, 0xBF, %asr18
+wr %i3, 0x1A, %asr18
+wr %i4, 0x86, %asr18
+wr %i5, 0x09, %asr18
+wr %i6, 0xC2, %asr18
+wr %i7, 0x3D, %asr18
+wr %g0, 0xE6, %asr19
+wr %g1, 0xC3, %asr19
+wr %g2, 0xEC, %asr19
+wr %g3, 0xE6, %asr19
+wr %g4, 0xE7, %asr19
+wr %g5, 0x8C, %asr19
+wr %g6, 0x73, %asr19
+wr %g7, 0x25, %asr19
+wr %o0, 0x06, %asr19
+wr %o1, 0xCA, %asr19
+wr %o2, 0xBA, %asr19
+wr %o3, 0x8A, %asr19
+wr %o4, 0x96, %asr19
+wr %o5, 0xCA, %asr19
+wr %o6, 0xA5, %asr19
+wr %o7, 0xAD, %asr19
+wr %l0, 0xAD, %asr19
+wr %l1, 0x5F, %asr19
+wr %l2, 0xAE, %asr19
+wr %l3, 0xB1, %asr19
+wr %l4, 0x91, %asr19
+wr %l5, 0x98, %asr19
+wr %l6, 0xC7, %asr19
+wr %l7, 0x00, %asr19
+wr %i0, 0xF7, %asr19
+wr %i1, 0xF4, %asr19
+wr %i2, 0x01, %asr19
+wr %i3, 0xF1, %asr19
+wr %i4, 0xCA, %asr19
+wr %i5, 0x7D, %asr19
+wr %i6, 0x79, %asr19
+wr %i7, 0x1A, %asr19
+wr %g0, 0x4C, %asr20
+wr %g1, 0x19, %asr20
+wr %g2, 0x0B, %asr20
+wr %g3, 0x65, %asr20
+wr %g4, 0xD6, %asr20
+wr %g5, 0xA6, %asr20
+wr %g6, 0xBE, %asr20
+wr %g7, 0xD6, %asr20
+wr %o0, 0x93, %asr20
+wr %o1, 0x85, %asr20
+wr %o2, 0xA1, %asr20
+wr %o3, 0xA1, %asr20
+wr %o4, 0x41, %asr20
+wr %o5, 0x86, %asr20
+wr %o6, 0x35, %asr20
+wr %o7, 0x04, %asr20
+wr %l0, 0xE2, %asr20
+wr %l1, 0xEC, %asr20
+wr %l2, 0x1C, %asr20
+wr %l3, 0xAD, %asr20
+wr %l4, 0xF7, %asr20
+wr %l5, 0x1C, %asr20
+wr %l6, 0xF9, %asr20
+wr %l7, 0xC8, %asr20
+wr %i0, 0x03, %asr20
+wr %i1, 0x55, %asr20
+wr %i2, 0x22, %asr20
+wr %i3, 0x4E, %asr20
+wr %i4, 0x79, %asr20
+wr %i5, 0xA8, %asr20
+wr %i6, 0xA6, %asr20
+wr %i7, 0xD3, %asr20
+wr %g0, 0x3B, %asr21
+wr %g1, 0xCE, %asr21
+wr %g2, 0x29, %asr21
+wr %g3, 0xBA, %asr21
+wr %g4, 0x68, %asr21
+wr %g5, 0x78, %asr21
+wr %g6, 0xC7, %asr21
+wr %g7, 0x2E, %asr21
+wr %o0, 0xB2, %asr21
+wr %o1, 0x46, %asr21
+wr %o2, 0x94, %asr21
+wr %o3, 0x20, %asr21
+wr %o4, 0x8A, %asr21
+wr %o5, 0xEC, %asr21
+wr %o6, 0x73, %asr21
+wr %o7, 0x45, %asr21
+wr %l0, 0x4A, %asr21
+wr %l1, 0xC0, %asr21
+wr %l2, 0x4A, %asr21
+wr %l3, 0x89, %asr21
+wr %l4, 0x48, %asr21
+wr %l5, 0x58, %asr21
+wr %l6, 0x47, %asr21
+wr %l7, 0x84, %asr21
 wr %i0, 0xBD, %asr21
-wr %i1, 0x3A, %asr21
-wr %i2, 0xBB, %asr21
-wr %i3, 0xEF, %asr21
-wr %i4, 0xFB, %asr21
-wr %i5, 0x2B, %asr21
-wr %i6, 0xC1, %asr21
+wr %i1, 0x32, %asr21
+wr %i2, 0x9C, %asr21
+wr %i3, 0x3F, %asr21
+wr %i4, 0x29, %asr21
+wr %i5, 0xC8, %asr21
+wr %i6, 0x7D, %asr21
 wr %i7, 0xE7, %asr21
-wr %g0, 0x76, %asr22
-wr %g1, 0x3D, %asr22
-wr %g2, 0x28, %asr22
-wr %g3, 0xBD, %asr22
-wr %g4, 0x8A, %asr22
-wr %g5, 0x44, %asr22
-wr %g6, 0xF7, %asr22
-wr %g7, 0x31, %asr22
-wr %o0, 0x7E, %asr22
-wr %o1, 0xA2, %asr22
-wr %o2, 0xF3, %asr22
-wr %o3, 0xF4, %asr22
-wr %o4, 0xA9, %asr22
-wr %o5, 0x3D, %asr22
-wr %o6, 0xDD, %asr22
-wr %o7, 0xF4, %asr22
-wr %l0, 0x1F, %asr22
-wr %l1, 0x80, %asr22
-wr %l2, 0x6F, %asr22
-wr %l3, 0x10, %asr22
-wr %l4, 0x5E, %asr22
-wr %l5, 0x3C, %asr22
-wr %l6, 0x00, %asr22
-wr %l7, 0xBF, %asr22
-wr %i0, 0x5F, %asr22
-wr %i1, 0x6C, %asr22
-wr %i2, 0x99, %asr22
-wr %i3, 0xDE, %asr22
-wr %i4, 0x5B, %asr22
-wr %i5, 0x8E, %asr22
-wr %i6, 0x6B, %asr22
-wr %i7, 0x00, %asr22
-wr %g0, 0x09, %asr23
-wr %g1, 0x42, %asr23
-wr %g2, 0x34, %asr23
-wr %g3, 0x68, %asr23
-wr %g4, 0x90, %asr23
-wr %g5, 0xAF, %asr23
-wr %g6, 0x2E, %asr23
-wr %g7, 0x55, %asr23
-wr %o0, 0x92, %asr23
-wr %o1, 0x61, %asr23
-wr %o2, 0xAC, %asr23
-wr %o3, 0xE9, %asr23
-wr %o4, 0x1D, %asr23
-wr %o5, 0x6D, %asr23
-wr %o6, 0x71, %asr23
-wr %o7, 0xEF, %asr23
-wr %l0, 0x94, %asr23
-wr %l1, 0x26, %asr23
-wr %l2, 0x24, %asr23
-wr %l3, 0x75, %asr23
-wr %l4, 0x18, %asr23
-wr %l5, 0xF5, %asr23
-wr %l6, 0xDB, %asr23
-wr %l7, 0x83, %asr23
-wr %i0, 0x95, %asr23
-wr %i1, 0x5F, %asr23
-wr %i2, 0xE0, %asr23
-wr %i3, 0x6A, %asr23
-wr %i4, 0xDE, %asr23
-wr %i5, 0xF9, %asr23
-wr %i6, 0x83, %asr23
-wr %i7, 0xC8, %asr23
-wr %g0, 0xAA, %asr24
-wr %g1, 0xE7, %asr24
-wr %g2, 0x71, %asr24
-wr %g3, 0xCD, %asr24
-wr %g4, 0xF6, %asr24
-wr %g5, 0xF1, %asr24
-wr %g6, 0xCD, %asr24
-wr %g7, 0x8A, %asr24
-wr %o0, 0xB1, %asr24
-wr %o1, 0xA1, %asr24
-wr %o2, 0xF7, %asr24
-wr %o3, 0xC1, %asr24
-wr %o4, 0x01, %asr24
-wr %o5, 0xC4, %asr24
-wr %o6, 0x4B, %asr24
-wr %o7, 0xEC, %asr24
-wr %l0, 0xDC, %asr24
-wr %l1, 0xD5, %asr24
-wr %l2, 0x59, %asr24
-wr %l3, 0x2B, %asr24
-wr %l4, 0x31, %asr24
-wr %l5, 0xC2, %asr24
-wr %l6, 0x6C, %asr24
-wr %l7, 0x9C, %asr24
-wr %i0, 0xA9, %asr24
-wr %i1, 0x29, %asr24
-wr %i2, 0x5A, %asr24
-wr %i3, 0xDA, %asr24
-wr %i4, 0x8C, %asr24
-wr %i5, 0x16, %asr24
-wr %i6, 0xD4, %asr24
-wr %i7, 0x23, %asr24
-wr %g0, 0xB2, %asr25
-wr %g1, 0x4F, %asr25
-wr %g2, 0x5B, %asr25
-wr %g3, 0xE6, %asr25
-wr %g4, 0x6E, %asr25
-wr %g5, 0x28, %asr25
-wr %g6, 0xDE, %asr25
-wr %g7, 0xB0, %asr25
-wr %o0, 0xB8, %asr25
-wr %o1, 0x11, %asr25
-wr %o2, 0x3E, %asr25
-wr %o3, 0xDB, %asr25
-wr %o4, 0x6B, %asr25
-wr %o5, 0xCB, %asr25
-wr %o6, 0xEA, %asr25
-wr %o7, 0x5D, %asr25
-wr %l0, 0x87, %asr25
-wr %l1, 0xCD, %asr25
-wr %l2, 0x23, %asr25
-wr %l3, 0x0E, %asr25
-wr %l4, 0xEB, %asr25
-wr %l5, 0x91, %asr25
-wr %l6, 0xFA, %asr25
-wr %l7, 0xB4, %asr25
-wr %i0, 0xB0, %asr25
-wr %i1, 0xBE, %asr25
-wr %i2, 0x36, %asr25
-wr %i3, 0x04, %asr25
-wr %i4, 0x37, %asr25
-wr %i5, 0x02, %asr25
-wr %i6, 0x49, %asr25
-wr %i7, 0x32, %asr25
-wr %g0, 0xCD, %asr26
-wr %g1, 0xA3, %asr26
-wr %g2, 0x7B, %asr26
-wr %g3, 0xB3, %asr26
-wr %g4, 0x98, %asr26
-wr %g5, 0x42, %asr26
-wr %g6, 0x17, %asr26
-wr %g7, 0xEE, %asr26
-wr %o0, 0x8A, %asr26
-wr %o1, 0xFC, %asr26
-wr %o2, 0x60, %asr26
-wr %o3, 0xF0, %asr26
-wr %o4, 0x59, %asr26
-wr %o5, 0x61, %asr26
-wr %o6, 0x2A, %asr26
-wr %o7, 0x0A, %asr26
-wr %l0, 0xA3, %asr26
-wr %l1, 0x6D, %asr26
-wr %l2, 0xCC, %asr26
-wr %l3, 0x99, %asr26
-wr %l4, 0x5D, %asr26
-wr %l5, 0x62, %asr26
-wr %l6, 0x78, %asr26
-wr %l7, 0xE8, %asr26
-wr %i0, 0x3C, %asr26
-wr %i1, 0xD4, %asr26
-wr %i2, 0x8C, %asr26
-wr %i3, 0xA3, %asr26
-wr %i4, 0x16, %asr26
-wr %i5, 0x55, %asr26
-wr %i6, 0xC9, %asr26
-wr %i7, 0x2D, %asr26
-wr %g0, 0xA8, %asr27
-wr %g1, 0xEA, %asr27
-wr %g2, 0x2F, %asr27
-wr %g3, 0x8A, %asr27
-wr %g4, 0x44, %asr27
-wr %g5, 0xBB, %asr27
-wr %g6, 0x36, %asr27
-wr %g7, 0x01, %asr27
-wr %o0, 0xCB, %asr27
-wr %o1, 0x31, %asr27
-wr %o2, 0x9F, %asr27
-wr %o3, 0xCF, %asr27
-wr %o4, 0xB6, %asr27
-wr %o5, 0x58, %asr27
-wr %o6, 0xFE, %asr27
-wr %o7, 0xC5, %asr27
-wr %l0, 0x37, %asr27
-wr %l1, 0x68, %asr27
-wr %l2, 0xDB, %asr27
-wr %l3, 0xE0, %asr27
-wr %l4, 0x9E, %asr27
-wr %l5, 0x7F, %asr27
-wr %l6, 0xBC, %asr27
-wr %l7, 0x08, %asr27
-wr %i0, 0x69, %asr27
-wr %i1, 0x7C, %asr27
-wr %i2, 0x25, %asr27
-wr %i3, 0xB6, %asr27
-wr %i4, 0x84, %asr27
-wr %i5, 0x5C, %asr27
-wr %i6, 0x8E, %asr27
-wr %i7, 0xE1, %asr27
-wr %g0, 0x34, %asr28
-wr %g1, 0x81, %asr28
-wr %g2, 0xE8, %asr28
-wr %g3, 0x26, %asr28
-wr %g4, 0xEA, %asr28
-wr %g5, 0x45, %asr28
-wr %g6, 0x9E, %asr28
-wr %g7, 0x3F, %asr28
-wr %o0, 0x93, %asr28
-wr %o1, 0x2B, %asr28
-wr %o2, 0x7A, %asr28
-wr %o3, 0xF1, %asr28
-wr %o4, 0x66, %asr28
-wr %o5, 0xD9, %asr28
-wr %o6, 0x48, %asr28
-wr %o7, 0x8E, %asr28
-wr %l0, 0x55, %asr28
-wr %l1, 0x8F, %asr28
-wr %l2, 0x2C, %asr28
-wr %l3, 0xA2, %asr28
-wr %l4, 0x45, %asr28
-wr %l5, 0xF8, %asr28
-wr %l6, 0xF5, %asr28
-wr %l7, 0xAE, %asr28
-wr %i0, 0xE6, %asr28
-wr %i1, 0x09, %asr28
-wr %i2, 0x48, %asr28
-wr %i3, 0xD0, %asr28
-wr %i4, 0x40, %asr28
-wr %i5, 0x97, %asr28
-wr %i6, 0x97, %asr28
-wr %i7, 0xA7, %asr28
-wr %g0, 0x81, %asr29
-wr %g1, 0xC6, %asr29
-wr %g2, 0xD5, %asr29
-wr %g3, 0xE6, %asr29
-wr %g4, 0xA7, %asr29
-wr %g5, 0xD9, %asr29
-wr %g6, 0x45, %asr29
-wr %g7, 0x62, %asr29
-wr %o0, 0xBF, %asr29
-wr %o1, 0x40, %asr29
-wr %o2, 0xD9, %asr29
-wr %o3, 0xBD, %asr29
-wr %o4, 0x7B, %asr29
-wr %o5, 0x4F, %asr29
-wr %o6, 0x56, %asr29
-wr %o7, 0xDE, %asr29
-wr %l0, 0xD1, %asr29
-wr %l1, 0xDE, %asr29
-wr %l2, 0xE3, %asr29
-wr %l3, 0x0D, %asr29
-wr %l4, 0xE0, %asr29
-wr %l5, 0x56, %asr29
-wr %l6, 0x59, %asr29
-wr %l7, 0xD6, %asr29
-wr %i0, 0x95, %asr29
-wr %i1, 0xEE, %asr29
-wr %i2, 0x78, %asr29
-wr %i3, 0xD2, %asr29
-wr %i4, 0x92, %asr29
-wr %i5, 0xA7, %asr29
-wr %i6, 0x44, %asr29
-wr %i7, 0x1B, %asr29
-wr %g0, 0xA4, %asr30
-wr %g1, 0x55, %asr30
-wr %g2, 0x53, %asr30
-wr %g3, 0xD6, %asr30
-wr %g4, 0x26, %asr30
-wr %g5, 0x41, %asr30
-wr %g6, 0xF8, %asr30
-wr %g7, 0xBA, %asr30
-wr %o0, 0x67, %asr30
-wr %o1, 0x9C, %asr30
-wr %o2, 0xCB, %asr30
-wr %o3, 0xF4, %asr30
-wr %o4, 0x9B, %asr30
-wr %o5, 0xB0, %asr30
-wr %o6, 0x38, %asr30
-wr %o7, 0xE2, %asr30
-wr %l0, 0x1B, %asr30
-wr %l1, 0x51, %asr30
-wr %l2, 0xF4, %asr30
-wr %l3, 0x2A, %asr30
-wr %l4, 0xB7, %asr30
-wr %l5, 0x42, %asr30
-wr %l6, 0xB8, %asr30
-wr %l7, 0x65, %asr30
-wr %i0, 0x15, %asr30
-wr %i1, 0x43, %asr30
-wr %i2, 0xC3, %asr30
-wr %i3, 0x48, %asr30
-wr %i4, 0x40, %asr30
-wr %i5, 0x7B, %asr30
-wr %i6, 0x1F, %asr30
-wr %i7, 0x0E, %asr30
-wr %g0, 0x97, %asr31
-wr %g1, 0x5E, %asr31
-wr %g2, 0xB0, %asr31
-wr %g3, 0xEE, %asr31
-wr %g4, 0x66, %asr31
-wr %g5, 0x66, %asr31
-wr %g6, 0xC8, %asr31
-wr %g7, 0x0C, %asr31
-wr %o0, 0xA7, %asr31
-wr %o1, 0x5C, %asr31
-wr %o2, 0x3F, %asr31
-wr %o3, 0xA6, %asr31
-wr %o4, 0xDB, %asr31
-wr %o5, 0xD0, %asr31
-wr %o6, 0xB5, %asr31
-wr %o7, 0xCE, %asr31
-wr %l0, 0x7E, %asr31
-wr %l1, 0x32, %asr31
-wr %l2, 0x6C, %asr31
-wr %l3, 0x17, %asr31
-wr %l4, 0xE3, %asr31
-wr %l5, 0xF4, %asr31
-wr %l6, 0x8B, %asr31
-wr %l7, 0x7A, %asr31
-wr %i0, 0xB0, %asr31
-wr %i1, 0xEA, %asr31
-wr %i2, 0xCA, %asr31
-wr %i3, 0x38, %asr31
-wr %i4, 0x29, %asr31
-wr %i5, 0xE0, %asr31
-wr %i6, 0xE6, %asr31
-wr %i7, 0x1A, %asr31
+wr %g0, 0x5A, %asr22
+wr %g1, 0xB9, %asr22
+wr %g2, 0xEA, %asr22
+wr %g3, 0xF9, %asr22
+wr %g4, 0x61, %asr22
+wr %g5, 0x1F, %asr22
+wr %g6, 0x40, %asr22
+wr %g7, 0x1E, %asr22
+wr %o0, 0x6A, %asr22
+wr %o1, 0xED, %asr22
+wr %o2, 0xA3, %asr22
+wr %o3, 0x4A, %asr22
+wr %o4, 0x2E, %asr22
+wr %o5, 0x62, %asr22
+wr %o6, 0xC5, %asr22
+wr %o7, 0x7E, %asr22
+wr %l0, 0x83, %asr22
+wr %l1, 0x69, %asr22
+wr %l2, 0xA1, %asr22
+wr %l3, 0x8B, %asr22
+wr %l4, 0x03, %asr22
+wr %l5, 0xE3, %asr22
+wr %l6, 0xA9, %asr22
+wr %l7, 0x6A, %asr22
+wr %i0, 0x06, %asr22
+wr %i1, 0x45, %asr22
+wr %i2, 0x9E, %asr22
+wr %i3, 0x1A, %asr22
+wr %i4, 0x1D, %asr22
+wr %i5, 0x66, %asr22
+wr %i6, 0x48, %asr22
+wr %i7, 0xD4, %asr22
+wr %g0, 0xA5, %asr23
+wr %g1, 0x8D, %asr23
+wr %g2, 0x2F, %asr23
+wr %g3, 0x85, %asr23
+wr %g4, 0xDF, %asr23
+wr %g5, 0x42, %asr23
+wr %g6, 0x96, %asr23
+wr %g7, 0x82, %asr23
+wr %o0, 0x51, %asr23
+wr %o1, 0x8B, %asr23
+wr %o2, 0x6E, %asr23
+wr %o3, 0x56, %asr23
+wr %o4, 0x8D, %asr23
+wr %o5, 0x07, %asr23
+wr %o6, 0x1E, %asr23
+wr %o7, 0x4B, %asr23
+wr %l0, 0xC1, %asr23
+wr %l1, 0x20, %asr23
+wr %l2, 0x50, %asr23
+wr %l3, 0x0A, %asr23
+wr %l4, 0x8B, %asr23
+wr %l5, 0x4C, %asr23
+wr %l6, 0xF7, %asr23
+wr %l7, 0x4E, %asr23
+wr %i0, 0x9F, %asr23
+wr %i1, 0x67, %asr23
+wr %i2, 0x2E, %asr23
+wr %i3, 0x3E, %asr23
+wr %i4, 0x39, %asr23
+wr %i5, 0xCE, %asr23
+wr %i6, 0x35, %asr23
+wr %i7, 0xB6, %asr23
+wr %g0, 0xAD, %asr24
+wr %g1, 0xCE, %asr24
+wr %g2, 0x4C, %asr24
+wr %g3, 0x7C, %asr24
+wr %g4, 0x16, %asr24
+wr %g5, 0x0C, %asr24
+wr %g6, 0x1C, %asr24
+wr %g7, 0x3B, %asr24
+wr %o0, 0x71, %asr24
+wr %o1, 0xC2, %asr24
+wr %o2, 0x93, %asr24
+wr %o3, 0x03, %asr24
+wr %o4, 0x94, %asr24
+wr %o5, 0x41, %asr24
+wr %o6, 0xE8, %asr24
+wr %o7, 0x09, %asr24
+wr %l0, 0xCE, %asr24
+wr %l1, 0x12, %asr24
+wr %l2, 0xA4, %asr24
+wr %l3, 0xBC, %asr24
+wr %l4, 0xF7, %asr24
+wr %l5, 0x2E, %asr24
+wr %l6, 0x10, %asr24
+wr %l7, 0x0C, %asr24
+wr %i0, 0xF2, %asr24
+wr %i1, 0x2B, %asr24
+wr %i2, 0x94, %asr24
+wr %i3, 0xEB, %asr24
+wr %i4, 0xE9, %asr24
+wr %i5, 0xDF, %asr24
+wr %i6, 0x6F, %asr24
+wr %i7, 0x0F, %asr24
+wr %g0, 0xDD, %asr25
+wr %g1, 0x0F, %asr25
+wr %g2, 0x2C, %asr25
+wr %g3, 0x3D, %asr25
+wr %g4, 0xD7, %asr25
+wr %g5, 0xC1, %asr25
+wr %g6, 0x7A, %asr25
+wr %g7, 0x19, %asr25
+wr %o0, 0xE6, %asr25
+wr %o1, 0x92, %asr25
+wr %o2, 0xF3, %asr25
+wr %o3, 0x39, %asr25
+wr %o4, 0x48, %asr25
+wr %o5, 0xEF, %asr25
+wr %o6, 0xF3, %asr25
+wr %o7, 0xB9, %asr25
+wr %l0, 0xDA, %asr25
+wr %l1, 0xDB, %asr25
+wr %l2, 0xB2, %asr25
+wr %l3, 0xDC, %asr25
+wr %l4, 0xCA, %asr25
+wr %l5, 0x45, %asr25
+wr %l6, 0x3A, %asr25
+wr %l7, 0x64, %asr25
+wr %i0, 0xB5, %asr25
+wr %i1, 0xD7, %asr25
+wr %i2, 0xCE, %asr25
+wr %i3, 0xAB, %asr25
+wr %i4, 0xD6, %asr25
+wr %i5, 0xB7, %asr25
+wr %i6, 0xDE, %asr25
+wr %i7, 0x34, %asr25
+wr %g0, 0x00, %asr26
+wr %g1, 0xFD, %asr26
+wr %g2, 0xB6, %asr26
+wr %g3, 0xAC, %asr26
+wr %g4, 0xB5, %asr26
+wr %g5, 0x41, %asr26
+wr %g6, 0x41, %asr26
+wr %g7, 0x9B, %asr26
+wr %o0, 0x38, %asr26
+wr %o1, 0xBC, %asr26
+wr %o2, 0x29, %asr26
+wr %o3, 0x89, %asr26
+wr %o4, 0x5A, %asr26
+wr %o5, 0x94, %asr26
+wr %o6, 0x65, %asr26
+wr %o7, 0x17, %asr26
+wr %l0, 0x06, %asr26
+wr %l1, 0xF7, %asr26
+wr %l2, 0x10, %asr26
+wr %l3, 0xBA, %asr26
+wr %l4, 0xA8, %asr26
+wr %l5, 0x44, %asr26
+wr %l6, 0x18, %asr26
+wr %l7, 0xC1, %asr26
+wr %i0, 0x62, %asr26
+wr %i1, 0x1E, %asr26
+wr %i2, 0xDC, %asr26
+wr %i3, 0x6E, %asr26
+wr %i4, 0xE6, %asr26
+wr %i5, 0x2B, %asr26
+wr %i6, 0x99, %asr26
+wr %i7, 0xD9, %asr26
+wr %g0, 0x6C, %asr27
+wr %g1, 0xCB, %asr27
+wr %g2, 0xF6, %asr27
+wr %g3, 0x81, %asr27
+wr %g4, 0x78, %asr27
+wr %g5, 0xAE, %asr27
+wr %g6, 0x02, %asr27
+wr %g7, 0x0B, %asr27
+wr %o0, 0x6E, %asr27
+wr %o1, 0xBA, %asr27
+wr %o2, 0xE6, %asr27
+wr %o3, 0x0E, %asr27
+wr %o4, 0x47, %asr27
+wr %o5, 0x3B, %asr27
+wr %o6, 0x57, %asr27
+wr %o7, 0x9A, %asr27
+wr %l0, 0x73, %asr27
+wr %l1, 0xA5, %asr27
+wr %l2, 0x49, %asr27
+wr %l3, 0xFF, %asr27
+wr %l4, 0x5B, %asr27
+wr %l5, 0x4E, %asr27
+wr %l6, 0x6D, %asr27
+wr %l7, 0xBF, %asr27
+wr %i0, 0x95, %asr27
+wr %i1, 0x0D, %asr27
+wr %i2, 0xD5, %asr27
+wr %i3, 0x2C, %asr27
+wr %i4, 0x0A, %asr27
+wr %i5, 0xD0, %asr27
+wr %i6, 0x6B, %asr27
+wr %i7, 0xF9, %asr27
+wr %g0, 0xCB, %asr28
+wr %g1, 0xDD, %asr28
+wr %g2, 0xE0, %asr28
+wr %g3, 0x56, %asr28
+wr %g4, 0x81, %asr28
+wr %g5, 0x67, %asr28
+wr %g6, 0x85, %asr28
+wr %g7, 0x23, %asr28
+wr %o0, 0xB9, %asr28
+wr %o1, 0x56, %asr28
+wr %o2, 0xB6, %asr28
+wr %o3, 0x0D, %asr28
+wr %o4, 0x45, %asr28
+wr %o5, 0x74, %asr28
+wr %o6, 0x9A, %asr28
+wr %o7, 0x14, %asr28
+wr %l0, 0xCF, %asr28
+wr %l1, 0x57, %asr28
+wr %l2, 0xA9, %asr28
+wr %l3, 0x51, %asr28
+wr %l4, 0x1D, %asr28
+wr %l5, 0xAA, %asr28
+wr %l6, 0xD6, %asr28
+wr %l7, 0x98, %asr28
+wr %i0, 0x70, %asr28
+wr %i1, 0x56, %asr28
+wr %i2, 0x58, %asr28
+wr %i3, 0x7F, %asr28
+wr %i4, 0x85, %asr28
+wr %i5, 0x58, %asr28
+wr %i6, 0xE0, %asr28
+wr %i7, 0xFB, %asr28
+wr %g0, 0x8D, %asr29
+wr %g1, 0x6E, %asr29
+wr %g2, 0xB8, %asr29
+wr %g3, 0xF5, %asr29
+wr %g4, 0x80, %asr29
+wr %g5, 0xE6, %asr29
+wr %g6, 0x68, %asr29
+wr %g7, 0x1D, %asr29
+wr %o0, 0xC2, %asr29
+wr %o1, 0xAE, %asr29
+wr %o2, 0x1E, %asr29
+wr %o3, 0xE2, %asr29
+wr %o4, 0x5C, %asr29
+wr %o5, 0x5C, %asr29
+wr %o6, 0x86, %asr29
+wr %o7, 0x3B, %asr29
+wr %l0, 0xEB, %asr29
+wr %l1, 0x23, %asr29
+wr %l2, 0xCD, %asr29
+wr %l3, 0x72, %asr29
+wr %l4, 0xA3, %asr29
+wr %l5, 0x4F, %asr29
+wr %l6, 0x6F, %asr29
+wr %l7, 0x51, %asr29
+wr %i0, 0x3A, %asr29
+wr %i1, 0x6B, %asr29
+wr %i2, 0x92, %asr29
+wr %i3, 0x8C, %asr29
+wr %i4, 0x64, %asr29
+wr %i5, 0xAB, %asr29
+wr %i6, 0x72, %asr29
+wr %i7, 0xF4, %asr29
+wr %g0, 0x33, %asr30
+wr %g1, 0x17, %asr30
+wr %g2, 0x55, %asr30
+wr %g3, 0x67, %asr30
+wr %g4, 0xE4, %asr30
+wr %g5, 0x52, %asr30
+wr %g6, 0xE9, %asr30
+wr %g7, 0x4A, %asr30
+wr %o0, 0x99, %asr30
+wr %o1, 0xB1, %asr30
+wr %o2, 0x44, %asr30
+wr %o3, 0x73, %asr30
+wr %o4, 0x5C, %asr30
+wr %o5, 0xAB, %asr30
+wr %o6, 0x0C, %asr30
+wr %o7, 0x06, %asr30
+wr %l0, 0xBC, %asr30
+wr %l1, 0x19, %asr30
+wr %l2, 0xE9, %asr30
+wr %l3, 0xEF, %asr30
+wr %l4, 0xEA, %asr30
+wr %l5, 0xF2, %asr30
+wr %l6, 0xEE, %asr30
+wr %l7, 0xA6, %asr30
+wr %i0, 0xE9, %asr30
+wr %i1, 0xD3, %asr30
+wr %i2, 0x34, %asr30
+wr %i3, 0x75, %asr30
+wr %i4, 0x15, %asr30
+wr %i5, 0x10, %asr30
+wr %i6, 0xFB, %asr30
+wr %i7, 0x4A, %asr30
+wr %g0, 0xF2, %asr31
+wr %g1, 0xE7, %asr31
+wr %g2, 0x35, %asr31
+wr %g3, 0x12, %asr31
+wr %g4, 0xBF, %asr31
+wr %g5, 0xA7, %asr31
+wr %g6, 0x55, %asr31
+wr %g7, 0x0F, %asr31
+wr %o0, 0x59, %asr31
+wr %o1, 0x64, %asr31
+wr %o2, 0x53, %asr31
+wr %o3, 0x13, %asr31
+wr %o4, 0xE6, %asr31
+wr %o5, 0x61, %asr31
+wr %o6, 0xF3, %asr31
+wr %o7, 0x6D, %asr31
+wr %l0, 0x32, %asr31
+wr %l1, 0x7D, %asr31
+wr %l2, 0xAC, %asr31
+wr %l3, 0x70, %asr31
+wr %l4, 0x99, %asr31
+wr %l5, 0x51, %asr31
+wr %l6, 0x3A, %asr31
+wr %l7, 0x2E, %asr31
+wr %i0, 0x1E, %asr31
+wr %i1, 0x5F, %asr31
+wr %i2, 0x60, %asr31
+wr %i3, 0x7B, %asr31
+wr %i4, 0x73, %asr31
+wr %i5, 0x50, %asr31
+wr %i6, 0x1B, %asr31
+wr %i7, 0x24, %asr31
 
 rd %asr1, %g0
 rd %asr1, %g1
@@ -33777,38 +31789,2026 @@ rd %asr31, %i7
 
 
 
-wr %g0, 0x77, %psr
-wr %g1, 0x78, %psr
-wr %g2, 0xA8, %psr
-wr %g3, 0xBA, %psr
-wr %g4, 0xC6, %psr
-wr %g5, 0x2C, %psr
-wr %g6, 0x0E, %psr
-wr %g7, 0x6C, %psr
-wr %o0, 0xA3, %psr
-wr %o1, 0xE1, %psr
-wr %o2, 0x6E, %psr
-wr %o3, 0xD8, %psr
-wr %o4, 0x4C, %psr
-wr %o5, 0xFE, %psr
-wr %o6, 0x00, %psr
-wr %o7, 0x6B, %psr
-wr %l0, 0x7D, %psr
-wr %l1, 0x64, %psr
-wr %l2, 0x96, %psr
-wr %l3, 0x4A, %psr
-wr %l4, 0x87, %psr
-wr %l5, 0xC5, %psr
-wr %l6, 0xB5, %psr
-wr %l7, 0x9E, %psr
-wr %i0, 0x7D, %psr
-wr %i1, 0xEE, %psr
-wr %i2, 0x2A, %psr
-wr %i3, 0x9D, %psr
-wr %i4, 0x78, %psr
-wr %i5, 0x54, %psr
-wr %i6, 0xDB, %psr
-wr %i7, 0xAC, %psr
+wr %g0, 0xCB, %asr1
+wr %g1, 0xCF, %asr1
+wr %g2, 0xAF, %asr1
+wr %g3, 0x1A, %asr1
+wr %g4, 0xA6, %asr1
+wr %g5, 0x18, %asr1
+wr %g6, 0x1F, %asr1
+wr %g7, 0x21, %asr1
+wr %o0, 0xB7, %asr1
+wr %o1, 0x9D, %asr1
+wr %o2, 0x35, %asr1
+wr %o3, 0xF0, %asr1
+wr %o4, 0x93, %asr1
+wr %o5, 0x40, %asr1
+wr %o6, 0xF6, %asr1
+wr %o7, 0xFA, %asr1
+wr %l0, 0xC9, %asr1
+wr %l1, 0x91, %asr1
+wr %l2, 0x97, %asr1
+wr %l3, 0x9C, %asr1
+wr %l4, 0xE4, %asr1
+wr %l5, 0x79, %asr1
+wr %l6, 0x2C, %asr1
+wr %l7, 0x30, %asr1
+wr %i0, 0xAC, %asr1
+wr %i1, 0xDF, %asr1
+wr %i2, 0xB9, %asr1
+wr %i3, 0x91, %asr1
+wr %i4, 0xE9, %asr1
+wr %i5, 0x27, %asr1
+wr %i6, 0xDA, %asr1
+wr %i7, 0xD1, %asr1
+wr %g0, 0x03, %asr2
+wr %g1, 0x0F, %asr2
+wr %g2, 0xC0, %asr2
+wr %g3, 0x5F, %asr2
+wr %g4, 0xF6, %asr2
+wr %g5, 0xDB, %asr2
+wr %g6, 0x19, %asr2
+wr %g7, 0x36, %asr2
+wr %o0, 0xEB, %asr2
+wr %o1, 0x53, %asr2
+wr %o2, 0x37, %asr2
+wr %o3, 0xC5, %asr2
+wr %o4, 0x21, %asr2
+wr %o5, 0xE7, %asr2
+wr %o6, 0xC6, %asr2
+wr %o7, 0xFD, %asr2
+wr %l0, 0xA4, %asr2
+wr %l1, 0x71, %asr2
+wr %l2, 0xC1, %asr2
+wr %l3, 0x54, %asr2
+wr %l4, 0xD2, %asr2
+wr %l5, 0xC6, %asr2
+wr %l6, 0x21, %asr2
+wr %l7, 0x2A, %asr2
+wr %i0, 0x78, %asr2
+wr %i1, 0x91, %asr2
+wr %i2, 0xE4, %asr2
+wr %i3, 0x85, %asr2
+wr %i4, 0xF9, %asr2
+wr %i5, 0xBD, %asr2
+wr %i6, 0x4F, %asr2
+wr %i7, 0x9D, %asr2
+wr %g0, 0x72, %asr3
+wr %g1, 0x4F, %asr3
+wr %g2, 0x20, %asr3
+wr %g3, 0x53, %asr3
+wr %g4, 0xBD, %asr3
+wr %g5, 0x9F, %asr3
+wr %g6, 0xE0, %asr3
+wr %g7, 0x09, %asr3
+wr %o0, 0x98, %asr3
+wr %o1, 0x20, %asr3
+wr %o2, 0x71, %asr3
+wr %o3, 0xFB, %asr3
+wr %o4, 0x47, %asr3
+wr %o5, 0x14, %asr3
+wr %o6, 0xD1, %asr3
+wr %o7, 0xD2, %asr3
+wr %l0, 0x58, %asr3
+wr %l1, 0x2F, %asr3
+wr %l2, 0x47, %asr3
+wr %l3, 0xB7, %asr3
+wr %l4, 0x72, %asr3
+wr %l5, 0x01, %asr3
+wr %l6, 0x4A, %asr3
+wr %l7, 0x25, %asr3
+wr %i0, 0x61, %asr3
+wr %i1, 0xA3, %asr3
+wr %i2, 0x65, %asr3
+wr %i3, 0xC3, %asr3
+wr %i4, 0xA4, %asr3
+wr %i5, 0xCF, %asr3
+wr %i6, 0x4A, %asr3
+wr %i7, 0xE2, %asr3
+wr %g0, 0x54, %asr4
+wr %g1, 0xDB, %asr4
+wr %g2, 0x74, %asr4
+wr %g3, 0x8B, %asr4
+wr %g4, 0xC9, %asr4
+wr %g5, 0x7D, %asr4
+wr %g6, 0x8A, %asr4
+wr %g7, 0x8F, %asr4
+wr %o0, 0x36, %asr4
+wr %o1, 0x28, %asr4
+wr %o2, 0x63, %asr4
+wr %o3, 0x78, %asr4
+wr %o4, 0xBF, %asr4
+wr %o5, 0xE1, %asr4
+wr %o6, 0xC5, %asr4
+wr %o7, 0x70, %asr4
+wr %l0, 0x28, %asr4
+wr %l1, 0x8C, %asr4
+wr %l2, 0x52, %asr4
+wr %l3, 0x00, %asr4
+wr %l4, 0x65, %asr4
+wr %l5, 0x96, %asr4
+wr %l6, 0xFB, %asr4
+wr %l7, 0x81, %asr4
+wr %i0, 0xAD, %asr4
+wr %i1, 0xCF, %asr4
+wr %i2, 0x23, %asr4
+wr %i3, 0x70, %asr4
+wr %i4, 0x24, %asr4
+wr %i5, 0xE4, %asr4
+wr %i6, 0xFE, %asr4
+wr %i7, 0x56, %asr4
+wr %g0, 0x23, %asr5
+wr %g1, 0x4A, %asr5
+wr %g2, 0x6D, %asr5
+wr %g3, 0xA4, %asr5
+wr %g4, 0xF8, %asr5
+wr %g5, 0x5F, %asr5
+wr %g6, 0x34, %asr5
+wr %g7, 0x4F, %asr5
+wr %o0, 0xF0, %asr5
+wr %o1, 0x91, %asr5
+wr %o2, 0x14, %asr5
+wr %o3, 0xBD, %asr5
+wr %o4, 0xA3, %asr5
+wr %o5, 0xD8, %asr5
+wr %o6, 0x03, %asr5
+wr %o7, 0xDF, %asr5
+wr %l0, 0xE7, %asr5
+wr %l1, 0xC5, %asr5
+wr %l2, 0x89, %asr5
+wr %l3, 0x54, %asr5
+wr %l4, 0x8D, %asr5
+wr %l5, 0x1C, %asr5
+wr %l6, 0x82, %asr5
+wr %l7, 0x56, %asr5
+wr %i0, 0x3D, %asr5
+wr %i1, 0x3C, %asr5
+wr %i2, 0xC4, %asr5
+wr %i3, 0x8A, %asr5
+wr %i4, 0xCA, %asr5
+wr %i5, 0xF2, %asr5
+wr %i6, 0x2D, %asr5
+wr %i7, 0x80, %asr5
+wr %g0, 0x7B, %asr6
+wr %g1, 0x0C, %asr6
+wr %g2, 0x8C, %asr6
+wr %g3, 0x68, %asr6
+wr %g4, 0xC1, %asr6
+wr %g5, 0x04, %asr6
+wr %g6, 0x65, %asr6
+wr %g7, 0xAE, %asr6
+wr %o0, 0x4E, %asr6
+wr %o1, 0xF8, %asr6
+wr %o2, 0x29, %asr6
+wr %o3, 0xCA, %asr6
+wr %o4, 0xB5, %asr6
+wr %o5, 0x4A, %asr6
+wr %o6, 0x31, %asr6
+wr %o7, 0x5F, %asr6
+wr %l0, 0x21, %asr6
+wr %l1, 0xAB, %asr6
+wr %l2, 0xC8, %asr6
+wr %l3, 0x98, %asr6
+wr %l4, 0xDC, %asr6
+wr %l5, 0xD0, %asr6
+wr %l6, 0x0D, %asr6
+wr %l7, 0xBF, %asr6
+wr %i0, 0xAE, %asr6
+wr %i1, 0x8F, %asr6
+wr %i2, 0x4C, %asr6
+wr %i3, 0x2A, %asr6
+wr %i4, 0x02, %asr6
+wr %i5, 0x8E, %asr6
+wr %i6, 0xA4, %asr6
+wr %i7, 0x9E, %asr6
+wr %g0, 0xC4, %asr7
+wr %g1, 0xF4, %asr7
+wr %g2, 0xF9, %asr7
+wr %g3, 0x7D, %asr7
+wr %g4, 0x6A, %asr7
+wr %g5, 0xBB, %asr7
+wr %g6, 0xD5, %asr7
+wr %g7, 0x91, %asr7
+wr %o0, 0x57, %asr7
+wr %o1, 0x0D, %asr7
+wr %o2, 0xC7, %asr7
+wr %o3, 0x92, %asr7
+wr %o4, 0xEE, %asr7
+wr %o5, 0x23, %asr7
+wr %o6, 0x4B, %asr7
+wr %o7, 0xFC, %asr7
+wr %l0, 0x6E, %asr7
+wr %l1, 0x2F, %asr7
+wr %l2, 0x79, %asr7
+wr %l3, 0x60, %asr7
+wr %l4, 0xD1, %asr7
+wr %l5, 0xE4, %asr7
+wr %l6, 0x93, %asr7
+wr %l7, 0x36, %asr7
+wr %i0, 0x8F, %asr7
+wr %i1, 0xCA, %asr7
+wr %i2, 0x6C, %asr7
+wr %i3, 0x9F, %asr7
+wr %i4, 0x75, %asr7
+wr %i5, 0x31, %asr7
+wr %i6, 0x4C, %asr7
+wr %i7, 0xF8, %asr7
+wr %g0, 0x7C, %asr8
+wr %g1, 0xA1, %asr8
+wr %g2, 0x8A, %asr8
+wr %g3, 0x81, %asr8
+wr %g4, 0x75, %asr8
+wr %g5, 0xB1, %asr8
+wr %g6, 0x50, %asr8
+wr %g7, 0xD0, %asr8
+wr %o0, 0x6A, %asr8
+wr %o1, 0x98, %asr8
+wr %o2, 0x96, %asr8
+wr %o3, 0x56, %asr8
+wr %o4, 0xA0, %asr8
+wr %o5, 0x2A, %asr8
+wr %o6, 0x9D, %asr8
+wr %o7, 0x51, %asr8
+wr %l0, 0x05, %asr8
+wr %l1, 0x96, %asr8
+wr %l2, 0x6F, %asr8
+wr %l3, 0x27, %asr8
+wr %l4, 0xA8, %asr8
+wr %l5, 0x83, %asr8
+wr %l6, 0x43, %asr8
+wr %l7, 0x4F, %asr8
+wr %i0, 0xEC, %asr8
+wr %i1, 0x51, %asr8
+wr %i2, 0xB0, %asr8
+wr %i3, 0x54, %asr8
+wr %i4, 0xBB, %asr8
+wr %i5, 0xAC, %asr8
+wr %i6, 0x95, %asr8
+wr %i7, 0x39, %asr8
+wr %g0, 0x3D, %asr9
+wr %g1, 0x6C, %asr9
+wr %g2, 0x09, %asr9
+wr %g3, 0xC5, %asr9
+wr %g4, 0x3E, %asr9
+wr %g5, 0xAB, %asr9
+wr %g6, 0x39, %asr9
+wr %g7, 0x83, %asr9
+wr %o0, 0x92, %asr9
+wr %o1, 0xA0, %asr9
+wr %o2, 0x37, %asr9
+wr %o3, 0x83, %asr9
+wr %o4, 0xF0, %asr9
+wr %o5, 0xFC, %asr9
+wr %o6, 0x6F, %asr9
+wr %o7, 0xAF, %asr9
+wr %l0, 0x2B, %asr9
+wr %l1, 0xB6, %asr9
+wr %l2, 0xFA, %asr9
+wr %l3, 0x5B, %asr9
+wr %l4, 0x09, %asr9
+wr %l5, 0x43, %asr9
+wr %l6, 0x5F, %asr9
+wr %l7, 0xDE, %asr9
+wr %i0, 0xFD, %asr9
+wr %i1, 0x78, %asr9
+wr %i2, 0x33, %asr9
+wr %i3, 0xDB, %asr9
+wr %i4, 0x60, %asr9
+wr %i5, 0xBF, %asr9
+wr %i6, 0xF6, %asr9
+wr %i7, 0x8D, %asr9
+wr %g0, 0xCB, %asr10
+wr %g1, 0x7E, %asr10
+wr %g2, 0xEC, %asr10
+wr %g3, 0x70, %asr10
+wr %g4, 0x1E, %asr10
+wr %g5, 0x5A, %asr10
+wr %g6, 0x52, %asr10
+wr %g7, 0x77, %asr10
+wr %o0, 0x6F, %asr10
+wr %o1, 0xBA, %asr10
+wr %o2, 0x76, %asr10
+wr %o3, 0xB4, %asr10
+wr %o4, 0xF7, %asr10
+wr %o5, 0xE1, %asr10
+wr %o6, 0x38, %asr10
+wr %o7, 0x96, %asr10
+wr %l0, 0xA3, %asr10
+wr %l1, 0x31, %asr10
+wr %l2, 0xB9, %asr10
+wr %l3, 0x5E, %asr10
+wr %l4, 0x9C, %asr10
+wr %l5, 0x03, %asr10
+wr %l6, 0xB8, %asr10
+wr %l7, 0x61, %asr10
+wr %i0, 0x61, %asr10
+wr %i1, 0xC0, %asr10
+wr %i2, 0x7F, %asr10
+wr %i3, 0x72, %asr10
+wr %i4, 0x56, %asr10
+wr %i5, 0x00, %asr10
+wr %i6, 0x86, %asr10
+wr %i7, 0xC8, %asr10
+wr %g0, 0xD1, %asr11
+wr %g1, 0xF5, %asr11
+wr %g2, 0x36, %asr11
+wr %g3, 0x8F, %asr11
+wr %g4, 0xA1, %asr11
+wr %g5, 0x94, %asr11
+wr %g6, 0x34, %asr11
+wr %g7, 0xC5, %asr11
+wr %o0, 0x1E, %asr11
+wr %o1, 0x56, %asr11
+wr %o2, 0x60, %asr11
+wr %o3, 0x05, %asr11
+wr %o4, 0x5D, %asr11
+wr %o5, 0x93, %asr11
+wr %o6, 0xCD, %asr11
+wr %o7, 0xF0, %asr11
+wr %l0, 0x74, %asr11
+wr %l1, 0x86, %asr11
+wr %l2, 0x7C, %asr11
+wr %l3, 0x72, %asr11
+wr %l4, 0xD5, %asr11
+wr %l5, 0xF9, %asr11
+wr %l6, 0xF3, %asr11
+wr %l7, 0x58, %asr11
+wr %i0, 0x77, %asr11
+wr %i1, 0xE2, %asr11
+wr %i2, 0x5E, %asr11
+wr %i3, 0xEB, %asr11
+wr %i4, 0x56, %asr11
+wr %i5, 0xFC, %asr11
+wr %i6, 0x94, %asr11
+wr %i7, 0x94, %asr11
+wr %g0, 0xF6, %asr12
+wr %g1, 0x43, %asr12
+wr %g2, 0xE2, %asr12
+wr %g3, 0x1F, %asr12
+wr %g4, 0x73, %asr12
+wr %g5, 0x54, %asr12
+wr %g6, 0x5E, %asr12
+wr %g7, 0x30, %asr12
+wr %o0, 0xB6, %asr12
+wr %o1, 0x68, %asr12
+wr %o2, 0x52, %asr12
+wr %o3, 0x13, %asr12
+wr %o4, 0x51, %asr12
+wr %o5, 0x45, %asr12
+wr %o6, 0xB7, %asr12
+wr %o7, 0x07, %asr12
+wr %l0, 0x76, %asr12
+wr %l1, 0x0C, %asr12
+wr %l2, 0x9A, %asr12
+wr %l3, 0xF1, %asr12
+wr %l4, 0x3C, %asr12
+wr %l5, 0xD5, %asr12
+wr %l6, 0xB5, %asr12
+wr %l7, 0xEB, %asr12
+wr %i0, 0x69, %asr12
+wr %i1, 0x35, %asr12
+wr %i2, 0x2A, %asr12
+wr %i3, 0x21, %asr12
+wr %i4, 0x80, %asr12
+wr %i5, 0x15, %asr12
+wr %i6, 0xDC, %asr12
+wr %i7, 0x81, %asr12
+wr %g0, 0x5C, %asr13
+wr %g1, 0xE7, %asr13
+wr %g2, 0xFC, %asr13
+wr %g3, 0x85, %asr13
+wr %g4, 0x2B, %asr13
+wr %g5, 0x52, %asr13
+wr %g6, 0xBA, %asr13
+wr %g7, 0xFF, %asr13
+wr %o0, 0x25, %asr13
+wr %o1, 0x75, %asr13
+wr %o2, 0x17, %asr13
+wr %o3, 0xE1, %asr13
+wr %o4, 0xEF, %asr13
+wr %o5, 0x29, %asr13
+wr %o6, 0xD8, %asr13
+wr %o7, 0x9E, %asr13
+wr %l0, 0x3A, %asr13
+wr %l1, 0x30, %asr13
+wr %l2, 0xF5, %asr13
+wr %l3, 0xB3, %asr13
+wr %l4, 0xE5, %asr13
+wr %l5, 0x3A, %asr13
+wr %l6, 0xC6, %asr13
+wr %l7, 0xE8, %asr13
+wr %i0, 0xEE, %asr13
+wr %i1, 0x4A, %asr13
+wr %i2, 0x40, %asr13
+wr %i3, 0x4F, %asr13
+wr %i4, 0x99, %asr13
+wr %i5, 0x70, %asr13
+wr %i6, 0x37, %asr13
+wr %i7, 0xD6, %asr13
+wr %g0, 0x38, %asr14
+wr %g1, 0x4B, %asr14
+wr %g2, 0xDC, %asr14
+wr %g3, 0x60, %asr14
+wr %g4, 0x93, %asr14
+wr %g5, 0x3C, %asr14
+wr %g6, 0x14, %asr14
+wr %g7, 0xAD, %asr14
+wr %o0, 0x0E, %asr14
+wr %o1, 0xD2, %asr14
+wr %o2, 0x0A, %asr14
+wr %o3, 0x0E, %asr14
+wr %o4, 0xEF, %asr14
+wr %o5, 0x83, %asr14
+wr %o6, 0xE5, %asr14
+wr %o7, 0x6B, %asr14
+wr %l0, 0x4D, %asr14
+wr %l1, 0x94, %asr14
+wr %l2, 0x85, %asr14
+wr %l3, 0xEE, %asr14
+wr %l4, 0x93, %asr14
+wr %l5, 0xCB, %asr14
+wr %l6, 0x3A, %asr14
+wr %l7, 0x3C, %asr14
+wr %i0, 0x00, %asr14
+wr %i1, 0xC1, %asr14
+wr %i2, 0xDD, %asr14
+wr %i3, 0x1A, %asr14
+wr %i4, 0xA7, %asr14
+wr %i5, 0xD6, %asr14
+wr %i6, 0x0A, %asr14
+wr %i7, 0x08, %asr14
+wr %g0, 0x25, %asr15
+wr %g1, 0x51, %asr15
+wr %g2, 0x63, %asr15
+wr %g3, 0xA8, %asr15
+wr %g4, 0x5C, %asr15
+wr %g5, 0xAB, %asr15
+wr %g6, 0xCD, %asr15
+wr %g7, 0x83, %asr15
+wr %o0, 0xFE, %asr15
+wr %o1, 0xC7, %asr15
+wr %o2, 0x03, %asr15
+wr %o3, 0xD7, %asr15
+wr %o4, 0xD1, %asr15
+wr %o5, 0x8D, %asr15
+wr %o6, 0x49, %asr15
+wr %o7, 0x98, %asr15
+wr %l0, 0x71, %asr15
+wr %l1, 0xF3, %asr15
+wr %l2, 0xF5, %asr15
+wr %l3, 0x52, %asr15
+wr %l4, 0xA0, %asr15
+wr %l5, 0x51, %asr15
+wr %l6, 0x52, %asr15
+wr %l7, 0xF7, %asr15
+wr %i0, 0x6A, %asr15
+wr %i1, 0x82, %asr15
+wr %i2, 0x16, %asr15
+wr %i3, 0xDC, %asr15
+wr %i4, 0x9D, %asr15
+wr %i5, 0x89, %asr15
+wr %i6, 0x1E, %asr15
+wr %i7, 0x6F, %asr15
+wr %g0, 0xD5, %asr16
+wr %g1, 0x97, %asr16
+wr %g2, 0x0E, %asr16
+wr %g3, 0xF6, %asr16
+wr %g4, 0xCF, %asr16
+wr %g5, 0xA4, %asr16
+wr %g6, 0x87, %asr16
+wr %g7, 0x8B, %asr16
+wr %o0, 0x6A, %asr16
+wr %o1, 0xA3, %asr16
+wr %o2, 0xA9, %asr16
+wr %o3, 0xB6, %asr16
+wr %o4, 0xFB, %asr16
+wr %o5, 0x41, %asr16
+wr %o6, 0xD0, %asr16
+wr %o7, 0xA7, %asr16
+wr %l0, 0x7C, %asr16
+wr %l1, 0x75, %asr16
+wr %l2, 0xEA, %asr16
+wr %l3, 0xA9, %asr16
+wr %l4, 0x69, %asr16
+wr %l5, 0x7B, %asr16
+wr %l6, 0x6B, %asr16
+wr %l7, 0xD5, %asr16
+wr %i0, 0xAB, %asr16
+wr %i1, 0x0B, %asr16
+wr %i2, 0xB0, %asr16
+wr %i3, 0x74, %asr16
+wr %i4, 0x17, %asr16
+wr %i5, 0xBB, %asr16
+wr %i6, 0x98, %asr16
+wr %i7, 0x32, %asr16
+wr %g0, 0x64, %asr17
+wr %g1, 0xB8, %asr17
+wr %g2, 0x13, %asr17
+wr %g3, 0xC0, %asr17
+wr %g4, 0x51, %asr17
+wr %g5, 0x7F, %asr17
+wr %g6, 0x16, %asr17
+wr %g7, 0x30, %asr17
+wr %o0, 0xB6, %asr17
+wr %o1, 0xE4, %asr17
+wr %o2, 0x4F, %asr17
+wr %o3, 0xE2, %asr17
+wr %o4, 0xB1, %asr17
+wr %o5, 0x16, %asr17
+wr %o6, 0xD3, %asr17
+wr %o7, 0xA7, %asr17
+wr %l0, 0x82, %asr17
+wr %l1, 0x99, %asr17
+wr %l2, 0x34, %asr17
+wr %l3, 0x55, %asr17
+wr %l4, 0xDE, %asr17
+wr %l5, 0xAE, %asr17
+wr %l6, 0x43, %asr17
+wr %l7, 0x60, %asr17
+wr %i0, 0x91, %asr17
+wr %i1, 0x82, %asr17
+wr %i2, 0xB1, %asr17
+wr %i3, 0xC6, %asr17
+wr %i4, 0x00, %asr17
+wr %i5, 0x0A, %asr17
+wr %i6, 0x62, %asr17
+wr %i7, 0x19, %asr17
+wr %g0, 0x49, %asr18
+wr %g1, 0x3C, %asr18
+wr %g2, 0x29, %asr18
+wr %g3, 0xD2, %asr18
+wr %g4, 0x04, %asr18
+wr %g5, 0x32, %asr18
+wr %g6, 0x2C, %asr18
+wr %g7, 0x57, %asr18
+wr %o0, 0x35, %asr18
+wr %o1, 0xD6, %asr18
+wr %o2, 0x4C, %asr18
+wr %o3, 0x24, %asr18
+wr %o4, 0x20, %asr18
+wr %o5, 0x45, %asr18
+wr %o6, 0xBD, %asr18
+wr %o7, 0x97, %asr18
+wr %l0, 0xF8, %asr18
+wr %l1, 0x78, %asr18
+wr %l2, 0x1C, %asr18
+wr %l3, 0xAB, %asr18
+wr %l4, 0x65, %asr18
+wr %l5, 0x05, %asr18
+wr %l6, 0x6D, %asr18
+wr %l7, 0x9C, %asr18
+wr %i0, 0x47, %asr18
+wr %i1, 0xF4, %asr18
+wr %i2, 0x18, %asr18
+wr %i3, 0xD7, %asr18
+wr %i4, 0x0A, %asr18
+wr %i5, 0x3D, %asr18
+wr %i6, 0x39, %asr18
+wr %i7, 0x7C, %asr18
+wr %g0, 0xC8, %asr19
+wr %g1, 0xEA, %asr19
+wr %g2, 0x95, %asr19
+wr %g3, 0xDE, %asr19
+wr %g4, 0x43, %asr19
+wr %g5, 0x14, %asr19
+wr %g6, 0x66, %asr19
+wr %g7, 0x92, %asr19
+wr %o0, 0x34, %asr19
+wr %o1, 0x9F, %asr19
+wr %o2, 0xDB, %asr19
+wr %o3, 0x36, %asr19
+wr %o4, 0xDD, %asr19
+wr %o5, 0xBB, %asr19
+wr %o6, 0x96, %asr19
+wr %o7, 0x21, %asr19
+wr %l0, 0x45, %asr19
+wr %l1, 0x78, %asr19
+wr %l2, 0x28, %asr19
+wr %l3, 0x74, %asr19
+wr %l4, 0x15, %asr19
+wr %l5, 0xDA, %asr19
+wr %l6, 0x60, %asr19
+wr %l7, 0xDC, %asr19
+wr %i0, 0x5E, %asr19
+wr %i1, 0xF5, %asr19
+wr %i2, 0xD0, %asr19
+wr %i3, 0x11, %asr19
+wr %i4, 0x26, %asr19
+wr %i5, 0x38, %asr19
+wr %i6, 0x6D, %asr19
+wr %i7, 0x49, %asr19
+wr %g0, 0xEB, %asr20
+wr %g1, 0x1B, %asr20
+wr %g2, 0xA9, %asr20
+wr %g3, 0xAB, %asr20
+wr %g4, 0x65, %asr20
+wr %g5, 0x47, %asr20
+wr %g6, 0x10, %asr20
+wr %g7, 0xC0, %asr20
+wr %o0, 0x69, %asr20
+wr %o1, 0xB2, %asr20
+wr %o2, 0x9B, %asr20
+wr %o3, 0x27, %asr20
+wr %o4, 0x8C, %asr20
+wr %o5, 0x07, %asr20
+wr %o6, 0xB8, %asr20
+wr %o7, 0x80, %asr20
+wr %l0, 0x7B, %asr20
+wr %l1, 0xAC, %asr20
+wr %l2, 0xEC, %asr20
+wr %l3, 0x4B, %asr20
+wr %l4, 0x3B, %asr20
+wr %l5, 0x2D, %asr20
+wr %l6, 0xEA, %asr20
+wr %l7, 0x50, %asr20
+wr %i0, 0x32, %asr20
+wr %i1, 0x29, %asr20
+wr %i2, 0xEE, %asr20
+wr %i3, 0xFB, %asr20
+wr %i4, 0x1B, %asr20
+wr %i5, 0x6B, %asr20
+wr %i6, 0xCE, %asr20
+wr %i7, 0xC0, %asr20
+wr %g0, 0x96, %asr21
+wr %g1, 0x7C, %asr21
+wr %g2, 0x87, %asr21
+wr %g3, 0x10, %asr21
+wr %g4, 0x87, %asr21
+wr %g5, 0x81, %asr21
+wr %g6, 0x6E, %asr21
+wr %g7, 0x97, %asr21
+wr %o0, 0x9E, %asr21
+wr %o1, 0x85, %asr21
+wr %o2, 0x3D, %asr21
+wr %o3, 0x4C, %asr21
+wr %o4, 0x79, %asr21
+wr %o5, 0xA4, %asr21
+wr %o6, 0x5E, %asr21
+wr %o7, 0x77, %asr21
+wr %l0, 0x38, %asr21
+wr %l1, 0x21, %asr21
+wr %l2, 0xEB, %asr21
+wr %l3, 0x9B, %asr21
+wr %l4, 0x63, %asr21
+wr %l5, 0x57, %asr21
+wr %l6, 0xB3, %asr21
+wr %l7, 0x7F, %asr21
+wr %i0, 0x53, %asr21
+wr %i1, 0x25, %asr21
+wr %i2, 0xD3, %asr21
+wr %i3, 0x8E, %asr21
+wr %i4, 0x98, %asr21
+wr %i5, 0x35, %asr21
+wr %i6, 0x6C, %asr21
+wr %i7, 0x11, %asr21
+wr %g0, 0x2C, %asr22
+wr %g1, 0xFA, %asr22
+wr %g2, 0xDC, %asr22
+wr %g3, 0x9A, %asr22
+wr %g4, 0x93, %asr22
+wr %g5, 0xD7, %asr22
+wr %g6, 0xAB, %asr22
+wr %g7, 0x78, %asr22
+wr %o0, 0x75, %asr22
+wr %o1, 0xA2, %asr22
+wr %o2, 0xF2, %asr22
+wr %o3, 0x45, %asr22
+wr %o4, 0xB5, %asr22
+wr %o5, 0xAB, %asr22
+wr %o6, 0xB2, %asr22
+wr %o7, 0xDC, %asr22
+wr %l0, 0x38, %asr22
+wr %l1, 0x24, %asr22
+wr %l2, 0x55, %asr22
+wr %l3, 0x3A, %asr22
+wr %l4, 0xE3, %asr22
+wr %l5, 0x63, %asr22
+wr %l6, 0xB7, %asr22
+wr %l7, 0xCE, %asr22
+wr %i0, 0xA3, %asr22
+wr %i1, 0x04, %asr22
+wr %i2, 0x1E, %asr22
+wr %i3, 0x79, %asr22
+wr %i4, 0xCE, %asr22
+wr %i5, 0xE8, %asr22
+wr %i6, 0xC1, %asr22
+wr %i7, 0xAB, %asr22
+wr %g0, 0x12, %asr23
+wr %g1, 0x4B, %asr23
+wr %g2, 0xF8, %asr23
+wr %g3, 0xA7, %asr23
+wr %g4, 0xC5, %asr23
+wr %g5, 0x2A, %asr23
+wr %g6, 0x7F, %asr23
+wr %g7, 0x74, %asr23
+wr %o0, 0xDB, %asr23
+wr %o1, 0x31, %asr23
+wr %o2, 0xFD, %asr23
+wr %o3, 0x2C, %asr23
+wr %o4, 0xF1, %asr23
+wr %o5, 0x3C, %asr23
+wr %o6, 0xAB, %asr23
+wr %o7, 0xDE, %asr23
+wr %l0, 0x68, %asr23
+wr %l1, 0xB4, %asr23
+wr %l2, 0x98, %asr23
+wr %l3, 0xC5, %asr23
+wr %l4, 0x52, %asr23
+wr %l5, 0x48, %asr23
+wr %l6, 0xBF, %asr23
+wr %l7, 0x80, %asr23
+wr %i0, 0xEE, %asr23
+wr %i1, 0x65, %asr23
+wr %i2, 0x4E, %asr23
+wr %i3, 0x90, %asr23
+wr %i4, 0xA9, %asr23
+wr %i5, 0xB5, %asr23
+wr %i6, 0x7D, %asr23
+wr %i7, 0x4B, %asr23
+wr %g0, 0x7B, %asr24
+wr %g1, 0x8C, %asr24
+wr %g2, 0x75, %asr24
+wr %g3, 0x7A, %asr24
+wr %g4, 0xE8, %asr24
+wr %g5, 0x09, %asr24
+wr %g6, 0x6C, %asr24
+wr %g7, 0x94, %asr24
+wr %o0, 0xA9, %asr24
+wr %o1, 0xCA, %asr24
+wr %o2, 0x88, %asr24
+wr %o3, 0x28, %asr24
+wr %o4, 0x86, %asr24
+wr %o5, 0x6F, %asr24
+wr %o6, 0x2E, %asr24
+wr %o7, 0x68, %asr24
+wr %l0, 0x94, %asr24
+wr %l1, 0x7B, %asr24
+wr %l2, 0x89, %asr24
+wr %l3, 0x76, %asr24
+wr %l4, 0xAB, %asr24
+wr %l5, 0x23, %asr24
+wr %l6, 0x39, %asr24
+wr %l7, 0x0A, %asr24
+wr %i0, 0xF9, %asr24
+wr %i1, 0xF2, %asr24
+wr %i2, 0x91, %asr24
+wr %i3, 0xF6, %asr24
+wr %i4, 0x42, %asr24
+wr %i5, 0xBB, %asr24
+wr %i6, 0x32, %asr24
+wr %i7, 0x2D, %asr24
+wr %g0, 0xC0, %asr25
+wr %g1, 0x24, %asr25
+wr %g2, 0x8E, %asr25
+wr %g3, 0x45, %asr25
+wr %g4, 0xBE, %asr25
+wr %g5, 0xE3, %asr25
+wr %g6, 0x63, %asr25
+wr %g7, 0x57, %asr25
+wr %o0, 0x75, %asr25
+wr %o1, 0xEB, %asr25
+wr %o2, 0x57, %asr25
+wr %o3, 0x53, %asr25
+wr %o4, 0xB9, %asr25
+wr %o5, 0x2A, %asr25
+wr %o6, 0x2F, %asr25
+wr %o7, 0xF8, %asr25
+wr %l0, 0xCE, %asr25
+wr %l1, 0xCD, %asr25
+wr %l2, 0x01, %asr25
+wr %l3, 0xC5, %asr25
+wr %l4, 0x75, %asr25
+wr %l5, 0x76, %asr25
+wr %l6, 0xA8, %asr25
+wr %l7, 0x62, %asr25
+wr %i0, 0x36, %asr25
+wr %i1, 0x6D, %asr25
+wr %i2, 0xF1, %asr25
+wr %i3, 0x8E, %asr25
+wr %i4, 0xAF, %asr25
+wr %i5, 0x1C, %asr25
+wr %i6, 0x3C, %asr25
+wr %i7, 0xB8, %asr25
+wr %g0, 0xAB, %asr26
+wr %g1, 0x8D, %asr26
+wr %g2, 0x6C, %asr26
+wr %g3, 0x34, %asr26
+wr %g4, 0xD5, %asr26
+wr %g5, 0x62, %asr26
+wr %g6, 0xBD, %asr26
+wr %g7, 0x4A, %asr26
+wr %o0, 0x34, %asr26
+wr %o1, 0x87, %asr26
+wr %o2, 0x25, %asr26
+wr %o3, 0x7C, %asr26
+wr %o4, 0xB2, %asr26
+wr %o5, 0x10, %asr26
+wr %o6, 0x8C, %asr26
+wr %o7, 0x91, %asr26
+wr %l0, 0xE1, %asr26
+wr %l1, 0x9C, %asr26
+wr %l2, 0x4C, %asr26
+wr %l3, 0x32, %asr26
+wr %l4, 0xA2, %asr26
+wr %l5, 0x66, %asr26
+wr %l6, 0x84, %asr26
+wr %l7, 0x94, %asr26
+wr %i0, 0xB3, %asr26
+wr %i1, 0xA2, %asr26
+wr %i2, 0xEA, %asr26
+wr %i3, 0x0F, %asr26
+wr %i4, 0xE7, %asr26
+wr %i5, 0x54, %asr26
+wr %i6, 0x58, %asr26
+wr %i7, 0xAB, %asr26
+wr %g0, 0x27, %asr27
+wr %g1, 0x3E, %asr27
+wr %g2, 0x47, %asr27
+wr %g3, 0x31, %asr27
+wr %g4, 0xE7, %asr27
+wr %g5, 0x12, %asr27
+wr %g6, 0x26, %asr27
+wr %g7, 0x53, %asr27
+wr %o0, 0x2D, %asr27
+wr %o1, 0xDB, %asr27
+wr %o2, 0x0B, %asr27
+wr %o3, 0xBC, %asr27
+wr %o4, 0x00, %asr27
+wr %o5, 0x87, %asr27
+wr %o6, 0xC9, %asr27
+wr %o7, 0x41, %asr27
+wr %l0, 0x84, %asr27
+wr %l1, 0xC2, %asr27
+wr %l2, 0xFE, %asr27
+wr %l3, 0x93, %asr27
+wr %l4, 0x7C, %asr27
+wr %l5, 0xED, %asr27
+wr %l6, 0x8A, %asr27
+wr %l7, 0xDE, %asr27
+wr %i0, 0xDA, %asr27
+wr %i1, 0x43, %asr27
+wr %i2, 0x99, %asr27
+wr %i3, 0xE6, %asr27
+wr %i4, 0xB4, %asr27
+wr %i5, 0xC6, %asr27
+wr %i6, 0x98, %asr27
+wr %i7, 0x8E, %asr27
+wr %g0, 0x07, %asr28
+wr %g1, 0x1B, %asr28
+wr %g2, 0xAB, %asr28
+wr %g3, 0xF3, %asr28
+wr %g4, 0x22, %asr28
+wr %g5, 0xF5, %asr28
+wr %g6, 0x11, %asr28
+wr %g7, 0xC6, %asr28
+wr %o0, 0x31, %asr28
+wr %o1, 0xE9, %asr28
+wr %o2, 0x4E, %asr28
+wr %o3, 0x7F, %asr28
+wr %o4, 0xFB, %asr28
+wr %o5, 0xA2, %asr28
+wr %o6, 0xE5, %asr28
+wr %o7, 0x55, %asr28
+wr %l0, 0x61, %asr28
+wr %l1, 0x88, %asr28
+wr %l2, 0x93, %asr28
+wr %l3, 0x98, %asr28
+wr %l4, 0xFE, %asr28
+wr %l5, 0x51, %asr28
+wr %l6, 0x16, %asr28
+wr %l7, 0x94, %asr28
+wr %i0, 0xED, %asr28
+wr %i1, 0x2F, %asr28
+wr %i2, 0xED, %asr28
+wr %i3, 0xB1, %asr28
+wr %i4, 0x38, %asr28
+wr %i5, 0x69, %asr28
+wr %i6, 0x2C, %asr28
+wr %i7, 0xCB, %asr28
+wr %g0, 0x84, %asr29
+wr %g1, 0x2D, %asr29
+wr %g2, 0x3C, %asr29
+wr %g3, 0xA7, %asr29
+wr %g4, 0x74, %asr29
+wr %g5, 0x37, %asr29
+wr %g6, 0x54, %asr29
+wr %g7, 0x5E, %asr29
+wr %o0, 0x58, %asr29
+wr %o1, 0x1D, %asr29
+wr %o2, 0x4F, %asr29
+wr %o3, 0x60, %asr29
+wr %o4, 0xCE, %asr29
+wr %o5, 0xFF, %asr29
+wr %o6, 0xCC, %asr29
+wr %o7, 0xCB, %asr29
+wr %l0, 0xF5, %asr29
+wr %l1, 0x4B, %asr29
+wr %l2, 0x0C, %asr29
+wr %l3, 0xC3, %asr29
+wr %l4, 0x62, %asr29
+wr %l5, 0x21, %asr29
+wr %l6, 0x40, %asr29
+wr %l7, 0x5D, %asr29
+wr %i0, 0xC9, %asr29
+wr %i1, 0x6D, %asr29
+wr %i2, 0xA4, %asr29
+wr %i3, 0x46, %asr29
+wr %i4, 0x09, %asr29
+wr %i5, 0xD2, %asr29
+wr %i6, 0xE1, %asr29
+wr %i7, 0xE0, %asr29
+wr %g0, 0x23, %asr30
+wr %g1, 0xA5, %asr30
+wr %g2, 0x26, %asr30
+wr %g3, 0x5B, %asr30
+wr %g4, 0x54, %asr30
+wr %g5, 0x85, %asr30
+wr %g6, 0x6C, %asr30
+wr %g7, 0x9C, %asr30
+wr %o0, 0x49, %asr30
+wr %o1, 0x08, %asr30
+wr %o2, 0xCF, %asr30
+wr %o3, 0x62, %asr30
+wr %o4, 0x7B, %asr30
+wr %o5, 0xCB, %asr30
+wr %o6, 0x8A, %asr30
+wr %o7, 0xCF, %asr30
+wr %l0, 0xC5, %asr30
+wr %l1, 0x8E, %asr30
+wr %l2, 0xA0, %asr30
+wr %l3, 0xF0, %asr30
+wr %l4, 0xD6, %asr30
+wr %l5, 0x48, %asr30
+wr %l6, 0x9A, %asr30
+wr %l7, 0x88, %asr30
+wr %i0, 0x48, %asr30
+wr %i1, 0x47, %asr30
+wr %i2, 0x98, %asr30
+wr %i3, 0x07, %asr30
+wr %i4, 0xD8, %asr30
+wr %i5, 0x52, %asr30
+wr %i6, 0xA4, %asr30
+wr %i7, 0x66, %asr30
+wr %g0, 0xB8, %asr31
+wr %g1, 0x2C, %asr31
+wr %g2, 0x85, %asr31
+wr %g3, 0xDE, %asr31
+wr %g4, 0x6F, %asr31
+wr %g5, 0x57, %asr31
+wr %g6, 0xDF, %asr31
+wr %g7, 0xAD, %asr31
+wr %o0, 0x91, %asr31
+wr %o1, 0x50, %asr31
+wr %o2, 0x57, %asr31
+wr %o3, 0x45, %asr31
+wr %o4, 0x4D, %asr31
+wr %o5, 0xB9, %asr31
+wr %o6, 0x49, %asr31
+wr %o7, 0x13, %asr31
+wr %l0, 0x11, %asr31
+wr %l1, 0x67, %asr31
+wr %l2, 0xC0, %asr31
+wr %l3, 0xEB, %asr31
+wr %l4, 0x87, %asr31
+wr %l5, 0x75, %asr31
+wr %l6, 0x61, %asr31
+wr %l7, 0x69, %asr31
+wr %i0, 0xDF, %asr31
+wr %i1, 0x5C, %asr31
+wr %i2, 0xAD, %asr31
+wr %i3, 0xF2, %asr31
+wr %i4, 0x9F, %asr31
+wr %i5, 0x1C, %asr31
+wr %i6, 0x81, %asr31
+wr %i7, 0xAA, %asr31
+
+rd %asr1, %g0
+rd %asr1, %g1
+rd %asr1, %g2
+rd %asr1, %g3
+rd %asr1, %g4
+rd %asr1, %g5
+rd %asr1, %g6
+rd %asr1, %g7
+rd %asr1, %o0
+rd %asr1, %o1
+rd %asr1, %o2
+rd %asr1, %o3
+rd %asr1, %o4
+rd %asr1, %o5
+rd %asr1, %o6
+rd %asr1, %o7
+rd %asr1, %l0
+rd %asr1, %l1
+rd %asr1, %l2
+rd %asr1, %l3
+rd %asr1, %l4
+rd %asr1, %l5
+rd %asr1, %l6
+rd %asr1, %l7
+rd %asr1, %i0
+rd %asr1, %i1
+rd %asr1, %i2
+rd %asr1, %i3
+rd %asr1, %i4
+rd %asr1, %i5
+rd %asr1, %i6
+rd %asr1, %i7
+rd %asr2, %g0
+rd %asr2, %g1
+rd %asr2, %g2
+rd %asr2, %g3
+rd %asr2, %g4
+rd %asr2, %g5
+rd %asr2, %g6
+rd %asr2, %g7
+rd %asr2, %o0
+rd %asr2, %o1
+rd %asr2, %o2
+rd %asr2, %o3
+rd %asr2, %o4
+rd %asr2, %o5
+rd %asr2, %o6
+rd %asr2, %o7
+rd %asr2, %l0
+rd %asr2, %l1
+rd %asr2, %l2
+rd %asr2, %l3
+rd %asr2, %l4
+rd %asr2, %l5
+rd %asr2, %l6
+rd %asr2, %l7
+rd %asr2, %i0
+rd %asr2, %i1
+rd %asr2, %i2
+rd %asr2, %i3
+rd %asr2, %i4
+rd %asr2, %i5
+rd %asr2, %i6
+rd %asr2, %i7
+rd %asr3, %g0
+rd %asr3, %g1
+rd %asr3, %g2
+rd %asr3, %g3
+rd %asr3, %g4
+rd %asr3, %g5
+rd %asr3, %g6
+rd %asr3, %g7
+rd %asr3, %o0
+rd %asr3, %o1
+rd %asr3, %o2
+rd %asr3, %o3
+rd %asr3, %o4
+rd %asr3, %o5
+rd %asr3, %o6
+rd %asr3, %o7
+rd %asr3, %l0
+rd %asr3, %l1
+rd %asr3, %l2
+rd %asr3, %l3
+rd %asr3, %l4
+rd %asr3, %l5
+rd %asr3, %l6
+rd %asr3, %l7
+rd %asr3, %i0
+rd %asr3, %i1
+rd %asr3, %i2
+rd %asr3, %i3
+rd %asr3, %i4
+rd %asr3, %i5
+rd %asr3, %i6
+rd %asr3, %i7
+rd %asr4, %g0
+rd %asr4, %g1
+rd %asr4, %g2
+rd %asr4, %g3
+rd %asr4, %g4
+rd %asr4, %g5
+rd %asr4, %g6
+rd %asr4, %g7
+rd %asr4, %o0
+rd %asr4, %o1
+rd %asr4, %o2
+rd %asr4, %o3
+rd %asr4, %o4
+rd %asr4, %o5
+rd %asr4, %o6
+rd %asr4, %o7
+rd %asr4, %l0
+rd %asr4, %l1
+rd %asr4, %l2
+rd %asr4, %l3
+rd %asr4, %l4
+rd %asr4, %l5
+rd %asr4, %l6
+rd %asr4, %l7
+rd %asr4, %i0
+rd %asr4, %i1
+rd %asr4, %i2
+rd %asr4, %i3
+rd %asr4, %i4
+rd %asr4, %i5
+rd %asr4, %i6
+rd %asr4, %i7
+rd %asr5, %g0
+rd %asr5, %g1
+rd %asr5, %g2
+rd %asr5, %g3
+rd %asr5, %g4
+rd %asr5, %g5
+rd %asr5, %g6
+rd %asr5, %g7
+rd %asr5, %o0
+rd %asr5, %o1
+rd %asr5, %o2
+rd %asr5, %o3
+rd %asr5, %o4
+rd %asr5, %o5
+rd %asr5, %o6
+rd %asr5, %o7
+rd %asr5, %l0
+rd %asr5, %l1
+rd %asr5, %l2
+rd %asr5, %l3
+rd %asr5, %l4
+rd %asr5, %l5
+rd %asr5, %l6
+rd %asr5, %l7
+rd %asr5, %i0
+rd %asr5, %i1
+rd %asr5, %i2
+rd %asr5, %i3
+rd %asr5, %i4
+rd %asr5, %i5
+rd %asr5, %i6
+rd %asr5, %i7
+rd %asr6, %g0
+rd %asr6, %g1
+rd %asr6, %g2
+rd %asr6, %g3
+rd %asr6, %g4
+rd %asr6, %g5
+rd %asr6, %g6
+rd %asr6, %g7
+rd %asr6, %o0
+rd %asr6, %o1
+rd %asr6, %o2
+rd %asr6, %o3
+rd %asr6, %o4
+rd %asr6, %o5
+rd %asr6, %o6
+rd %asr6, %o7
+rd %asr6, %l0
+rd %asr6, %l1
+rd %asr6, %l2
+rd %asr6, %l3
+rd %asr6, %l4
+rd %asr6, %l5
+rd %asr6, %l6
+rd %asr6, %l7
+rd %asr6, %i0
+rd %asr6, %i1
+rd %asr6, %i2
+rd %asr6, %i3
+rd %asr6, %i4
+rd %asr6, %i5
+rd %asr6, %i6
+rd %asr6, %i7
+rd %asr7, %g0
+rd %asr7, %g1
+rd %asr7, %g2
+rd %asr7, %g3
+rd %asr7, %g4
+rd %asr7, %g5
+rd %asr7, %g6
+rd %asr7, %g7
+rd %asr7, %o0
+rd %asr7, %o1
+rd %asr7, %o2
+rd %asr7, %o3
+rd %asr7, %o4
+rd %asr7, %o5
+rd %asr7, %o6
+rd %asr7, %o7
+rd %asr7, %l0
+rd %asr7, %l1
+rd %asr7, %l2
+rd %asr7, %l3
+rd %asr7, %l4
+rd %asr7, %l5
+rd %asr7, %l6
+rd %asr7, %l7
+rd %asr7, %i0
+rd %asr7, %i1
+rd %asr7, %i2
+rd %asr7, %i3
+rd %asr7, %i4
+rd %asr7, %i5
+rd %asr7, %i6
+rd %asr7, %i7
+rd %asr8, %g0
+rd %asr8, %g1
+rd %asr8, %g2
+rd %asr8, %g3
+rd %asr8, %g4
+rd %asr8, %g5
+rd %asr8, %g6
+rd %asr8, %g7
+rd %asr8, %o0
+rd %asr8, %o1
+rd %asr8, %o2
+rd %asr8, %o3
+rd %asr8, %o4
+rd %asr8, %o5
+rd %asr8, %o6
+rd %asr8, %o7
+rd %asr8, %l0
+rd %asr8, %l1
+rd %asr8, %l2
+rd %asr8, %l3
+rd %asr8, %l4
+rd %asr8, %l5
+rd %asr8, %l6
+rd %asr8, %l7
+rd %asr8, %i0
+rd %asr8, %i1
+rd %asr8, %i2
+rd %asr8, %i3
+rd %asr8, %i4
+rd %asr8, %i5
+rd %asr8, %i6
+rd %asr8, %i7
+rd %asr9, %g0
+rd %asr9, %g1
+rd %asr9, %g2
+rd %asr9, %g3
+rd %asr9, %g4
+rd %asr9, %g5
+rd %asr9, %g6
+rd %asr9, %g7
+rd %asr9, %o0
+rd %asr9, %o1
+rd %asr9, %o2
+rd %asr9, %o3
+rd %asr9, %o4
+rd %asr9, %o5
+rd %asr9, %o6
+rd %asr9, %o7
+rd %asr9, %l0
+rd %asr9, %l1
+rd %asr9, %l2
+rd %asr9, %l3
+rd %asr9, %l4
+rd %asr9, %l5
+rd %asr9, %l6
+rd %asr9, %l7
+rd %asr9, %i0
+rd %asr9, %i1
+rd %asr9, %i2
+rd %asr9, %i3
+rd %asr9, %i4
+rd %asr9, %i5
+rd %asr9, %i6
+rd %asr9, %i7
+rd %asr10, %g0
+rd %asr10, %g1
+rd %asr10, %g2
+rd %asr10, %g3
+rd %asr10, %g4
+rd %asr10, %g5
+rd %asr10, %g6
+rd %asr10, %g7
+rd %asr10, %o0
+rd %asr10, %o1
+rd %asr10, %o2
+rd %asr10, %o3
+rd %asr10, %o4
+rd %asr10, %o5
+rd %asr10, %o6
+rd %asr10, %o7
+rd %asr10, %l0
+rd %asr10, %l1
+rd %asr10, %l2
+rd %asr10, %l3
+rd %asr10, %l4
+rd %asr10, %l5
+rd %asr10, %l6
+rd %asr10, %l7
+rd %asr10, %i0
+rd %asr10, %i1
+rd %asr10, %i2
+rd %asr10, %i3
+rd %asr10, %i4
+rd %asr10, %i5
+rd %asr10, %i6
+rd %asr10, %i7
+rd %asr11, %g0
+rd %asr11, %g1
+rd %asr11, %g2
+rd %asr11, %g3
+rd %asr11, %g4
+rd %asr11, %g5
+rd %asr11, %g6
+rd %asr11, %g7
+rd %asr11, %o0
+rd %asr11, %o1
+rd %asr11, %o2
+rd %asr11, %o3
+rd %asr11, %o4
+rd %asr11, %o5
+rd %asr11, %o6
+rd %asr11, %o7
+rd %asr11, %l0
+rd %asr11, %l1
+rd %asr11, %l2
+rd %asr11, %l3
+rd %asr11, %l4
+rd %asr11, %l5
+rd %asr11, %l6
+rd %asr11, %l7
+rd %asr11, %i0
+rd %asr11, %i1
+rd %asr11, %i2
+rd %asr11, %i3
+rd %asr11, %i4
+rd %asr11, %i5
+rd %asr11, %i6
+rd %asr11, %i7
+rd %asr12, %g0
+rd %asr12, %g1
+rd %asr12, %g2
+rd %asr12, %g3
+rd %asr12, %g4
+rd %asr12, %g5
+rd %asr12, %g6
+rd %asr12, %g7
+rd %asr12, %o0
+rd %asr12, %o1
+rd %asr12, %o2
+rd %asr12, %o3
+rd %asr12, %o4
+rd %asr12, %o5
+rd %asr12, %o6
+rd %asr12, %o7
+rd %asr12, %l0
+rd %asr12, %l1
+rd %asr12, %l2
+rd %asr12, %l3
+rd %asr12, %l4
+rd %asr12, %l5
+rd %asr12, %l6
+rd %asr12, %l7
+rd %asr12, %i0
+rd %asr12, %i1
+rd %asr12, %i2
+rd %asr12, %i3
+rd %asr12, %i4
+rd %asr12, %i5
+rd %asr12, %i6
+rd %asr12, %i7
+rd %asr13, %g0
+rd %asr13, %g1
+rd %asr13, %g2
+rd %asr13, %g3
+rd %asr13, %g4
+rd %asr13, %g5
+rd %asr13, %g6
+rd %asr13, %g7
+rd %asr13, %o0
+rd %asr13, %o1
+rd %asr13, %o2
+rd %asr13, %o3
+rd %asr13, %o4
+rd %asr13, %o5
+rd %asr13, %o6
+rd %asr13, %o7
+rd %asr13, %l0
+rd %asr13, %l1
+rd %asr13, %l2
+rd %asr13, %l3
+rd %asr13, %l4
+rd %asr13, %l5
+rd %asr13, %l6
+rd %asr13, %l7
+rd %asr13, %i0
+rd %asr13, %i1
+rd %asr13, %i2
+rd %asr13, %i3
+rd %asr13, %i4
+rd %asr13, %i5
+rd %asr13, %i6
+rd %asr13, %i7
+rd %asr14, %g0
+rd %asr14, %g1
+rd %asr14, %g2
+rd %asr14, %g3
+rd %asr14, %g4
+rd %asr14, %g5
+rd %asr14, %g6
+rd %asr14, %g7
+rd %asr14, %o0
+rd %asr14, %o1
+rd %asr14, %o2
+rd %asr14, %o3
+rd %asr14, %o4
+rd %asr14, %o5
+rd %asr14, %o6
+rd %asr14, %o7
+rd %asr14, %l0
+rd %asr14, %l1
+rd %asr14, %l2
+rd %asr14, %l3
+rd %asr14, %l4
+rd %asr14, %l5
+rd %asr14, %l6
+rd %asr14, %l7
+rd %asr14, %i0
+rd %asr14, %i1
+rd %asr14, %i2
+rd %asr14, %i3
+rd %asr14, %i4
+rd %asr14, %i5
+rd %asr14, %i6
+rd %asr14, %i7
+rd %asr15, %g0
+rd %asr15, %g1
+rd %asr15, %g2
+rd %asr15, %g3
+rd %asr15, %g4
+rd %asr15, %g5
+rd %asr15, %g6
+rd %asr15, %g7
+rd %asr15, %o0
+rd %asr15, %o1
+rd %asr15, %o2
+rd %asr15, %o3
+rd %asr15, %o4
+rd %asr15, %o5
+rd %asr15, %o6
+rd %asr15, %o7
+rd %asr15, %l0
+rd %asr15, %l1
+rd %asr15, %l2
+rd %asr15, %l3
+rd %asr15, %l4
+rd %asr15, %l5
+rd %asr15, %l6
+rd %asr15, %l7
+rd %asr15, %i0
+rd %asr15, %i1
+rd %asr15, %i2
+rd %asr15, %i3
+rd %asr15, %i4
+rd %asr15, %i5
+rd %asr15, %i6
+rd %asr15, %i7
+rd %asr16, %g0
+rd %asr16, %g1
+rd %asr16, %g2
+rd %asr16, %g3
+rd %asr16, %g4
+rd %asr16, %g5
+rd %asr16, %g6
+rd %asr16, %g7
+rd %asr16, %o0
+rd %asr16, %o1
+rd %asr16, %o2
+rd %asr16, %o3
+rd %asr16, %o4
+rd %asr16, %o5
+rd %asr16, %o6
+rd %asr16, %o7
+rd %asr16, %l0
+rd %asr16, %l1
+rd %asr16, %l2
+rd %asr16, %l3
+rd %asr16, %l4
+rd %asr16, %l5
+rd %asr16, %l6
+rd %asr16, %l7
+rd %asr16, %i0
+rd %asr16, %i1
+rd %asr16, %i2
+rd %asr16, %i3
+rd %asr16, %i4
+rd %asr16, %i5
+rd %asr16, %i6
+rd %asr16, %i7
+rd %asr17, %g0
+rd %asr17, %g1
+rd %asr17, %g2
+rd %asr17, %g3
+rd %asr17, %g4
+rd %asr17, %g5
+rd %asr17, %g6
+rd %asr17, %g7
+rd %asr17, %o0
+rd %asr17, %o1
+rd %asr17, %o2
+rd %asr17, %o3
+rd %asr17, %o4
+rd %asr17, %o5
+rd %asr17, %o6
+rd %asr17, %o7
+rd %asr17, %l0
+rd %asr17, %l1
+rd %asr17, %l2
+rd %asr17, %l3
+rd %asr17, %l4
+rd %asr17, %l5
+rd %asr17, %l6
+rd %asr17, %l7
+rd %asr17, %i0
+rd %asr17, %i1
+rd %asr17, %i2
+rd %asr17, %i3
+rd %asr17, %i4
+rd %asr17, %i5
+rd %asr17, %i6
+rd %asr17, %i7
+rd %asr18, %g0
+rd %asr18, %g1
+rd %asr18, %g2
+rd %asr18, %g3
+rd %asr18, %g4
+rd %asr18, %g5
+rd %asr18, %g6
+rd %asr18, %g7
+rd %asr18, %o0
+rd %asr18, %o1
+rd %asr18, %o2
+rd %asr18, %o3
+rd %asr18, %o4
+rd %asr18, %o5
+rd %asr18, %o6
+rd %asr18, %o7
+rd %asr18, %l0
+rd %asr18, %l1
+rd %asr18, %l2
+rd %asr18, %l3
+rd %asr18, %l4
+rd %asr18, %l5
+rd %asr18, %l6
+rd %asr18, %l7
+rd %asr18, %i0
+rd %asr18, %i1
+rd %asr18, %i2
+rd %asr18, %i3
+rd %asr18, %i4
+rd %asr18, %i5
+rd %asr18, %i6
+rd %asr18, %i7
+rd %asr19, %g0
+rd %asr19, %g1
+rd %asr19, %g2
+rd %asr19, %g3
+rd %asr19, %g4
+rd %asr19, %g5
+rd %asr19, %g6
+rd %asr19, %g7
+rd %asr19, %o0
+rd %asr19, %o1
+rd %asr19, %o2
+rd %asr19, %o3
+rd %asr19, %o4
+rd %asr19, %o5
+rd %asr19, %o6
+rd %asr19, %o7
+rd %asr19, %l0
+rd %asr19, %l1
+rd %asr19, %l2
+rd %asr19, %l3
+rd %asr19, %l4
+rd %asr19, %l5
+rd %asr19, %l6
+rd %asr19, %l7
+rd %asr19, %i0
+rd %asr19, %i1
+rd %asr19, %i2
+rd %asr19, %i3
+rd %asr19, %i4
+rd %asr19, %i5
+rd %asr19, %i6
+rd %asr19, %i7
+rd %asr20, %g0
+rd %asr20, %g1
+rd %asr20, %g2
+rd %asr20, %g3
+rd %asr20, %g4
+rd %asr20, %g5
+rd %asr20, %g6
+rd %asr20, %g7
+rd %asr20, %o0
+rd %asr20, %o1
+rd %asr20, %o2
+rd %asr20, %o3
+rd %asr20, %o4
+rd %asr20, %o5
+rd %asr20, %o6
+rd %asr20, %o7
+rd %asr20, %l0
+rd %asr20, %l1
+rd %asr20, %l2
+rd %asr20, %l3
+rd %asr20, %l4
+rd %asr20, %l5
+rd %asr20, %l6
+rd %asr20, %l7
+rd %asr20, %i0
+rd %asr20, %i1
+rd %asr20, %i2
+rd %asr20, %i3
+rd %asr20, %i4
+rd %asr20, %i5
+rd %asr20, %i6
+rd %asr20, %i7
+rd %asr21, %g0
+rd %asr21, %g1
+rd %asr21, %g2
+rd %asr21, %g3
+rd %asr21, %g4
+rd %asr21, %g5
+rd %asr21, %g6
+rd %asr21, %g7
+rd %asr21, %o0
+rd %asr21, %o1
+rd %asr21, %o2
+rd %asr21, %o3
+rd %asr21, %o4
+rd %asr21, %o5
+rd %asr21, %o6
+rd %asr21, %o7
+rd %asr21, %l0
+rd %asr21, %l1
+rd %asr21, %l2
+rd %asr21, %l3
+rd %asr21, %l4
+rd %asr21, %l5
+rd %asr21, %l6
+rd %asr21, %l7
+rd %asr21, %i0
+rd %asr21, %i1
+rd %asr21, %i2
+rd %asr21, %i3
+rd %asr21, %i4
+rd %asr21, %i5
+rd %asr21, %i6
+rd %asr21, %i7
+rd %asr22, %g0
+rd %asr22, %g1
+rd %asr22, %g2
+rd %asr22, %g3
+rd %asr22, %g4
+rd %asr22, %g5
+rd %asr22, %g6
+rd %asr22, %g7
+rd %asr22, %o0
+rd %asr22, %o1
+rd %asr22, %o2
+rd %asr22, %o3
+rd %asr22, %o4
+rd %asr22, %o5
+rd %asr22, %o6
+rd %asr22, %o7
+rd %asr22, %l0
+rd %asr22, %l1
+rd %asr22, %l2
+rd %asr22, %l3
+rd %asr22, %l4
+rd %asr22, %l5
+rd %asr22, %l6
+rd %asr22, %l7
+rd %asr22, %i0
+rd %asr22, %i1
+rd %asr22, %i2
+rd %asr22, %i3
+rd %asr22, %i4
+rd %asr22, %i5
+rd %asr22, %i6
+rd %asr22, %i7
+rd %asr23, %g0
+rd %asr23, %g1
+rd %asr23, %g2
+rd %asr23, %g3
+rd %asr23, %g4
+rd %asr23, %g5
+rd %asr23, %g6
+rd %asr23, %g7
+rd %asr23, %o0
+rd %asr23, %o1
+rd %asr23, %o2
+rd %asr23, %o3
+rd %asr23, %o4
+rd %asr23, %o5
+rd %asr23, %o6
+rd %asr23, %o7
+rd %asr23, %l0
+rd %asr23, %l1
+rd %asr23, %l2
+rd %asr23, %l3
+rd %asr23, %l4
+rd %asr23, %l5
+rd %asr23, %l6
+rd %asr23, %l7
+rd %asr23, %i0
+rd %asr23, %i1
+rd %asr23, %i2
+rd %asr23, %i3
+rd %asr23, %i4
+rd %asr23, %i5
+rd %asr23, %i6
+rd %asr23, %i7
+rd %asr24, %g0
+rd %asr24, %g1
+rd %asr24, %g2
+rd %asr24, %g3
+rd %asr24, %g4
+rd %asr24, %g5
+rd %asr24, %g6
+rd %asr24, %g7
+rd %asr24, %o0
+rd %asr24, %o1
+rd %asr24, %o2
+rd %asr24, %o3
+rd %asr24, %o4
+rd %asr24, %o5
+rd %asr24, %o6
+rd %asr24, %o7
+rd %asr24, %l0
+rd %asr24, %l1
+rd %asr24, %l2
+rd %asr24, %l3
+rd %asr24, %l4
+rd %asr24, %l5
+rd %asr24, %l6
+rd %asr24, %l7
+rd %asr24, %i0
+rd %asr24, %i1
+rd %asr24, %i2
+rd %asr24, %i3
+rd %asr24, %i4
+rd %asr24, %i5
+rd %asr24, %i6
+rd %asr24, %i7
+rd %asr25, %g0
+rd %asr25, %g1
+rd %asr25, %g2
+rd %asr25, %g3
+rd %asr25, %g4
+rd %asr25, %g5
+rd %asr25, %g6
+rd %asr25, %g7
+rd %asr25, %o0
+rd %asr25, %o1
+rd %asr25, %o2
+rd %asr25, %o3
+rd %asr25, %o4
+rd %asr25, %o5
+rd %asr25, %o6
+rd %asr25, %o7
+rd %asr25, %l0
+rd %asr25, %l1
+rd %asr25, %l2
+rd %asr25, %l3
+rd %asr25, %l4
+rd %asr25, %l5
+rd %asr25, %l6
+rd %asr25, %l7
+rd %asr25, %i0
+rd %asr25, %i1
+rd %asr25, %i2
+rd %asr25, %i3
+rd %asr25, %i4
+rd %asr25, %i5
+rd %asr25, %i6
+rd %asr25, %i7
+rd %asr26, %g0
+rd %asr26, %g1
+rd %asr26, %g2
+rd %asr26, %g3
+rd %asr26, %g4
+rd %asr26, %g5
+rd %asr26, %g6
+rd %asr26, %g7
+rd %asr26, %o0
+rd %asr26, %o1
+rd %asr26, %o2
+rd %asr26, %o3
+rd %asr26, %o4
+rd %asr26, %o5
+rd %asr26, %o6
+rd %asr26, %o7
+rd %asr26, %l0
+rd %asr26, %l1
+rd %asr26, %l2
+rd %asr26, %l3
+rd %asr26, %l4
+rd %asr26, %l5
+rd %asr26, %l6
+rd %asr26, %l7
+rd %asr26, %i0
+rd %asr26, %i1
+rd %asr26, %i2
+rd %asr26, %i3
+rd %asr26, %i4
+rd %asr26, %i5
+rd %asr26, %i6
+rd %asr26, %i7
+rd %asr27, %g0
+rd %asr27, %g1
+rd %asr27, %g2
+rd %asr27, %g3
+rd %asr27, %g4
+rd %asr27, %g5
+rd %asr27, %g6
+rd %asr27, %g7
+rd %asr27, %o0
+rd %asr27, %o1
+rd %asr27, %o2
+rd %asr27, %o3
+rd %asr27, %o4
+rd %asr27, %o5
+rd %asr27, %o6
+rd %asr27, %o7
+rd %asr27, %l0
+rd %asr27, %l1
+rd %asr27, %l2
+rd %asr27, %l3
+rd %asr27, %l4
+rd %asr27, %l5
+rd %asr27, %l6
+rd %asr27, %l7
+rd %asr27, %i0
+rd %asr27, %i1
+rd %asr27, %i2
+rd %asr27, %i3
+rd %asr27, %i4
+rd %asr27, %i5
+rd %asr27, %i6
+rd %asr27, %i7
+rd %asr28, %g0
+rd %asr28, %g1
+rd %asr28, %g2
+rd %asr28, %g3
+rd %asr28, %g4
+rd %asr28, %g5
+rd %asr28, %g6
+rd %asr28, %g7
+rd %asr28, %o0
+rd %asr28, %o1
+rd %asr28, %o2
+rd %asr28, %o3
+rd %asr28, %o4
+rd %asr28, %o5
+rd %asr28, %o6
+rd %asr28, %o7
+rd %asr28, %l0
+rd %asr28, %l1
+rd %asr28, %l2
+rd %asr28, %l3
+rd %asr28, %l4
+rd %asr28, %l5
+rd %asr28, %l6
+rd %asr28, %l7
+rd %asr28, %i0
+rd %asr28, %i1
+rd %asr28, %i2
+rd %asr28, %i3
+rd %asr28, %i4
+rd %asr28, %i5
+rd %asr28, %i6
+rd %asr28, %i7
+rd %asr29, %g0
+rd %asr29, %g1
+rd %asr29, %g2
+rd %asr29, %g3
+rd %asr29, %g4
+rd %asr29, %g5
+rd %asr29, %g6
+rd %asr29, %g7
+rd %asr29, %o0
+rd %asr29, %o1
+rd %asr29, %o2
+rd %asr29, %o3
+rd %asr29, %o4
+rd %asr29, %o5
+rd %asr29, %o6
+rd %asr29, %o7
+rd %asr29, %l0
+rd %asr29, %l1
+rd %asr29, %l2
+rd %asr29, %l3
+rd %asr29, %l4
+rd %asr29, %l5
+rd %asr29, %l6
+rd %asr29, %l7
+rd %asr29, %i0
+rd %asr29, %i1
+rd %asr29, %i2
+rd %asr29, %i3
+rd %asr29, %i4
+rd %asr29, %i5
+rd %asr29, %i6
+rd %asr29, %i7
+rd %asr30, %g0
+rd %asr30, %g1
+rd %asr30, %g2
+rd %asr30, %g3
+rd %asr30, %g4
+rd %asr30, %g5
+rd %asr30, %g6
+rd %asr30, %g7
+rd %asr30, %o0
+rd %asr30, %o1
+rd %asr30, %o2
+rd %asr30, %o3
+rd %asr30, %o4
+rd %asr30, %o5
+rd %asr30, %o6
+rd %asr30, %o7
+rd %asr30, %l0
+rd %asr30, %l1
+rd %asr30, %l2
+rd %asr30, %l3
+rd %asr30, %l4
+rd %asr30, %l5
+rd %asr30, %l6
+rd %asr30, %l7
+rd %asr30, %i0
+rd %asr30, %i1
+rd %asr30, %i2
+rd %asr30, %i3
+rd %asr30, %i4
+rd %asr30, %i5
+rd %asr30, %i6
+rd %asr30, %i7
+rd %asr31, %g0
+rd %asr31, %g1
+rd %asr31, %g2
+rd %asr31, %g3
+rd %asr31, %g4
+rd %asr31, %g5
+rd %asr31, %g6
+rd %asr31, %g7
+rd %asr31, %o0
+rd %asr31, %o1
+rd %asr31, %o2
+rd %asr31, %o3
+rd %asr31, %o4
+rd %asr31, %o5
+rd %asr31, %o6
+rd %asr31, %o7
+rd %asr31, %l0
+rd %asr31, %l1
+rd %asr31, %l2
+rd %asr31, %l3
+rd %asr31, %l4
+rd %asr31, %l5
+rd %asr31, %l6
+rd %asr31, %l7
+rd %asr31, %i0
+rd %asr31, %i1
+rd %asr31, %i2
+rd %asr31, %i3
+rd %asr31, %i4
+rd %asr31, %i5
+rd %asr31, %i6
+rd %asr31, %i7
+
+
+
+wr %g0, 0xBA, %psr
+wr %g1, 0xF8, %psr
+wr %g2, 0x8C, %psr
+wr %g3, 0x59, %psr
+wr %g4, 0x4C, %psr
+wr %g5, 0x1C, %psr
+wr %g6, 0x56, %psr
+wr %g7, 0x94, %psr
+wr %o0, 0x8B, %psr
+wr %o1, 0x35, %psr
+wr %o2, 0x16, %psr
+wr %o3, 0x3F, %psr
+wr %o4, 0x0D, %psr
+wr %o5, 0x84, %psr
+wr %o6, 0x28, %psr
+wr %o7, 0x44, %psr
+wr %l0, 0x09, %psr
+wr %l1, 0x73, %psr
+wr %l2, 0x53, %psr
+wr %l3, 0x5D, %psr
+wr %l4, 0x0F, %psr
+wr %l5, 0x4C, %psr
+wr %l6, 0xCC, %psr
+wr %l7, 0x8D, %psr
+wr %i0, 0x46, %psr
+wr %i1, 0xCB, %psr
+wr %i2, 0x30, %psr
+wr %i3, 0xD5, %psr
+wr %i4, 0x9D, %psr
+wr %i5, 0x2F, %psr
+wr %i6, 0xD7, %psr
+wr %i7, 0x30, %psr
 rd %psr, g0
 rd %psr, g1
 rd %psr, g2
@@ -33844,2256 +33844,2256 @@ rd %psr, i7
 
 
 
-wr %g0, 0x61, %tbr
-wr %g1, 0x68, %tbr
-wr %g2, 0x83, %tbr
-wr %g3, 0xC0, %tbr
-wr %g4, 0xA3, %tbr
-wr %g5, 0xCC, %tbr
-wr %g6, 0x81, %tbr
-wr %g7, 0x33, %tbr
-wr %o0, 0x2F, %tbr
-wr %o1, 0xAA, %tbr
-wr %o2, 0xDF, %tbr
-wr %o3, 0x0F, %tbr
-wr %o4, 0x9B, %tbr
-wr %o5, 0x88, %tbr
-wr %o6, 0x6F, %tbr
-wr %o7, 0x2E, %tbr
-wr %l0, 0xAA, %tbr
-wr %l1, 0xB3, %tbr
-wr %l2, 0x36, %tbr
-wr %l3, 0xE8, %tbr
-wr %l4, 0xEE, %tbr
-wr %l5, 0xED, %tbr
-wr %l6, 0xF4, %tbr
-wr %l7, 0xD9, %tbr
-wr %i0, 0x90, %tbr
-wr %i1, 0x44, %tbr
-wr %i2, 0x84, %tbr
-wr %i3, 0x63, %tbr
-wr %i4, 0xE0, %tbr
-wr %i5, 0xB5, %tbr
-wr %i6, 0xE5, %tbr
-wr %i7, 0xBD, %tbr
-rd %tbr, g0
-rd %tbr, g1
-rd %tbr, g2
-rd %tbr, g3
-rd %tbr, g4
-rd %tbr, g5
-rd %tbr, g6
-rd %tbr, g7
-rd %tbr, o0
-rd %tbr, o1
-rd %tbr, o2
-rd %tbr, o3
-rd %tbr, o4
-rd %tbr, o5
-rd %tbr, o6
-rd %tbr, o7
-rd %tbr, l0
-rd %tbr, l1
-rd %tbr, l2
-rd %tbr, l3
-rd %tbr, l4
-rd %tbr, l5
-rd %tbr, l6
-rd %tbr, l7
-rd %tbr, i0
-rd %tbr, i1
-rd %tbr, i2
-rd %tbr, i3
-rd %tbr, i4
-rd %tbr, i5
-rd %tbr, i6
-rd %tbr, i7
+wr %g0, 0x9C, %tbr
+wr %g1, 0xAC, %tbr
+wr %g2, 0x2F, %tbr
+wr %g3, 0x42, %tbr
+wr %g4, 0x4E, %tbr
+wr %g5, 0x0D, %tbr
+wr %g6, 0x5B, %tbr
+wr %g7, 0x5A, %tbr
+wr %o0, 0xDC, %tbr
+wr %o1, 0x14, %tbr
+wr %o2, 0x1E, %tbr
+wr %o3, 0x52, %tbr
+wr %o4, 0xFB, %tbr
+wr %o5, 0x44, %tbr
+wr %o6, 0x75, %tbr
+wr %o7, 0xD1, %tbr
+wr %l0, 0xAC, %tbr
+wr %l1, 0x34, %tbr
+wr %l2, 0xBD, %tbr
+wr %l3, 0x92, %tbr
+wr %l4, 0xEB, %tbr
+wr %l5, 0x4C, %tbr
+wr %l6, 0xF2, %tbr
+wr %l7, 0xC0, %tbr
+wr %i0, 0x22, %tbr
+wr %i1, 0x9F, %tbr
+wr %i2, 0x6D, %tbr
+wr %i3, 0xBF, %tbr
+wr %i4, 0x90, %tbr
+wr %i5, 0x83, %tbr
+wr %i6, 0x1F, %tbr
+wr %i7, 0x1A, %tbr
+rd %tbr %, g0
+rd %tbr %, g1
+rd %tbr %, g2
+rd %tbr %, g3
+rd %tbr %, g4
+rd %tbr %, g5
+rd %tbr %, g6
+rd %tbr %, g7
+rd %tbr %, o0
+rd %tbr %, o1
+rd %tbr %, o2
+rd %tbr %, o3
+rd %tbr %, o4
+rd %tbr %, o5
+rd %tbr %, o6
+rd %tbr %, o7
+rd %tbr %, l0
+rd %tbr %, l1
+rd %tbr %, l2
+rd %tbr %, l3
+rd %tbr %, l4
+rd %tbr %, l5
+rd %tbr %, l6
+rd %tbr %, l7
+rd %tbr %, i0
+rd %tbr %, i1
+rd %tbr %, i2
+rd %tbr %, i3
+rd %tbr %, i4
+rd %tbr %, i5
+rd %tbr %, i6
+rd %tbr %, i7
 
 
 
-wr %g0, 0x25, %wim
-wr %g1, 0x0D, %wim
-wr %g2, 0x54, %wim
-wr %g3, 0x4F, %wim
-wr %g4, 0xAD, %wim
-wr %g5, 0xE6, %wim
-wr %g6, 0xB0, %wim
-wr %g7, 0x21, %wim
-wr %o0, 0x66, %wim
-wr %o1, 0xC5, %wim
-wr %o2, 0x62, %wim
-wr %o3, 0xFB, %wim
-wr %o4, 0x2B, %wim
-wr %o5, 0xD1, %wim
-wr %o6, 0x18, %wim
-wr %o7, 0x99, %wim
-wr %l0, 0xA4, %wim
-wr %l1, 0xED, %wim
-wr %l2, 0x12, %wim
-wr %l3, 0xD4, %wim
-wr %l4, 0xAC, %wim
-wr %l5, 0xBB, %wim
-wr %l6, 0x4A, %wim
-wr %l7, 0x5A, %wim
-wr %i0, 0x0C, %wim
-wr %i1, 0xAA, %wim
-wr %i2, 0x93, %wim
-wr %i3, 0xF8, %wim
-wr %i4, 0x79, %wim
-wr %i5, 0xF0, %wim
-wr %i6, 0x07, %wim
-wr %i7, 0xA6, %wim
-rd %wim, g0
-rd %wim, g1
-rd %wim, g2
-rd %wim, g3
-rd %wim, g4
-rd %wim, g5
-rd %wim, g6
-rd %wim, g7
-rd %wim, o0
-rd %wim, o1
-rd %wim, o2
-rd %wim, o3
-rd %wim, o4
-rd %wim, o5
-rd %wim, o6
-rd %wim, o7
-rd %wim, l0
-rd %wim, l1
-rd %wim, l2
-rd %wim, l3
-rd %wim, l4
-rd %wim, l5
-rd %wim, l6
-rd %wim, l7
-rd %wim, i0
-rd %wim, i1
-rd %wim, i2
-rd %wim, i3
-rd %wim, i4
-rd %wim, i5
-rd %wim, i6
-rd %wim, i7
+wr %g0, 0xF2, %wim
+wr %g1, 0xDB, %wim
+wr %g2, 0x87, %wim
+wr %g3, 0x4E, %wim
+wr %g4, 0xB8, %wim
+wr %g5, 0x97, %wim
+wr %g6, 0xA6, %wim
+wr %g7, 0x6E, %wim
+wr %o0, 0x99, %wim
+wr %o1, 0x22, %wim
+wr %o2, 0xDE, %wim
+wr %o3, 0xD8, %wim
+wr %o4, 0x6D, %wim
+wr %o5, 0xA0, %wim
+wr %o6, 0x77, %wim
+wr %o7, 0x57, %wim
+wr %l0, 0x2E, %wim
+wr %l1, 0x00, %wim
+wr %l2, 0xBF, %wim
+wr %l3, 0x73, %wim
+wr %l4, 0xF6, %wim
+wr %l5, 0x9B, %wim
+wr %l6, 0xE6, %wim
+wr %l7, 0x3B, %wim
+wr %i0, 0x36, %wim
+wr %i1, 0x91, %wim
+wr %i2, 0xC6, %wim
+wr %i3, 0xDB, %wim
+wr %i4, 0x13, %wim
+wr %i5, 0xD0, %wim
+wr %i6, 0xA4, %wim
+wr %i7, 0x58, %wim
+rd %wim %, g0
+rd %wim %, g1
+rd %wim %, g2
+rd %wim %, g3
+rd %wim %, g4
+rd %wim %, g5
+rd %wim %, g6
+rd %wim %, g7
+rd %wim %, o0
+rd %wim %, o1
+rd %wim %, o2
+rd %wim %, o3
+rd %wim %, o4
+rd %wim %, o5
+rd %wim %, o6
+rd %wim %, o7
+rd %wim %, l0
+rd %wim %, l1
+rd %wim %, l2
+rd %wim %, l3
+rd %wim %, l4
+rd %wim %, l5
+rd %wim %, l6
+rd %wim %, l7
+rd %wim %, i0
+rd %wim %, i1
+rd %wim %, i2
+rd %wim %, i3
+rd %wim %, i4
+rd %wim %, i5
+rd %wim %, i6
+rd %wim %, i7
 
 
 
-wr %g0, 0x28, %y
-wr %g1, 0x47, %y
-wr %g2, 0x22, %y
-wr %g3, 0x6E, %y
-wr %g4, 0x62, %y
-wr %g5, 0x93, %y
-wr %g6, 0x01, %y
-wr %g7, 0x7F, %y
-wr %o0, 0xC3, %y
-wr %o1, 0xF1, %y
-wr %o2, 0x7B, %y
-wr %o3, 0x75, %y
-wr %o4, 0x5D, %y
-wr %o5, 0x87, %y
-wr %o6, 0x7D, %y
-wr %o7, 0x1B, %y
-wr %l0, 0x52, %y
-wr %l1, 0x90, %y
-wr %l2, 0x12, %y
-wr %l3, 0x21, %y
-wr %l4, 0xC8, %y
-wr %l5, 0x90, %y
-wr %l6, 0xE4, %y
-wr %l7, 0xAE, %y
-wr %i0, 0x33, %y
-wr %i1, 0x07, %y
-wr %i2, 0xD3, %y
-wr %i3, 0x2E, %y
-wr %i4, 0x7A, %y
-wr %i5, 0xBD, %y
-wr %i6, 0xCB, %y
-wr %i7, 0x47, %y
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
-rd %y, i7
+wr %g0, 0x08, %y
+wr %g1, 0x45, %y
+wr %g2, 0xDA, %y
+wr %g3, 0x23, %y
+wr %g4, 0x7D, %y
+wr %g5, 0x18, %y
+wr %g6, 0xEC, %y
+wr %g7, 0x46, %y
+wr %o0, 0x9B, %y
+wr %o1, 0xA1, %y
+wr %o2, 0xE6, %y
+wr %o3, 0xD2, %y
+wr %o4, 0x49, %y
+wr %o5, 0x60, %y
+wr %o6, 0xFB, %y
+wr %o7, 0x47, %y
+wr %l0, 0x50, %y
+wr %l1, 0x6D, %y
+wr %l2, 0xFC, %y
+wr %l3, 0x00, %y
+wr %l4, 0x8A, %y
+wr %l5, 0x2F, %y
+wr %l6, 0xF8, %y
+wr %l7, 0x9C, %y
+wr %i0, 0x28, %y
+wr %i1, 0xFD, %y
+wr %i2, 0x5C, %y
+wr %i3, 0xD5, %y
+wr %i4, 0x38, %y
+wr %i5, 0x42, %y
+wr %i6, 0xF0, %y
+wr %i7, 0xB0, %y
+rd %y, %g0
+rd %y, %g1
+rd %y, %g2
+rd %y, %g3
+rd %y, %g4
+rd %y, %g5
+rd %y, %g6
+rd %y, %g7
+rd %y, %o0
+rd %y, %o1
+rd %y, %o2
+rd %y, %o3
+rd %y, %o4
+rd %y, %o5
+rd %y, %o6
+rd %y, %o7
+rd %y, %l0
+rd %y, %l1
+rd %y, %l2
+rd %y, %l3
+rd %y, %l4
+rd %y, %l5
+rd %y, %l6
+rd %y, %l7
+rd %y, %i0
+rd %y, %i1
+rd %y, %i2
+rd %y, %i3
+rd %y, %i4
+rd %y, %i5
+rd %y, %i6
+rd %y, %i7
 
 
 
-save %g0, 0x5D, %g1
-save %g0, 0xCB, %g2
-save %g0, 0x36, %g3
-save %g0, 0xBF, %g4
-save %g0, 0xB8, %g5
-save %g0, 0xBC, %g6
-save %g0, 0xCF, %g7
-save %g0, 0xD0, %o0
-save %g0, 0xE2, %o1
-save %g0, 0x24, %o2
-save %g0, 0xEF, %o3
-save %g0, 0xC4, %o4
-save %g0, 0x3C, %o5
-save %g0, 0xE6, %o6
-save %g0, 0x80, %o7
-save %g0, 0x92, %l0
-save %g0, 0xB3, %l1
-save %g0, 0x93, %l2
-save %g0, 0xC6, %l3
-save %g0, 0x5E, %l4
-save %g0, 0x54, %l5
-save %g0, 0x22, %l6
-save %g0, 0x33, %l7
-save %g0, 0x44, %i0
-save %g0, 0x1F, %i1
-save %g0, 0x8F, %i2
-save %g0, 0x6B, %i3
-save %g0, 0xBD, %i4
-save %g0, 0x10, %i5
-save %g0, 0x7E, %i6
-save %g0, 0xD2, %i7
-save %g1, 0xCB, %g0
-save %g1, 0xF8, %g2
-save %g1, 0x65, %g3
-save %g1, 0x05, %g4
-save %g1, 0x31, %g5
-save %g1, 0xC7, %g6
-save %g1, 0x45, %g7
-save %g1, 0x79, %o0
-save %g1, 0x29, %o1
-save %g1, 0x5F, %o2
-save %g1, 0xC3, %o3
-save %g1, 0x6B, %o4
-save %g1, 0x91, %o5
-save %g1, 0xFB, %o6
-save %g1, 0x37, %o7
-save %g1, 0x64, %l0
-save %g1, 0x95, %l1
-save %g1, 0x8A, %l2
-save %g1, 0x96, %l3
-save %g1, 0x5C, %l4
-save %g1, 0x6A, %l5
-save %g1, 0xF1, %l6
-save %g1, 0x75, %l7
-save %g1, 0x5A, %i0
-save %g1, 0x82, %i1
-save %g1, 0x55, %i2
-save %g1, 0x2E, %i3
-save %g1, 0x6D, %i4
-save %g1, 0x90, %i5
-save %g1, 0xE7, %i6
-save %g1, 0xAD, %i7
-save %g2, 0x35, %g0
-save %g2, 0x36, %g1
-save %g2, 0xC2, %g3
-save %g2, 0x2C, %g4
-save %g2, 0x4B, %g5
-save %g2, 0xB0, %g6
-save %g2, 0x74, %g7
-save %g2, 0x8F, %o0
-save %g2, 0xC1, %o1
-save %g2, 0x9B, %o2
-save %g2, 0x66, %o3
-save %g2, 0x9F, %o4
-save %g2, 0xC6, %o5
-save %g2, 0x6D, %o6
-save %g2, 0x78, %o7
-save %g2, 0xAE, %l0
-save %g2, 0x7E, %l1
-save %g2, 0x80, %l2
-save %g2, 0x6C, %l3
-save %g2, 0xA8, %l4
-save %g2, 0xAE, %l5
-save %g2, 0x7E, %l6
-save %g2, 0x30, %l7
-save %g2, 0x4C, %i0
-save %g2, 0x1B, %i1
-save %g2, 0xFE, %i2
-save %g2, 0xC0, %i3
-save %g2, 0xAE, %i4
-save %g2, 0xED, %i5
-save %g2, 0x52, %i6
-save %g2, 0x8C, %i7
-save %g3, 0x2B, %g0
-save %g3, 0xB9, %g1
-save %g3, 0x2F, %g2
-save %g3, 0xE1, %g4
-save %g3, 0xC7, %g5
-save %g3, 0x53, %g6
-save %g3, 0x71, %g7
-save %g3, 0xD7, %o0
-save %g3, 0x6E, %o1
-save %g3, 0x6A, %o2
-save %g3, 0x67, %o3
-save %g3, 0x85, %o4
-save %g3, 0xBE, %o5
-save %g3, 0x6A, %o6
-save %g3, 0x76, %o7
-save %g3, 0x37, %l0
-save %g3, 0x9C, %l1
-save %g3, 0xCD, %l2
-save %g3, 0x97, %l3
-save %g3, 0xF6, %l4
-save %g3, 0x60, %l5
-save %g3, 0xDF, %l6
-save %g3, 0x00, %l7
-save %g3, 0x15, %i0
-save %g3, 0xB9, %i1
-save %g3, 0x94, %i2
-save %g3, 0x9C, %i3
-save %g3, 0x37, %i4
-save %g3, 0x98, %i5
-save %g3, 0x56, %i6
-save %g3, 0xF6, %i7
-save %g4, 0x83, %g0
-save %g4, 0xD5, %g1
-save %g4, 0x11, %g2
-save %g4, 0x7F, %g3
-save %g4, 0xD5, %g5
-save %g4, 0x1B, %g6
-save %g4, 0xD0, %g7
-save %g4, 0x54, %o0
-save %g4, 0xB3, %o1
-save %g4, 0x5B, %o2
-save %g4, 0x08, %o3
-save %g4, 0x5C, %o4
-save %g4, 0xF4, %o5
-save %g4, 0x1E, %o6
-save %g4, 0xEF, %o7
-save %g4, 0xAF, %l0
-save %g4, 0x61, %l1
-save %g4, 0xF0, %l2
-save %g4, 0x00, %l3
-save %g4, 0x0D, %l4
-save %g4, 0xF6, %l5
-save %g4, 0x0D, %l6
-save %g4, 0x6B, %l7
-save %g4, 0x95, %i0
-save %g4, 0x99, %i1
-save %g4, 0xE2, %i2
-save %g4, 0xEE, %i3
-save %g4, 0x08, %i4
-save %g4, 0xD9, %i5
-save %g4, 0x80, %i6
-save %g4, 0x83, %i7
-save %g5, 0xDA, %g0
-save %g5, 0xA9, %g1
-save %g5, 0xFE, %g2
-save %g5, 0xD7, %g3
-save %g5, 0x89, %g4
-save %g5, 0x95, %g6
-save %g5, 0x0F, %g7
-save %g5, 0x40, %o0
-save %g5, 0xAF, %o1
-save %g5, 0xF4, %o2
-save %g5, 0x59, %o3
-save %g5, 0x29, %o4
-save %g5, 0x13, %o5
-save %g5, 0x4A, %o6
-save %g5, 0x49, %o7
-save %g5, 0x0D, %l0
-save %g5, 0xFD, %l1
-save %g5, 0xE0, %l2
-save %g5, 0x06, %l3
-save %g5, 0xFD, %l4
-save %g5, 0xB0, %l5
-save %g5, 0xC5, %l6
-save %g5, 0x5F, %l7
-save %g5, 0x34, %i0
-save %g5, 0x31, %i1
-save %g5, 0xF7, %i2
-save %g5, 0x56, %i3
-save %g5, 0xF3, %i4
-save %g5, 0x3C, %i5
-save %g5, 0xCC, %i6
-save %g5, 0x13, %i7
-save %g6, 0x8F, %g0
-save %g6, 0x2B, %g1
-save %g6, 0x85, %g2
-save %g6, 0x09, %g3
-save %g6, 0x8A, %g4
-save %g6, 0x1A, %g5
-save %g6, 0x83, %g7
-save %g6, 0x65, %o0
-save %g6, 0xE6, %o1
-save %g6, 0xAD, %o2
-save %g6, 0xF8, %o3
-save %g6, 0x9D, %o4
-save %g6, 0x94, %o5
-save %g6, 0x83, %o6
-save %g6, 0xDD, %o7
-save %g6, 0x36, %l0
-save %g6, 0x9D, %l1
-save %g6, 0x86, %l2
-save %g6, 0x6D, %l3
-save %g6, 0xEF, %l4
-save %g6, 0xD6, %l5
-save %g6, 0x0A, %l6
-save %g6, 0x56, %l7
-save %g6, 0x73, %i0
-save %g6, 0x60, %i1
-save %g6, 0x7D, %i2
-save %g6, 0x2E, %i3
-save %g6, 0x35, %i4
-save %g6, 0xBF, %i5
-save %g6, 0x74, %i6
-save %g6, 0x2E, %i7
-save %g7, 0x29, %g0
-save %g7, 0x9A, %g1
-save %g7, 0xBB, %g2
-save %g7, 0x53, %g3
-save %g7, 0x92, %g4
-save %g7, 0x58, %g5
-save %g7, 0x18, %g6
-save %g7, 0x7C, %o0
-save %g7, 0x1C, %o1
-save %g7, 0x8D, %o2
-save %g7, 0x0C, %o3
-save %g7, 0xB2, %o4
-save %g7, 0xBF, %o5
-save %g7, 0xFA, %o6
-save %g7, 0x9A, %o7
-save %g7, 0x8C, %l0
-save %g7, 0xD9, %l1
-save %g7, 0x75, %l2
-save %g7, 0x4B, %l3
-save %g7, 0x1C, %l4
-save %g7, 0xFA, %l5
-save %g7, 0xC2, %l6
-save %g7, 0xD5, %l7
-save %g7, 0xB6, %i0
-save %g7, 0x33, %i1
-save %g7, 0xD8, %i2
-save %g7, 0xDD, %i3
-save %g7, 0x10, %i4
-save %g7, 0x3A, %i5
-save %g7, 0x7E, %i6
-save %g7, 0x3E, %i7
-save %o0, 0x2A, %g0
-save %o0, 0x32, %g1
-save %o0, 0x10, %g2
-save %o0, 0xAF, %g3
-save %o0, 0x9C, %g4
-save %o0, 0x80, %g5
-save %o0, 0x7B, %g6
-save %o0, 0xE3, %g7
-save %o0, 0x46, %o1
-save %o0, 0xE4, %o2
-save %o0, 0x2E, %o3
-save %o0, 0xD0, %o4
-save %o0, 0x5A, %o5
-save %o0, 0x24, %o6
-save %o0, 0xD4, %o7
-save %o0, 0x50, %l0
-save %o0, 0x86, %l1
-save %o0, 0x10, %l2
-save %o0, 0xEC, %l3
-save %o0, 0x52, %l4
-save %o0, 0x6B, %l5
-save %o0, 0x29, %l6
-save %o0, 0xDC, %l7
-save %o0, 0xB1, %i0
-save %o0, 0xEE, %i1
-save %o0, 0x19, %i2
-save %o0, 0x04, %i3
-save %o0, 0x60, %i4
-save %o0, 0xA6, %i5
-save %o0, 0xE6, %i6
-save %o0, 0xB0, %i7
-save %o1, 0xA1, %g0
-save %o1, 0x99, %g1
-save %o1, 0x7B, %g2
-save %o1, 0x7E, %g3
-save %o1, 0xF9, %g4
-save %o1, 0x68, %g5
-save %o1, 0xAE, %g6
-save %o1, 0x26, %g7
-save %o1, 0x68, %o0
-save %o1, 0x25, %o2
-save %o1, 0x36, %o3
-save %o1, 0xBA, %o4
-save %o1, 0x95, %o5
-save %o1, 0x09, %o6
-save %o1, 0x98, %o7
-save %o1, 0x74, %l0
-save %o1, 0xFB, %l1
-save %o1, 0x3B, %l2
-save %o1, 0x29, %l3
-save %o1, 0x9B, %l4
-save %o1, 0x40, %l5
-save %o1, 0xB0, %l6
-save %o1, 0x9D, %l7
-save %o1, 0x52, %i0
-save %o1, 0x6B, %i1
-save %o1, 0x50, %i2
-save %o1, 0x53, %i3
-save %o1, 0x73, %i4
-save %o1, 0x7E, %i5
-save %o1, 0x7D, %i6
-save %o1, 0x59, %i7
-save %o2, 0x55, %g0
-save %o2, 0xAA, %g1
-save %o2, 0x64, %g2
-save %o2, 0x80, %g3
-save %o2, 0x8C, %g4
-save %o2, 0x7D, %g5
-save %o2, 0x05, %g6
-save %o2, 0x6E, %g7
-save %o2, 0x50, %o0
-save %o2, 0x1A, %o1
-save %o2, 0x3D, %o3
-save %o2, 0xA2, %o4
-save %o2, 0x67, %o5
-save %o2, 0x57, %o6
-save %o2, 0xB1, %o7
-save %o2, 0x8E, %l0
-save %o2, 0xF4, %l1
-save %o2, 0x9D, %l2
-save %o2, 0x44, %l3
-save %o2, 0xC1, %l4
-save %o2, 0x8F, %l5
-save %o2, 0xBB, %l6
-save %o2, 0xEA, %l7
-save %o2, 0xAC, %i0
-save %o2, 0x01, %i1
-save %o2, 0x5E, %i2
-save %o2, 0x07, %i3
-save %o2, 0xB0, %i4
-save %o2, 0x4A, %i5
-save %o2, 0x3E, %i6
-save %o2, 0xAE, %i7
-save %o3, 0x05, %g0
-save %o3, 0x08, %g1
-save %o3, 0xD8, %g2
-save %o3, 0xC9, %g3
-save %o3, 0x99, %g4
-save %o3, 0xB9, %g5
-save %o3, 0xF5, %g6
-save %o3, 0xC7, %g7
-save %o3, 0xD1, %o0
-save %o3, 0x70, %o1
-save %o3, 0x87, %o2
-save %o3, 0x81, %o4
-save %o3, 0x6C, %o5
-save %o3, 0x06, %o6
-save %o3, 0x7C, %o7
-save %o3, 0x3A, %l0
-save %o3, 0x5A, %l1
-save %o3, 0x86, %l2
-save %o3, 0x2D, %l3
-save %o3, 0x53, %l4
-save %o3, 0xD7, %l5
-save %o3, 0x0A, %l6
-save %o3, 0xE4, %l7
-save %o3, 0x20, %i0
-save %o3, 0x62, %i1
-save %o3, 0x84, %i2
-save %o3, 0x00, %i3
-save %o3, 0x8E, %i4
-save %o3, 0x40, %i5
-save %o3, 0xD5, %i6
-save %o3, 0x4F, %i7
-save %o4, 0x9B, %g0
-save %o4, 0xC1, %g1
-save %o4, 0xFD, %g2
-save %o4, 0x64, %g3
-save %o4, 0xBE, %g4
-save %o4, 0xE3, %g5
-save %o4, 0x0B, %g6
-save %o4, 0xDE, %g7
-save %o4, 0xA3, %o0
-save %o4, 0xBB, %o1
-save %o4, 0x65, %o2
-save %o4, 0x3B, %o3
-save %o4, 0xFF, %o5
-save %o4, 0x83, %o6
-save %o4, 0xEB, %o7
-save %o4, 0xF8, %l0
-save %o4, 0x07, %l1
-save %o4, 0xE7, %l2
-save %o4, 0x73, %l3
-save %o4, 0x04, %l4
-save %o4, 0x39, %l5
-save %o4, 0xA7, %l6
-save %o4, 0x03, %l7
-save %o4, 0x48, %i0
-save %o4, 0xA0, %i1
-save %o4, 0x62, %i2
-save %o4, 0xF3, %i3
-save %o4, 0x85, %i4
-save %o4, 0xDE, %i5
-save %o4, 0xE8, %i6
-save %o4, 0x32, %i7
-save %o5, 0x88, %g0
-save %o5, 0x35, %g1
-save %o5, 0x05, %g2
-save %o5, 0x24, %g3
-save %o5, 0x80, %g4
-save %o5, 0x8C, %g5
-save %o5, 0x6F, %g6
-save %o5, 0x03, %g7
-save %o5, 0xE3, %o0
-save %o5, 0x23, %o1
-save %o5, 0xD2, %o2
-save %o5, 0xE0, %o3
-save %o5, 0xEC, %o4
-save %o5, 0xD4, %o6
-save %o5, 0xDC, %o7
-save %o5, 0x2B, %l0
-save %o5, 0x5D, %l1
-save %o5, 0x46, %l2
-save %o5, 0x7F, %l3
-save %o5, 0xAD, %l4
-save %o5, 0x4C, %l5
-save %o5, 0x15, %l6
-save %o5, 0x50, %l7
-save %o5, 0xAD, %i0
-save %o5, 0xCE, %i1
-save %o5, 0xC6, %i2
-save %o5, 0x4F, %i3
-save %o5, 0x9F, %i4
-save %o5, 0x9C, %i5
-save %o5, 0x4F, %i6
-save %o5, 0x86, %i7
-save %o6, 0xED, %g0
-save %o6, 0x07, %g1
-save %o6, 0xF3, %g2
-save %o6, 0x51, %g3
-save %o6, 0x36, %g4
-save %o6, 0x4E, %g5
-save %o6, 0x27, %g6
-save %o6, 0xAA, %g7
-save %o6, 0xBE, %o0
-save %o6, 0x3F, %o1
-save %o6, 0xB3, %o2
-save %o6, 0x04, %o3
-save %o6, 0xE3, %o4
-save %o6, 0x02, %o5
-save %o6, 0x74, %o7
-save %o6, 0xE3, %l0
-save %o6, 0x6A, %l1
-save %o6, 0xF0, %l2
-save %o6, 0xF5, %l3
-save %o6, 0x42, %l4
-save %o6, 0x7A, %l5
-save %o6, 0xDA, %l6
-save %o6, 0xC5, %l7
-save %o6, 0x2C, %i0
-save %o6, 0xA4, %i1
-save %o6, 0xE6, %i2
-save %o6, 0x6D, %i3
-save %o6, 0x4D, %i4
-save %o6, 0x7C, %i5
-save %o6, 0xAF, %i6
-save %o6, 0xE3, %i7
-save %o7, 0x52, %g0
-save %o7, 0xBE, %g1
-save %o7, 0xCD, %g2
-save %o7, 0xD9, %g3
-save %o7, 0x96, %g4
-save %o7, 0x26, %g5
-save %o7, 0x9F, %g6
-save %o7, 0xDE, %g7
-save %o7, 0x22, %o0
-save %o7, 0xC4, %o1
-save %o7, 0x8A, %o2
-save %o7, 0xCC, %o3
-save %o7, 0xF0, %o4
-save %o7, 0xC2, %o5
-save %o7, 0xBD, %o6
-save %o7, 0x38, %l0
-save %o7, 0x0B, %l1
-save %o7, 0x5C, %l2
-save %o7, 0xE1, %l3
-save %o7, 0x52, %l4
-save %o7, 0x7E, %l5
-save %o7, 0x90, %l6
-save %o7, 0xF4, %l7
-save %o7, 0x01, %i0
-save %o7, 0x02, %i1
-save %o7, 0x06, %i2
-save %o7, 0xA7, %i3
-save %o7, 0x34, %i4
-save %o7, 0xC3, %i5
-save %o7, 0x83, %i6
-save %o7, 0x00, %i7
-save %l0, 0xBB, %g0
+save %g0, 0x55, %g1
+save %g0, 0xBF, %g2
+save %g0, 0x92, %g3
+save %g0, 0x39, %g4
+save %g0, 0x87, %g5
+save %g0, 0x5B, %g6
+save %g0, 0x0B, %g7
+save %g0, 0x4B, %o0
+save %g0, 0xFC, %o1
+save %g0, 0x64, %o2
+save %g0, 0xEA, %o3
+save %g0, 0x20, %o4
+save %g0, 0xD9, %o5
+save %g0, 0xD5, %o6
+save %g0, 0x9F, %o7
+save %g0, 0x0B, %l0
+save %g0, 0x29, %l1
+save %g0, 0xA3, %l2
+save %g0, 0x03, %l3
+save %g0, 0xAD, %l4
+save %g0, 0x09, %l5
+save %g0, 0x1E, %l6
+save %g0, 0x2F, %l7
+save %g0, 0xAA, %i0
+save %g0, 0xFB, %i1
+save %g0, 0xCB, %i2
+save %g0, 0xEE, %i3
+save %g0, 0x75, %i4
+save %g0, 0x82, %i5
+save %g0, 0x66, %i6
+save %g0, 0x7D, %i7
+save %g1, 0xC5, %g0
+save %g1, 0x06, %g2
+save %g1, 0xB6, %g3
+save %g1, 0xED, %g4
+save %g1, 0x6B, %g5
+save %g1, 0x95, %g6
+save %g1, 0x49, %g7
+save %g1, 0x15, %o0
+save %g1, 0x24, %o1
+save %g1, 0xE3, %o2
+save %g1, 0x3F, %o3
+save %g1, 0xE8, %o4
+save %g1, 0x33, %o5
+save %g1, 0xD7, %o6
+save %g1, 0x2E, %o7
+save %g1, 0x47, %l0
+save %g1, 0x56, %l1
+save %g1, 0x5B, %l2
+save %g1, 0xC7, %l3
+save %g1, 0x9C, %l4
+save %g1, 0x3B, %l5
+save %g1, 0x66, %l6
+save %g1, 0x13, %l7
+save %g1, 0x15, %i0
+save %g1, 0xB1, %i1
+save %g1, 0x76, %i2
+save %g1, 0x3E, %i3
+save %g1, 0xC5, %i4
+save %g1, 0x3B, %i5
+save %g1, 0x97, %i6
+save %g1, 0x13, %i7
+save %g2, 0x96, %g0
+save %g2, 0x69, %g1
+save %g2, 0xFE, %g3
+save %g2, 0xF5, %g4
+save %g2, 0x2E, %g5
+save %g2, 0xEA, %g6
+save %g2, 0x91, %g7
+save %g2, 0xFF, %o0
+save %g2, 0x75, %o1
+save %g2, 0x49, %o2
+save %g2, 0x64, %o3
+save %g2, 0x21, %o4
+save %g2, 0x81, %o5
+save %g2, 0x4B, %o6
+save %g2, 0xA2, %o7
+save %g2, 0xCC, %l0
+save %g2, 0x4B, %l1
+save %g2, 0x91, %l2
+save %g2, 0x93, %l3
+save %g2, 0xCB, %l4
+save %g2, 0xED, %l5
+save %g2, 0xB5, %l6
+save %g2, 0x2A, %l7
+save %g2, 0x07, %i0
+save %g2, 0xB5, %i1
+save %g2, 0x1D, %i2
+save %g2, 0x02, %i3
+save %g2, 0x42, %i4
+save %g2, 0x84, %i5
+save %g2, 0x41, %i6
+save %g2, 0x5F, %i7
+save %g3, 0x0D, %g0
+save %g3, 0xAF, %g1
+save %g3, 0x24, %g2
+save %g3, 0x05, %g4
+save %g3, 0x23, %g5
+save %g3, 0x78, %g6
+save %g3, 0xD5, %g7
+save %g3, 0x2A, %o0
+save %g3, 0x70, %o1
+save %g3, 0x71, %o2
+save %g3, 0x11, %o3
+save %g3, 0xCE, %o4
+save %g3, 0xC4, %o5
+save %g3, 0x23, %o6
+save %g3, 0x18, %o7
+save %g3, 0x16, %l0
+save %g3, 0x4E, %l1
+save %g3, 0xD1, %l2
+save %g3, 0x9C, %l3
+save %g3, 0xE1, %l4
+save %g3, 0x91, %l5
+save %g3, 0x80, %l6
+save %g3, 0xFD, %l7
+save %g3, 0x5C, %i0
+save %g3, 0x6D, %i1
+save %g3, 0x7F, %i2
+save %g3, 0x60, %i3
+save %g3, 0xCF, %i4
+save %g3, 0xD5, %i5
+save %g3, 0x5F, %i6
+save %g3, 0x49, %i7
+save %g4, 0x8A, %g0
+save %g4, 0x16, %g1
+save %g4, 0xD7, %g2
+save %g4, 0x64, %g3
+save %g4, 0x4D, %g5
+save %g4, 0xCA, %g6
+save %g4, 0x36, %g7
+save %g4, 0x42, %o0
+save %g4, 0xD1, %o1
+save %g4, 0xAC, %o2
+save %g4, 0x0C, %o3
+save %g4, 0xE2, %o4
+save %g4, 0x94, %o5
+save %g4, 0x27, %o6
+save %g4, 0x7F, %o7
+save %g4, 0xF8, %l0
+save %g4, 0x01, %l1
+save %g4, 0x56, %l2
+save %g4, 0xCE, %l3
+save %g4, 0x77, %l4
+save %g4, 0x46, %l5
+save %g4, 0xED, %l6
+save %g4, 0x87, %l7
+save %g4, 0x8B, %i0
+save %g4, 0x36, %i1
+save %g4, 0xCA, %i2
+save %g4, 0x7E, %i3
+save %g4, 0xEE, %i4
+save %g4, 0x83, %i5
+save %g4, 0x43, %i6
+save %g4, 0x25, %i7
+save %g5, 0x8D, %g0
+save %g5, 0x29, %g1
+save %g5, 0xCE, %g2
+save %g5, 0xFC, %g3
+save %g5, 0xFB, %g4
+save %g5, 0x19, %g6
+save %g5, 0xB9, %g7
+save %g5, 0x49, %o0
+save %g5, 0xBD, %o1
+save %g5, 0x4D, %o2
+save %g5, 0x0C, %o3
+save %g5, 0xF5, %o4
+save %g5, 0xF4, %o5
+save %g5, 0xBB, %o6
+save %g5, 0xD6, %o7
+save %g5, 0xD1, %l0
+save %g5, 0xD8, %l1
+save %g5, 0x14, %l2
+save %g5, 0x5A, %l3
+save %g5, 0x37, %l4
+save %g5, 0x06, %l5
+save %g5, 0x5C, %l6
+save %g5, 0x43, %l7
+save %g5, 0x2E, %i0
+save %g5, 0x73, %i1
+save %g5, 0x03, %i2
+save %g5, 0x44, %i3
+save %g5, 0x04, %i4
+save %g5, 0x39, %i5
+save %g5, 0x10, %i6
+save %g5, 0x0C, %i7
+save %g6, 0xC4, %g0
+save %g6, 0x78, %g1
+save %g6, 0x73, %g2
+save %g6, 0x02, %g3
+save %g6, 0xDE, %g4
+save %g6, 0xA2, %g5
+save %g6, 0x00, %g7
+save %g6, 0x32, %o0
+save %g6, 0xFE, %o1
+save %g6, 0x45, %o2
+save %g6, 0xE0, %o3
+save %g6, 0x16, %o4
+save %g6, 0x33, %o5
+save %g6, 0xAC, %o6
+save %g6, 0xA1, %o7
+save %g6, 0x01, %l0
+save %g6, 0x1B, %l1
+save %g6, 0x1F, %l2
+save %g6, 0x91, %l3
+save %g6, 0x29, %l4
+save %g6, 0xCD, %l5
+save %g6, 0xCD, %l6
+save %g6, 0x9B, %l7
+save %g6, 0x75, %i0
+save %g6, 0xC5, %i1
+save %g6, 0x68, %i2
+save %g6, 0xE5, %i3
+save %g6, 0xC1, %i4
+save %g6, 0xC8, %i5
+save %g6, 0xA4, %i6
+save %g6, 0xB0, %i7
+save %g7, 0x15, %g0
+save %g7, 0xFB, %g1
+save %g7, 0x9C, %g2
+save %g7, 0x97, %g3
+save %g7, 0xAB, %g4
+save %g7, 0xB5, %g5
+save %g7, 0x74, %g6
+save %g7, 0xAE, %o0
+save %g7, 0xD9, %o1
+save %g7, 0xE3, %o2
+save %g7, 0xBE, %o3
+save %g7, 0xD9, %o4
+save %g7, 0x40, %o5
+save %g7, 0xAB, %o6
+save %g7, 0xAE, %o7
+save %g7, 0x2A, %l0
+save %g7, 0xF6, %l1
+save %g7, 0xDC, %l2
+save %g7, 0x0C, %l3
+save %g7, 0x69, %l4
+save %g7, 0xB8, %l5
+save %g7, 0xFB, %l6
+save %g7, 0x08, %l7
+save %g7, 0x3E, %i0
+save %g7, 0x89, %i1
+save %g7, 0xA3, %i2
+save %g7, 0x83, %i3
+save %g7, 0xCA, %i4
+save %g7, 0x05, %i5
+save %g7, 0x71, %i6
+save %g7, 0x1D, %i7
+save %o0, 0x00, %g0
+save %o0, 0x33, %g1
+save %o0, 0x37, %g2
+save %o0, 0xF2, %g3
+save %o0, 0xF8, %g4
+save %o0, 0xE4, %g5
+save %o0, 0xCA, %g6
+save %o0, 0x1D, %g7
+save %o0, 0xCC, %o1
+save %o0, 0xD2, %o2
+save %o0, 0x28, %o3
+save %o0, 0x0C, %o4
+save %o0, 0x33, %o5
+save %o0, 0xD8, %o6
+save %o0, 0x80, %o7
+save %o0, 0x4A, %l0
+save %o0, 0xEB, %l1
+save %o0, 0x63, %l2
+save %o0, 0xC4, %l3
+save %o0, 0x40, %l4
+save %o0, 0x16, %l5
+save %o0, 0x02, %l6
+save %o0, 0xD3, %l7
+save %o0, 0x21, %i0
+save %o0, 0x68, %i1
+save %o0, 0x7A, %i2
+save %o0, 0x39, %i3
+save %o0, 0xB4, %i4
+save %o0, 0xA0, %i5
+save %o0, 0x6E, %i6
+save %o0, 0x01, %i7
+save %o1, 0x44, %g0
+save %o1, 0x81, %g1
+save %o1, 0xDB, %g2
+save %o1, 0x4E, %g3
+save %o1, 0x6E, %g4
+save %o1, 0x87, %g5
+save %o1, 0x4C, %g6
+save %o1, 0x71, %g7
+save %o1, 0x2E, %o0
+save %o1, 0x42, %o2
+save %o1, 0xC5, %o3
+save %o1, 0x79, %o4
+save %o1, 0x61, %o5
+save %o1, 0x14, %o6
+save %o1, 0x60, %o7
+save %o1, 0x6C, %l0
+save %o1, 0xCC, %l1
+save %o1, 0x7E, %l2
+save %o1, 0x97, %l3
+save %o1, 0x66, %l4
+save %o1, 0x0B, %l5
+save %o1, 0xB9, %l6
+save %o1, 0x06, %l7
+save %o1, 0xF7, %i0
+save %o1, 0xB9, %i1
+save %o1, 0xF4, %i2
+save %o1, 0x6B, %i3
+save %o1, 0xD8, %i4
+save %o1, 0x73, %i5
+save %o1, 0xD8, %i6
+save %o1, 0xD8, %i7
+save %o2, 0xB4, %g0
+save %o2, 0xD3, %g1
+save %o2, 0xC2, %g2
+save %o2, 0xF1, %g3
+save %o2, 0xA8, %g4
+save %o2, 0x16, %g5
+save %o2, 0x40, %g6
+save %o2, 0xB5, %g7
+save %o2, 0x8E, %o0
+save %o2, 0x46, %o1
+save %o2, 0xDC, %o3
+save %o2, 0x5C, %o4
+save %o2, 0xC4, %o5
+save %o2, 0x39, %o6
+save %o2, 0x2C, %o7
+save %o2, 0x88, %l0
+save %o2, 0xF0, %l1
+save %o2, 0x04, %l2
+save %o2, 0x1A, %l3
+save %o2, 0xF0, %l4
+save %o2, 0xD4, %l5
+save %o2, 0x44, %l6
+save %o2, 0x2F, %l7
+save %o2, 0x5D, %i0
+save %o2, 0x70, %i1
+save %o2, 0x8A, %i2
+save %o2, 0xB8, %i3
+save %o2, 0xB7, %i4
+save %o2, 0xE6, %i5
+save %o2, 0x19, %i6
+save %o2, 0x9C, %i7
+save %o3, 0xDF, %g0
+save %o3, 0x93, %g1
+save %o3, 0xD7, %g2
+save %o3, 0xB7, %g3
+save %o3, 0x9E, %g4
+save %o3, 0xEC, %g5
+save %o3, 0xD7, %g6
+save %o3, 0xBB, %g7
+save %o3, 0xD2, %o0
+save %o3, 0x78, %o1
+save %o3, 0xB7, %o2
+save %o3, 0x30, %o4
+save %o3, 0x16, %o5
+save %o3, 0x4A, %o6
+save %o3, 0x94, %o7
+save %o3, 0x7F, %l0
+save %o3, 0x91, %l1
+save %o3, 0xFD, %l2
+save %o3, 0x21, %l3
+save %o3, 0x24, %l4
+save %o3, 0x08, %l5
+save %o3, 0x70, %l6
+save %o3, 0x85, %l7
+save %o3, 0xFE, %i0
+save %o3, 0x42, %i1
+save %o3, 0xF8, %i2
+save %o3, 0xFF, %i3
+save %o3, 0x34, %i4
+save %o3, 0xB4, %i5
+save %o3, 0x20, %i6
+save %o3, 0xED, %i7
+save %o4, 0xFC, %g0
+save %o4, 0xE0, %g1
+save %o4, 0x9B, %g2
+save %o4, 0x02, %g3
+save %o4, 0xCC, %g4
+save %o4, 0xDF, %g5
+save %o4, 0x4E, %g6
+save %o4, 0xE6, %g7
+save %o4, 0x1E, %o0
+save %o4, 0x14, %o1
+save %o4, 0x94, %o2
+save %o4, 0x8D, %o3
+save %o4, 0x64, %o5
+save %o4, 0x36, %o6
+save %o4, 0x66, %o7
+save %o4, 0x20, %l0
+save %o4, 0x4F, %l1
+save %o4, 0x12, %l2
+save %o4, 0x09, %l3
+save %o4, 0xF0, %l4
+save %o4, 0xE9, %l5
+save %o4, 0xB3, %l6
+save %o4, 0x1D, %l7
+save %o4, 0xB2, %i0
+save %o4, 0x14, %i1
+save %o4, 0x1A, %i2
+save %o4, 0x86, %i3
+save %o4, 0x73, %i4
+save %o4, 0x4F, %i5
+save %o4, 0xCC, %i6
+save %o4, 0x40, %i7
+save %o5, 0x3B, %g0
+save %o5, 0x52, %g1
+save %o5, 0x51, %g2
+save %o5, 0x58, %g3
+save %o5, 0x9C, %g4
+save %o5, 0x4E, %g5
+save %o5, 0x59, %g6
+save %o5, 0xE1, %g7
+save %o5, 0x43, %o0
+save %o5, 0x48, %o1
+save %o5, 0xF0, %o2
+save %o5, 0x4F, %o3
+save %o5, 0xC7, %o4
+save %o5, 0x97, %o6
+save %o5, 0x71, %o7
+save %o5, 0x1D, %l0
+save %o5, 0xBD, %l1
+save %o5, 0x4E, %l2
+save %o5, 0x2E, %l3
+save %o5, 0x72, %l4
+save %o5, 0xAC, %l5
+save %o5, 0xAF, %l6
+save %o5, 0x29, %l7
+save %o5, 0x41, %i0
+save %o5, 0x75, %i1
+save %o5, 0xD4, %i2
+save %o5, 0x98, %i3
+save %o5, 0x8A, %i4
+save %o5, 0x59, %i5
+save %o5, 0xEF, %i6
+save %o5, 0x50, %i7
+save %o6, 0xC6, %g0
+save %o6, 0xE5, %g1
+save %o6, 0x2D, %g2
+save %o6, 0xFD, %g3
+save %o6, 0xD5, %g4
+save %o6, 0x97, %g5
+save %o6, 0x75, %g6
+save %o6, 0xD3, %g7
+save %o6, 0xFC, %o0
+save %o6, 0xBA, %o1
+save %o6, 0xBE, %o2
+save %o6, 0x60, %o3
+save %o6, 0x6D, %o4
+save %o6, 0xAE, %o5
+save %o6, 0x6B, %o7
+save %o6, 0x92, %l0
+save %o6, 0x79, %l1
+save %o6, 0x42, %l2
+save %o6, 0xDF, %l3
+save %o6, 0x0F, %l4
+save %o6, 0x3F, %l5
+save %o6, 0xEF, %l6
+save %o6, 0xCD, %l7
+save %o6, 0xFF, %i0
+save %o6, 0xAF, %i1
+save %o6, 0x7B, %i2
+save %o6, 0xE9, %i3
+save %o6, 0xE0, %i4
+save %o6, 0x0A, %i5
+save %o6, 0x5D, %i6
+save %o6, 0x77, %i7
+save %o7, 0xB7, %g0
+save %o7, 0x08, %g1
+save %o7, 0x2D, %g2
+save %o7, 0x81, %g3
+save %o7, 0xDC, %g4
+save %o7, 0x89, %g5
+save %o7, 0x7A, %g6
+save %o7, 0x23, %g7
+save %o7, 0x5C, %o0
+save %o7, 0x15, %o1
+save %o7, 0x3C, %o2
+save %o7, 0x65, %o3
+save %o7, 0x33, %o4
+save %o7, 0x90, %o5
+save %o7, 0x7C, %o6
+save %o7, 0x53, %l0
+save %o7, 0xFD, %l1
+save %o7, 0x4E, %l2
+save %o7, 0x69, %l3
+save %o7, 0x6E, %l4
+save %o7, 0x6A, %l5
+save %o7, 0x76, %l6
+save %o7, 0x03, %l7
+save %o7, 0xA9, %i0
+save %o7, 0xB5, %i1
+save %o7, 0x82, %i2
+save %o7, 0x0B, %i3
+save %o7, 0x05, %i4
+save %o7, 0x31, %i5
+save %o7, 0x71, %i6
+save %o7, 0x4A, %i7
+save %l0, 0xB6, %g0
 save %l0, 0x4C, %g1
-save %l0, 0xF8, %g2
-save %l0, 0x9D, %g3
-save %l0, 0x09, %g4
-save %l0, 0x66, %g5
-save %l0, 0xA7, %g6
-save %l0, 0xD8, %g7
-save %l0, 0x83, %o0
-save %l0, 0x4B, %o1
-save %l0, 0x63, %o2
-save %l0, 0x72, %o3
-save %l0, 0xF2, %o4
-save %l0, 0xA8, %o5
-save %l0, 0x48, %o6
-save %l0, 0x7F, %o7
-save %l0, 0x52, %l1
-save %l0, 0x59, %l2
-save %l0, 0x28, %l3
-save %l0, 0x5F, %l4
-save %l0, 0x15, %l5
-save %l0, 0xF6, %l6
-save %l0, 0xDE, %l7
-save %l0, 0x9E, %i0
-save %l0, 0xF9, %i1
-save %l0, 0x03, %i2
-save %l0, 0xEE, %i3
-save %l0, 0x04, %i4
-save %l0, 0x59, %i5
-save %l0, 0x3A, %i6
-save %l0, 0xF9, %i7
-save %l1, 0xFE, %g0
-save %l1, 0x9E, %g1
-save %l1, 0x93, %g2
-save %l1, 0xA4, %g3
-save %l1, 0x0C, %g4
-save %l1, 0xA5, %g5
-save %l1, 0x9B, %g6
-save %l1, 0x58, %g7
-save %l1, 0x9B, %o0
-save %l1, 0x76, %o1
-save %l1, 0x94, %o2
-save %l1, 0x56, %o3
-save %l1, 0x34, %o4
-save %l1, 0xE0, %o5
-save %l1, 0x55, %o6
-save %l1, 0xE5, %o7
-save %l1, 0xA2, %l0
-save %l1, 0xC8, %l2
-save %l1, 0xF2, %l3
-save %l1, 0xAF, %l4
-save %l1, 0x88, %l5
-save %l1, 0x85, %l6
-save %l1, 0xD3, %l7
-save %l1, 0xFC, %i0
-save %l1, 0x7D, %i1
-save %l1, 0xE0, %i2
+save %l0, 0x0C, %g2
+save %l0, 0x92, %g3
+save %l0, 0xEA, %g4
+save %l0, 0x91, %g5
+save %l0, 0x4B, %g6
+save %l0, 0xC2, %g7
+save %l0, 0x6F, %o0
+save %l0, 0xC2, %o1
+save %l0, 0x3A, %o2
+save %l0, 0xD3, %o3
+save %l0, 0x8B, %o4
+save %l0, 0x1B, %o5
+save %l0, 0x52, %o6
+save %l0, 0x29, %o7
+save %l0, 0x82, %l1
+save %l0, 0xBF, %l2
+save %l0, 0x1F, %l3
+save %l0, 0x8E, %l4
+save %l0, 0x74, %l5
+save %l0, 0x6F, %l6
+save %l0, 0x72, %l7
+save %l0, 0x07, %i0
+save %l0, 0x31, %i1
+save %l0, 0x16, %i2
+save %l0, 0x84, %i3
+save %l0, 0xF4, %i4
+save %l0, 0x27, %i5
+save %l0, 0x77, %i6
+save %l0, 0xA1, %i7
+save %l1, 0x42, %g0
+save %l1, 0x84, %g1
+save %l1, 0xDD, %g2
+save %l1, 0xEA, %g3
+save %l1, 0xD5, %g4
+save %l1, 0xC2, %g5
+save %l1, 0xA3, %g6
+save %l1, 0x5B, %g7
+save %l1, 0x3E, %o0
+save %l1, 0x17, %o1
+save %l1, 0x3D, %o2
+save %l1, 0xC1, %o3
+save %l1, 0x85, %o4
+save %l1, 0xC6, %o5
+save %l1, 0xD3, %o6
+save %l1, 0x03, %o7
+save %l1, 0x3A, %l0
+save %l1, 0x0F, %l2
+save %l1, 0xDA, %l3
+save %l1, 0x62, %l4
+save %l1, 0x3E, %l5
+save %l1, 0x43, %l6
+save %l1, 0xE8, %l7
+save %l1, 0x66, %i0
+save %l1, 0xC1, %i1
+save %l1, 0x17, %i2
 save %l1, 0x62, %i3
-save %l1, 0xEF, %i4
-save %l1, 0x35, %i5
-save %l1, 0x85, %i6
-save %l1, 0x7A, %i7
-save %l2, 0x4C, %g0
-save %l2, 0x85, %g1
-save %l2, 0x11, %g2
-save %l2, 0x09, %g3
-save %l2, 0xF8, %g4
-save %l2, 0x09, %g5
-save %l2, 0x6B, %g6
-save %l2, 0x8B, %g7
-save %l2, 0xBE, %o0
-save %l2, 0x0C, %o1
-save %l2, 0x53, %o2
-save %l2, 0x66, %o3
-save %l2, 0xD2, %o4
-save %l2, 0xCA, %o5
-save %l2, 0xA6, %o6
-save %l2, 0xFC, %o7
-save %l2, 0xFB, %l0
-save %l2, 0xBB, %l1
-save %l2, 0xEF, %l3
-save %l2, 0x4E, %l4
-save %l2, 0x1A, %l5
-save %l2, 0xD1, %l6
-save %l2, 0x78, %l7
-save %l2, 0xEC, %i0
-save %l2, 0x06, %i1
-save %l2, 0x75, %i2
-save %l2, 0x70, %i3
-save %l2, 0x1E, %i4
-save %l2, 0xB0, %i5
-save %l2, 0x40, %i6
-save %l2, 0x08, %i7
-save %l3, 0x5E, %g0
-save %l3, 0x77, %g1
-save %l3, 0xC9, %g2
-save %l3, 0x3C, %g3
-save %l3, 0x81, %g4
-save %l3, 0x05, %g5
-save %l3, 0xEB, %g6
-save %l3, 0xC2, %g7
-save %l3, 0x80, %o0
-save %l3, 0x99, %o1
-save %l3, 0x89, %o2
-save %l3, 0xDE, %o3
-save %l3, 0xED, %o4
-save %l3, 0x35, %o5
-save %l3, 0xE0, %o6
-save %l3, 0x09, %o7
-save %l3, 0xD4, %l0
-save %l3, 0xF3, %l1
-save %l3, 0xCD, %l2
-save %l3, 0xE6, %l4
-save %l3, 0x23, %l5
-save %l3, 0x24, %l6
-save %l3, 0xA0, %l7
-save %l3, 0xE2, %i0
-save %l3, 0x78, %i1
-save %l3, 0xDB, %i2
-save %l3, 0xAD, %i3
-save %l3, 0x5C, %i4
-save %l3, 0xC2, %i5
-save %l3, 0x49, %i6
-save %l3, 0x05, %i7
-save %l4, 0x31, %g0
+save %l1, 0x99, %i4
+save %l1, 0xC4, %i5
+save %l1, 0xE6, %i6
+save %l1, 0xB5, %i7
+save %l2, 0x2D, %g0
+save %l2, 0xBE, %g1
+save %l2, 0x02, %g2
+save %l2, 0xCD, %g3
+save %l2, 0x75, %g4
+save %l2, 0xB8, %g5
+save %l2, 0x07, %g6
+save %l2, 0xF5, %g7
+save %l2, 0x32, %o0
+save %l2, 0x78, %o1
+save %l2, 0x94, %o2
+save %l2, 0xCF, %o3
+save %l2, 0xA6, %o4
+save %l2, 0xE9, %o5
+save %l2, 0x02, %o6
+save %l2, 0x89, %o7
+save %l2, 0x0F, %l0
+save %l2, 0xAD, %l1
+save %l2, 0x74, %l3
+save %l2, 0x9A, %l4
+save %l2, 0x34, %l5
+save %l2, 0xB9, %l6
+save %l2, 0x5F, %l7
+save %l2, 0x4B, %i0
+save %l2, 0x92, %i1
+save %l2, 0x9A, %i2
+save %l2, 0x42, %i3
+save %l2, 0xF6, %i4
+save %l2, 0x30, %i5
+save %l2, 0x2D, %i6
+save %l2, 0xE6, %i7
+save %l3, 0xE8, %g0
+save %l3, 0x20, %g1
+save %l3, 0x1A, %g2
+save %l3, 0xF8, %g3
+save %l3, 0xB0, %g4
+save %l3, 0x28, %g5
+save %l3, 0x0D, %g6
+save %l3, 0xE5, %g7
+save %l3, 0xE4, %o0
+save %l3, 0x2F, %o1
+save %l3, 0xF2, %o2
+save %l3, 0x37, %o3
+save %l3, 0xFD, %o4
+save %l3, 0x0B, %o5
+save %l3, 0x4C, %o6
+save %l3, 0xB9, %o7
+save %l3, 0xC3, %l0
+save %l3, 0x34, %l1
+save %l3, 0xE7, %l2
+save %l3, 0x30, %l4
+save %l3, 0x88, %l5
+save %l3, 0xD0, %l6
+save %l3, 0x7A, %l7
+save %l3, 0x75, %i0
+save %l3, 0xC8, %i1
+save %l3, 0x08, %i2
+save %l3, 0xBC, %i3
+save %l3, 0x98, %i4
+save %l3, 0xE8, %i5
+save %l3, 0x64, %i6
+save %l3, 0x1B, %i7
+save %l4, 0x77, %g0
 save %l4, 0xA9, %g1
-save %l4, 0xCB, %g2
-save %l4, 0x3D, %g3
-save %l4, 0x4F, %g4
-save %l4, 0x6A, %g5
-save %l4, 0x89, %g6
-save %l4, 0x38, %g7
-save %l4, 0x07, %o0
-save %l4, 0x86, %o1
-save %l4, 0x2D, %o2
-save %l4, 0x7C, %o3
-save %l4, 0xE3, %o4
-save %l4, 0x4D, %o5
-save %l4, 0x8A, %o6
-save %l4, 0x3B, %o7
-save %l4, 0x10, %l0
-save %l4, 0x80, %l1
-save %l4, 0xF3, %l2
-save %l4, 0xF3, %l3
-save %l4, 0xA5, %l5
-save %l4, 0xC9, %l6
-save %l4, 0xB9, %l7
-save %l4, 0xF7, %i0
-save %l4, 0x61, %i1
-save %l4, 0x88, %i2
-save %l4, 0xE8, %i3
-save %l4, 0x8C, %i4
-save %l4, 0xF2, %i5
-save %l4, 0x64, %i6
-save %l4, 0x55, %i7
-save %l5, 0x3B, %g0
-save %l5, 0xF2, %g1
-save %l5, 0x24, %g2
-save %l5, 0x30, %g3
-save %l5, 0x73, %g4
-save %l5, 0xAA, %g5
-save %l5, 0x1D, %g6
-save %l5, 0x31, %g7
-save %l5, 0xCB, %o0
-save %l5, 0x97, %o1
-save %l5, 0x42, %o2
-save %l5, 0xD9, %o3
-save %l5, 0x49, %o4
-save %l5, 0xC2, %o5
-save %l5, 0xEA, %o6
-save %l5, 0xAF, %o7
-save %l5, 0xC0, %l0
-save %l5, 0x20, %l1
-save %l5, 0x7A, %l2
-save %l5, 0xB5, %l3
-save %l5, 0x07, %l4
-save %l5, 0x3C, %l6
-save %l5, 0x3D, %l7
-save %l5, 0x58, %i0
-save %l5, 0xAA, %i1
-save %l5, 0x88, %i2
-save %l5, 0x4A, %i3
-save %l5, 0xB6, %i4
-save %l5, 0x0D, %i5
-save %l5, 0x10, %i6
-save %l5, 0x01, %i7
-save %l6, 0x1B, %g0
-save %l6, 0x1E, %g1
-save %l6, 0x4D, %g2
-save %l6, 0x8F, %g3
-save %l6, 0x42, %g4
-save %l6, 0x1C, %g5
-save %l6, 0x9C, %g6
-save %l6, 0x98, %g7
-save %l6, 0x6A, %o0
-save %l6, 0x80, %o1
-save %l6, 0x5F, %o2
-save %l6, 0xA9, %o3
-save %l6, 0x00, %o4
-save %l6, 0x67, %o5
-save %l6, 0xE5, %o6
-save %l6, 0x5C, %o7
-save %l6, 0xB5, %l0
-save %l6, 0x17, %l1
-save %l6, 0xF5, %l2
-save %l6, 0x5B, %l3
-save %l6, 0x58, %l4
-save %l6, 0xC3, %l5
-save %l6, 0x5D, %l7
-save %l6, 0x6D, %i0
-save %l6, 0xF8, %i1
-save %l6, 0x4F, %i2
-save %l6, 0xCF, %i3
-save %l6, 0xD8, %i4
-save %l6, 0x90, %i5
-save %l6, 0x7C, %i6
-save %l6, 0x1F, %i7
-save %l7, 0x78, %g0
-save %l7, 0x88, %g1
-save %l7, 0x83, %g2
-save %l7, 0x0F, %g3
-save %l7, 0xCD, %g4
-save %l7, 0x03, %g5
-save %l7, 0xA1, %g6
-save %l7, 0x85, %g7
-save %l7, 0xD9, %o0
-save %l7, 0x28, %o1
-save %l7, 0xD1, %o2
-save %l7, 0x92, %o3
-save %l7, 0x2C, %o4
-save %l7, 0x82, %o5
-save %l7, 0x56, %o6
-save %l7, 0x98, %o7
-save %l7, 0x16, %l0
-save %l7, 0x65, %l1
-save %l7, 0x44, %l2
-save %l7, 0x1B, %l3
-save %l7, 0xEB, %l4
-save %l7, 0x59, %l5
-save %l7, 0x4F, %l6
-save %l7, 0x74, %i0
-save %l7, 0x71, %i1
-save %l7, 0xF4, %i2
-save %l7, 0x5D, %i3
-save %l7, 0xD3, %i4
-save %l7, 0x64, %i5
-save %l7, 0x1F, %i6
-save %l7, 0x42, %i7
-save %i0, 0x26, %g0
-save %i0, 0xE2, %g1
-save %i0, 0x77, %g2
-save %i0, 0xC7, %g3
-save %i0, 0xFF, %g4
-save %i0, 0x2C, %g5
-save %i0, 0xB7, %g6
-save %i0, 0xE4, %g7
-save %i0, 0x7D, %o0
-save %i0, 0x29, %o1
-save %i0, 0x03, %o2
-save %i0, 0xE1, %o3
-save %i0, 0x86, %o4
-save %i0, 0x85, %o5
-save %i0, 0x23, %o6
-save %i0, 0xE7, %o7
-save %i0, 0xD7, %l0
-save %i0, 0x77, %l1
-save %i0, 0xB5, %l2
-save %i0, 0x55, %l3
-save %i0, 0x1F, %l4
-save %i0, 0xF5, %l5
-save %i0, 0x51, %l6
-save %i0, 0x30, %l7
-save %i0, 0x6A, %i1
-save %i0, 0x15, %i2
-save %i0, 0x6B, %i3
-save %i0, 0xEA, %i4
-save %i0, 0xE6, %i5
-save %i0, 0x9D, %i6
-save %i0, 0x01, %i7
-save %i1, 0x69, %g0
-save %i1, 0xCD, %g1
-save %i1, 0x31, %g2
-save %i1, 0x7F, %g3
-save %i1, 0x63, %g4
-save %i1, 0xF7, %g5
-save %i1, 0x52, %g6
-save %i1, 0xD3, %g7
-save %i1, 0x09, %o0
-save %i1, 0x44, %o1
-save %i1, 0x68, %o2
-save %i1, 0x16, %o3
-save %i1, 0x07, %o4
-save %i1, 0x5C, %o5
-save %i1, 0xD2, %o6
-save %i1, 0xE9, %o7
-save %i1, 0x0E, %l0
-save %i1, 0x59, %l1
-save %i1, 0x15, %l2
-save %i1, 0x09, %l3
-save %i1, 0xE0, %l4
-save %i1, 0xC0, %l5
-save %i1, 0x0A, %l6
-save %i1, 0xDB, %l7
-save %i1, 0xB0, %i0
-save %i1, 0x2F, %i2
-save %i1, 0x04, %i3
-save %i1, 0x8D, %i4
-save %i1, 0xCF, %i5
-save %i1, 0xD0, %i6
-save %i1, 0xE1, %i7
-save %i2, 0x08, %g0
-save %i2, 0x49, %g1
-save %i2, 0xD5, %g2
-save %i2, 0x1B, %g3
-save %i2, 0x42, %g4
-save %i2, 0x38, %g5
-save %i2, 0xC4, %g6
-save %i2, 0x02, %g7
-save %i2, 0x87, %o0
-save %i2, 0x09, %o1
-save %i2, 0x40, %o2
-save %i2, 0xA2, %o3
-save %i2, 0x16, %o4
-save %i2, 0xE0, %o5
-save %i2, 0xAC, %o6
-save %i2, 0x7D, %o7
-save %i2, 0x57, %l0
-save %i2, 0x2E, %l1
-save %i2, 0x3C, %l2
-save %i2, 0xA5, %l3
-save %i2, 0xA3, %l4
-save %i2, 0x9D, %l5
-save %i2, 0xB1, %l6
-save %i2, 0x23, %l7
-save %i2, 0x74, %i0
-save %i2, 0xAF, %i1
-save %i2, 0x47, %i3
-save %i2, 0xD1, %i4
-save %i2, 0x9D, %i5
-save %i2, 0xAC, %i6
-save %i2, 0x8F, %i7
-save %i3, 0x98, %g0
-save %i3, 0x77, %g1
-save %i3, 0x5F, %g2
-save %i3, 0xA2, %g3
-save %i3, 0xDB, %g4
-save %i3, 0x45, %g5
-save %i3, 0x8E, %g6
-save %i3, 0x83, %g7
-save %i3, 0x80, %o0
-save %i3, 0x45, %o1
-save %i3, 0x75, %o2
-save %i3, 0x69, %o3
-save %i3, 0xA2, %o4
-save %i3, 0x8C, %o5
-save %i3, 0xC8, %o6
-save %i3, 0x04, %o7
-save %i3, 0x11, %l0
-save %i3, 0x76, %l1
-save %i3, 0x01, %l2
-save %i3, 0xEA, %l3
-save %i3, 0x77, %l4
-save %i3, 0x8D, %l5
-save %i3, 0xE1, %l6
-save %i3, 0x73, %l7
-save %i3, 0xB7, %i0
-save %i3, 0xF4, %i1
-save %i3, 0x11, %i2
-save %i3, 0xE5, %i4
-save %i3, 0xA7, %i5
-save %i3, 0x20, %i6
-save %i3, 0x45, %i7
-save %i4, 0x63, %g0
-save %i4, 0xEB, %g1
-save %i4, 0x07, %g2
-save %i4, 0x3D, %g3
-save %i4, 0x77, %g4
-save %i4, 0x1A, %g5
-save %i4, 0xAE, %g6
-save %i4, 0x63, %g7
-save %i4, 0x54, %o0
-save %i4, 0xAE, %o1
-save %i4, 0x10, %o2
-save %i4, 0x7E, %o3
-save %i4, 0x1A, %o4
-save %i4, 0x66, %o5
-save %i4, 0x73, %o6
-save %i4, 0xC9, %o7
-save %i4, 0x46, %l0
-save %i4, 0x27, %l1
-save %i4, 0x42, %l2
-save %i4, 0x64, %l3
-save %i4, 0xED, %l4
-save %i4, 0x74, %l5
-save %i4, 0x08, %l6
-save %i4, 0xAB, %l7
-save %i4, 0xC8, %i0
-save %i4, 0x78, %i1
-save %i4, 0x62, %i2
-save %i4, 0xEE, %i3
-save %i4, 0x29, %i5
-save %i4, 0x28, %i6
-save %i4, 0xD6, %i7
-save %i5, 0xD9, %g0
-save %i5, 0x7B, %g1
-save %i5, 0x8F, %g2
-save %i5, 0x1D, %g3
-save %i5, 0x9F, %g4
-save %i5, 0xF9, %g5
-save %i5, 0xBE, %g6
-save %i5, 0xC7, %g7
-save %i5, 0x06, %o0
-save %i5, 0x35, %o1
-save %i5, 0xD0, %o2
-save %i5, 0xB8, %o3
-save %i5, 0xC6, %o4
-save %i5, 0x32, %o5
-save %i5, 0xC2, %o6
-save %i5, 0x72, %o7
-save %i5, 0xF6, %l0
-save %i5, 0x80, %l1
-save %i5, 0x41, %l2
-save %i5, 0xD4, %l3
-save %i5, 0xAF, %l4
-save %i5, 0xFF, %l5
-save %i5, 0xDE, %l6
-save %i5, 0xE5, %l7
-save %i5, 0x36, %i0
-save %i5, 0xAF, %i1
-save %i5, 0xDB, %i2
-save %i5, 0xB7, %i3
-save %i5, 0x1D, %i4
-save %i5, 0x39, %i6
-save %i5, 0x50, %i7
-save %i6, 0xBE, %g0
-save %i6, 0x56, %g1
-save %i6, 0x40, %g2
-save %i6, 0x59, %g3
-save %i6, 0xB9, %g4
-save %i6, 0x45, %g5
-save %i6, 0x9D, %g6
-save %i6, 0x09, %g7
-save %i6, 0xFC, %o0
-save %i6, 0x62, %o1
-save %i6, 0xD3, %o2
-save %i6, 0xD0, %o3
-save %i6, 0x49, %o4
-save %i6, 0x70, %o5
-save %i6, 0xEF, %o6
-save %i6, 0x28, %o7
-save %i6, 0xD3, %l0
-save %i6, 0x66, %l1
-save %i6, 0xA8, %l2
-save %i6, 0x9B, %l3
-save %i6, 0xC0, %l4
-save %i6, 0xC7, %l5
-save %i6, 0x18, %l6
-save %i6, 0xAF, %l7
-save %i6, 0xEA, %i0
-save %i6, 0x09, %i1
-save %i6, 0x56, %i2
-save %i6, 0xAE, %i3
-save %i6, 0x5D, %i4
-save %i6, 0x11, %i5
-save %i6, 0xC4, %i7
-save %i7, 0x7E, %g0
-save %i7, 0x55, %g1
-save %i7, 0xC6, %g2
-save %i7, 0x53, %g3
-save %i7, 0x95, %g4
-save %i7, 0xEA, %g5
-save %i7, 0x43, %g6
-save %i7, 0x47, %g7
-save %i7, 0xCC, %o0
-save %i7, 0x21, %o1
-save %i7, 0x28, %o2
-save %i7, 0x65, %o3
-save %i7, 0xF7, %o4
-save %i7, 0x2A, %o5
-save %i7, 0x0F, %o6
-save %i7, 0xEF, %o7
-save %i7, 0xD0, %l0
-save %i7, 0xD3, %l1
-save %i7, 0xD0, %l2
-save %i7, 0x2B, %l3
-save %i7, 0xDE, %l4
-save %i7, 0xC6, %l5
-save %i7, 0xE3, %l6
-save %i7, 0x72, %l7
-save %i7, 0xF8, %i0
-save %i7, 0x72, %i1
-save %i7, 0xF3, %i2
-save %i7, 0x4F, %i3
+save %l4, 0xCC, %g2
+save %l4, 0xD3, %g3
+save %l4, 0x94, %g4
+save %l4, 0x18, %g5
+save %l4, 0xDE, %g6
+save %l4, 0x4D, %g7
+save %l4, 0x61, %o0
+save %l4, 0x60, %o1
+save %l4, 0xA0, %o2
+save %l4, 0x63, %o3
+save %l4, 0x82, %o4
+save %l4, 0x29, %o5
+save %l4, 0x9D, %o6
+save %l4, 0x2F, %o7
+save %l4, 0x18, %l0
+save %l4, 0x8B, %l1
+save %l4, 0xC3, %l2
+save %l4, 0xAF, %l3
+save %l4, 0xB0, %l5
+save %l4, 0xC3, %l6
+save %l4, 0xD1, %l7
+save %l4, 0x9D, %i0
+save %l4, 0x00, %i1
+save %l4, 0x09, %i2
+save %l4, 0x5B, %i3
+save %l4, 0x4D, %i4
+save %l4, 0x07, %i5
+save %l4, 0x27, %i6
+save %l4, 0x22, %i7
+save %l5, 0x07, %g0
+save %l5, 0xFA, %g1
+save %l5, 0xB7, %g2
+save %l5, 0x96, %g3
+save %l5, 0x93, %g4
+save %l5, 0xE4, %g5
+save %l5, 0xAF, %g6
+save %l5, 0xBA, %g7
+save %l5, 0x95, %o0
+save %l5, 0x14, %o1
+save %l5, 0xF1, %o2
+save %l5, 0xB6, %o3
+save %l5, 0xD3, %o4
+save %l5, 0x98, %o5
+save %l5, 0x65, %o6
+save %l5, 0xB9, %o7
+save %l5, 0x6E, %l0
+save %l5, 0xDB, %l1
+save %l5, 0x3A, %l2
+save %l5, 0x4C, %l3
+save %l5, 0x2D, %l4
+save %l5, 0x83, %l6
+save %l5, 0xFF, %l7
+save %l5, 0xDA, %i0
+save %l5, 0x57, %i1
+save %l5, 0x60, %i2
+save %l5, 0xFE, %i3
+save %l5, 0x70, %i4
+save %l5, 0x53, %i5
+save %l5, 0xA6, %i6
+save %l5, 0xA6, %i7
+save %l6, 0x6A, %g0
+save %l6, 0xB7, %g1
+save %l6, 0xAD, %g2
+save %l6, 0x70, %g3
+save %l6, 0xF5, %g4
+save %l6, 0x62, %g5
+save %l6, 0x87, %g6
+save %l6, 0x64, %g7
+save %l6, 0x8F, %o0
+save %l6, 0x9F, %o1
+save %l6, 0x12, %o2
+save %l6, 0x32, %o3
+save %l6, 0xF7, %o4
+save %l6, 0x07, %o5
+save %l6, 0x74, %o6
+save %l6, 0xCC, %o7
+save %l6, 0xA8, %l0
+save %l6, 0x35, %l1
+save %l6, 0xF2, %l2
+save %l6, 0x5D, %l3
+save %l6, 0xFB, %l4
+save %l6, 0x30, %l5
+save %l6, 0xA8, %l7
+save %l6, 0xFD, %i0
+save %l6, 0x6B, %i1
+save %l6, 0x8A, %i2
+save %l6, 0x9B, %i3
+save %l6, 0x83, %i4
+save %l6, 0x10, %i5
+save %l6, 0x64, %i6
+save %l6, 0xEC, %i7
+save %l7, 0x4B, %g0
+save %l7, 0x5C, %g1
+save %l7, 0xA9, %g2
+save %l7, 0x3E, %g3
+save %l7, 0xDC, %g4
+save %l7, 0x99, %g5
+save %l7, 0x81, %g6
+save %l7, 0x19, %g7
+save %l7, 0x40, %o0
+save %l7, 0x18, %o1
+save %l7, 0x4C, %o2
+save %l7, 0xA6, %o3
+save %l7, 0x0F, %o4
+save %l7, 0x19, %o5
+save %l7, 0xAC, %o6
+save %l7, 0x6E, %o7
+save %l7, 0xCA, %l0
+save %l7, 0xE0, %l1
+save %l7, 0xBE, %l2
+save %l7, 0x47, %l3
+save %l7, 0x0D, %l4
+save %l7, 0x18, %l5
+save %l7, 0x7C, %l6
+save %l7, 0x90, %i0
+save %l7, 0x24, %i1
+save %l7, 0x61, %i2
+save %l7, 0xD5, %i3
+save %l7, 0x3C, %i4
+save %l7, 0x66, %i5
+save %l7, 0x6A, %i6
+save %l7, 0x1D, %i7
+save %i0, 0xD4, %g0
+save %i0, 0xE8, %g1
+save %i0, 0x0C, %g2
+save %i0, 0x22, %g3
+save %i0, 0xD3, %g4
+save %i0, 0x58, %g5
+save %i0, 0xA6, %g6
+save %i0, 0x02, %g7
+save %i0, 0x52, %o0
+save %i0, 0x90, %o1
+save %i0, 0xBD, %o2
+save %i0, 0x64, %o3
+save %i0, 0xE8, %o4
+save %i0, 0xAE, %o5
+save %i0, 0x87, %o6
+save %i0, 0xA8, %o7
+save %i0, 0x78, %l0
+save %i0, 0x0D, %l1
+save %i0, 0x6E, %l2
+save %i0, 0x09, %l3
+save %i0, 0x6D, %l4
+save %i0, 0xE9, %l5
+save %i0, 0x2F, %l6
+save %i0, 0xC8, %l7
+save %i0, 0x2F, %i1
+save %i0, 0x36, %i2
+save %i0, 0x47, %i3
+save %i0, 0xD2, %i4
+save %i0, 0x27, %i5
+save %i0, 0x18, %i6
+save %i0, 0x17, %i7
+save %i1, 0x08, %g0
+save %i1, 0x28, %g1
+save %i1, 0x2E, %g2
+save %i1, 0x81, %g3
+save %i1, 0x7A, %g4
+save %i1, 0x95, %g5
+save %i1, 0x0E, %g6
+save %i1, 0x73, %g7
+save %i1, 0x4E, %o0
+save %i1, 0xF3, %o1
+save %i1, 0x58, %o2
+save %i1, 0xBC, %o3
+save %i1, 0x71, %o4
+save %i1, 0xE7, %o5
+save %i1, 0x77, %o6
+save %i1, 0xDE, %o7
+save %i1, 0x10, %l0
+save %i1, 0xD2, %l1
+save %i1, 0xE8, %l2
+save %i1, 0x33, %l3
+save %i1, 0x3B, %l4
+save %i1, 0x3A, %l5
+save %i1, 0x49, %l6
+save %i1, 0x88, %l7
+save %i1, 0xED, %i0
+save %i1, 0x1A, %i2
+save %i1, 0xB4, %i3
+save %i1, 0x0E, %i4
+save %i1, 0x55, %i5
+save %i1, 0xBC, %i6
+save %i1, 0x28, %i7
+save %i2, 0xFE, %g0
+save %i2, 0xBB, %g1
+save %i2, 0x99, %g2
+save %i2, 0xFA, %g3
+save %i2, 0xC9, %g4
+save %i2, 0x00, %g5
+save %i2, 0x38, %g6
+save %i2, 0x8F, %g7
+save %i2, 0x0D, %o0
+save %i2, 0xF1, %o1
+save %i2, 0xBC, %o2
+save %i2, 0x3F, %o3
+save %i2, 0xEA, %o4
+save %i2, 0x6E, %o5
+save %i2, 0x52, %o6
+save %i2, 0x03, %o7
+save %i2, 0x41, %l0
+save %i2, 0xF3, %l1
+save %i2, 0x2C, %l2
+save %i2, 0x9A, %l3
+save %i2, 0x55, %l4
+save %i2, 0xF2, %l5
+save %i2, 0x5A, %l6
+save %i2, 0xA6, %l7
+save %i2, 0xC8, %i0
+save %i2, 0xB8, %i1
+save %i2, 0x8B, %i3
+save %i2, 0x5C, %i4
+save %i2, 0xDA, %i5
+save %i2, 0xB0, %i6
+save %i2, 0x14, %i7
+save %i3, 0x34, %g0
+save %i3, 0x93, %g1
+save %i3, 0x19, %g2
+save %i3, 0x13, %g3
+save %i3, 0xDC, %g4
+save %i3, 0x43, %g5
+save %i3, 0x9A, %g6
+save %i3, 0xF5, %g7
+save %i3, 0x67, %o0
+save %i3, 0xCF, %o1
+save %i3, 0x61, %o2
+save %i3, 0xF5, %o3
+save %i3, 0x2D, %o4
+save %i3, 0x2A, %o5
+save %i3, 0xE1, %o6
+save %i3, 0x07, %o7
+save %i3, 0x9A, %l0
+save %i3, 0x80, %l1
+save %i3, 0x81, %l2
+save %i3, 0x84, %l3
+save %i3, 0xC6, %l4
+save %i3, 0x31, %l5
+save %i3, 0x50, %l6
+save %i3, 0x84, %l7
+save %i3, 0xDC, %i0
+save %i3, 0xA4, %i1
+save %i3, 0xBD, %i2
+save %i3, 0xF7, %i4
+save %i3, 0x02, %i5
+save %i3, 0x27, %i6
+save %i3, 0x68, %i7
+save %i4, 0xEF, %g0
+save %i4, 0xBF, %g1
+save %i4, 0x2D, %g2
+save %i4, 0xBF, %g3
+save %i4, 0x5D, %g4
+save %i4, 0xD9, %g5
+save %i4, 0x6C, %g6
+save %i4, 0xFD, %g7
+save %i4, 0xF1, %o0
+save %i4, 0x6A, %o1
+save %i4, 0x54, %o2
+save %i4, 0x4B, %o3
+save %i4, 0x6F, %o4
+save %i4, 0x6D, %o5
+save %i4, 0x49, %o6
+save %i4, 0x6E, %o7
+save %i4, 0x69, %l0
+save %i4, 0x06, %l1
+save %i4, 0x98, %l2
+save %i4, 0xCD, %l3
+save %i4, 0xAB, %l4
+save %i4, 0xD4, %l5
+save %i4, 0xA6, %l6
+save %i4, 0xC3, %l7
+save %i4, 0x21, %i0
+save %i4, 0xBC, %i1
+save %i4, 0x05, %i2
+save %i4, 0xDB, %i3
+save %i4, 0xDE, %i5
+save %i4, 0xFE, %i6
+save %i4, 0x8A, %i7
+save %i5, 0xA9, %g0
+save %i5, 0x94, %g1
+save %i5, 0x67, %g2
+save %i5, 0x7F, %g3
+save %i5, 0xA7, %g4
+save %i5, 0xCD, %g5
+save %i5, 0x02, %g6
+save %i5, 0x7D, %g7
+save %i5, 0x1E, %o0
+save %i5, 0xA8, %o1
+save %i5, 0x45, %o2
+save %i5, 0xA1, %o3
+save %i5, 0xE1, %o4
+save %i5, 0xF4, %o5
+save %i5, 0xD8, %o6
+save %i5, 0xCF, %o7
+save %i5, 0x0B, %l0
+save %i5, 0x59, %l1
+save %i5, 0x11, %l2
+save %i5, 0x03, %l3
+save %i5, 0x6D, %l4
+save %i5, 0xB5, %l5
+save %i5, 0x2F, %l6
+save %i5, 0x3D, %l7
+save %i5, 0x2A, %i0
+save %i5, 0xE1, %i1
+save %i5, 0x0C, %i2
+save %i5, 0xA5, %i3
+save %i5, 0x26, %i4
+save %i5, 0xD7, %i6
+save %i5, 0x3F, %i7
+save %i6, 0x59, %g0
+save %i6, 0xA6, %g1
+save %i6, 0x53, %g2
+save %i6, 0x7B, %g3
+save %i6, 0xF1, %g4
+save %i6, 0xF6, %g5
+save %i6, 0xE6, %g6
+save %i6, 0x34, %g7
+save %i6, 0x18, %o0
+save %i6, 0xD2, %o1
+save %i6, 0x43, %o2
+save %i6, 0x4D, %o3
+save %i6, 0x70, %o4
+save %i6, 0x05, %o5
+save %i6, 0x94, %o6
+save %i6, 0x0B, %o7
+save %i6, 0x4F, %l0
+save %i6, 0x5C, %l1
+save %i6, 0x0D, %l2
+save %i6, 0xA2, %l3
+save %i6, 0x0E, %l4
+save %i6, 0x9D, %l5
+save %i6, 0x56, %l6
+save %i6, 0xA6, %l7
+save %i6, 0x14, %i0
+save %i6, 0x2A, %i1
+save %i6, 0x44, %i2
+save %i6, 0x4C, %i3
+save %i6, 0xFE, %i4
+save %i6, 0xF3, %i5
+save %i6, 0x10, %i7
+save %i7, 0x70, %g0
+save %i7, 0xCD, %g1
+save %i7, 0xFA, %g2
+save %i7, 0xD7, %g3
+save %i7, 0xFF, %g4
+save %i7, 0x7B, %g5
+save %i7, 0x30, %g6
+save %i7, 0x4F, %g7
+save %i7, 0x6D, %o0
+save %i7, 0x40, %o1
+save %i7, 0x8C, %o2
+save %i7, 0x24, %o3
+save %i7, 0x93, %o4
+save %i7, 0x48, %o5
+save %i7, 0x94, %o6
+save %i7, 0x12, %o7
+save %i7, 0x9E, %l0
+save %i7, 0xA1, %l1
+save %i7, 0x04, %l2
+save %i7, 0xF5, %l3
+save %i7, 0x04, %l4
+save %i7, 0x69, %l5
+save %i7, 0x6B, %l6
+save %i7, 0xCD, %l7
+save %i7, 0xC8, %i0
+save %i7, 0xDB, %i1
+save %i7, 0x48, %i2
+save %i7, 0x1C, %i3
 save %i7, 0x80, %i4
-save %i7, 0xAD, %i5
-save %i7, 0x54, %i6
-restore %g0, 0x28, %g1
-restore %g0, 0xDA, %g2
-restore %g0, 0xC7, %g3
-restore %g0, 0x9C, %g4
-restore %g0, 0x2D, %g5
-restore %g0, 0x6A, %g6
-restore %g0, 0xD3, %g7
-restore %g0, 0x79, %o0
-restore %g0, 0xDE, %o1
-restore %g0, 0x74, %o2
-restore %g0, 0xF4, %o3
-restore %g0, 0xBA, %o4
-restore %g0, 0x7A, %o5
-restore %g0, 0x01, %o6
-restore %g0, 0xF0, %o7
-restore %g0, 0x89, %l0
-restore %g0, 0xAA, %l1
-restore %g0, 0x91, %l2
-restore %g0, 0x21, %l3
-restore %g0, 0x52, %l4
-restore %g0, 0x42, %l5
-restore %g0, 0xC0, %l6
-restore %g0, 0x80, %l7
-restore %g0, 0x39, %i0
-restore %g0, 0xE6, %i1
-restore %g0, 0x7D, %i2
-restore %g0, 0xDC, %i3
-restore %g0, 0x41, %i4
-restore %g0, 0xE2, %i5
-restore %g0, 0x2A, %i6
-restore %g0, 0xF6, %i7
-restore %g1, 0x6F, %g0
-restore %g1, 0xE5, %g2
-restore %g1, 0xDE, %g3
-restore %g1, 0x66, %g4
-restore %g1, 0x44, %g5
-restore %g1, 0xE2, %g6
-restore %g1, 0x59, %g7
-restore %g1, 0xAD, %o0
-restore %g1, 0x7E, %o1
-restore %g1, 0xB9, %o2
-restore %g1, 0x4F, %o3
-restore %g1, 0x0F, %o4
-restore %g1, 0x54, %o5
-restore %g1, 0x17, %o6
-restore %g1, 0x79, %o7
-restore %g1, 0x4A, %l0
-restore %g1, 0xA8, %l1
-restore %g1, 0xAD, %l2
-restore %g1, 0xEF, %l3
-restore %g1, 0x48, %l4
-restore %g1, 0x2F, %l5
-restore %g1, 0x47, %l6
-restore %g1, 0x4B, %l7
-restore %g1, 0x50, %i0
-restore %g1, 0xA6, %i1
-restore %g1, 0x47, %i2
-restore %g1, 0x86, %i3
-restore %g1, 0xE8, %i4
-restore %g1, 0xE0, %i5
-restore %g1, 0x5A, %i6
-restore %g1, 0x41, %i7
-restore %g2, 0x71, %g0
-restore %g2, 0x8D, %g1
-restore %g2, 0xBB, %g3
-restore %g2, 0x28, %g4
-restore %g2, 0x52, %g5
-restore %g2, 0xFF, %g6
-restore %g2, 0xD5, %g7
-restore %g2, 0xE1, %o0
-restore %g2, 0x46, %o1
-restore %g2, 0xA0, %o2
-restore %g2, 0x56, %o3
-restore %g2, 0x93, %o4
-restore %g2, 0x28, %o5
-restore %g2, 0xB7, %o6
-restore %g2, 0x9F, %o7
-restore %g2, 0x60, %l0
-restore %g2, 0x2E, %l1
-restore %g2, 0xA0, %l2
-restore %g2, 0xE3, %l3
-restore %g2, 0x20, %l4
-restore %g2, 0x97, %l5
-restore %g2, 0x5E, %l6
-restore %g2, 0xED, %l7
-restore %g2, 0xAB, %i0
-restore %g2, 0x8C, %i1
-restore %g2, 0x66, %i2
-restore %g2, 0x89, %i3
-restore %g2, 0xFE, %i4
-restore %g2, 0x3E, %i5
-restore %g2, 0xA3, %i6
-restore %g2, 0x7D, %i7
-restore %g3, 0x6A, %g0
-restore %g3, 0x4D, %g1
-restore %g3, 0x3D, %g2
-restore %g3, 0x6E, %g4
-restore %g3, 0x4D, %g5
-restore %g3, 0xA7, %g6
-restore %g3, 0x5B, %g7
-restore %g3, 0x2D, %o0
-restore %g3, 0x2B, %o1
-restore %g3, 0x5E, %o2
-restore %g3, 0x4B, %o3
-restore %g3, 0x00, %o4
-restore %g3, 0x38, %o5
-restore %g3, 0x71, %o6
-restore %g3, 0x41, %o7
-restore %g3, 0x95, %l0
-restore %g3, 0x2F, %l1
-restore %g3, 0x1C, %l2
-restore %g3, 0xCB, %l3
-restore %g3, 0x15, %l4
-restore %g3, 0x91, %l5
-restore %g3, 0x5A, %l6
-restore %g3, 0x61, %l7
-restore %g3, 0x0B, %i0
-restore %g3, 0x95, %i1
-restore %g3, 0xFF, %i2
-restore %g3, 0xDA, %i3
-restore %g3, 0x6E, %i4
-restore %g3, 0xEC, %i5
-restore %g3, 0xED, %i6
-restore %g3, 0xAA, %i7
-restore %g4, 0xBE, %g0
-restore %g4, 0xEF, %g1
-restore %g4, 0xCA, %g2
-restore %g4, 0x53, %g3
-restore %g4, 0x1F, %g5
-restore %g4, 0x1E, %g6
-restore %g4, 0xA4, %g7
-restore %g4, 0x79, %o0
-restore %g4, 0x8E, %o1
-restore %g4, 0x21, %o2
-restore %g4, 0x0B, %o3
-restore %g4, 0xE6, %o4
-restore %g4, 0xD6, %o5
-restore %g4, 0x55, %o6
-restore %g4, 0x9D, %o7
-restore %g4, 0xC6, %l0
-restore %g4, 0xC0, %l1
-restore %g4, 0x05, %l2
-restore %g4, 0xB3, %l3
-restore %g4, 0xBD, %l4
-restore %g4, 0x89, %l5
-restore %g4, 0x67, %l6
-restore %g4, 0x33, %l7
-restore %g4, 0xD0, %i0
-restore %g4, 0xEE, %i1
-restore %g4, 0x71, %i2
-restore %g4, 0x78, %i3
-restore %g4, 0x3B, %i4
-restore %g4, 0xCD, %i5
-restore %g4, 0x9A, %i6
-restore %g4, 0x58, %i7
-restore %g5, 0xE6, %g0
-restore %g5, 0xE0, %g1
-restore %g5, 0xCC, %g2
-restore %g5, 0x4F, %g3
-restore %g5, 0x00, %g4
-restore %g5, 0x6A, %g6
-restore %g5, 0x2F, %g7
-restore %g5, 0x6A, %o0
-restore %g5, 0x74, %o1
-restore %g5, 0xEE, %o2
-restore %g5, 0xD6, %o3
-restore %g5, 0x66, %o4
-restore %g5, 0xE2, %o5
-restore %g5, 0xA1, %o6
-restore %g5, 0xC5, %o7
-restore %g5, 0xAF, %l0
-restore %g5, 0xEE, %l1
-restore %g5, 0xC8, %l2
-restore %g5, 0x5B, %l3
-restore %g5, 0xD9, %l4
-restore %g5, 0xE0, %l5
-restore %g5, 0x53, %l6
-restore %g5, 0x5C, %l7
-restore %g5, 0x89, %i0
-restore %g5, 0x51, %i1
-restore %g5, 0x7B, %i2
-restore %g5, 0xDD, %i3
-restore %g5, 0xA2, %i4
-restore %g5, 0xD1, %i5
-restore %g5, 0x9A, %i6
-restore %g5, 0xEB, %i7
-restore %g6, 0x5E, %g0
-restore %g6, 0x3E, %g1
-restore %g6, 0x16, %g2
-restore %g6, 0x71, %g3
-restore %g6, 0xA6, %g4
-restore %g6, 0xEA, %g5
-restore %g6, 0x7F, %g7
-restore %g6, 0x58, %o0
-restore %g6, 0x63, %o1
-restore %g6, 0x8A, %o2
-restore %g6, 0x08, %o3
-restore %g6, 0x22, %o4
-restore %g6, 0x16, %o5
-restore %g6, 0x6E, %o6
-restore %g6, 0x83, %o7
-restore %g6, 0x2A, %l0
-restore %g6, 0x06, %l1
-restore %g6, 0x83, %l2
-restore %g6, 0x9F, %l3
-restore %g6, 0x41, %l4
-restore %g6, 0x50, %l5
-restore %g6, 0x79, %l6
-restore %g6, 0x73, %l7
-restore %g6, 0x64, %i0
-restore %g6, 0x5B, %i1
-restore %g6, 0x18, %i2
-restore %g6, 0x2E, %i3
-restore %g6, 0x6F, %i4
-restore %g6, 0x5B, %i5
-restore %g6, 0x81, %i6
-restore %g6, 0x98, %i7
-restore %g7, 0xA3, %g0
-restore %g7, 0x1D, %g1
-restore %g7, 0x8A, %g2
-restore %g7, 0xA1, %g3
-restore %g7, 0xD9, %g4
-restore %g7, 0xC7, %g5
-restore %g7, 0xD3, %g6
-restore %g7, 0x39, %o0
-restore %g7, 0xBF, %o1
-restore %g7, 0x73, %o2
-restore %g7, 0x1E, %o3
-restore %g7, 0x31, %o4
-restore %g7, 0xE6, %o5
-restore %g7, 0xA3, %o6
-restore %g7, 0xD2, %o7
+save %i7, 0xC3, %i5
+save %i7, 0x3C, %i6
+restore %g0, 0x83, %g1
+restore %g0, 0xAF, %g2
+restore %g0, 0xEF, %g3
+restore %g0, 0x07, %g4
+restore %g0, 0x8C, %g5
+restore %g0, 0x1E, %g6
+restore %g0, 0x5B, %g7
+restore %g0, 0xDF, %o0
+restore %g0, 0xB6, %o1
+restore %g0, 0x66, %o2
+restore %g0, 0x2B, %o3
+restore %g0, 0x73, %o4
+restore %g0, 0x50, %o5
+restore %g0, 0xDF, %o6
+restore %g0, 0xAE, %o7
+restore %g0, 0x1A, %l0
+restore %g0, 0x88, %l1
+restore %g0, 0xA2, %l2
+restore %g0, 0x0B, %l3
+restore %g0, 0xE2, %l4
+restore %g0, 0x66, %l5
+restore %g0, 0x6B, %l6
+restore %g0, 0x9D, %l7
+restore %g0, 0x41, %i0
+restore %g0, 0x5F, %i1
+restore %g0, 0xA0, %i2
+restore %g0, 0x2B, %i3
+restore %g0, 0x03, %i4
+restore %g0, 0xE1, %i5
+restore %g0, 0xBA, %i6
+restore %g0, 0x8B, %i7
+restore %g1, 0x26, %g0
+restore %g1, 0xA3, %g2
+restore %g1, 0xB3, %g3
+restore %g1, 0x1F, %g4
+restore %g1, 0xB9, %g5
+restore %g1, 0xF7, %g6
+restore %g1, 0xE7, %g7
+restore %g1, 0x01, %o0
+restore %g1, 0x67, %o1
+restore %g1, 0xEE, %o2
+restore %g1, 0xB5, %o3
+restore %g1, 0x90, %o4
+restore %g1, 0xFC, %o5
+restore %g1, 0x0E, %o6
+restore %g1, 0xD4, %o7
+restore %g1, 0xED, %l0
+restore %g1, 0xB2, %l1
+restore %g1, 0x62, %l2
+restore %g1, 0xDF, %l3
+restore %g1, 0xDE, %l4
+restore %g1, 0x55, %l5
+restore %g1, 0x6A, %l6
+restore %g1, 0x43, %l7
+restore %g1, 0x7D, %i0
+restore %g1, 0xEA, %i1
+restore %g1, 0x82, %i2
+restore %g1, 0xED, %i3
+restore %g1, 0x07, %i4
+restore %g1, 0x92, %i5
+restore %g1, 0x58, %i6
+restore %g1, 0x05, %i7
+restore %g2, 0x1B, %g0
+restore %g2, 0x2A, %g1
+restore %g2, 0x19, %g3
+restore %g2, 0x71, %g4
+restore %g2, 0x17, %g5
+restore %g2, 0x28, %g6
+restore %g2, 0xCC, %g7
+restore %g2, 0x06, %o0
+restore %g2, 0x03, %o1
+restore %g2, 0x55, %o2
+restore %g2, 0xEC, %o3
+restore %g2, 0x4D, %o4
+restore %g2, 0xC4, %o5
+restore %g2, 0x42, %o6
+restore %g2, 0xB6, %o7
+restore %g2, 0x1A, %l0
+restore %g2, 0xD0, %l1
+restore %g2, 0x27, %l2
+restore %g2, 0x8C, %l3
+restore %g2, 0x19, %l4
+restore %g2, 0x44, %l5
+restore %g2, 0x91, %l6
+restore %g2, 0x89, %l7
+restore %g2, 0x43, %i0
+restore %g2, 0xB4, %i1
+restore %g2, 0x24, %i2
+restore %g2, 0x15, %i3
+restore %g2, 0x7A, %i4
+restore %g2, 0x67, %i5
+restore %g2, 0x21, %i6
+restore %g2, 0xC9, %i7
+restore %g3, 0x92, %g0
+restore %g3, 0x4C, %g1
+restore %g3, 0x9F, %g2
+restore %g3, 0xA5, %g4
+restore %g3, 0x26, %g5
+restore %g3, 0x07, %g6
+restore %g3, 0xC7, %g7
+restore %g3, 0xB1, %o0
+restore %g3, 0x03, %o1
+restore %g3, 0x24, %o2
+restore %g3, 0xF8, %o3
+restore %g3, 0x97, %o4
+restore %g3, 0x42, %o5
+restore %g3, 0xAB, %o6
+restore %g3, 0x6B, %o7
+restore %g3, 0x6A, %l0
+restore %g3, 0xB5, %l1
+restore %g3, 0xEA, %l2
+restore %g3, 0xD1, %l3
+restore %g3, 0x3F, %l4
+restore %g3, 0x61, %l5
+restore %g3, 0x0D, %l6
+restore %g3, 0xFB, %l7
+restore %g3, 0x2E, %i0
+restore %g3, 0xF5, %i1
+restore %g3, 0x00, %i2
+restore %g3, 0xEB, %i3
+restore %g3, 0xDF, %i4
+restore %g3, 0xAC, %i5
+restore %g3, 0x7E, %i6
+restore %g3, 0xAC, %i7
+restore %g4, 0xC9, %g0
+restore %g4, 0x94, %g1
+restore %g4, 0x68, %g2
+restore %g4, 0x14, %g3
+restore %g4, 0x83, %g5
+restore %g4, 0xCB, %g6
+restore %g4, 0xAE, %g7
+restore %g4, 0x35, %o0
+restore %g4, 0xFB, %o1
+restore %g4, 0xF5, %o2
+restore %g4, 0x75, %o3
+restore %g4, 0x8E, %o4
+restore %g4, 0xA6, %o5
+restore %g4, 0xDD, %o6
+restore %g4, 0xB0, %o7
+restore %g4, 0x96, %l0
+restore %g4, 0xCF, %l1
+restore %g4, 0x87, %l2
+restore %g4, 0xC3, %l3
+restore %g4, 0x6B, %l4
+restore %g4, 0x7B, %l5
+restore %g4, 0x98, %l6
+restore %g4, 0xE7, %l7
+restore %g4, 0x90, %i0
+restore %g4, 0xF6, %i1
+restore %g4, 0x38, %i2
+restore %g4, 0x43, %i3
+restore %g4, 0xC3, %i4
+restore %g4, 0xD0, %i5
+restore %g4, 0x5B, %i6
+restore %g4, 0x1A, %i7
+restore %g5, 0x12, %g0
+restore %g5, 0x17, %g1
+restore %g5, 0x2A, %g2
+restore %g5, 0x2C, %g3
+restore %g5, 0x81, %g4
+restore %g5, 0x30, %g6
+restore %g5, 0xD4, %g7
+restore %g5, 0x24, %o0
+restore %g5, 0x76, %o1
+restore %g5, 0x1A, %o2
+restore %g5, 0x9B, %o3
+restore %g5, 0x54, %o4
+restore %g5, 0x85, %o5
+restore %g5, 0x7E, %o6
+restore %g5, 0x41, %o7
+restore %g5, 0x32, %l0
+restore %g5, 0x56, %l1
+restore %g5, 0xA0, %l2
+restore %g5, 0x43, %l3
+restore %g5, 0xC8, %l4
+restore %g5, 0xA3, %l5
+restore %g5, 0x28, %l6
+restore %g5, 0x4E, %l7
+restore %g5, 0x80, %i0
+restore %g5, 0x6E, %i1
+restore %g5, 0xE7, %i2
+restore %g5, 0xB7, %i3
+restore %g5, 0xF3, %i4
+restore %g5, 0x44, %i5
+restore %g5, 0x79, %i6
+restore %g5, 0x2D, %i7
+restore %g6, 0x09, %g0
+restore %g6, 0x20, %g1
+restore %g6, 0x6F, %g2
+restore %g6, 0x3A, %g3
+restore %g6, 0x4D, %g4
+restore %g6, 0xC8, %g5
+restore %g6, 0xCF, %g7
+restore %g6, 0xE2, %o0
+restore %g6, 0x05, %o1
+restore %g6, 0x77, %o2
+restore %g6, 0x27, %o3
+restore %g6, 0xE2, %o4
+restore %g6, 0x5F, %o5
+restore %g6, 0xEC, %o6
+restore %g6, 0xC2, %o7
+restore %g6, 0xB9, %l0
+restore %g6, 0x93, %l1
+restore %g6, 0x89, %l2
+restore %g6, 0xB2, %l3
+restore %g6, 0x1D, %l4
+restore %g6, 0xD8, %l5
+restore %g6, 0x67, %l6
+restore %g6, 0x60, %l7
+restore %g6, 0x31, %i0
+restore %g6, 0x05, %i1
+restore %g6, 0xDA, %i2
+restore %g6, 0x78, %i3
+restore %g6, 0x61, %i4
+restore %g6, 0xF3, %i5
+restore %g6, 0x8B, %i6
+restore %g6, 0x22, %i7
+restore %g7, 0xBC, %g0
+restore %g7, 0xF2, %g1
+restore %g7, 0x2B, %g2
+restore %g7, 0x6E, %g3
+restore %g7, 0x57, %g4
+restore %g7, 0x63, %g5
+restore %g7, 0x64, %g6
+restore %g7, 0x0F, %o0
+restore %g7, 0xB3, %o1
+restore %g7, 0x2F, %o2
+restore %g7, 0x19, %o3
+restore %g7, 0xE4, %o4
+restore %g7, 0xFE, %o5
+restore %g7, 0x54, %o6
+restore %g7, 0xA5, %o7
 restore %g7, 0x04, %l0
-restore %g7, 0xDD, %l1
-restore %g7, 0xE9, %l2
-restore %g7, 0xF2, %l3
-restore %g7, 0xFE, %l4
-restore %g7, 0x83, %l5
-restore %g7, 0x3A, %l6
-restore %g7, 0xB9, %l7
-restore %g7, 0x06, %i0
-restore %g7, 0x5E, %i1
-restore %g7, 0x24, %i2
-restore %g7, 0xE6, %i3
-restore %g7, 0x5D, %i4
-restore %g7, 0x17, %i5
-restore %g7, 0xA5, %i6
-restore %g7, 0x16, %i7
-restore %o0, 0x0B, %g0
-restore %o0, 0xE2, %g1
-restore %o0, 0x89, %g2
-restore %o0, 0x49, %g3
-restore %o0, 0x38, %g4
-restore %o0, 0xBF, %g5
-restore %o0, 0x6B, %g6
-restore %o0, 0xF7, %g7
-restore %o0, 0x77, %o1
-restore %o0, 0xA5, %o2
-restore %o0, 0xB0, %o3
-restore %o0, 0x01, %o4
-restore %o0, 0xAE, %o5
-restore %o0, 0x17, %o6
-restore %o0, 0x80, %o7
-restore %o0, 0xEA, %l0
-restore %o0, 0x83, %l1
-restore %o0, 0x4B, %l2
-restore %o0, 0xA4, %l3
-restore %o0, 0x77, %l4
-restore %o0, 0x29, %l5
-restore %o0, 0xA6, %l6
-restore %o0, 0x88, %l7
-restore %o0, 0x0D, %i0
-restore %o0, 0x1A, %i1
-restore %o0, 0x1C, %i2
-restore %o0, 0x92, %i3
-restore %o0, 0x05, %i4
-restore %o0, 0x08, %i5
-restore %o0, 0x2A, %i6
-restore %o0, 0xE1, %i7
-restore %o1, 0x3D, %g0
-restore %o1, 0xD1, %g1
-restore %o1, 0x30, %g2
-restore %o1, 0x48, %g3
-restore %o1, 0xA7, %g4
-restore %o1, 0xFD, %g5
-restore %o1, 0x9C, %g6
-restore %o1, 0xAB, %g7
-restore %o1, 0x2C, %o0
-restore %o1, 0xE0, %o2
-restore %o1, 0xE6, %o3
-restore %o1, 0x1B, %o4
-restore %o1, 0x5F, %o5
-restore %o1, 0x42, %o6
-restore %o1, 0x6F, %o7
-restore %o1, 0x4D, %l0
-restore %o1, 0x54, %l1
-restore %o1, 0xBC, %l2
-restore %o1, 0x3B, %l3
-restore %o1, 0x65, %l4
-restore %o1, 0xED, %l5
-restore %o1, 0x3E, %l6
-restore %o1, 0xFD, %l7
-restore %o1, 0x11, %i0
-restore %o1, 0xD4, %i1
-restore %o1, 0x8D, %i2
-restore %o1, 0xBC, %i3
-restore %o1, 0x96, %i4
-restore %o1, 0x90, %i5
-restore %o1, 0x5A, %i6
-restore %o1, 0xE7, %i7
-restore %o2, 0xF5, %g0
-restore %o2, 0x54, %g1
-restore %o2, 0x42, %g2
-restore %o2, 0x63, %g3
-restore %o2, 0x9B, %g4
-restore %o2, 0x81, %g5
-restore %o2, 0x8E, %g6
-restore %o2, 0x70, %g7
-restore %o2, 0x67, %o0
-restore %o2, 0xC9, %o1
-restore %o2, 0xD7, %o3
-restore %o2, 0xEE, %o4
-restore %o2, 0x83, %o5
-restore %o2, 0x71, %o6
-restore %o2, 0x72, %o7
-restore %o2, 0x9F, %l0
-restore %o2, 0x37, %l1
-restore %o2, 0x98, %l2
-restore %o2, 0xEA, %l3
-restore %o2, 0x0E, %l4
-restore %o2, 0x38, %l5
-restore %o2, 0x24, %l6
-restore %o2, 0x63, %l7
-restore %o2, 0x57, %i0
-restore %o2, 0x7E, %i1
-restore %o2, 0xC6, %i2
-restore %o2, 0xE8, %i3
-restore %o2, 0x00, %i4
-restore %o2, 0xDA, %i5
-restore %o2, 0xBD, %i6
-restore %o2, 0xB5, %i7
-restore %o3, 0x08, %g0
-restore %o3, 0xE6, %g1
-restore %o3, 0xA2, %g2
-restore %o3, 0xA3, %g3
-restore %o3, 0xDE, %g4
-restore %o3, 0x4E, %g5
-restore %o3, 0xA5, %g6
-restore %o3, 0xC8, %g7
-restore %o3, 0xA6, %o0
-restore %o3, 0x0A, %o1
-restore %o3, 0xCE, %o2
-restore %o3, 0xAE, %o4
-restore %o3, 0xB0, %o5
-restore %o3, 0xDE, %o6
-restore %o3, 0x2D, %o7
-restore %o3, 0xEE, %l0
-restore %o3, 0xED, %l1
-restore %o3, 0x5A, %l2
-restore %o3, 0x75, %l3
-restore %o3, 0x13, %l4
-restore %o3, 0x3D, %l5
-restore %o3, 0x85, %l6
-restore %o3, 0x0A, %l7
-restore %o3, 0x58, %i0
-restore %o3, 0x78, %i1
-restore %o3, 0xF2, %i2
-restore %o3, 0x4D, %i3
-restore %o3, 0x24, %i4
-restore %o3, 0x4B, %i5
-restore %o3, 0xAD, %i6
-restore %o3, 0x18, %i7
-restore %o4, 0x55, %g0
-restore %o4, 0xA5, %g1
-restore %o4, 0x2C, %g2
-restore %o4, 0xC4, %g3
-restore %o4, 0xAA, %g4
-restore %o4, 0xDB, %g5
-restore %o4, 0xE4, %g6
-restore %o4, 0x44, %g7
-restore %o4, 0xA0, %o0
-restore %o4, 0x8A, %o1
-restore %o4, 0xF4, %o2
-restore %o4, 0x78, %o3
-restore %o4, 0x29, %o5
-restore %o4, 0x02, %o6
-restore %o4, 0xD0, %o7
-restore %o4, 0xAE, %l0
-restore %o4, 0xF0, %l1
-restore %o4, 0xEF, %l2
-restore %o4, 0xA7, %l3
-restore %o4, 0x68, %l4
-restore %o4, 0xBE, %l5
-restore %o4, 0xE2, %l6
-restore %o4, 0xA6, %l7
-restore %o4, 0xBF, %i0
-restore %o4, 0x80, %i1
-restore %o4, 0x57, %i2
-restore %o4, 0xE8, %i3
-restore %o4, 0x27, %i4
-restore %o4, 0xE7, %i5
-restore %o4, 0xD5, %i6
-restore %o4, 0xAF, %i7
-restore %o5, 0x55, %g0
-restore %o5, 0x32, %g1
-restore %o5, 0xFC, %g2
-restore %o5, 0x05, %g3
-restore %o5, 0x97, %g4
-restore %o5, 0x4D, %g5
-restore %o5, 0x43, %g6
-restore %o5, 0x9E, %g7
-restore %o5, 0x86, %o0
-restore %o5, 0x4D, %o1
-restore %o5, 0xF3, %o2
-restore %o5, 0x33, %o3
-restore %o5, 0x7D, %o4
-restore %o5, 0xEB, %o6
-restore %o5, 0x71, %o7
-restore %o5, 0x5F, %l0
-restore %o5, 0x81, %l1
-restore %o5, 0xB7, %l2
-restore %o5, 0x06, %l3
-restore %o5, 0x31, %l4
-restore %o5, 0xFA, %l5
-restore %o5, 0x57, %l6
-restore %o5, 0x46, %l7
-restore %o5, 0xC5, %i0
-restore %o5, 0xFA, %i1
-restore %o5, 0x8E, %i2
-restore %o5, 0xCA, %i3
-restore %o5, 0x1C, %i4
-restore %o5, 0x45, %i5
-restore %o5, 0x4D, %i6
-restore %o5, 0xAE, %i7
-restore %o6, 0xD6, %g0
-restore %o6, 0x6F, %g1
-restore %o6, 0x95, %g2
-restore %o6, 0x0E, %g3
-restore %o6, 0x85, %g4
-restore %o6, 0x3E, %g5
-restore %o6, 0xB4, %g6
-restore %o6, 0xCE, %g7
-restore %o6, 0x43, %o0
-restore %o6, 0x88, %o1
-restore %o6, 0xA4, %o2
-restore %o6, 0xB8, %o3
-restore %o6, 0xD9, %o4
-restore %o6, 0xC9, %o5
-restore %o6, 0x5D, %o7
-restore %o6, 0x89, %l0
-restore %o6, 0xBB, %l1
-restore %o6, 0x58, %l2
-restore %o6, 0x10, %l3
-restore %o6, 0x3E, %l4
-restore %o6, 0x98, %l5
-restore %o6, 0xAE, %l6
-restore %o6, 0xB7, %l7
-restore %o6, 0xE2, %i0
-restore %o6, 0xB9, %i1
-restore %o6, 0xFC, %i2
-restore %o6, 0x64, %i3
-restore %o6, 0x5F, %i4
-restore %o6, 0x28, %i5
-restore %o6, 0x38, %i6
-restore %o6, 0xEB, %i7
-restore %o7, 0x4D, %g0
-restore %o7, 0x97, %g1
-restore %o7, 0x66, %g2
-restore %o7, 0x45, %g3
-restore %o7, 0x70, %g4
-restore %o7, 0xFC, %g5
-restore %o7, 0x26, %g6
-restore %o7, 0x2F, %g7
-restore %o7, 0x33, %o0
-restore %o7, 0x2C, %o1
-restore %o7, 0x5E, %o2
-restore %o7, 0x07, %o3
-restore %o7, 0x79, %o4
-restore %o7, 0xDA, %o5
-restore %o7, 0x5B, %o6
-restore %o7, 0x8B, %l0
-restore %o7, 0x56, %l1
-restore %o7, 0xC8, %l2
-restore %o7, 0x2A, %l3
-restore %o7, 0x3F, %l4
-restore %o7, 0x2B, %l5
-restore %o7, 0x12, %l6
-restore %o7, 0x69, %l7
-restore %o7, 0xE0, %i0
-restore %o7, 0x9C, %i1
-restore %o7, 0xF1, %i2
-restore %o7, 0x35, %i3
-restore %o7, 0xE6, %i4
-restore %o7, 0x35, %i5
-restore %o7, 0xED, %i6
-restore %o7, 0xEE, %i7
-restore %l0, 0x01, %g0
-restore %l0, 0x84, %g1
-restore %l0, 0xE0, %g2
-restore %l0, 0x27, %g3
-restore %l0, 0xCB, %g4
-restore %l0, 0x01, %g5
-restore %l0, 0x7F, %g6
-restore %l0, 0x7E, %g7
-restore %l0, 0x71, %o0
-restore %l0, 0xBB, %o1
-restore %l0, 0x45, %o2
-restore %l0, 0x25, %o3
-restore %l0, 0xBB, %o4
-restore %l0, 0xA1, %o5
-restore %l0, 0x2A, %o6
-restore %l0, 0x35, %o7
-restore %l0, 0xC6, %l1
-restore %l0, 0x22, %l2
-restore %l0, 0xAE, %l3
-restore %l0, 0x10, %l4
-restore %l0, 0x6E, %l5
-restore %l0, 0x93, %l6
-restore %l0, 0xA6, %l7
-restore %l0, 0x23, %i0
-restore %l0, 0x76, %i1
+restore %g7, 0x07, %l1
+restore %g7, 0x5B, %l2
+restore %g7, 0x4B, %l3
+restore %g7, 0x26, %l4
+restore %g7, 0x5B, %l5
+restore %g7, 0xCC, %l6
+restore %g7, 0x7E, %l7
+restore %g7, 0x66, %i0
+restore %g7, 0x4F, %i1
+restore %g7, 0x1D, %i2
+restore %g7, 0xBA, %i3
+restore %g7, 0x81, %i4
+restore %g7, 0x5D, %i5
+restore %g7, 0x24, %i6
+restore %g7, 0x15, %i7
+restore %o0, 0x9F, %g0
+restore %o0, 0x67, %g1
+restore %o0, 0x68, %g2
+restore %o0, 0xA1, %g3
+restore %o0, 0xF2, %g4
+restore %o0, 0x81, %g5
+restore %o0, 0x2B, %g6
+restore %o0, 0xB0, %g7
+restore %o0, 0xDB, %o1
+restore %o0, 0x30, %o2
+restore %o0, 0xDC, %o3
+restore %o0, 0xEC, %o4
+restore %o0, 0x26, %o5
+restore %o0, 0xE8, %o6
+restore %o0, 0xE4, %o7
+restore %o0, 0xB9, %l0
+restore %o0, 0xDA, %l1
+restore %o0, 0x41, %l2
+restore %o0, 0xBE, %l3
+restore %o0, 0x97, %l4
+restore %o0, 0xCF, %l5
+restore %o0, 0x49, %l6
+restore %o0, 0x6A, %l7
+restore %o0, 0xA3, %i0
+restore %o0, 0xC1, %i1
+restore %o0, 0x7D, %i2
+restore %o0, 0x32, %i3
+restore %o0, 0x27, %i4
+restore %o0, 0xF1, %i5
+restore %o0, 0xEA, %i6
+restore %o0, 0x74, %i7
+restore %o1, 0x70, %g0
+restore %o1, 0xAF, %g1
+restore %o1, 0xAE, %g2
+restore %o1, 0x20, %g3
+restore %o1, 0xFA, %g4
+restore %o1, 0x78, %g5
+restore %o1, 0x0A, %g6
+restore %o1, 0xC4, %g7
+restore %o1, 0x41, %o0
+restore %o1, 0x1A, %o2
+restore %o1, 0xC8, %o3
+restore %o1, 0xD9, %o4
+restore %o1, 0xF7, %o5
+restore %o1, 0xED, %o6
+restore %o1, 0xC1, %o7
+restore %o1, 0xA1, %l0
+restore %o1, 0x2D, %l1
+restore %o1, 0xBE, %l2
+restore %o1, 0xDB, %l3
+restore %o1, 0xFC, %l4
+restore %o1, 0x62, %l5
+restore %o1, 0x14, %l6
+restore %o1, 0x8A, %l7
+restore %o1, 0xCE, %i0
+restore %o1, 0x2D, %i1
+restore %o1, 0xB1, %i2
+restore %o1, 0x70, %i3
+restore %o1, 0x4B, %i4
+restore %o1, 0x30, %i5
+restore %o1, 0x96, %i6
+restore %o1, 0x1C, %i7
+restore %o2, 0x54, %g0
+restore %o2, 0x18, %g1
+restore %o2, 0xB8, %g2
+restore %o2, 0x7A, %g3
+restore %o2, 0xC5, %g4
+restore %o2, 0x19, %g5
+restore %o2, 0x95, %g6
+restore %o2, 0xCF, %g7
+restore %o2, 0xD4, %o0
+restore %o2, 0x2A, %o1
+restore %o2, 0x74, %o3
+restore %o2, 0xD2, %o4
+restore %o2, 0xDB, %o5
+restore %o2, 0x25, %o6
+restore %o2, 0xC7, %o7
+restore %o2, 0xEF, %l0
+restore %o2, 0x73, %l1
+restore %o2, 0xC2, %l2
+restore %o2, 0xBB, %l3
+restore %o2, 0x11, %l4
+restore %o2, 0xE5, %l5
+restore %o2, 0xC1, %l6
+restore %o2, 0x70, %l7
+restore %o2, 0x38, %i0
+restore %o2, 0xCF, %i1
+restore %o2, 0x0A, %i2
+restore %o2, 0xE1, %i3
+restore %o2, 0x28, %i4
+restore %o2, 0x8E, %i5
+restore %o2, 0x6B, %i6
+restore %o2, 0x21, %i7
+restore %o3, 0xBB, %g0
+restore %o3, 0x1D, %g1
+restore %o3, 0x70, %g2
+restore %o3, 0x60, %g3
+restore %o3, 0x54, %g4
+restore %o3, 0xF8, %g5
+restore %o3, 0x4F, %g6
+restore %o3, 0x20, %g7
+restore %o3, 0x36, %o0
+restore %o3, 0x38, %o1
+restore %o3, 0x50, %o2
+restore %o3, 0x4A, %o4
+restore %o3, 0x20, %o5
+restore %o3, 0x97, %o6
+restore %o3, 0x05, %o7
+restore %o3, 0x8B, %l0
+restore %o3, 0xB0, %l1
+restore %o3, 0x2C, %l2
+restore %o3, 0x43, %l3
+restore %o3, 0xC4, %l4
+restore %o3, 0xC1, %l5
+restore %o3, 0xD8, %l6
+restore %o3, 0x74, %l7
+restore %o3, 0x47, %i0
+restore %o3, 0x11, %i1
+restore %o3, 0xC3, %i2
+restore %o3, 0xF8, %i3
+restore %o3, 0x00, %i4
+restore %o3, 0x2A, %i5
+restore %o3, 0x99, %i6
+restore %o3, 0xF9, %i7
+restore %o4, 0xC2, %g0
+restore %o4, 0xA8, %g1
+restore %o4, 0xF3, %g2
+restore %o4, 0x21, %g3
+restore %o4, 0xF4, %g4
+restore %o4, 0x5A, %g5
+restore %o4, 0x23, %g6
+restore %o4, 0x2F, %g7
+restore %o4, 0x2F, %o0
+restore %o4, 0x0A, %o1
+restore %o4, 0x6D, %o2
+restore %o4, 0xD7, %o3
+restore %o4, 0x93, %o5
+restore %o4, 0x60, %o6
+restore %o4, 0x73, %o7
+restore %o4, 0xE5, %l0
+restore %o4, 0x58, %l1
+restore %o4, 0x41, %l2
+restore %o4, 0xEF, %l3
+restore %o4, 0x6C, %l4
+restore %o4, 0x0F, %l5
+restore %o4, 0xF9, %l6
+restore %o4, 0xD9, %l7
+restore %o4, 0xD9, %i0
+restore %o4, 0x11, %i1
+restore %o4, 0xE1, %i2
+restore %o4, 0xA2, %i3
+restore %o4, 0x15, %i4
+restore %o4, 0x56, %i5
+restore %o4, 0xF5, %i6
+restore %o4, 0x44, %i7
+restore %o5, 0xF4, %g0
+restore %o5, 0x09, %g1
+restore %o5, 0x20, %g2
+restore %o5, 0x1D, %g3
+restore %o5, 0x20, %g4
+restore %o5, 0xA3, %g5
+restore %o5, 0x65, %g6
+restore %o5, 0xA3, %g7
+restore %o5, 0x5A, %o0
+restore %o5, 0xCE, %o1
+restore %o5, 0xE0, %o2
+restore %o5, 0xF9, %o3
+restore %o5, 0x51, %o4
+restore %o5, 0xDF, %o6
+restore %o5, 0x9B, %o7
+restore %o5, 0x37, %l0
+restore %o5, 0x61, %l1
+restore %o5, 0x7C, %l2
+restore %o5, 0xA3, %l3
+restore %o5, 0x06, %l4
+restore %o5, 0x59, %l5
+restore %o5, 0x93, %l6
+restore %o5, 0x85, %l7
+restore %o5, 0x20, %i0
+restore %o5, 0x05, %i1
+restore %o5, 0x25, %i2
+restore %o5, 0xED, %i3
+restore %o5, 0x90, %i4
+restore %o5, 0xE4, %i5
+restore %o5, 0xE1, %i6
+restore %o5, 0xCB, %i7
+restore %o6, 0x6E, %g0
+restore %o6, 0x57, %g1
+restore %o6, 0x58, %g2
+restore %o6, 0x3F, %g3
+restore %o6, 0x43, %g4
+restore %o6, 0xA7, %g5
+restore %o6, 0x6F, %g6
+restore %o6, 0xF4, %g7
+restore %o6, 0x9F, %o0
+restore %o6, 0x93, %o1
+restore %o6, 0x6E, %o2
+restore %o6, 0x1D, %o3
+restore %o6, 0x7C, %o4
+restore %o6, 0x63, %o5
+restore %o6, 0x30, %o7
+restore %o6, 0x4E, %l0
+restore %o6, 0x11, %l1
+restore %o6, 0x83, %l2
+restore %o6, 0x16, %l3
+restore %o6, 0x35, %l4
+restore %o6, 0x5F, %l5
+restore %o6, 0x8E, %l6
+restore %o6, 0x8C, %l7
+restore %o6, 0x87, %i0
+restore %o6, 0x0B, %i1
+restore %o6, 0x67, %i2
+restore %o6, 0x97, %i3
+restore %o6, 0xD5, %i4
+restore %o6, 0xE8, %i5
+restore %o6, 0xE5, %i6
+restore %o6, 0x9E, %i7
+restore %o7, 0x46, %g0
+restore %o7, 0x43, %g1
+restore %o7, 0x60, %g2
+restore %o7, 0x7D, %g3
+restore %o7, 0xEE, %g4
+restore %o7, 0x4E, %g5
+restore %o7, 0xEC, %g6
+restore %o7, 0x20, %g7
+restore %o7, 0x0A, %o0
+restore %o7, 0x2B, %o1
+restore %o7, 0x8B, %o2
+restore %o7, 0x73, %o3
+restore %o7, 0x89, %o4
+restore %o7, 0x4F, %o5
+restore %o7, 0x6B, %o6
+restore %o7, 0x86, %l0
+restore %o7, 0x7E, %l1
+restore %o7, 0x01, %l2
+restore %o7, 0x76, %l3
+restore %o7, 0x7A, %l4
+restore %o7, 0xF8, %l5
+restore %o7, 0x44, %l6
+restore %o7, 0x45, %l7
+restore %o7, 0x68, %i0
+restore %o7, 0x26, %i1
+restore %o7, 0x9E, %i2
+restore %o7, 0x66, %i3
+restore %o7, 0x58, %i4
+restore %o7, 0x9F, %i5
+restore %o7, 0x16, %i6
+restore %o7, 0x91, %i7
+restore %l0, 0xFC, %g0
+restore %l0, 0x1C, %g1
+restore %l0, 0x32, %g2
+restore %l0, 0x15, %g3
+restore %l0, 0xD9, %g4
+restore %l0, 0x74, %g5
+restore %l0, 0x83, %g6
+restore %l0, 0x61, %g7
+restore %l0, 0xFF, %o0
+restore %l0, 0x93, %o1
+restore %l0, 0xB0, %o2
+restore %l0, 0x5D, %o3
+restore %l0, 0x2B, %o4
+restore %l0, 0x6F, %o5
+restore %l0, 0x7A, %o6
+restore %l0, 0x49, %o7
+restore %l0, 0x1C, %l1
+restore %l0, 0x23, %l2
+restore %l0, 0x47, %l3
+restore %l0, 0xEE, %l4
+restore %l0, 0x53, %l5
+restore %l0, 0x9A, %l6
+restore %l0, 0x9F, %l7
+restore %l0, 0xBA, %i0
+restore %l0, 0xEB, %i1
 restore %l0, 0xCC, %i2
-restore %l0, 0x89, %i3
-restore %l0, 0xDE, %i4
-restore %l0, 0x8E, %i5
-restore %l0, 0xC4, %i6
-restore %l0, 0xD9, %i7
-restore %l1, 0x84, %g0
-restore %l1, 0x2E, %g1
-restore %l1, 0x16, %g2
-restore %l1, 0x08, %g3
-restore %l1, 0x4C, %g4
-restore %l1, 0x09, %g5
-restore %l1, 0xD2, %g6
-restore %l1, 0x5B, %g7
-restore %l1, 0x17, %o0
-restore %l1, 0x1C, %o1
-restore %l1, 0xC6, %o2
-restore %l1, 0x2E, %o3
-restore %l1, 0x6F, %o4
-restore %l1, 0x04, %o5
-restore %l1, 0x86, %o6
-restore %l1, 0xF8, %o7
-restore %l1, 0xF0, %l0
-restore %l1, 0x70, %l2
-restore %l1, 0xBA, %l3
-restore %l1, 0xE8, %l4
-restore %l1, 0x9E, %l5
-restore %l1, 0xCE, %l6
-restore %l1, 0xDA, %l7
-restore %l1, 0x85, %i0
-restore %l1, 0xEF, %i1
-restore %l1, 0x10, %i2
-restore %l1, 0x74, %i3
-restore %l1, 0x34, %i4
-restore %l1, 0x87, %i5
-restore %l1, 0x5E, %i6
-restore %l1, 0xF9, %i7
-restore %l2, 0xB0, %g0
-restore %l2, 0x59, %g1
-restore %l2, 0x59, %g2
-restore %l2, 0xBD, %g3
-restore %l2, 0xC4, %g4
-restore %l2, 0xAB, %g5
-restore %l2, 0x29, %g6
-restore %l2, 0x62, %g7
-restore %l2, 0xEB, %o0
-restore %l2, 0x83, %o1
-restore %l2, 0x61, %o2
-restore %l2, 0x45, %o3
-restore %l2, 0xA7, %o4
-restore %l2, 0x83, %o5
-restore %l2, 0x56, %o6
-restore %l2, 0x9F, %o7
-restore %l2, 0xBD, %l0
-restore %l2, 0x6B, %l1
-restore %l2, 0x26, %l3
-restore %l2, 0x31, %l4
-restore %l2, 0xA4, %l5
+restore %l0, 0xBE, %i3
+restore %l0, 0xAA, %i4
+restore %l0, 0xD3, %i5
+restore %l0, 0xA9, %i6
+restore %l0, 0xBB, %i7
+restore %l1, 0xE4, %g0
+restore %l1, 0x79, %g1
+restore %l1, 0x02, %g2
+restore %l1, 0x9F, %g3
+restore %l1, 0xF7, %g4
+restore %l1, 0xCF, %g5
+restore %l1, 0x69, %g6
+restore %l1, 0x88, %g7
+restore %l1, 0x90, %o0
+restore %l1, 0x88, %o1
+restore %l1, 0x77, %o2
+restore %l1, 0x70, %o3
+restore %l1, 0x82, %o4
+restore %l1, 0xC5, %o5
+restore %l1, 0x55, %o6
+restore %l1, 0xE9, %o7
+restore %l1, 0xC9, %l0
+restore %l1, 0x0C, %l2
+restore %l1, 0x76, %l3
+restore %l1, 0x04, %l4
+restore %l1, 0xEB, %l5
+restore %l1, 0x5C, %l6
+restore %l1, 0x9B, %l7
+restore %l1, 0x13, %i0
+restore %l1, 0xFE, %i1
+restore %l1, 0x31, %i2
+restore %l1, 0x91, %i3
+restore %l1, 0xCA, %i4
+restore %l1, 0x81, %i5
+restore %l1, 0x0E, %i6
+restore %l1, 0x4A, %i7
+restore %l2, 0x52, %g0
+restore %l2, 0x06, %g1
+restore %l2, 0xE7, %g2
+restore %l2, 0x7A, %g3
+restore %l2, 0x74, %g4
+restore %l2, 0xCB, %g5
+restore %l2, 0x6A, %g6
+restore %l2, 0xAC, %g7
+restore %l2, 0xF7, %o0
+restore %l2, 0xD0, %o1
+restore %l2, 0x3F, %o2
+restore %l2, 0x17, %o3
+restore %l2, 0xA1, %o4
+restore %l2, 0x2A, %o5
+restore %l2, 0x3F, %o6
+restore %l2, 0x55, %o7
+restore %l2, 0xAC, %l0
+restore %l2, 0x98, %l1
+restore %l2, 0xED, %l3
+restore %l2, 0x34, %l4
+restore %l2, 0x11, %l5
 restore %l2, 0xCC, %l6
-restore %l2, 0x23, %l7
-restore %l2, 0x68, %i0
-restore %l2, 0x17, %i1
-restore %l2, 0x52, %i2
-restore %l2, 0x21, %i3
-restore %l2, 0x97, %i4
-restore %l2, 0xBE, %i5
-restore %l2, 0x7F, %i6
-restore %l2, 0x08, %i7
-restore %l3, 0xE8, %g0
-restore %l3, 0xA2, %g1
-restore %l3, 0x5A, %g2
-restore %l3, 0xE0, %g3
-restore %l3, 0xB9, %g4
-restore %l3, 0x47, %g5
-restore %l3, 0x49, %g6
-restore %l3, 0x6D, %g7
-restore %l3, 0x17, %o0
-restore %l3, 0xB1, %o1
-restore %l3, 0x9A, %o2
-restore %l3, 0x03, %o3
-restore %l3, 0x4A, %o4
-restore %l3, 0x95, %o5
-restore %l3, 0x07, %o6
-restore %l3, 0x17, %o7
-restore %l3, 0xAA, %l0
-restore %l3, 0x73, %l1
-restore %l3, 0xEE, %l2
-restore %l3, 0x29, %l4
-restore %l3, 0x68, %l5
-restore %l3, 0x31, %l6
-restore %l3, 0x57, %l7
-restore %l3, 0x23, %i0
-restore %l3, 0x52, %i1
-restore %l3, 0x58, %i2
-restore %l3, 0xD7, %i3
-restore %l3, 0x69, %i4
-restore %l3, 0x0E, %i5
-restore %l3, 0xED, %i6
-restore %l3, 0xC4, %i7
-restore %l4, 0xEA, %g0
-restore %l4, 0x1A, %g1
-restore %l4, 0xC2, %g2
-restore %l4, 0x38, %g3
-restore %l4, 0x0B, %g4
-restore %l4, 0xB4, %g5
-restore %l4, 0x2C, %g6
-restore %l4, 0x5C, %g7
-restore %l4, 0xDB, %o0
-restore %l4, 0xF6, %o1
-restore %l4, 0x3F, %o2
-restore %l4, 0x5D, %o3
-restore %l4, 0xE6, %o4
-restore %l4, 0x9A, %o5
-restore %l4, 0x01, %o6
-restore %l4, 0xC6, %o7
-restore %l4, 0x74, %l0
-restore %l4, 0x14, %l1
-restore %l4, 0xC9, %l2
-restore %l4, 0xF9, %l3
-restore %l4, 0x66, %l5
-restore %l4, 0x60, %l6
-restore %l4, 0x36, %l7
-restore %l4, 0x33, %i0
-restore %l4, 0x6C, %i1
-restore %l4, 0x43, %i2
-restore %l4, 0xFB, %i3
-restore %l4, 0x4C, %i4
-restore %l4, 0xD8, %i5
-restore %l4, 0x14, %i6
-restore %l4, 0xE7, %i7
-restore %l5, 0x85, %g0
-restore %l5, 0x23, %g1
-restore %l5, 0xAF, %g2
-restore %l5, 0x77, %g3
-restore %l5, 0xBD, %g4
-restore %l5, 0x7C, %g5
-restore %l5, 0xDD, %g6
-restore %l5, 0x38, %g7
-restore %l5, 0x9A, %o0
-restore %l5, 0xE4, %o1
-restore %l5, 0xDE, %o2
-restore %l5, 0x61, %o3
-restore %l5, 0xB9, %o4
-restore %l5, 0x6F, %o5
-restore %l5, 0xE1, %o6
-restore %l5, 0xFB, %o7
-restore %l5, 0xD8, %l0
-restore %l5, 0x4A, %l1
-restore %l5, 0xA3, %l2
-restore %l5, 0x61, %l3
-restore %l5, 0x91, %l4
-restore %l5, 0xC5, %l6
-restore %l5, 0x00, %l7
-restore %l5, 0x5C, %i0
-restore %l5, 0x58, %i1
-restore %l5, 0x79, %i2
-restore %l5, 0x70, %i3
-restore %l5, 0x84, %i4
-restore %l5, 0x01, %i5
-restore %l5, 0x2A, %i6
-restore %l5, 0xD2, %i7
-restore %l6, 0x96, %g0
-restore %l6, 0x2C, %g1
-restore %l6, 0xDC, %g2
-restore %l6, 0xA5, %g3
-restore %l6, 0xE4, %g4
-restore %l6, 0x61, %g5
-restore %l6, 0x2B, %g6
-restore %l6, 0x75, %g7
-restore %l6, 0x7E, %o0
-restore %l6, 0x3B, %o1
-restore %l6, 0x68, %o2
-restore %l6, 0x76, %o3
-restore %l6, 0xAA, %o4
-restore %l6, 0x37, %o5
-restore %l6, 0x10, %o6
-restore %l6, 0xE5, %o7
-restore %l6, 0xE6, %l0
-restore %l6, 0xCF, %l1
-restore %l6, 0xAD, %l2
-restore %l6, 0xE5, %l3
-restore %l6, 0xC1, %l4
-restore %l6, 0xE2, %l5
-restore %l6, 0x40, %l7
-restore %l6, 0x0A, %i0
-restore %l6, 0x47, %i1
-restore %l6, 0x77, %i2
-restore %l6, 0x7F, %i3
-restore %l6, 0xED, %i4
-restore %l6, 0xB7, %i5
-restore %l6, 0x29, %i6
-restore %l6, 0xDD, %i7
-restore %l7, 0x47, %g0
-restore %l7, 0xD8, %g1
-restore %l7, 0x6C, %g2
-restore %l7, 0x7A, %g3
-restore %l7, 0xA0, %g4
-restore %l7, 0x52, %g5
-restore %l7, 0x25, %g6
-restore %l7, 0x81, %g7
-restore %l7, 0x0D, %o0
-restore %l7, 0x5C, %o1
-restore %l7, 0x50, %o2
-restore %l7, 0x26, %o3
-restore %l7, 0x97, %o4
-restore %l7, 0xBC, %o5
-restore %l7, 0xF8, %o6
-restore %l7, 0xF5, %o7
-restore %l7, 0x2D, %l0
-restore %l7, 0xA9, %l1
-restore %l7, 0x37, %l2
-restore %l7, 0x5B, %l3
-restore %l7, 0xB5, %l4
-restore %l7, 0x25, %l5
-restore %l7, 0x6E, %l6
-restore %l7, 0x22, %i0
-restore %l7, 0xD0, %i1
-restore %l7, 0x34, %i2
-restore %l7, 0x08, %i3
-restore %l7, 0x04, %i4
-restore %l7, 0x1A, %i5
-restore %l7, 0xE9, %i6
-restore %l7, 0x48, %i7
-restore %i0, 0x6F, %g0
-restore %i0, 0x8F, %g1
-restore %i0, 0x99, %g2
-restore %i0, 0x24, %g3
-restore %i0, 0xAD, %g4
-restore %i0, 0xC4, %g5
-restore %i0, 0x2D, %g6
-restore %i0, 0xDF, %g7
-restore %i0, 0xDB, %o0
-restore %i0, 0x9D, %o1
-restore %i0, 0x00, %o2
-restore %i0, 0x1F, %o3
-restore %i0, 0x39, %o4
-restore %i0, 0xCD, %o5
-restore %i0, 0x4D, %o6
-restore %i0, 0xFC, %o7
-restore %i0, 0x7A, %l0
-restore %i0, 0xE6, %l1
-restore %i0, 0x55, %l2
-restore %i0, 0x9E, %l3
-restore %i0, 0x32, %l4
-restore %i0, 0x8A, %l5
-restore %i0, 0xC8, %l6
-restore %i0, 0xDB, %l7
-restore %i0, 0x88, %i1
-restore %i0, 0x80, %i2
-restore %i0, 0x8D, %i3
-restore %i0, 0xEF, %i4
-restore %i0, 0xA7, %i5
-restore %i0, 0x43, %i6
-restore %i0, 0x39, %i7
-restore %i1, 0x1E, %g0
-restore %i1, 0xB0, %g1
-restore %i1, 0xF8, %g2
-restore %i1, 0xB3, %g3
-restore %i1, 0x15, %g4
-restore %i1, 0xCD, %g5
-restore %i1, 0x4F, %g6
-restore %i1, 0x85, %g7
-restore %i1, 0x07, %o0
-restore %i1, 0xDE, %o1
-restore %i1, 0xE0, %o2
-restore %i1, 0x12, %o3
-restore %i1, 0x77, %o4
-restore %i1, 0xF4, %o5
-restore %i1, 0xC8, %o6
-restore %i1, 0xFF, %o7
-restore %i1, 0x72, %l0
-restore %i1, 0xB7, %l1
-restore %i1, 0xF5, %l2
-restore %i1, 0x07, %l3
-restore %i1, 0x1C, %l4
-restore %i1, 0x9A, %l5
-restore %i1, 0x8D, %l6
-restore %i1, 0x29, %l7
-restore %i1, 0x81, %i0
-restore %i1, 0xBF, %i2
-restore %i1, 0xBF, %i3
-restore %i1, 0xE0, %i4
-restore %i1, 0x6B, %i5
-restore %i1, 0xF4, %i6
-restore %i1, 0xD2, %i7
-restore %i2, 0x14, %g0
-restore %i2, 0x15, %g1
-restore %i2, 0x08, %g2
-restore %i2, 0x3C, %g3
-restore %i2, 0x5C, %g4
-restore %i2, 0xBE, %g5
-restore %i2, 0x90, %g6
-restore %i2, 0x4F, %g7
-restore %i2, 0xAD, %o0
-restore %i2, 0x4D, %o1
-restore %i2, 0x2E, %o2
-restore %i2, 0x86, %o3
-restore %i2, 0xCB, %o4
-restore %i2, 0x9B, %o5
-restore %i2, 0x9D, %o6
-restore %i2, 0xCE, %o7
-restore %i2, 0xC0, %l0
-restore %i2, 0x0E, %l1
-restore %i2, 0xB6, %l2
-restore %i2, 0x62, %l3
-restore %i2, 0xA3, %l4
-restore %i2, 0xD8, %l5
-restore %i2, 0xF5, %l6
-restore %i2, 0xE3, %l7
-restore %i2, 0x14, %i0
-restore %i2, 0x5B, %i1
-restore %i2, 0xB2, %i3
-restore %i2, 0xCC, %i4
-restore %i2, 0x1B, %i5
-restore %i2, 0x4B, %i6
-restore %i2, 0x46, %i7
-restore %i3, 0xDE, %g0
-restore %i3, 0x1E, %g1
-restore %i3, 0x20, %g2
-restore %i3, 0x68, %g3
-restore %i3, 0x9C, %g4
-restore %i3, 0x3B, %g5
-restore %i3, 0x47, %g6
-restore %i3, 0xE0, %g7
-restore %i3, 0x83, %o0
-restore %i3, 0x93, %o1
-restore %i3, 0x0D, %o2
-restore %i3, 0x80, %o3
-restore %i3, 0xBA, %o4
-restore %i3, 0x97, %o5
-restore %i3, 0xB3, %o6
-restore %i3, 0xFF, %o7
-restore %i3, 0xD6, %l0
-restore %i3, 0x6F, %l1
-restore %i3, 0x22, %l2
-restore %i3, 0xE8, %l3
-restore %i3, 0x91, %l4
-restore %i3, 0x7F, %l5
-restore %i3, 0xD9, %l6
-restore %i3, 0x67, %l7
-restore %i3, 0x97, %i0
-restore %i3, 0xB1, %i1
-restore %i3, 0x9A, %i2
-restore %i3, 0xB1, %i4
-restore %i3, 0x10, %i5
-restore %i3, 0xAC, %i6
-restore %i3, 0x4E, %i7
-restore %i4, 0x78, %g0
-restore %i4, 0x79, %g1
-restore %i4, 0x14, %g2
-restore %i4, 0x6E, %g3
-restore %i4, 0xAB, %g4
-restore %i4, 0x32, %g5
-restore %i4, 0x13, %g6
-restore %i4, 0x15, %g7
-restore %i4, 0xB5, %o0
-restore %i4, 0xA1, %o1
-restore %i4, 0x76, %o2
-restore %i4, 0xB1, %o3
-restore %i4, 0x36, %o4
-restore %i4, 0xFA, %o5
-restore %i4, 0xC6, %o6
-restore %i4, 0xA4, %o7
-restore %i4, 0xB7, %l0
-restore %i4, 0xDD, %l1
-restore %i4, 0xE4, %l2
-restore %i4, 0x6F, %l3
-restore %i4, 0x71, %l4
-restore %i4, 0xE2, %l5
-restore %i4, 0xFB, %l6
-restore %i4, 0xB8, %l7
-restore %i4, 0xC0, %i0
-restore %i4, 0x45, %i1
-restore %i4, 0x73, %i2
-restore %i4, 0x5C, %i3
-restore %i4, 0x9D, %i5
-restore %i4, 0xC1, %i6
-restore %i4, 0xA4, %i7
-restore %i5, 0xD2, %g0
-restore %i5, 0x89, %g1
-restore %i5, 0x99, %g2
-restore %i5, 0x28, %g3
-restore %i5, 0x10, %g4
-restore %i5, 0xDC, %g5
-restore %i5, 0x9F, %g6
-restore %i5, 0x49, %g7
-restore %i5, 0x59, %o0
-restore %i5, 0x48, %o1
-restore %i5, 0x96, %o2
-restore %i5, 0xA3, %o3
-restore %i5, 0xA8, %o4
-restore %i5, 0xFB, %o5
-restore %i5, 0x9F, %o6
-restore %i5, 0x41, %o7
-restore %i5, 0xD2, %l0
-restore %i5, 0xB7, %l1
-restore %i5, 0x29, %l2
-restore %i5, 0x37, %l3
-restore %i5, 0x58, %l4
-restore %i5, 0x1A, %l5
-restore %i5, 0x39, %l6
-restore %i5, 0xC1, %l7
-restore %i5, 0x7A, %i0
-restore %i5, 0x8F, %i1
-restore %i5, 0x15, %i2
-restore %i5, 0xF6, %i3
-restore %i5, 0x1C, %i4
-restore %i5, 0xA8, %i6
-restore %i5, 0xF9, %i7
-restore %i6, 0xE3, %g0
-restore %i6, 0x1C, %g1
-restore %i6, 0x8A, %g2
-restore %i6, 0xBF, %g3
-restore %i6, 0x70, %g4
-restore %i6, 0xB5, %g5
-restore %i6, 0xA9, %g6
-restore %i6, 0x90, %g7
-restore %i6, 0x88, %o0
+restore %l2, 0xC0, %l7
+restore %l2, 0x90, %i0
+restore %l2, 0xCD, %i1
+restore %l2, 0x4A, %i2
+restore %l2, 0x09, %i3
+restore %l2, 0xDF, %i4
+restore %l2, 0x38, %i5
+restore %l2, 0xFE, %i6
+restore %l2, 0x81, %i7
+restore %l3, 0x99, %g0
+restore %l3, 0x53, %g1
+restore %l3, 0x35, %g2
+restore %l3, 0x92, %g3
+restore %l3, 0xB2, %g4
+restore %l3, 0xFB, %g5
+restore %l3, 0x15, %g6
+restore %l3, 0xC7, %g7
+restore %l3, 0x29, %o0
+restore %l3, 0x07, %o1
+restore %l3, 0xD6, %o2
+restore %l3, 0x2C, %o3
+restore %l3, 0x11, %o4
+restore %l3, 0x26, %o5
+restore %l3, 0xCB, %o6
+restore %l3, 0xC6, %o7
+restore %l3, 0x9E, %l0
+restore %l3, 0xCF, %l1
+restore %l3, 0x46, %l2
+restore %l3, 0x66, %l4
+restore %l3, 0x1E, %l5
+restore %l3, 0x6F, %l6
+restore %l3, 0x7D, %l7
+restore %l3, 0x70, %i0
+restore %l3, 0xCC, %i1
+restore %l3, 0x79, %i2
+restore %l3, 0xA8, %i3
+restore %l3, 0xDD, %i4
+restore %l3, 0x6E, %i5
+restore %l3, 0x51, %i6
+restore %l3, 0xC9, %i7
+restore %l4, 0xD1, %g0
+restore %l4, 0x38, %g1
+restore %l4, 0xC6, %g2
+restore %l4, 0x9C, %g3
+restore %l4, 0x0E, %g4
+restore %l4, 0x2E, %g5
+restore %l4, 0xEA, %g6
+restore %l4, 0x15, %g7
+restore %l4, 0x7C, %o0
+restore %l4, 0x84, %o1
+restore %l4, 0x1B, %o2
+restore %l4, 0xF1, %o3
+restore %l4, 0x2A, %o4
+restore %l4, 0xB9, %o5
+restore %l4, 0x56, %o6
+restore %l4, 0x5E, %o7
+restore %l4, 0x00, %l0
+restore %l4, 0xC7, %l1
+restore %l4, 0x91, %l2
+restore %l4, 0xCA, %l3
+restore %l4, 0xB3, %l5
+restore %l4, 0xCF, %l6
+restore %l4, 0x3E, %l7
+restore %l4, 0x4B, %i0
+restore %l4, 0x04, %i1
+restore %l4, 0x16, %i2
+restore %l4, 0xCE, %i3
+restore %l4, 0x80, %i4
+restore %l4, 0x5E, %i5
+restore %l4, 0x10, %i6
+restore %l4, 0x72, %i7
+restore %l5, 0x96, %g0
+restore %l5, 0xC6, %g1
+restore %l5, 0xA4, %g2
+restore %l5, 0x7D, %g3
+restore %l5, 0x29, %g4
+restore %l5, 0x29, %g5
+restore %l5, 0xF7, %g6
+restore %l5, 0xAC, %g7
+restore %l5, 0x24, %o0
+restore %l5, 0xCA, %o1
+restore %l5, 0xBD, %o2
+restore %l5, 0x71, %o3
+restore %l5, 0x3F, %o4
+restore %l5, 0xCC, %o5
+restore %l5, 0x46, %o6
+restore %l5, 0x51, %o7
+restore %l5, 0xF7, %l0
+restore %l5, 0xB3, %l1
+restore %l5, 0x94, %l2
+restore %l5, 0x2C, %l3
+restore %l5, 0xFE, %l4
+restore %l5, 0xA4, %l6
+restore %l5, 0x8A, %l7
+restore %l5, 0xF5, %i0
+restore %l5, 0xC6, %i1
+restore %l5, 0xD3, %i2
+restore %l5, 0xC5, %i3
+restore %l5, 0x77, %i4
+restore %l5, 0xB4, %i5
+restore %l5, 0xAC, %i6
+restore %l5, 0x2F, %i7
+restore %l6, 0xC8, %g0
+restore %l6, 0x2E, %g1
+restore %l6, 0xD9, %g2
+restore %l6, 0x47, %g3
+restore %l6, 0x5D, %g4
+restore %l6, 0x83, %g5
+restore %l6, 0x62, %g6
+restore %l6, 0x38, %g7
+restore %l6, 0xF0, %o0
+restore %l6, 0x23, %o1
+restore %l6, 0xDD, %o2
+restore %l6, 0xFC, %o3
+restore %l6, 0x28, %o4
+restore %l6, 0x12, %o5
+restore %l6, 0xEC, %o6
+restore %l6, 0xD8, %o7
+restore %l6, 0x83, %l0
+restore %l6, 0x22, %l1
+restore %l6, 0xD7, %l2
+restore %l6, 0x42, %l3
+restore %l6, 0x9E, %l4
+restore %l6, 0xB9, %l5
+restore %l6, 0xC9, %l7
+restore %l6, 0x54, %i0
+restore %l6, 0x4F, %i1
+restore %l6, 0xB8, %i2
+restore %l6, 0x90, %i3
+restore %l6, 0x14, %i4
+restore %l6, 0xEC, %i5
+restore %l6, 0x65, %i6
+restore %l6, 0x52, %i7
+restore %l7, 0xE0, %g0
+restore %l7, 0x2D, %g1
+restore %l7, 0x83, %g2
+restore %l7, 0x20, %g3
+restore %l7, 0x86, %g4
+restore %l7, 0x92, %g5
+restore %l7, 0x53, %g6
+restore %l7, 0x0A, %g7
+restore %l7, 0x75, %o0
+restore %l7, 0x91, %o1
+restore %l7, 0x2C, %o2
+restore %l7, 0xCD, %o3
+restore %l7, 0xB3, %o4
+restore %l7, 0x20, %o5
+restore %l7, 0x56, %o6
+restore %l7, 0xEC, %o7
+restore %l7, 0x50, %l0
+restore %l7, 0xF8, %l1
+restore %l7, 0x92, %l2
+restore %l7, 0x8B, %l3
+restore %l7, 0xD3, %l4
+restore %l7, 0x2F, %l5
+restore %l7, 0x0F, %l6
+restore %l7, 0xB5, %i0
+restore %l7, 0xB4, %i1
+restore %l7, 0x0F, %i2
+restore %l7, 0xFA, %i3
+restore %l7, 0x17, %i4
+restore %l7, 0x7C, %i5
+restore %l7, 0xFB, %i6
+restore %l7, 0xB3, %i7
+restore %i0, 0x4E, %g0
+restore %i0, 0x04, %g1
+restore %i0, 0xEB, %g2
+restore %i0, 0xD4, %g3
+restore %i0, 0x88, %g4
+restore %i0, 0xF6, %g5
+restore %i0, 0x6B, %g6
+restore %i0, 0x44, %g7
+restore %i0, 0x19, %o0
+restore %i0, 0x88, %o1
+restore %i0, 0x5E, %o2
+restore %i0, 0xDE, %o3
+restore %i0, 0x3A, %o4
+restore %i0, 0x84, %o5
+restore %i0, 0x74, %o6
+restore %i0, 0xF6, %o7
+restore %i0, 0x45, %l0
+restore %i0, 0x9B, %l1
+restore %i0, 0x78, %l2
+restore %i0, 0xD4, %l3
+restore %i0, 0x7B, %l4
+restore %i0, 0x6A, %l5
+restore %i0, 0xA4, %l6
+restore %i0, 0xC5, %l7
+restore %i0, 0xBB, %i1
+restore %i0, 0x3B, %i2
+restore %i0, 0xB2, %i3
+restore %i0, 0x07, %i4
+restore %i0, 0x98, %i5
+restore %i0, 0x18, %i6
+restore %i0, 0x1C, %i7
+restore %i1, 0xEB, %g0
+restore %i1, 0x4C, %g1
+restore %i1, 0x42, %g2
+restore %i1, 0x33, %g3
+restore %i1, 0x95, %g4
+restore %i1, 0xA0, %g5
+restore %i1, 0xBC, %g6
+restore %i1, 0x08, %g7
+restore %i1, 0x33, %o0
+restore %i1, 0x07, %o1
+restore %i1, 0x84, %o2
+restore %i1, 0x86, %o3
+restore %i1, 0xA3, %o4
+restore %i1, 0x4C, %o5
+restore %i1, 0xC2, %o6
+restore %i1, 0xCF, %o7
+restore %i1, 0x86, %l0
+restore %i1, 0x41, %l1
+restore %i1, 0x2B, %l2
+restore %i1, 0x9E, %l3
+restore %i1, 0x06, %l4
+restore %i1, 0x9B, %l5
+restore %i1, 0x31, %l6
+restore %i1, 0xD9, %l7
+restore %i1, 0x26, %i0
+restore %i1, 0x79, %i2
+restore %i1, 0xD2, %i3
+restore %i1, 0xCF, %i4
+restore %i1, 0x27, %i5
+restore %i1, 0x3A, %i6
+restore %i1, 0x5F, %i7
+restore %i2, 0xA4, %g0
+restore %i2, 0x6F, %g1
+restore %i2, 0x4C, %g2
+restore %i2, 0x14, %g3
+restore %i2, 0x90, %g4
+restore %i2, 0x76, %g5
+restore %i2, 0x4C, %g6
+restore %i2, 0x91, %g7
+restore %i2, 0x5F, %o0
+restore %i2, 0xD1, %o1
+restore %i2, 0xAB, %o2
+restore %i2, 0x36, %o3
+restore %i2, 0x05, %o4
+restore %i2, 0x06, %o5
+restore %i2, 0x4A, %o6
+restore %i2, 0xC5, %o7
+restore %i2, 0x64, %l0
+restore %i2, 0x2F, %l1
+restore %i2, 0x08, %l2
+restore %i2, 0x1E, %l3
+restore %i2, 0xDD, %l4
+restore %i2, 0x63, %l5
+restore %i2, 0x8A, %l6
+restore %i2, 0xB4, %l7
+restore %i2, 0x95, %i0
+restore %i2, 0xAC, %i1
+restore %i2, 0xDD, %i3
+restore %i2, 0x49, %i4
+restore %i2, 0xB0, %i5
+restore %i2, 0xBE, %i6
+restore %i2, 0x97, %i7
+restore %i3, 0xCD, %g0
+restore %i3, 0x58, %g1
+restore %i3, 0x25, %g2
+restore %i3, 0x28, %g3
+restore %i3, 0x1A, %g4
+restore %i3, 0x9F, %g5
+restore %i3, 0xC8, %g6
+restore %i3, 0xDC, %g7
+restore %i3, 0xDA, %o0
+restore %i3, 0x2E, %o1
+restore %i3, 0x14, %o2
+restore %i3, 0x7D, %o3
+restore %i3, 0x1E, %o4
+restore %i3, 0x04, %o5
+restore %i3, 0x13, %o6
+restore %i3, 0x27, %o7
+restore %i3, 0xF6, %l0
+restore %i3, 0x09, %l1
+restore %i3, 0xA1, %l2
+restore %i3, 0x55, %l3
+restore %i3, 0x17, %l4
+restore %i3, 0xC0, %l5
+restore %i3, 0x19, %l6
+restore %i3, 0xA2, %l7
+restore %i3, 0x62, %i0
+restore %i3, 0xB3, %i1
+restore %i3, 0x7D, %i2
+restore %i3, 0xE3, %i4
+restore %i3, 0x29, %i5
+restore %i3, 0xA4, %i6
+restore %i3, 0x14, %i7
+restore %i4, 0x5C, %g0
+restore %i4, 0x85, %g1
+restore %i4, 0xF4, %g2
+restore %i4, 0x92, %g3
+restore %i4, 0x1E, %g4
+restore %i4, 0x7E, %g5
+restore %i4, 0xB8, %g6
+restore %i4, 0x16, %g7
+restore %i4, 0x57, %o0
+restore %i4, 0x40, %o1
+restore %i4, 0xFF, %o2
+restore %i4, 0xA2, %o3
+restore %i4, 0x3B, %o4
+restore %i4, 0x1E, %o5
+restore %i4, 0xE0, %o6
+restore %i4, 0xB3, %o7
+restore %i4, 0xFC, %l0
+restore %i4, 0x88, %l1
+restore %i4, 0x0C, %l2
+restore %i4, 0x88, %l3
+restore %i4, 0xA7, %l4
+restore %i4, 0x52, %l5
+restore %i4, 0xBC, %l6
+restore %i4, 0x2C, %l7
+restore %i4, 0xAD, %i0
+restore %i4, 0x3D, %i1
+restore %i4, 0x86, %i2
+restore %i4, 0xFC, %i3
+restore %i4, 0xB1, %i5
+restore %i4, 0x6E, %i6
+restore %i4, 0xB8, %i7
+restore %i5, 0xCA, %g0
+restore %i5, 0x23, %g1
+restore %i5, 0xDE, %g2
+restore %i5, 0x30, %g3
+restore %i5, 0x83, %g4
+restore %i5, 0xAD, %g5
+restore %i5, 0xC1, %g6
+restore %i5, 0xF8, %g7
+restore %i5, 0xDB, %o0
+restore %i5, 0x11, %o1
+restore %i5, 0x85, %o2
+restore %i5, 0xBF, %o3
+restore %i5, 0x5C, %o4
+restore %i5, 0x8A, %o5
+restore %i5, 0xA5, %o6
+restore %i5, 0x45, %o7
+restore %i5, 0x64, %l0
+restore %i5, 0x7A, %l1
+restore %i5, 0x5C, %l2
+restore %i5, 0xFE, %l3
+restore %i5, 0xF7, %l4
+restore %i5, 0xE1, %l5
+restore %i5, 0xFB, %l6
+restore %i5, 0xC9, %l7
+restore %i5, 0xC1, %i0
+restore %i5, 0xDE, %i1
+restore %i5, 0x4B, %i2
+restore %i5, 0xD9, %i3
+restore %i5, 0x53, %i4
+restore %i5, 0xDE, %i6
+restore %i5, 0xB9, %i7
+restore %i6, 0xD7, %g0
+restore %i6, 0x76, %g1
+restore %i6, 0x5C, %g2
+restore %i6, 0x96, %g3
+restore %i6, 0x03, %g4
+restore %i6, 0x5F, %g5
+restore %i6, 0x1E, %g6
+restore %i6, 0x49, %g7
+restore %i6, 0x15, %o0
 restore %i6, 0x60, %o1
-restore %i6, 0x90, %o2
-restore %i6, 0x71, %o3
-restore %i6, 0x7F, %o4
-restore %i6, 0xFC, %o5
-restore %i6, 0x89, %o6
-restore %i6, 0x4F, %o7
-restore %i6, 0xA7, %l0
-restore %i6, 0x7E, %l1
-restore %i6, 0x67, %l2
-restore %i6, 0x2F, %l3
-restore %i6, 0x52, %l4
-restore %i6, 0x33, %l5
-restore %i6, 0x8E, %l6
-restore %i6, 0x8B, %l7
-restore %i6, 0x5A, %i0
-restore %i6, 0xAB, %i1
-restore %i6, 0xDD, %i2
-restore %i6, 0x0C, %i3
-restore %i6, 0x02, %i4
-restore %i6, 0xCA, %i5
-restore %i6, 0x3A, %i7
-restore %i7, 0x8E, %g0
-restore %i7, 0x07, %g1
-restore %i7, 0x09, %g2
-restore %i7, 0xD1, %g3
-restore %i7, 0x4C, %g4
-restore %i7, 0xCB, %g5
-restore %i7, 0x86, %g6
-restore %i7, 0x69, %g7
-restore %i7, 0xB0, %o0
-restore %i7, 0xC4, %o1
-restore %i7, 0x06, %o2
-restore %i7, 0xB5, %o3
-restore %i7, 0x2B, %o4
-restore %i7, 0x73, %o5
-restore %i7, 0x72, %o6
-restore %i7, 0x49, %o7
-restore %i7, 0x04, %l0
-restore %i7, 0x05, %l1
-restore %i7, 0x7C, %l2
-restore %i7, 0xF2, %l3
-restore %i7, 0x69, %l4
-restore %i7, 0xA4, %l5
-restore %i7, 0xFB, %l6
-restore %i7, 0xDD, %l7
-restore %i7, 0x32, %i0
-restore %i7, 0xE4, %i1
-restore %i7, 0x8B, %i2
-restore %i7, 0x7E, %i3
-restore %i7, 0x60, %i4
-restore %i7, 0xC7, %i5
-restore %i7, 0x26, %i6
+restore %i6, 0xAB, %o2
+restore %i6, 0x4E, %o3
+restore %i6, 0x80, %o4
+restore %i6, 0xCA, %o5
+restore %i6, 0xFC, %o6
+restore %i6, 0x4C, %o7
+restore %i6, 0x75, %l0
+restore %i6, 0x8F, %l1
+restore %i6, 0x48, %l2
+restore %i6, 0xF8, %l3
+restore %i6, 0x95, %l4
+restore %i6, 0x07, %l5
+restore %i6, 0x92, %l6
+restore %i6, 0x74, %l7
+restore %i6, 0x4C, %i0
+restore %i6, 0xD6, %i1
+restore %i6, 0x34, %i2
+restore %i6, 0x1B, %i3
+restore %i6, 0xC5, %i4
+restore %i6, 0xC2, %i5
+restore %i6, 0x94, %i7
+restore %i7, 0xFD, %g0
+restore %i7, 0xFF, %g1
+restore %i7, 0x77, %g2
+restore %i7, 0x1E, %g3
+restore %i7, 0x94, %g4
+restore %i7, 0xF2, %g5
+restore %i7, 0xFB, %g6
+restore %i7, 0xF7, %g7
+restore %i7, 0x1D, %o0
+restore %i7, 0xBA, %o1
+restore %i7, 0x3D, %o2
+restore %i7, 0xEB, %o3
+restore %i7, 0x41, %o4
+restore %i7, 0xB3, %o5
+restore %i7, 0xD2, %o6
+restore %i7, 0x75, %o7
+restore %i7, 0x96, %l0
+restore %i7, 0xA5, %l1
+restore %i7, 0x72, %l2
+restore %i7, 0x73, %l3
+restore %i7, 0x29, %l4
+restore %i7, 0xBE, %l5
+restore %i7, 0x5B, %l6
+restore %i7, 0xBD, %l7
+restore %i7, 0x4F, %i0
+restore %i7, 0x55, %i1
+restore %i7, 0xB4, %i2
+restore %i7, 0x4F, %i3
+restore %i7, 0xC4, %i4
+restore %i7, 0x06, %i5
+restore %i7, 0xDF, %i6
 
 
 
-sethi 0xA671, %g0
-sethi 0x0388, %g1
-sethi 0xAB3C, %g2
-sethi 0x2EE5, %g3
-sethi 0x4A24, %g4
-sethi 0xDC08, %g5
-sethi 0x3BCF, %g6
-sethi 0xE56E, %g7
-sethi 0x3267, %o0
-sethi 0x276D, %o1
-sethi 0x3D72, %o2
-sethi 0xF9FF, %o3
-sethi 0xC411, %o4
-sethi 0xFAE5, %o5
-sethi 0x6AD2, %o6
-sethi 0xEC48, %o7
-sethi 0x0E21, %l0
-sethi 0x0D89, %l1
-sethi 0xA990, %l2
-sethi 0x22EF, %l3
-sethi 0xF91E, %l4
-sethi 0x0AD9, %l5
-sethi 0x19C9, %l6
-sethi 0xB3B4, %l7
-sethi 0x6481, %i0
-sethi 0x387B, %i1
-sethi 0xDE35, %i2
-sethi 0x489C, %i3
-sethi 0x1D0C, %i4
-sethi 0xBF74, %i5
-sethi 0x6BB3, %i6
-sethi 0xF5B6, %i7
+sethi 0x4E55, %g0
+sethi 0x55FB, %g1
+sethi 0x940A, %g2
+sethi 0xA1C9, %g3
+sethi 0x946F, %g4
+sethi 0x663D, %g5
+sethi 0xD266, %g6
+sethi 0x02AE, %g7
+sethi 0x456C, %o0
+sethi 0x885F, %o1
+sethi 0x0AAC, %o2
+sethi 0xA4A4, %o3
+sethi 0xBA7B, %o4
+sethi 0x9171, %o5
+sethi 0xC8EE, %o6
+sethi 0xA338, %o7
+sethi 0xCECB, %l0
+sethi 0x3C98, %l1
+sethi 0x0C27, %l2
+sethi 0xDA41, %l3
+sethi 0xE584, %l4
+sethi 0x70C3, %l5
+sethi 0x7C06, %l6
+sethi 0x9B11, %l7
+sethi 0xEB8A, %i0
+sethi 0xC757, %i1
+sethi 0xA49E, %i2
+sethi 0x4A73, %i3
+sethi 0x214C, %i4
+sethi 0xA474, %i5
+sethi 0x19BC, %i6
+sethi 0xEA04, %i7
 
 
 
-stbar
-nop
-stbar
-nop
-stbar
 unimp
 stbar
-nop
-stbar
-unimp
-nop
-unimp
-nop
-unimp
-stbar
-unimp
-nop
 nop
 nop
 stbar
 stbar
 nop
 unimp
+nop
+nop
+nop
 stbar
 nop
 stbar
+nop
+stbar
+unimp
+unimp
+nop
+nop
+stbar
+unimp
+nop
+nop
 stbar
 nop
+nop
+stbar
 unimp
-unimp
+nop
