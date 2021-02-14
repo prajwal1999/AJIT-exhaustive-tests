@@ -69,57 +69,57 @@ def generate_rd_wr_asr_instrs():
 
 def generate_rd_wr_psr_instrs():
     instrs = []
-    for y in window_regs:
+    for i in window_regs:
         statistics_generated["wr"] += 1
         statistics_generated[y] += 1
         statistics_generated["psr"] += 1
         instrs.append(
-            'wr %' + y + ', 0x' + random.choice(hex_digits) + random.choice(hex_digits) + ', %' + 'psr' + '\n'
+            'wr %' + i + ', 0x' + random.choice(hex_digits) + random.choice(hex_digits) + ', %' + 'psr' + '\n'
         ) # wr %l0, 0x0F, %psr
-    for y in window_regs:
+    for i in window_regs:
         statistics_generated["rd"] += 1
         statistics_generated[y] += 1
         statistics_generated["psr"] += 1
         instrs.append(
-            'rd %' + 'psr, ' + y + '\n'
+            'rd %' + 'psr, ' + i + '\n'
         ) # rd %psr, %o0
     instrs.append('\n\n\n')
     return instrs
 
 def generate_rd_wr_tbr_instrs():
     instrs = []
-    for y in window_regs:
+    for i in window_regs:
         statistics_generated["wr"] += 1
         statistics_generated[y] += 1
         statistics_generated["tbr"] += 1
         instrs.append(
-            'wr %' + y + ', 0x' + random.choice(hex_digits) + random.choice(hex_digits) + ', %' + 'tbr' + '\n'
+            'wr %' + i + ', 0x' + random.choice(hex_digits) + random.choice(hex_digits) + ', %' + 'tbr' + '\n'
         ) # wr %l0, 0x0, %tbr
-    for y in window_regs:
+    for i in window_regs:
         statistics_generated["rd"] += 1
         statistics_generated[y] += 1
         statistics_generated["tbr"] += 1
         instrs.append(
-            'rd %' + 'tbr, ' + y + '\n'
+            'rd %' + 'tbr %, ' + i + '\n'
         ) # rd %tbr, %o1
     instrs.append('\n\n\n')
     return instrs
 
 def generate_rd_wr_wim_instrs():
     instrs = []
-    for y in window_regs:
+    for i in window_regs:
         statistics_generated["wr"] += 1
         statistics_generated[y] += 1
         statistics_generated["wim"] += 1
         instrs.append(
-            'wr %' + y + ', 0x' + random.choice(hex_digits) + random.choice(hex_digits) + ', %' + 'wim' + '\n'
+            'wr %' + i + ', 0x' + random.choice(hex_digits) + random.choice(hex_digits) + ', %' + 'wim' + '\n'
         ) # wr %l0, 0x10, %wim
-    for y in window_regs:
+    for i in window_regs:
         statistics_generated["rd"] += 1
         statistics_generated[y] += 1
         statistics_generated["wim"] += 1
         instrs.append(
-            'rd %' + 'wim, ' + y + '\n'
+            'rd %' + 'wim %, ' + i + '\n'
         ) # rd %wim, %o0
     instrs.append('\n\n\n')
     return instrs
@@ -138,7 +138,7 @@ def generate_rd_wr_y_instrs():
         statistics_generated[i] += 1
         statistics_generated["y"] += 1
         instrs.append(
-            'rd %' + 'y, ' + i + '\n'
+            'rd %' + 'y, %' + i + '\n'
         ) # rd %y, %o1
     instrs.append('\n\n\n')
     return instrs
