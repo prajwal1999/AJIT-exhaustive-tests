@@ -32,7 +32,7 @@ def generate_mulscc_instrs():
         statistics_generated[per[1]] += 1
         statistics_generated[per[2]] += 1
         instrs.append('mulscc %' + per[0] + ', %' + per[1] + ', %' + per[2] + '\n')
-        instrs.append('\n\n\n')
+    instrs.append('\n\n\n')
 
     return instrs
 
@@ -42,7 +42,7 @@ def generate_flush_instrs():
         statistics_generated['flush'] += 1
         statistics_generated[per] += 1
         instrs.append('flush %' + per + '\n')
-        instrs.append('\n\n\n')
+    instrs.append('\n\n\n')
     return instrs
 
 def generate_rd_wr_asr_instrs():
@@ -71,14 +71,14 @@ def generate_rd_wr_psr_instrs():
     instrs = []
     for i in window_regs:
         statistics_generated["wr"] += 1
-        statistics_generated[y] += 1
+        statistics_generated[i] += 1
         statistics_generated["psr"] += 1
         instrs.append(
             'wr %' + i + ', 0x' + random.choice(hex_digits) + random.choice(hex_digits) + ', %' + 'psr' + '\n'
         ) # wr %l0, 0x0F, %psr
     for i in window_regs:
         statistics_generated["rd"] += 1
-        statistics_generated[y] += 1
+        statistics_generated[i] += 1
         statistics_generated["psr"] += 1
         instrs.append(
             'rd %' + 'psr, ' + i + '\n'
@@ -90,14 +90,14 @@ def generate_rd_wr_tbr_instrs():
     instrs = []
     for i in window_regs:
         statistics_generated["wr"] += 1
-        statistics_generated[y] += 1
+        statistics_generated[i] += 1
         statistics_generated["tbr"] += 1
         instrs.append(
             'wr %' + i + ', 0x' + random.choice(hex_digits) + random.choice(hex_digits) + ', %' + 'tbr' + '\n'
         ) # wr %l0, 0x0, %tbr
     for i in window_regs:
         statistics_generated["rd"] += 1
-        statistics_generated[y] += 1
+        statistics_generated[i] += 1
         statistics_generated["tbr"] += 1
         instrs.append(
             'rd %' + 'tbr %, ' + i + '\n'
@@ -109,14 +109,14 @@ def generate_rd_wr_wim_instrs():
     instrs = []
     for i in window_regs:
         statistics_generated["wr"] += 1
-        statistics_generated[y] += 1
+        statistics_generated[i] += 1
         statistics_generated["wim"] += 1
         instrs.append(
             'wr %' + i + ', 0x' + random.choice(hex_digits) + random.choice(hex_digits) + ', %' + 'wim' + '\n'
         ) # wr %l0, 0x10, %wim
     for i in window_regs:
         statistics_generated["rd"] += 1
-        statistics_generated[y] += 1
+        statistics_generated[i] += 1
         statistics_generated["wim"] += 1
         instrs.append(
             'rd %' + 'wim %, ' + i + '\n'
