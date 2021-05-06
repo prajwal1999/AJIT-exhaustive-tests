@@ -1,0 +1,40 @@
+{
+    "integer_alu": [
+        {
+            "opcode": "AND",
+            "source1": "all32",
+            "source2": "all32_or_imm",
+            "dest": "all32"
+        },
+        {
+            "opcode": "ANDcc",
+            "source1": "all32",
+            "source2": "all32_or_imm",
+            "dest": "all32"
+        },
+        {
+            "opcode": "ANDN",
+            "source1": "all32",
+            "source2": "all32_or_imm",
+            "dest": "all32"
+        }
+    ],
+    "data_transfer": [
+        {
+            "opcode": "LDSB"
+        },
+        {
+            "opcode": "LDSH"
+        }
+    ],
+    "control_transfer": [
+        {
+            "opcode": "BA"
+        },
+        {
+            "opcode": "BN"
+        }
+    ],
+    "floating_point": [],
+    "misc": []
+}
