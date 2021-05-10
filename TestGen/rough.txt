@@ -1,3 +1,6 @@
+PSR - 
+
+
 {
     "integer_alu": {
         "AND": "",
@@ -130,6 +133,7 @@
         "JMPL": "",
         "RETT": ""
     },
+    "floating_point": {},
     "misc": {
         "SETHI": "",
         "NOP": "",
