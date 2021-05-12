@@ -1,0 +1,52 @@
+Info: elf-file to be produced  = main.elf.
+Info: var-dump-file to be produced  = main.vars.
+Info: hex-dump-file to be produced  = main.hex.
+Info: memory-map-file to be produced  = main.mmap.
+Info: object-dump-file to be produced  = main.objdump.
+Info: added assembly-file = /home/prajwal/Public/Digital/AJIT-exhaustive-tests/TestGen/files/main.s.
+Info: linker_script_file  = /home/prajwal/Public/Digital/ajit-toolchain/tools/linker/validationLinkerScript.lnk.
+Info: Executing:
+	rm -rf .//sparc-assembly
+Info: Executing:
+	mkdir .//sparc-assembly
+Info: Executing:
+	rm -rf .//sparc-obj
+Info: Executing:
+	mkdir .//sparc-obj
+Info: Executing:
+	sparc-linux-as   -Av8  /home/prajwal/Public/Digital/AJIT-exhaustive-tests/TestGen/files/main.s -o .//sparc-obj/main.o
+Error: in assembling file /home/prajwal/Public/Digital/AJIT-exhaustive-tests/TestGen/files/main.s
+Warning : 'INCLUDES' list empty/not present/incorrect in /home/prajwal/Public/Digital/AJIT-exhaustive-tests/TestGen/files/main.vprj
+Warning : 'DEFINES' list empty/not present in /home/prajwal/Public/Digital/AJIT-exhaustive-tests/TestGen/files/main.vprj
+Note: vprj /home/prajwal/Public/Digital/AJIT-exhaustive-tests/TestGen/files/main.vprj has test files : ['main.s']
+Note: executing command: compileToSparc.ForValidation.py   -E main.elf -V main.vars -H main.hex -M main.mmap -O main.objdump -s /home/prajwal/Public/Digital/AJIT-exhaustive-tests/TestGen/files/main.s  -L /home/prajwal/Public/Digital/ajit-toolchain/tools/linker/validationLinkerScript.lnk
+ERROR : compile to sparc of /home/prajwal/Public/Digital/AJIT-exhaustive-tests/TestGen/files/main.vprj is unsuccessful
+/home/prajwal/Public/Digital/AJIT-exhaustive-tests/TestGen/files/main.s: Assembler messages:
+/home/prajwal/Public/Digital/AJIT-exhaustive-tests/TestGen/files/main.s:28: Error: Illegal operands
+/home/prajwal/Public/Digital/AJIT-exhaustive-tests/TestGen/files/main.s:29: Error: Illegal operands
+Traceback (most recent call last):
+  File "/home/prajwal/Public/Digital/ajit-toolchain/tools/scripts/compileToSparc.ForValidation.py", line 406, in <module>
+    ret_val = main()
+  File "/home/prajwal/Public/Digital/ajit-toolchain/tools/scripts/compileToSparc.ForValidation.py", line 392, in main
+    if(len(obj_files)==0):
+TypeError: object of type 'int' has no len()
+Traceback (most recent call last):
+  File "/home/prajwal/Public/Digital/ajit-toolchain/tools/scripts/validation_inner_env_v3.py", line 339, in <module>
+    ret_val = main()
+  File "/home/prajwal/Public/Digital/ajit-toolchain/tools/scripts/validation_inner_env_v3.py", line 332, in main
+    path_log_file, path_trace_file, path_test_file_fold, path_srch_file, define_string, generate_trace, path_reg_write_trace_file);
+  File "/home/prajwal/Public/Digital/ajit-toolchain/tools/scripts/validation_inner_env_v3.py", line 105, in validate
+    replaceSaveInstructionWithNop(mem_map_file)
+  File "/home/prajwal/Public/Digital/ajit-toolchain/tools/scripts/validation_inner_env_v3.py", line 52, in replaceSaveInstructionWithNop
+    for line in fileinput.input(mem_map_file, inplace=True):
+  File "/usr/lib/python2.7/fileinput.py", line 237, in next
+    line = self._readline()
+  File "/usr/lib/python2.7/fileinput.py", line 316, in _readline
+    os.rename(self._filename, self._backupfilename)
+OSError: [Errno 2] No such file or directory
+Command exited with non-zero status 1
+0.09user 0.04system 0:00.13elapsed 105%CPU (0avgtext+0avgdata 16424maxresident)k
+0inputs+776outputs (0major+14009minor)pagefaults 0swaps
+Note : total failed cases = 1
+Note : total time taken by all jobs = 0.036 s
+Note : total vprj = 1
